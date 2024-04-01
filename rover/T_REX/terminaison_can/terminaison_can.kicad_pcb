@@ -45,7 +45,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -71,12 +71,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "export/")
 		)
 	)
 	(net 0 "")
@@ -1810,6 +1810,7 @@
 			(at -0.01 7.85 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "42684855-6aa6-4baf-ad9a-45ae8bfe1159")
 			(effects
 				(font
@@ -1970,6 +1971,7 @@
 			(uuid "06a01110-36be-4598-b7f0-d2460d777dfa")
 		)
 		(model "${KIPRJMOD}/local_lib/AJP92A8813/3D/AJP92A8813.stp"
+			(hide yes)
 			(offset
 				(xyz 0 -3 11)
 			)
@@ -2065,14 +2067,26 @@
 		(layer "Edge.Cuts")
 		(uuid "e0fc0215-b150-455d-b1df-c138b960af7a")
 	)
-	(gr_text "${REFERENCE}"
-		(at 44.954 18.82 0)
-		(layer "B.Fab")
-		(uuid "1953436d-433f-4d29-adb8-8ac85b698ebc")
+	(gr_text "Rovus"
+		(at 24.5 21.5 0)
+		(layer "B.SilkS")
+		(uuid "0712bb3c-6187-4bca-a0ce-6d512b050d24")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "CAN-BUS\nTerminason"
+		(at 24.5 33 0)
+		(layer "B.SilkS")
+		(uuid "92ff8269-c897-4d2d-8e4a-4e1470bbcfb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify mirror)
 		)
