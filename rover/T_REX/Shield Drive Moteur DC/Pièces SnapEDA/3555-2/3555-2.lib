@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 3555-2
+#
+DEF 3555-2 F 0 40 Y N 1 L N
+F0 "F" -300 150 50 H V L BNN
+F1 "3555-2" -300 -150 50 H V L BNN
+F2 "FUSE_3555-2" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Keystone Electronics" 0 0 50 H I L BNN "MF"
+F5 "11.6mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/3555-2/Keystone+Electronics/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F10 "A" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/3555-2/Keystone+Electronics/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "3555-2" 0 0 50 H I L BNN "MP"
+F13 "\nAuto Fuse Holder, 1 Fuse, Blade, Standard, THM, 50Amp, Hi-Temp Nylon, UL94V-0 | Keystone Electronics 3555-2\n" 0 0 50 H I L BNN "Description"
+F14 "3555-2" 0 0 50 H I L BNN "SNAPEDA_PN"
+F15 "In Stock" 0 0 50 H I L BNN "Availability"
+F16 "Keystone" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+A -75 0 75 -1 1800 0 0 6 N -150 0 0 0
+A 75 0 75 1800 3599 0 0 6 N 0 0 150 0
+P 2 0 0 6 200 0 150 0 N
+P 2 0 0 6 -200 0 -150 0 N
+X ~ 1_1 -400 0 200 R 40 40 0 0 P 
+X ~ 1_2 -400 0 200 R 40 40 0 0 P 
+X ~ 2_1 400 0 200 L 40 40 0 0 P 
+X ~ 2_2 400 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
