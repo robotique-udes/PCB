@@ -5321,7 +5321,7 @@
 			)
 			(symbol "XT30PW-F_1_0"
 				(pin power_in line
-					(at 2.54 0 180)
+					(at 2.54 -2.54 180)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -5339,7 +5339,363 @@
 					)
 				)
 				(pin power_in line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "XT30PW-F_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT30PW-F"
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XT30PW-F:AMASS_XT30PW-F"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "amass"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.2"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XT30PW-F"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nSocket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A\n"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Amass"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "XT30PW-F"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XT30PW-F_1_0_0"
+				(arc
+					(start -5.0773 -3.175)
+					(mid -4.445 -2.54)
+					(end -5.0773 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.0773 -0.635)
+					(mid -4.445 0)
+					(end -5.0773 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.1723 -2.54) (xy -4.4423 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.1723 0) (xy -4.4423 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XT30PW-F_1_1_0"
+				(pin power_in line
 					(at 2.54 -2.54 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 0 180)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -6756,7 +7112,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 158.75) (xy 125.73 158.75)
+			(xy 125.73 158.75) (xy 123.19 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7386,7 +7742,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 125.73 166.37)
+			(xy 132.08 166.37) (xy 123.19 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7990,7 +8346,7 @@
 	)
 	(text "CUI Device MA"
 		(exclude_from_sim no)
-		(at 121.666 152.146 0)
+		(at 123.952 150.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8121,7 +8477,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 125.73 161.29 0)
+		(at 123.19 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8131,7 +8487,7 @@
 		)
 		(uuid "14f7285b-5d1c-4a73-96c2-17395fe41faa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4647 161.29 0)
+			(at 129.9247 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8499,7 @@
 	)
 	(global_label "LED_B"
 		(shape input)
-		(at 149.86 135.89 0)
+		(at 157.48 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8153,7 +8509,7 @@
 		)
 		(uuid "15ced225-5da5-42c6-ac3a-c6feaa083c2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5299 135.89 0)
+			(at 166.1499 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8675,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 125.73 163.83 0)
+		(at 123.19 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8329,7 +8685,7 @@
 		)
 		(uuid "380873d9-bd17-47b1-8a28-e72e3b3e691f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.3114 163.83 0)
+			(at 130.7714 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +9137,7 @@
 	)
 	(global_label "CS_ENC_J2"
 		(shape input)
-		(at 125.73 171.45 0)
+		(at 123.19 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8791,7 +9147,7 @@
 		)
 		(uuid "a980c0c0-bd33-41f4-a20b-aa0a6064ff59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.0565 171.45 0)
+			(at 136.5165 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +9335,7 @@
 	)
 	(global_label "J2-"
 		(shape input)
-		(at 158.75 191.77 0)
+		(at 158.75 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8989,7 +9345,7 @@
 		)
 		(uuid "d0a58ede-0e0b-4e23-8c6e-140e596700c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.4847 191.77 0)
+			(at 165.4847 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9467,7 @@
 	)
 	(global_label "LED_G"
 		(shape input)
-		(at 149.86 128.27 0)
+		(at 157.48 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9121,7 +9477,7 @@
 		)
 		(uuid "e889d632-61d8-45eb-a516-05766b16af9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5299 128.27 0)
+			(at 166.1499 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9533,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 125.73 168.91 0)
+		(at 123.19 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9187,7 +9543,7 @@
 		)
 		(uuid "f6dc348e-9d14-40be-86fc-33dd57e32881")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.3114 168.91 0)
+			(at 130.7714 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +9577,7 @@
 	)
 	(global_label "J2+"
 		(shape input)
-		(at 158.75 194.31 0)
+		(at 158.75 191.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9231,7 +9587,7 @@
 		)
 		(uuid "fcd4bf76-1d0b-4095-a1c1-508f20627142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.4847 194.31 0)
+			(at 165.4847 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,7 +10219,7 @@
 	)
 	(symbol
 		(lib_id "Custom:JST6_Pins")
-		(at 123.19 157.48 270)
+		(at 120.65 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9871,7 +10227,7 @@
 		(dnp no)
 		(uuid "10eeb27b-597e-44c8-b38d-f277ecd095e0")
 		(property "Reference" "J4"
-			(at 121.92 155.448 90)
+			(at 119.38 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,7 +10235,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 121.92 156.21 90)
+			(at 119.38 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +10243,7 @@
 			)
 		)
 		(property "Footprint" "JST-S6B-HX-SM4:CONN_S6B-XH-SM4-TB_JST"
-			(at 123.19 157.48 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9896,7 +10252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 157.48 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +10261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 157.48 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,6 +11791,7 @@
 		)
 	)
 	(symbol
+		(lib_name "XT30PW-F_1")
 		(lib_id "XT30PW-F:XT30PW-F")
 		(at 156.21 210.82 0)
 		(unit 1)
@@ -12083,6 +12440,73 @@
 			(project "arm_drive_j2"
 				(path "/f1622ff1-77ea-48d8-b8d5-37a4e860bb5b"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d7122d4-c841-4e65-b253-bf7e61fc16fe")
+		(property "Reference" "R15"
+			(at 153.67 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 153.67 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 153.67 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a08a2a7f-43b7-4ff4-97a4-63d243bccf99")
+		)
+		(pin "1"
+			(uuid "f9e02f82-b9e6-4e2f-82dd-aba1f7434252")
+		)
+		(instances
+			(project "arm_drive_j2"
+				(path "/f1622ff1-77ea-48d8-b8d5-37a4e860bb5b"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13278,7 +13702,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 128.27 158.75 0)
+		(at 125.73 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13287,7 +13711,7 @@
 		(fields_autoplaced yes)
 		(uuid "81b9195b-a350-4751-acf6-935b13eb0015")
 		(property "Reference" "#PWR030"
-			(at 128.27 162.56 0)
+			(at 125.73 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13296,7 +13720,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 128.27 153.67 0)
+			(at 125.73 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13304,7 +13728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 158.75 0)
+			(at 125.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 158.75 0)
+			(at 125.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,7 +13746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 158.75 0)
+			(at 125.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,7 +14041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 166.37 0)
+		(at 132.08 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13626,7 +14050,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c99de0e-35ee-4dd0-8249-c27059f6adbb")
 		(property "Reference" "#PWR032"
-			(at 134.62 172.72 0)
+			(at 132.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13635,7 +14059,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 167.6399 0)
+			(at 134.62 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13644,7 +14068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 166.37 0)
+			(at 132.08 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13653,7 +14077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 166.37 0)
+			(at 132.08 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13662,7 +14086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 166.37 0)
+			(at 132.08 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13894,6 +14318,73 @@
 			(project "arm_drive_j2"
 				(path "/f1622ff1-77ea-48d8-b8d5-37a4e860bb5b"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "981a4d67-5d13-4832-a1f1-e4fb84bd3909")
+		(property "Reference" "R14"
+			(at 153.67 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 153.67 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 153.67 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6963eda3-8029-4c00-8a0e-13f182546e5b")
+		)
+		(pin "1"
+			(uuid "02be5e3c-ab34-49f0-9023-f94f80891eba")
+		)
+		(instances
+			(project "arm_drive_j2"
+				(path "/f1622ff1-77ea-48d8-b8d5-37a4e860bb5b"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -15078,7 +15569,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "1k"
 			(at 153.67 118.618 90)
 			(effects
 				(font
