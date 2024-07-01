@@ -180,6 +180,7 @@
       "track_widths": [
         0.0,
         0.24,
+        0.5,
         1.0,
         2.4
       ],
@@ -232,7 +233,19 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1511300|381000|9542847a-a512-435a-a327-6236468f5ea3|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|1892300|2197100|a01d5b57-1952-48e4-9b73-f8715793099f|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|1892300|2349500|4bf1ec1a-0c17-4dad-a590-4a0d7850d85b|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2400300|2209800|81120308-cdea-4de5-8602-6e84f347011e|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2400300|2362200|d99650b2-c7c2-4259-85eb-063838c2141c|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|292100|266700|a15ff160-c107-46da-8d1a-70ac5fa66c1a|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2933700|2209800|a84d3e6b-6d92-40a5-bc82-58c5494011a7|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2933700|2362200|8516ccfc-ac3d-445e-9940-82dba3c976c6|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|571500|1854200|46c9db92-5a28-4955-abd3-6b3ac9bd1d71|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|723900|266700|33d831f9-3dbd-4c62-8401-27e1ea4decf0|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|914400|2298700|432b47ce-c337-43d0-b4b9-516ad057a788|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -485,7 +498,7 @@
       "plot": "export/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "export/step/drive_27A.step",
+      "step": "export/step/arm_drive_j3_4_5.step",
       "svg": "",
       "vrml": ""
     },
@@ -493,7 +506,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "export/BOM/REV0.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -674,6 +687,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
           "show": false
         }
       ],

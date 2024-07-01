@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.89 -1.27 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -47,7 +47,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -8.89 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +84,7 @@
 		(symbol "AZ1117ID-3.3TRG1_0_1"
 			(polyline
 				(pts
-					(xy 0 -16.51) (xy 17.78 -16.51)
+					(xy -8.89 -13.97) (xy 8.89 -13.97)
 				)
 				(stroke
 					(width 0.127)
@@ -96,7 +96,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 0 -16.51)
+					(xy -8.89 0) (xy -8.89 -13.97)
 				)
 				(stroke
 					(width 0.127)
@@ -108,7 +108,7 @@
 			)
 			(polyline
 				(pts
-					(xy 17.78 -16.51) (xy 17.78 -2.54)
+					(xy 8.89 -13.97) (xy 8.89 0)
 				)
 				(stroke
 					(width 0.127)
@@ -120,7 +120,7 @@
 			)
 			(polyline
 				(pts
-					(xy 17.78 -2.54) (xy 0 -2.54)
+					(xy 8.89 0) (xy -8.89 0)
 				)
 				(stroke
 					(width 0.127)
@@ -133,7 +133,7 @@
 		)
 		(symbol "AZ1117ID-3.3TRG1_1_1"
 			(text "LDO\n<15V -> 3.3V\n"
-				(at 8.89 -5.08 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -141,7 +141,7 @@
 				)
 			)
 			(pin power_out line
-				(at 8.89 -20.32 90)
+				(at 0 -17.78 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -159,7 +159,7 @@
 				)
 			)
 			(pin output line
-				(at 21.59 -10.16 180)
+				(at 12.7 -7.62 180)
 				(length 3.81)
 				(name "OUTPUT"
 					(effects
@@ -177,7 +177,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 -10.16 0)
+				(at -12.7 -7.62 0)
 				(length 3.81)
 				(name "INPUT"
 					(effects
