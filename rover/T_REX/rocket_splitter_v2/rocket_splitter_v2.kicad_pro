@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 3.716,
-          "width": 3.716
+          "drill": 0.6,
+          "height": 2.0,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,13 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|121345799|42500001|1a60b6ae-20c6-4fc6-8802-f97b75892bbc|e66cbc1e-fd87-4f47-be1e-66be44b4af0e",
+        "courtyards_overlap|42654201|42500001|18d990e1-775a-4db4-816a-ed563303d865|8f2f3b71-6de3-4e17-9ff9-c715ce4bab69",
+        "lib_footprint_mismatch|127000000|37000000|89d1fcdf-3c20-4adc-8e6c-fc088de8162a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|37000000|37000000|e9faa5ea-4f41-43bd-8bba-45b37e0f1a9a|00000000-0000-0000-0000-000000000000",
+        "net_conflict|87150000|35650000|626f88f9-37d1-4fcc-8f90-1967eb0e9790|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -466,7 +472,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "export/2024-06-25/",
+      "plot": "export/2024-07-19/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3D/rocket_splitter_v2.step",
@@ -477,7 +483,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "BOM/REV3.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -654,7 +660,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "export/pdf/rev2",
+    "plot_directory": "export/pdf/rev3",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
