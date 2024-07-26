@@ -6,9 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "arm drive j3/4 + j5")
-		(rev "1")
+		(rev "2")
 		(company "Philippe Michaud")
-		(comment 1 "Rev1: Changed gripper encoder for limit switches")
+		(comment 1 "Rev2: Migrated DIFF_A_IN_2 from gpio 39 (jtag) to gpio1")
+		(comment 2 "Rev1: Changed gripper encoder for limit switches")
 	)
 	(lib_symbols
 		(symbol "Connector:RJ45"
@@ -5944,12 +5945,12 @@
 		(uuid "061fdd94-9b0a-434d-a00e-3a7c4d1a9806")
 	)
 	(no_connect
-		(at 297.18 140.97)
-		(uuid "13490fe8-742d-462e-ab97-8aecca8988fc")
+		(at 297.18 148.59)
+		(uuid "0b874393-1f08-4a2a-8f24-08dff057f651")
 	)
 	(no_connect
-		(at 266.7 128.27)
-		(uuid "1484b091-0834-4949-85b1-a21b7bca4309")
+		(at 297.18 140.97)
+		(uuid "13490fe8-742d-462e-ab97-8aecca8988fc")
 	)
 	(no_connect
 		(at 124.46 125.73)
@@ -8632,22 +8633,22 @@
 	)
 	(global_label "Diff_A_IN_2"
 		(shape input)
-		(at 297.18 148.59 0)
+		(at 266.7 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c0a7ffa1-2b6f-4fc8-b95f-b390aeb817c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.6276 148.59 0)
+			(at 253.2524 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
