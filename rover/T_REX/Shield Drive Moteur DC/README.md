@@ -6,7 +6,7 @@ Voici les informations concernant le PCB : Shield Drive Moteur DC
 
 ## Objectifs:
 * Contrôler un moteur
-* * Laisser passer le courant pour connecter d'autres Drive en daisy chain
+* Laisser passer le courant pour connecter d'autres Drive en daisy chain
 * Utiliser le protocole CAN bus pour lire et envoyer des informations au Main Board
 
 
