@@ -1,9 +1,11 @@
 # SHIELD Drive Moteur DC
+PCB QU'ON SUPPOSE QUI N'EST PAS UTILISÉ SUR LE ROVER
 
 Voici les informations concernant le PCB : Shield Drive Moteur DC 
 
+
 ## Objectifs:
-⋅⋅* Contrôler un moteur 
+..* Contrôler un moteur 
 ⋅⋅* Laisser passer le courant pour connecter d'autres Drive en daisy chain
 ⋅⋅* Utiliser le protocole CAN bus pour lire et envoyer des informations au Main Board
 
