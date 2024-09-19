@@ -4,6 +4,7 @@ PCB QU'ON SUPPOSE QUI N'EST PAS UTILISÉ SUR LE ROVER
 Voici les informations concernant le PCB : Shield Drive Moteur DC 
 
 ## Image du PCB en 3D
+<img width="827" alt="Capture d’écran, le 2024-09-18 à 21 12 08" src="https://github.com/user-attachments/assets/138deca1-111d-4352-a150-2c171b87351e">
 
 ## Objectifs:
 * Contrôler un moteur
