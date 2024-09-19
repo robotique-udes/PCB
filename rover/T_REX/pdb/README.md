@@ -32,39 +32,28 @@ Voici les informations concernant le PCB : PDB
 * BTS5200 (4 Channel Mosfet)
 
 ## Fonctionnement:
-* Le ESP32 recoit les commandes par CAN
-* Le ESP32 envoit une commande PWM par un connecteur
-* La thermistor permet de limiter le courant qui entre dans le circuit à partir du CAN BUS
+* 
 
 ## PGIO
-### Inputs
-Name        | GPIO
----         |  ---
-BTN1        | D34
-BTN2        | D39
-BTN3        | D36
-INTERRUPT_A | D36
-INTERRUPT_A | D36
-
 ### Outputs
 
-Name       | GPIO
----        | ---
-PWM_Moteur | D26
-LED_1      | D32
-LED_2      | D33
-LED_3      | D25
+Name         | GPIO
+---          | ---
+CAM_SIGN_0   | D18
+CAM_SIGN_1   | D19
+CAM_SIGN_2   | D33
+CAM_SIGN_3   | D32
+PWM_0        | D21
+PWM_1        | D22
+ACC1_CONTROL | D23
+ACC2_CONTROL | D25
+LED_R        | D14
+LED_G        | D27
+LED_B        | D26
 
 ### Communication
 
 Name    | GPIO
 ---     | ---
-MOSI    | D23
-MISO    | D19
-SCLK    | D18
-CS_1    | D5
-CS_2    | D4
-SCL     | D22
-SDA     | D21
-TXD2    | D17
-RXD2    | D16
+TXC    | D6
+RXC    | D7
