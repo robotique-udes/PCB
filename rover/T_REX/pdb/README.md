@@ -32,7 +32,12 @@ Voici les informations concernant le PCB : PDB
 * BTS5200 (4 Channel Mosfet)
 
 ## Fonctionnement:
-* 
+Le PDB reçoit 3 tensions en entrée, du 5V, du 12V et du 24V.
+Le 12V sert principalement pour alimenter les caméras qui sont alimentés avec un POE avec un Pinout spécial. Il sert aussi à alimenter 2 accessoires potentiels.
+Le 24V sert à alimenter le les antennes qui sont sur le Rover.
+Puis le 5V sert à alimenter les autres PCBs qui sont sur le Rover en POE avec un Pinout spécial. 
+Le circuit sécurise les trois tensions contre les sur-tensions et le drops de tensions.
+Le circuit communique en CAN bus avec les autres circuits sur le Rover et vers l'ordi principal.
 
 ## PGIO
 ### Outputs
