@@ -1,7 +1,7 @@
 # Antenna
 PCB servant de module de centrale inertielle et de boussole
 
-Voici les informations concernant le PCB : Compass
+Voici les informations concernant le PCB : Module Compass
 
 ## Image du PCB en 3D
 <img width="682" alt="Capture d’écran, le 2024-09-25 à 20 08 11" src="https://github.com/user-attachments/assets/9aff4c2e-3dd0-4822-af0d-dab2a5f7f2c7">
