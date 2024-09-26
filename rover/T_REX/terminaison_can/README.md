@@ -16,23 +16,17 @@ Voici les informations concernant le PCB : terminaison_can
 * Connecteur RJ45 pour câble ethernet
 * 2x Résistances 60 ohms
 * Condensateur 47nF
+* Résistance 2k ohms
+* DEL
 
 ## Fonctionnement:
-Le circuit connecte le CAN HIGH au CAN LOW à travers 
+Deux résistances de 60 ohms sont placées en série entre le CAN HIGH et le CAN LOW en une résistance combinée de 120 ohms, ce qui est le standard dans une terminaison CAN.
 
-## PGIO
-### Outputs
+Le condensateur permet de créer un filtre passe-bas qui nettoie encore plus le signal.
 
-Name         | GPIO
----          | ---
-LED_BUILDIN  | D2
-STEPPIN      | D37
-DIRPIN       | D38
-ENABLEPIN    | D39
+Il y a aussi une résistance et une diode qui sont connectées entre le VCC et le GND afin d'indiquer visuellement (par une DEL allumée) qu'il y a du courant dans le bus.
+La LED doit tenir jusqu'à 25.5V. Une 2k donne 10mA à 25.5V et 0.5mA sur 3.3V.
 
-### Communication
-
-Name    | GPIO
----     | ---
-USBN    | D19
-USBP    | D20
+## Références:
+* https://electronics.stackexchange.com/questions/512653/can-split-termination-capacitor-calculation
+* https://www.mouser.ca/datasheet/2/302/TJA1050-3083416.pdf
