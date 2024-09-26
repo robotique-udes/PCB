@@ -9,14 +9,16 @@ Voici les informations concernant le PCB : Compass
 
 
 ## Objectifs:
-* Permettre 
+* Permettre au Rover d'avoir des information sur sa position et son orientation dans l'espace
+* 
 
 
 ## Composants principaux:
-* ESP32 DEV KIT V1
-* 24V-5V DC-DC converter
-* A4988 Stepper driver
-* AMS1117-3.3 (LDO)
+* ESP32-S3-WROOM-1
+* TJA1050T (CAN BUS)
+* WT901 (compass)
+* Ports Ethernets
+* AZ1117ID-3.3 (LDO)
 * TVS diodes
 
 ## Fonctionnement:
