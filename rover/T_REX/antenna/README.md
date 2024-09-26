@@ -18,6 +18,7 @@ Voici les informations concernant le PCB : Antenna
 * ESP32 DEV KIT V1
 * 24V-5V DC-DC converter
 * A4988 Stepper driver
+* Ports Ethernets
 * AMS1117-3.3 (LDO)
 * TVS diodes
 
