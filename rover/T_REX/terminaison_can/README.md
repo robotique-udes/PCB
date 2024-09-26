@@ -20,7 +20,7 @@ Voici les informations concernant le PCB : terminaison_can
 * DEL
 
 ## Fonctionnement:
-Deux résistances de 60 ohms sont placées en série entre le CAN HIGH et le CAN LOW en une résistance combinée de 120 ohms, ce qui est le standard dans une terminaison CAN.
+Deux résistances de 60 ohms sont placées en série entre le CAN HIGH et le CAN LOW en une résistance combinée de 120 ohms, ce qui est le standard dans une terminaison CAN. La résistance permet de dissiper le signal passant dans le bus.
 
 Le condensateur permet de créer un filtre passe-bas qui nettoie encore plus le signal.
 
