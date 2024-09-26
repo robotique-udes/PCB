@@ -19,7 +19,7 @@ Voici les informations concernant le PCB : PDB
 
 ## Composants principaux:
 * ESP32 DEV KIT V1
-* TJA1050 CAN BUS
+* TJA1050 (CAN BUS)
 * LTC4365 (Over/Under Voltage protaction)
 * DMG4822SSD (proche du LTC4365)
 * DELs
