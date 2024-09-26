@@ -1,5 +1,5 @@
 # Antenna
-PCB servant de module de centrale inertielle et de boussole
+PCB servant de module GPS
 
 Voici les informations concernant le PCB : Compass
 
@@ -10,21 +10,21 @@ Voici les informations concernant le PCB : Compass
 
 
 ## Objectifs:
-* Permettre au Rover d'avoir des information sur sa position et son orientation dans l'espace
+* Permettre au Rover d'avoir des information sur sa position GPS
   
 
 
 ## Composants principaux:
 * ESP32-S3-WROOM-1
 * TJA1050T (CAN BUS)
-* WT901 (compass)
+* BN-880 (GPS)
 * Ports Ethernets
 * AZ1117ID-3.3 (LDO)
 * TVS diodes
 
 ## Fonctionnement:
-Le MCU peut lire les données de la centrale inertielle et boussole par UART.
-Le MCU peut transmettre les informations du senseur par le CAN bus.
+Le MCU peut lire les données du GPS.
+Le MCU peut transmettre les informations du GPS par le CAN bus.
 Le CAN bus peut passer à travers le circuit, donc un autre circuit peut être branché à la suite de celui-ci.
 
 ## PGIO
@@ -45,7 +45,7 @@ USBN    | D19
 USBP    | D20
 SCL     | D21
 SDA     | D09
-TX_WT   | D13
-RX_WT   | D12
+TX_GPS  s| D13
+RX_GPS  | D12
 TXC     | D48
 RXC     | D47
