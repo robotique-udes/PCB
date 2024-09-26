@@ -1,7 +1,7 @@
 # Antenna
 PCB servant de module GPS
 
-Voici les informations concernant le PCB : ModuleGPS
+Voici les informations concernant le PCB : Module GPS
 
 ## Image du PCB en 3D
 <img width="474" alt="Capture d’écran, le 2024-09-25 à 21 09 17" src="https://github.com/user-attachments/assets/11f9964e-abfc-49df-a130-7a63496b20d6">
