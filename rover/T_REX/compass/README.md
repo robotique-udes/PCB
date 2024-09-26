@@ -22,13 +22,9 @@ Voici les informations concernant le PCB : Compass
 * TVS diodes
 
 ## Fonctionnement:
-Le circuit est alimenté en 24V qui est régulée par un AC-DC.
-Une tension de 5V est régulée par un Buck converter à partir du 24V.
-Une tension de 3V3 est régulée par un LDO utilisé à partir du 5V.
-Les prises en bas, sont des prises qui sortent du boitier et qui servent à connecter tous les périphériques.
-Les prises en haut permettent aux périphériques de se connecter dans une Switch Ethernet afin de les multiplexer et ainsi d'avoir seulemenet un câble qui doive aller vers la Base Station.
-Un Driver de Stepper permet de faire tourner un moteur qui fait tourner l'antenne sur elle-même.
-Les antennes ont besoin d'être alimentés à une tension de 24V, donc le circuit sert de POE pour un maximum de 2 antennes.
+Le MCU peut lire les données de la centrale inertielle et boussole par UART.
+Le MCU peut transmettre les informations du senseur par le CAN bus.
+Le CAN bus peut passer à travers le circuit, donc un autre circuit peut être branché à la suite de celui-ci.
 
 ## PGIO
 ### Outputs
@@ -46,3 +42,9 @@ Name    | GPIO
 ---     | ---
 USBN    | D19
 USBP    | D20
+SCL     | D21
+SDA     | D09
+TX_WT   | D13
+RX_WT   | D12
+TXC     | D48
+RXC     | D47
