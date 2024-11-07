@@ -1034,6 +1034,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 124.46) (xy 132.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413bcf30-513a-4a94-801a-39be59fa39bb")
+	)
+	(wire
+		(pts
 			(xy 180.34 102.87) (xy 180.34 124.46)
 		)
 		(stroke
@@ -1271,6 +1281,26 @@
 			(type default)
 		)
 		(uuid "a9cea7f3-98f0-4838-a2f9-df83daf26669")
+	)
+	(wire
+		(pts
+			(xy 162.56 124.46) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d47580-98ff-485e-9268-8d9e8563e6c0")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 96.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afedff66-851c-4046-84e9-fb2e7557c91f")
 	)
 	(wire
 		(pts
@@ -2004,7 +2034,7 @@
 			(uuid "a8fb1b86-e76c-42f1-b4c1-d20153a5c3f8")
 		)
 		(instances
-			(project ""
+			(project "Projet moustache"
 				(path "/2bf819b7-e0a8-4579-af03-6d6720081c6f"
 					(reference "#PWR01")
 					(unit 1)
@@ -2174,7 +2204,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "57011cf2-9b23-40bb-804c-51b92492d27e")
 		(property "Reference" "#PWR014"
 			(at 167.64 92.71 0)
@@ -2186,7 +2215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 91.44 0)
+			(at 169.672 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,16 +2351,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 124.46 180)
+		(at 125.73 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5fedc095-f87d-4843-a51b-28923650bca6")
 		(property "Reference" "#PWR010"
-			(at 132.08 118.11 0)
+			(at 125.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 119.38 0)
+			(at 125.73 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 124.46 0)
+			(at 125.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 124.46 0)
+			(at 125.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 124.46 0)
+			(at 125.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,16 +2658,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 124.46 180)
+		(at 90.17 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8dffd0c4-06ef-4a69-bbfb-e246ebade525")
 		(property "Reference" "#PWR011"
-			(at 96.52 118.11 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,15 +2675,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 119.38 0)
+			(at 88.138 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 124.46 0)
+			(at 90.17 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 124.46 0)
+			(at 90.17 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 124.46 0)
+			(at 90.17 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,16 +2724,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 124.46 180)
+		(at 162.56 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97a8069d-0ce8-48f6-ba01-46d1b3755dc8")
 		(property "Reference" "#PWR09"
-			(at 167.64 118.11 0)
+			(at 162.56 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 119.38 0)
+			(at 162.56 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 124.46 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 124.46 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 124.46 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2795,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9bb5573-7aa5-4b65-80e0-a5a73a5ce4b1")
 		(property "Reference" "#PWR08"
 			(at 203.2 92.71 0)
@@ -2780,7 +2806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 91.44 0)
+			(at 205.232 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2844,7 @@
 			(uuid "7ba72bdc-168f-4523-b284-41f5d14c9316")
 		)
 		(instances
-			(project ""
+			(project "Projet moustache"
 				(path "/2bf819b7-e0a8-4579-af03-6d6720081c6f"
 					(reference "#PWR08")
 					(unit 1)
@@ -3036,7 +3062,7 @@
 			(uuid "48562904-9db7-4852-8427-21deb36e1e89")
 		)
 		(instances
-			(project ""
+			(project "Projet moustache"
 				(path "/2bf819b7-e0a8-4579-af03-6d6720081c6f"
 					(reference "J1")
 					(unit 1)
@@ -3100,7 +3126,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "Projet moustache"
 				(path "/2bf819b7-e0a8-4579-af03-6d6720081c6f"
 					(reference "H1")
 					(unit 1)
@@ -3116,7 +3142,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e45ad57d-c505-49f5-8a27-fe6a9d9dff96")
 		(property "Reference" "#PWR013"
 			(at 132.08 92.71 0)
@@ -3128,7 +3153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 91.44 0)
+			(at 134.112 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 91.44 0)
+			(at 98.552 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
