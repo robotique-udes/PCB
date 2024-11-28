@@ -6836,6 +6836,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 132.08) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c77937f-d3d9-4096-84b9-74d16bcf502a")
+	)
+	(wire
+		(pts
 			(xy 87.63 33.02) (xy 87.63 26.67)
 		)
 		(stroke
@@ -6893,16 +6903,6 @@
 			(type default)
 		)
 		(uuid "7c6124d0-aaa6-4090-b9f8-9e19d037d96b")
-	)
-	(wire
-		(pts
-			(xy 134.62 129.54) (xy 130.81 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eadbf2c-2eba-4889-9143-89295013d9a2")
 	)
 	(wire
 		(pts
@@ -7006,6 +7006,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 129.54) (xy 134.62 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba21127-5c1e-4781-9eb0-ceb05694cba6")
+	)
+	(wire
+		(pts
 			(xy 57.15 228.6) (xy 60.96 228.6)
 		)
 		(stroke
@@ -7063,16 +7073,6 @@
 			(type default)
 		)
 		(uuid "aa1bb17f-b58e-40d3-bd11-29fd03b7634b")
-	)
-	(wire
-		(pts
-			(xy 134.62 132.08) (xy 130.81 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad803a26-ba67-4d2a-8cfb-76ff148da5b2")
 	)
 	(wire
 		(pts
@@ -10987,16 +10987,16 @@
 	)
 	(symbol
 		(lib_id "Custom:XT60PM-M")
-		(at 124.46 124.46 0)
+		(at 124.46 137.16 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4db1e72d-a875-4740-bf32-61eb59b5c936")
 		(property "Reference" "J6"
-			(at 124.46 123.19 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11004,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 124.46 125.73 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11012,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 124.46 124.46 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 124.46 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,7 +11030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 124.46 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11039,7 @@
 			)
 		)
 		(property "LCSC" "C98732"
-			(at 124.46 124.46 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
