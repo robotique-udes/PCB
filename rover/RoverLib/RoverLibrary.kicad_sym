@@ -1971,6 +1971,14 @@
 				(hide yes)
 			)
 		)
+		(property "STATUS" "APPROVED"
+			(at -0.254 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "CAN-Transceiver-SN65HVD232_0_0"
 			(rectangle
 				(start -6.35 6.35)
@@ -2149,7 +2157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RoverFootprint:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
+		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
 			(at -3.81 0 0)
 			(effects
 				(font
@@ -2174,6 +2182,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "WRONG FOOTPRINT DIMENSIONS"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "Drive-DRV8251A_0_1"
@@ -2377,7 +2393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+		(property "Footprint" "footprints:PG-TO263-7-1_INF-M"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -2404,6 +2420,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE VERIFIED"
+			(at 0 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "IFX007TAUMA1"
@@ -2608,7 +2632,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:SO_200AS-E_STM"
-			(at 0 0 0)
+			(at -1.524 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2642,7 @@
 			)
 		)
 		(property "Datasheet" "VNH5200ASTR-E"
-			(at 0 0 0)
+			(at -2.794 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,6 +2658,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 25.4 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "VNH5200ASTR-E"
@@ -3047,6 +3079,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE VERIFIED"
+			(at -12.446 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna"
@@ -3979,6 +4019,14 @@
 				(hide yes)
 			)
 		)
+		(property "STATUS" "APPROVED"
+			(at -4.826 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "8P8C RJ socket connector"
 			(at 0 0 0)
 			(effects
@@ -4331,6 +4379,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at -4.064 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "fuse"
@@ -4964,6 +5020,14 @@
 				(hide yes)
 			)
 		)
+		(property "STATUS" "TO BE VERIFIED"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "AZ1117ID-3.3TRG1"
 			(at 0 0 0)
 			(effects
@@ -5041,10 +5105,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 0 -17.78 90)
+			(pin input line
+				(at -12.7 -7.62 0)
 				(length 3.81)
-				(name "GND"
+				(name "INPUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5059,10 +5123,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 -7.62 180)
+			(pin power_out line
+				(at 0 -17.78 90)
 				(length 3.81)
-				(name "OUTPUT"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5077,10 +5141,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -7.62 0)
+			(pin output line
+				(at 12.7 -7.62 180)
 				(length 3.81)
-				(name "INPUT"
+				(name "OUTPUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5148,6 +5212,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE VERIFIED"
+			(at 0 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "AZ1117ID-3.3TRG1"
@@ -5307,7 +5379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at -1.27 11.43 0)
 			(effects
 				(font
@@ -5343,6 +5415,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE APPROVED"
+			(at 0 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "LD1086DT33TR, 3.3, LDO"
@@ -5540,6 +5620,14 @@
 				(hide yes)
 			)
 		)
+		(property "STATUS" "TO BE APPROVED"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "AZ1117ID-3.3TRG1"
 			(at 0 0 0)
 			(effects
@@ -5707,7 +5795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm7800.pdf?ts=1734383971730&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM7800%252Fpart-details%252FLM7805MPX%252FNOPB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-promo-app_opn_en-cpc-storeic-google-wwe%2526utm_content%253DDevice%2526ds_k%253DLM7805MPX%252FNOPB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gbraid%253D0AAAAAC068F0VkWJ4ZlStSooPDbVa1AICE%2526gclid%253DCj0KCQiAvP-6BhDyARIsAJ3uv7ba1a7lxok9fDfB0MCZnKxNdjm4GJjQvsUHSjvcR9qp1zx-rOXAoJEaAjk5EALw_wcB"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -5724,6 +5812,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE APPROVED"
+			(at 0 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "AZ1117ID-3.3TRG1"
@@ -5803,10 +5899,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 0 -17.78 90)
+			(pin input line
+				(at -12.7 -7.62 0)
 				(length 3.81)
-				(name "GND"
+				(name "INPUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5821,10 +5917,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 -7.62 180)
+			(pin power_out line
+				(at 0 -17.78 90)
 				(length 3.81)
-				(name "OUTPUT"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5839,10 +5935,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -7.62 0)
+			(pin output line
+				(at 12.7 -7.62 180)
 				(length 3.81)
-				(name "INPUT"
+				(name "OUTPUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6093,6 +6189,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "TS09-63-25-WT-160-SMT-TR"
@@ -7167,6 +7271,14 @@
 				(hide yes)
 			)
 		)
+		(property "STATYS" "APPROVED"
+			(at 0 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "TVS-SMDB03CE3/TR7TR-ND_0_1"
 			(rectangle
 				(start -7.62 -13.97)
@@ -7717,6 +7829,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE APPROVED"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "usb universal serial bus type-C USB2.0"
@@ -8542,6 +8662,14 @@
 				(hide yes)
 			)
 		)
+		(property "STATUS" "APPROVED"
+			(at -3.81 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "XT30PW-F_0_0"
 			(arc
 				(start -5.0773 -3.175)
@@ -8678,9 +8806,9 @@
 		)
 		(symbol "XT30PW-F_1_0"
 			(pin power_in line
-				(at 2.54 0 180)
+				(at 2.54 -2.54 180)
 				(length 2.54)
-				(name "+"
+				(name "-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8696,9 +8824,9 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -2.54 180)
+				(at 2.54 0 180)
 				(length 2.54)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8766,6 +8894,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at -4.064 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "XT30PW-M_0_0"
@@ -8986,6 +9122,14 @@
 				(hide yes)
 			)
 		)
+		(property "STATUS" "APPROVED"
+			(at 0 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "XT60PM-F_0_0"
 			(polyline
 				(pts
@@ -9204,6 +9348,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 0 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "XT60PM-M_0_0"
@@ -9644,6 +9796,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 0 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "XT60PW-M_0_0"
