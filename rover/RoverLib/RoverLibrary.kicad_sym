@@ -3117,7 +3117,7 @@
 			)
 			(rectangle
 				(start -12.7 19.05)
-				(end -3.81 16.51)
+				(end -1.27 16.51)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3128,12 +3128,24 @@
 				)
 			)
 			(rectangle
-				(start 1.27 13.97)
+				(start -1.27 13.97)
 				(end 12.7 8.89)
 				(stroke
 					(width 0)
 					(type solid)
 					(color 255 153 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 6.35 24.13)
+				(end 12.7 19.05)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 255 0 1)
 				)
 				(fill
 					(type background)
@@ -3170,18 +3182,6 @@
 					(width 0)
 					(type solid)
 					(color 255 153 0 1)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 7.62 24.13)
-				(end 12.7 19.05)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 255 255 0 1)
 				)
 				(fill
 					(type background)
@@ -3943,7 +3943,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Eth-Horiz-54601-908WPLF"
+		(property "Value" "Eth-Horiz"
 			(at 2.54 13.97 0)
 			(effects
 				(font
@@ -3953,7 +3953,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:Ethernet_Horizontal"
-			(at 0 0.635 90)
+			(at 0 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0.635 90)
+			(at -5.08 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3971,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
-			(at 0 0 0)
+			(at 0 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,119 +3998,9 @@
 			)
 		)
 		(symbol "Eth-Horiz-54601-908WPLF_0_1"
-			(polyline
-				(pts
-					(xy -5.08 4.445) (xy -6.35 4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.715) (xy -6.35 5.715)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -3.175) (xy -5.08 -3.175) (xy -5.08 -3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -1.905) (xy -5.08 -1.905) (xy -5.08 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -0.635) (xy -5.08 -0.635) (xy -5.08 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 0.635) (xy -5.08 0.635) (xy -5.08 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 1.905) (xy -5.08 1.905) (xy -5.08 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 3.175) (xy -6.35 3.175) (xy -6.35 3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -4.445) (xy -6.35 6.985) (xy 3.81 6.985) (xy 3.81 4.445) (xy 5.08 4.445) (xy 5.08 3.175)
-					(xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905) (xy 3.81 -4.445)
-					(xy -6.35 -4.445) (xy -6.35 -4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 7.62 12.7)
-				(end -7.62 -10.16)
+				(start -12.7 12.7)
+				(end 7.62 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4119,12 +4009,137 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -10.16 3.81) (xy -11.43 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 5.08) (xy -11.43 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -3.81) (xy -10.16 -3.81) (xy -10.16 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -2.54) (xy -10.16 -2.54) (xy -10.16 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -1.27) (xy -10.16 -1.27) (xy -10.16 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 0) (xy -10.16 0) (xy -10.16 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 1.27) (xy -10.16 1.27) (xy -10.16 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 2.54) (xy -11.43 2.54) (xy -11.43 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -5.08) (xy -11.43 6.35) (xy -1.27 6.35) (xy -1.27 3.81) (xy 0 3.81) (xy 0 2.54) (xy 1.27 2.54)
+					(xy 1.27 -1.27) (xy 0 -1.27) (xy 0 -2.54) (xy -1.27 -2.54) (xy -1.27 -5.08) (xy -11.43 -5.08) (xy -11.43 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "Eth-Horiz-54601-908WPLF_1_1"
+			(text "GND"
+				(at 6.35 -8.636 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "POW"
+				(at 6.35 8.89 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin passive line
-				(at 10.16 -7.62 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "~"
+				(name "CANH"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4140,9 +4155,9 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -5.08 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
-				(name "~"
+				(name "CANL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4158,7 +4173,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -2.54 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4176,7 +4191,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4194,7 +4209,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 2.54 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4212,7 +4227,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 5.08 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4248,7 +4263,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 10.16 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -5205,6 +5220,396 @@
 		)
 		(symbol "LDO-AZ1117ID-3.3TRG1_1_1"
 			(text "LDO\n<15V -> 3.3V\n"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -17.78 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -7.62 180)
+				(length 3.81)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -7.62 0)
+				(length 3.81)
+				(name "INPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LDO-LD1086DT33TR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LD1086DT33TR"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at -1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/53/db/00/58/09/98/4b/36/CD00001884.pdf/files/CD00001884.pdf/jcr:content/translations/en.CD00001884.pdf"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -8.89 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/stmicroelectronics/LD1086DT33TR/669239"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LD1086DT33TR, 3.3, LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO252-2_AZ1117ID-3.3TRG1_DIO TO252-2_AZ1117ID-3.3TRG1_DIO-M TO252-2_AZ1117ID-3.3TRG1_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LDO-LD1086DT33TR_0_1"
+			(polyline
+				(pts
+					(xy -8.89 -13.97) (xy 8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 0) (xy -8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -13.97) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy -8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LDO-LD1086DT33TR_1_1"
+			(text "LDO (1.5A)\n27V -> 3.3V\n"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -17.78 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -7.62 180)
+				(length 3.81)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -7.62 0)
+				(length 3.81)
+				(name "INPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LDO-LM1084ISX-3.3/NOPB"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LDO-LM7805MPX/NOPB"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at -1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm1084.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1734263463593&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm1084"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -8.89 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LM1084ISX-3-3-NOPB/366706"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "AZ1117ID-3.3TRG1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO252-2_AZ1117ID-3.3TRG1_DIO TO252-2_AZ1117ID-3.3TRG1_DIO-M TO252-2_AZ1117ID-3.3TRG1_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LDO-LM1084ISX-3.3/NOPB_0_1"
+			(polyline
+				(pts
+					(xy -8.89 -13.97) (xy 8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 0) (xy -8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -13.97) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy -8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LDO-LM1084ISX-3.3/NOPB_1_1"
+			(text "LDO (5A)\n27V -> 3.3V\n"
 				(at 0 -2.54 0)
 				(effects
 					(font
