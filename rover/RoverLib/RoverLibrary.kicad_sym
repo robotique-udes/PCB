@@ -609,21 +609,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.635 2.54 0)
+			(at -2.54 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0.635 -2.54 0)
+			(at -2.54 -0.635 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -636,7 +638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +647,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,21 +905,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.635 2.54 0)
+			(at -2.54 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uF"
-			(at 0.635 -2.54 0)
+			(at -2.54 -0.635 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -930,7 +934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +943,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,25 +1043,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.635 2.54 0)
+			(at -3.175 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1nF"
-			(at 0.635 -2.54 0)
+			(at -3.175 -0.635 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 0.9652 -3.81 0)
+			(at 1.6002 -10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0.635 -10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1081,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0.635 -10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,21 +1181,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.635 2.54 0)
+			(at -2.54 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1uF"
-			(at 0.635 -2.54 0)
+			(at -2.54 -0.635 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -1868,7 +1876,7 @@
 			)
 		)
 	)
-	(symbol "CAN_UART-SN65HVD232"
+	(symbol "CAN-Transceiver-SN65HVD232"
 		(pin_names
 			(offset 1.016)
 		)
@@ -1876,25 +1884,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.27 5.842 0)
+			(at 0 7.62 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
 		(property "Value" "SN65HVD232"
-			(at -6.35 -15.24 0)
+			(at 0 8.89 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 0)
+			(at 6.35 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1914,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1730319703644&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230"
-			(at 0 0 0)
+			(at 6.35 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,8 +1922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "CAN Transceiver"
+			(at 6.35 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1932,7 @@
 			)
 		)
 		(property "PARTREV" "4"
-			(at 0 0 0)
+			(at 7.62 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1942,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 0 0 0)
+			(at 5.08 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1952,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
-			(at 0 0 0)
+			(at 5.08 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1962,7 @@
 			)
 		)
 		(property "MANUFACTURER" "NXP USA"
-			(at 0 0 0)
+			(at 5.08 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,10 +1971,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CAN_UART-SN65HVD232_0_0"
+		(symbol "CAN-Transceiver-SN65HVD232_0_0"
 			(rectangle
-				(start -1.27 5.08)
-				(end 12.7 -12.7)
+				(start -6.35 6.35)
+				(end 6.35 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1974,7 +1984,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -2.54 180)
+				(at 11.43 -1.27 180)
 				(length 5.08)
 				(name "TXD"
 					(effects
@@ -1992,7 +2002,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -10.16 0)
+				(at -11.43 -8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2010,7 +2020,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 2.54 0)
+				(at -11.43 3.81 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -2028,7 +2038,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -5.08 180)
+				(at 11.43 -3.81 180)
 				(length 5.08)
 				(name "RXD"
 					(effects
@@ -2046,7 +2056,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 2.54 180)
+				(at 11.43 3.81 180)
 				(length 5.08)
 				(name "VREF"
 					(effects
@@ -2064,7 +2074,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at 11.43 -8.89 180)
 				(length 5.08)
 				(name "CANL"
 					(effects
@@ -2082,7 +2092,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 180)
+				(at 11.43 -6.35 180)
 				(length 5.08)
 				(name "CANH"
 					(effects
@@ -2100,7 +2110,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -7.62 0)
+				(at -11.43 -6.35 0)
 				(length 5.08)
 				(name "S"
 					(effects
@@ -3004,7 +3014,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1U"
-			(at 0 2.54 0)
+			(at 0 -39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3023,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 0 0 0)
+			(at 0 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3032,16 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 0 0 0)
+			(at 0 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-S3-WROOM-1U-N8/16162635"
+			(at 0 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,6 +3103,90 @@
 			)
 		)
 		(symbol "ESP32-S3-WROVER_1_1"
+			(rectangle
+				(start -12.7 11.43)
+				(end -8.89 8.89)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -12.7 19.05)
+				(end -1.27 16.51)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 13.97)
+				(end 12.7 8.89)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 6.35 24.13)
+				(end 12.7 19.05)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 255 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 7.62 -13.97)
+				(end 12.7 -19.05)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 7.62 -3.81)
+				(end 12.7 -13.97)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 255 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 7.62 6.35)
+				(end 12.7 -1.27)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at 0 -27.94 90)
 				(length 2.54)
@@ -3159,7 +3262,7 @@
 			(pin bidirectional line
 				(at 15.24 12.7 180)
 				(length 2.54)
-				(name "IO19"
+				(name "IO19-USB_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3177,7 +3280,7 @@
 			(pin bidirectional line
 				(at 15.24 10.16 180)
 				(length 2.54)
-				(name "IO20"
+				(name "IO20-USB-P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3429,7 +3532,7 @@
 			(pin bidirectional line
 				(at -15.24 17.78 0)
 				(length 2.54)
-				(name "IO0"
+				(name "IO0-BOOT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3840,7 +3943,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Eth-Horiz-54601-908WPLF"
+		(property "Value" "Eth-Horiz"
 			(at 2.54 13.97 0)
 			(effects
 				(font
@@ -3850,7 +3953,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:Ethernet_Horizontal"
-			(at 0 0.635 90)
+			(at 0 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0.635 90)
+			(at -5.08 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3971,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
-			(at 0 0 0)
+			(at 0 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,119 +3998,9 @@
 			)
 		)
 		(symbol "Eth-Horiz-54601-908WPLF_0_1"
-			(polyline
-				(pts
-					(xy -5.08 4.445) (xy -6.35 4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.715) (xy -6.35 5.715)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -3.175) (xy -5.08 -3.175) (xy -5.08 -3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -1.905) (xy -5.08 -1.905) (xy -5.08 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -0.635) (xy -5.08 -0.635) (xy -5.08 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 0.635) (xy -5.08 0.635) (xy -5.08 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 1.905) (xy -5.08 1.905) (xy -5.08 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 3.175) (xy -6.35 3.175) (xy -6.35 3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -4.445) (xy -6.35 6.985) (xy 3.81 6.985) (xy 3.81 4.445) (xy 5.08 4.445) (xy 5.08 3.175)
-					(xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905) (xy 3.81 -4.445)
-					(xy -6.35 -4.445) (xy -6.35 -4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 7.62 12.7)
-				(end -7.62 -10.16)
+				(start -12.7 12.7)
+				(end 7.62 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4016,12 +4009,137 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -10.16 3.81) (xy -11.43 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 5.08) (xy -11.43 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -3.81) (xy -10.16 -3.81) (xy -10.16 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -2.54) (xy -10.16 -2.54) (xy -10.16 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -1.27) (xy -10.16 -1.27) (xy -10.16 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 0) (xy -10.16 0) (xy -10.16 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 1.27) (xy -10.16 1.27) (xy -10.16 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 2.54) (xy -11.43 2.54) (xy -11.43 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 -5.08) (xy -11.43 6.35) (xy -1.27 6.35) (xy -1.27 3.81) (xy 0 3.81) (xy 0 2.54) (xy 1.27 2.54)
+					(xy 1.27 -1.27) (xy 0 -1.27) (xy 0 -2.54) (xy -1.27 -2.54) (xy -1.27 -5.08) (xy -11.43 -5.08) (xy -11.43 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "Eth-Horiz-54601-908WPLF_1_1"
+			(text "GND"
+				(at 6.35 -8.636 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "POW"
+				(at 6.35 8.89 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin passive line
-				(at 10.16 -7.62 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "~"
+				(name "CANH"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4037,9 +4155,9 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -5.08 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
-				(name "~"
+				(name "CANL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4055,7 +4173,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -2.54 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4073,7 +4191,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4091,7 +4209,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 2.54 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4109,7 +4227,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 5.08 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4145,7 +4263,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 10.16 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -4164,7 +4282,7 @@
 			)
 		)
 	)
-	(symbol "Fuse"
+	(symbol "FuseHolder"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -4180,7 +4298,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "FuseHolder"
 			(at -1.905 0 90)
 			(effects
 				(font
@@ -4233,7 +4351,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Fuse_0_1"
+		(symbol "FuseHolder_0_1"
 			(rectangle
 				(start -0.762 -2.54)
 				(end 0.762 2.54)
@@ -4258,7 +4376,7 @@
 				)
 			)
 		)
-		(symbol "Fuse_1_1"
+		(symbol "FuseHolder_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
@@ -5165,6 +5283,396 @@
 			)
 		)
 	)
+	(symbol "LDO-LD1086DT33TR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LD1086DT33TR"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at -1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/53/db/00/58/09/98/4b/36/CD00001884.pdf/files/CD00001884.pdf/jcr:content/translations/en.CD00001884.pdf"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -8.89 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/stmicroelectronics/LD1086DT33TR/669239"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LD1086DT33TR, 3.3, LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO252-2_AZ1117ID-3.3TRG1_DIO TO252-2_AZ1117ID-3.3TRG1_DIO-M TO252-2_AZ1117ID-3.3TRG1_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LDO-LD1086DT33TR_0_1"
+			(polyline
+				(pts
+					(xy -8.89 -13.97) (xy 8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 0) (xy -8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -13.97) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy -8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LDO-LD1086DT33TR_1_1"
+			(text "LDO (1.5A)\n27V -> 3.3V\n"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -17.78 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -7.62 180)
+				(length 3.81)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -7.62 0)
+				(length 3.81)
+				(name "INPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LDO-LM1084ISX-3.3/NOPB"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LDO-LM7805MPX/NOPB"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at -1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm1084.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1734263463593&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm1084"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -8.89 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LM1084ISX-3-3-NOPB/366706"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "AZ1117ID-3.3TRG1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO252-2_AZ1117ID-3.3TRG1_DIO TO252-2_AZ1117ID-3.3TRG1_DIO-M TO252-2_AZ1117ID-3.3TRG1_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LDO-LM1084ISX-3.3/NOPB_0_1"
+			(polyline
+				(pts
+					(xy -8.89 -13.97) (xy 8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 0) (xy -8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -13.97) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy -8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LDO-LM1084ISX-3.3/NOPB_1_1"
+			(text "LDO (5A)\n27V -> 3.3V\n"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -17.78 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -7.62 180)
+				(length 3.81)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -7.62 0)
+				(length 3.81)
+				(name "INPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LDO-LM7805MPX/NOPB"
 		(pin_names
 			(offset 0.254)
@@ -5535,7 +6043,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 7.62 3.81 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5543,15 +6051,16 @@
 			)
 		)
 		(property "Value" "TS09-63-25-WT-160-SMT-TR"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +6069,7 @@
 			)
 		)
 		(property "Datasheet" "TS09-63-25-WT-160-SMT-TR"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,8 +6077,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "SMD Push button"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066?s=N4IgTCBcDaICoGUAMBOAtANgMxrAVjQHU40BGDJNBAWRLgCUQBdAXyA"
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,12 +6114,11 @@
 			)
 		)
 		(symbol "PushButton-TS09-63-25-WT-160-SMT-TR_0_1"
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 3.81 0)
-				)
+			(circle
+				(center -1.27 0)
+				(radius 0.3175)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -5610,22 +6127,10 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 0) (xy 11.43 1.905)
+					(xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 11.43 0)
-				)
-				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -5633,31 +6138,22 @@
 				)
 			)
 			(circle
-				(center 4.445 0)
-				(radius 0.635)
+				(center 1.27 0)
+				(radius 0.3175)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 10.795 0)
-				(radius 0.635)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 0)
+		)
+		(symbol "PushButton-TS09-63-25-WT-160-SMT-TR_1_1"
+			(pin bidirectional line
+				(at -3.81 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5672,10 +6168,140 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 15.24 0 180)
+			(pin bidirectional line
+				(at 3.81 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "k"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at -7.62 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6499,16 +7125,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 6.35 3.81 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TVS"
-			(at 36.83 2.66 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +7141,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 36.83 2.66 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,8 +7169,8 @@
 		)
 		(symbol "TVS-SMDB03CE3/TR7TR-ND_0_1"
 			(rectangle
-				(start -6.35 7.62)
-				(end 6.35 -7.62)
+				(start -7.62 -13.97)
+				(end 7.62 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -6556,19 +7181,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -3.81 -6.985)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 6.985) (xy -3.81 0.635)
+					(xy -6.985 -11.43) (xy -0.635 -11.43)
 				)
 				(stroke
 					(width 0)
@@ -6580,7 +7193,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -1.27 -6.985)
+					(xy -6.985 -8.89) (xy -0.635 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -6592,7 +7205,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 6.985) (xy -1.27 0.635)
+					(xy -6.985 -6.35) (xy -0.635 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -6604,7 +7217,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 1.27 -6.985)
+					(xy -6.985 -3.81) (xy -0.635 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -6616,7 +7229,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 6.985) (xy 1.27 0.635)
+					(xy 0 -11.43) (xy 6.985 -11.43)
 				)
 				(stroke
 					(width 0)
@@ -6628,7 +7241,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 3.81 -6.985)
+					(xy 0 -8.89) (xy 6.985 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -6640,7 +7253,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 6.985) (xy 3.81 0.635)
+					(xy 0 -6.35) (xy 6.985 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -6652,7 +7265,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0.635) (xy -3.175 0.635) (xy -2.54 0)
+					(xy 0 -3.81) (xy 6.985 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -6664,7 +7277,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0.635) (xy -0.635 0.635) (xy 0 0)
+					(xy -0.635 -11.43) (xy -0.635 -10.795) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -6676,7 +7289,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0.635) (xy 1.905 0.635) (xy 2.54 0)
+					(xy -0.635 -8.89) (xy -0.635 -8.255) (xy 0 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -6688,7 +7301,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0.635) (xy 4.445 0.635) (xy 5.08 0)
+					(xy -0.635 -6.35) (xy -0.635 -5.715) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -6700,7 +7313,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0.635) (xy -4.445 0) (xy -3.175 0) (xy -3.81 0.635)
+					(xy -0.635 -3.81) (xy -0.635 -3.175) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -6712,7 +7325,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0.635) (xy -4.445 0.635) (xy -4.445 0.635) (xy -5.08 1.27)
+					(xy -0.635 -11.43) (xy -0.635 -12.065) (xy -0.635 -12.065) (xy -1.27 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -6724,7 +7337,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0.635) (xy -1.905 0) (xy -0.635 0) (xy -1.27 0.635)
+					(xy -0.635 -11.43) (xy 0 -12.065) (xy 0 -10.795) (xy -0.635 -11.43)
 				)
 				(stroke
 					(width 0)
@@ -6736,7 +7349,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0.635) (xy -1.905 0.635) (xy -1.905 0.635) (xy -2.54 1.27)
+					(xy -0.635 -8.89) (xy -0.635 -9.525) (xy -0.635 -9.525) (xy -1.27 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -6748,7 +7361,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0.635) (xy 0.635 0) (xy 1.905 0) (xy 1.27 0.635)
+					(xy -0.635 -8.89) (xy 0 -9.525) (xy 0 -8.255) (xy -0.635 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -6760,7 +7373,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0.635) (xy 0.635 0.635) (xy 0.635 0.635) (xy 0 1.27)
+					(xy -0.635 -6.35) (xy -0.635 -6.985) (xy -0.635 -6.985) (xy -1.27 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -6772,7 +7385,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0.635) (xy 3.175 0) (xy 4.445 0) (xy 3.81 0.635)
+					(xy -0.635 -6.35) (xy 0 -6.985) (xy 0 -5.715) (xy -0.635 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -6784,7 +7397,19 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0.635) (xy 3.175 0.635) (xy 3.175 0.635) (xy 2.54 1.27)
+					(xy -0.635 -3.81) (xy -0.635 -4.445) (xy -0.635 -4.445) (xy -1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -3.81) (xy 0 -4.445) (xy 0 -3.175) (xy -0.635 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -6796,17 +7421,8 @@
 			)
 		)
 		(symbol "TVS-SMDB03CE3/TR7TR-ND_1_1"
-			(text "TVS"
-				(at 6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
 			(pin unspecified line
-				(at -3.81 10.16 270)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -6824,7 +7440,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -1.27 10.16 270)
+				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -6842,7 +7458,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 1.27 10.16 270)
+				(at -10.16 -8.89 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -6860,7 +7476,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 10.16 270)
+				(at -10.16 -11.43 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -6878,7 +7494,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 -10.16 90)
+				(at 10.16 -11.43 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -6896,7 +7512,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 1.27 -10.16 90)
+				(at 10.16 -8.89 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -6914,7 +7530,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -1.27 -10.16 90)
+				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -6932,7 +7548,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -3.81 -10.16 90)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
