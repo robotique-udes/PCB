@@ -4354,7 +4354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RoverFootprint:FUSE_3568-20"
+		(property "Footprint" "0_RoverFootprint:FUSE_3568-20"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4409,8 +4409,8 @@
 		)
 		(symbol "FuseHolder_0_1"
 			(rectangle
-				(start -0.762 -2.54)
-				(end 0.762 2.54)
+				(start -0.762 2.54)
+				(end 0.762 -2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4462,6 +4462,229 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HSS-VN7004SLHTR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HSS-VN7004SLHTR "
+			(at 0 -0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_RoverFootprint:OCTAPACK_VN7004_STM-M"
+			(at -0.254 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -0.254 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE VERIFIED"
+			(at 0 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at -0.508 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "HSS-VN7004SLHTR_0_1"
+			(rectangle
+				(start -8.89 -3.81)
+				(end 8.89 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "HSS-VN7004SLHTR_1_1"
+			(pin power_in line
+				(at 11.43 -6.35 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 -8.89 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 -11.43 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -11.43 0)
+				(length 2.54)
+				(name "INPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -16.51 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -13.97 0)
+				(length 2.54)
+				(name "FR_DIAG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 -16.51 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -6.35 0)
+				(length 2.54)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5939,6 +6162,209 @@
 				(at 12.7 -7.62 180)
 				(length 3.81)
 				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LDO-TLE4284DV33ATMA1"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LDO-LM7805MPX/NOPB"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at -1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-TLE4284-DS-v02_10-EN.pdf?fileId=5546d46258fc0bc101595f854dfc1f60"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -8.89 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE APPROVED"
+			(at 0 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/infineon-technologies/TLE4284DV33ATMA1/1016100"
+			(at 0.254 7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "AZ1117ID-3.3TRG1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO252-2_AZ1117ID-3.3TRG1_DIO TO252-2_AZ1117ID-3.3TRG1_DIO-M TO252-2_AZ1117ID-3.3TRG1_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LDO-TLE4284DV33ATMA1_0_1"
+			(polyline
+				(pts
+					(xy -8.89 -13.97) (xy 8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 0) (xy -8.89 -13.97)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -13.97) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy -8.89 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LDO-TLE4284DV33ATMA1_1_1"
+			(text "LDO\n40V -> 3.3V\n(1.0A)"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -17.78 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -7.62 180)
+				(length 3.81)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -7.62 0)
+				(length 3.81)
+				(name "INPUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9075,7 +9501,7 @@
 			)
 		)
 	)
-	(symbol "XT60PM-F"
+	(symbol "XT60-F"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9087,8 +9513,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "XT60-F"
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +9556,7 @@
 				)
 			)
 		)
-		(symbol "XT60PM-F_0_0"
+		(symbol "XT60-F_0_0"
 			(polyline
 				(pts
 					(xy -3.81 -10.16) (xy -3.81 -2.54)
@@ -9264,9 +9690,9 @@
 				)
 			)
 		)
-		(symbol "XT60PM-F_1_0"
+		(symbol "XT60-F_1_0"
 			(pin power_in line
-				(at 6.35 -5.08 180)
+				(at 6.35 -7.62 180)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -9284,7 +9710,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -7.62 180)
+				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -9303,7 +9729,7 @@
 			)
 		)
 	)
-	(symbol "XT60PM-M"
+	(symbol "XT60-M"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9315,8 +9741,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "XT60-M"
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9784,7 @@
 				)
 			)
 		)
-		(symbol "XT60PM-M_0_0"
+		(symbol "XT60-M_0_0"
 			(polyline
 				(pts
 					(xy -3.81 -10.16) (xy -3.81 -2.54)
@@ -9492,9 +9918,9 @@
 				)
 			)
 		)
-		(symbol "XT60PM-M_1_0"
+		(symbol "XT60-M_1_0"
 			(pin power_in line
-				(at 6.35 -5.08 180)
+				(at 6.35 -7.62 180)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -9512,7 +9938,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -7.62 180)
+				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -9543,8 +9969,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "XT60PM-F"
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +10140,7 @@
 		)
 		(symbol "XT60PW-F_1_0"
 			(pin power_in line
-				(at 6.35 -5.08 180)
+				(at 6.35 -7.62 180)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -9732,7 +10158,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -7.62 180)
+				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -9763,8 +10189,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "XT60PW-M"
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,28 +10233,6 @@
 			)
 		)
 		(symbol "XT60PW-M_0_0"
-			(rectangle
-				(start -0.3175 -7.3025)
-				(end 1.27 -7.9375)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -0.3175 -4.7625)
-				(end 1.27 -5.3975)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy -3.81 -10.16) (xy -3.81 -2.54)
@@ -9855,7 +10259,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -7.62) (xy 0.6377 -7.62)
+					(xy 1.9077 -7.62) (xy 0.6377 -7.62)
 				)
 				(stroke
 					(width 0.254)
@@ -9867,7 +10271,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -5.08) (xy 0.6377 -5.08)
+					(xy 1.9077 -5.08) (xy 0.6377 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -9937,10 +10341,34 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 0.0027 -8.255)
+				(mid 0.635 -7.62)
+				(end 0.0027 -6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.0027 -5.715)
+				(mid 0.635 -5.08)
+				(end 0.0027 -4.445)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "XT60PW-M_1_0"
 			(pin power_in line
-				(at 6.35 -5.08 180)
+				(at 6.35 -7.62 180)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -9958,7 +10386,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -7.62 180)
+				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "+"
 					(effects
