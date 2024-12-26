@@ -1,0 +1,211 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1dce0cd6-de7b-4da3-aa49-ec32af7b06b9")
+	(paper "A4")
+	(title_block
+		(title "Mobo V2.0")
+		(date "2024-12-19")
+		(rev "2.0")
+		(company "Robotique UdeS - Biogénius")
+		(comment 1 "Jacob Turcotte")
+		(comment 2 "Schéma électrique créer par:")
+	)
+	(lib_symbols)
+	(sheet
+		(at 80.01 15.24)
+		(size 64.77 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01c97f4a-0314-4c66-8d3b-35eb82cd3160")
+		(property "Sheetname" "I2C_w_Protection"
+			(at 80.01 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C_w_Protection.kicad_sch"
+			(at 80.01 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MOBO_V2"
+				(path "/1dce0cd6-de7b-4da3-aa49-ec32af7b06b9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 72.39)
+		(size 64.77 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1564f134-16a1-46d6-a4a3-32c8a1bef693")
+		(property "Sheetname" "CAN"
+			(at 80.01 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 80.01 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MOBO_V2"
+				(path "/1dce0cd6-de7b-4da3-aa49-ec32af7b06b9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 72.39)
+		(size 64.77 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f887cdf-3afb-467e-9e95-796c2339b15e")
+		(property "Sheetname" "USB"
+			(at 12.7 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 12.7 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MOBO_V2"
+				(path "/1dce0cd6-de7b-4da3-aa49-ec32af7b06b9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 129.54)
+		(size 64.77 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cde75f3b-1c91-4456-aacb-1ca9cd8a55ae")
+		(property "Sheetname" "ESP32_SD"
+			(at 12.7 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_SD.kicad_sch"
+			(at 12.7 182.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MOBO_V2"
+				(path "/1dce0cd6-de7b-4da3-aa49-ec32af7b06b9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 15.24)
+		(size 64.77 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfd5234f-228e-4292-8cd6-296acaae29bd")
+		(property "Sheetname" "Power"
+			(at 12.7 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 12.7 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MOBO_V2"
+				(path "/1dce0cd6-de7b-4da3-aa49-ec32af7b06b9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
