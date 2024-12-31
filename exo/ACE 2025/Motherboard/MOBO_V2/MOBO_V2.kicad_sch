@@ -1179,7 +1179,7 @@
 		)
 		(uuid e598bb23-cfe5-470b-b65a-1166e3317d71)
 	)
-	(text_box "Hello world"
+	(text_box "Description du fonctionnement du plan électrique de l'exosquelette\nCe schéma illustre la structure électrique et les interactions entre les composants d'un exosquelette visant à assister les mouvements des jambes. Le fonctionnement global repose sur une coordination entre des moteurs, des capteurs, un microcontrôleur, et des systèmes d'alimentation. Voici une explication détaillée des sous-systèmes :\n\n1. Alimentation\nL'exosquelette utilise deux sources principales d'alimentation :\n\nBatterie 48V :\nCette batterie fournit l'énergie nécessaire pour alimenter les moteurs des hanches et des genoux. Elle est reliée à un système de gestion de batterie (BMS) qui régule et surveille la distribution d'énergie afin d'assurer une alimentation stable et protégée contre les surcharges ou les décharges profondes.\n\nBatterie 5V :\nUne batterie secondaire alimente le module SoM ESP32-S3 via la carte MOBO. Ce circuit basse tension est utilisé pour gérer les communications et le contrôle des périphériques.\n\n2. Module de contrôle (SoM ESP32-S3)\nLe SoM ESP32-S3 agit comme le cerveau de l'exosquelette. Il est connecté à la carte MOBO, qui gère les interfaces de communication (CAN, I2C différentiel, Ethernet). Les principales responsabilités du SoM incluent :\n\nLa réception des commandes de l'utilisateur via une montre connectée (sans fil).\nLa collecte des données des capteurs et leur traitement.\nLa transmission des commandes aux moteurs pour assurer des mouvements fluides et synchronisés.\n\n3. Capteurs BNO085\nDes capteurs BNO085 sont stratégiquement positionnés pour collecter des données d'orientation et de mouvement :\n\nCuisse et Tibia (Gauche et Droite) :\nCes capteurs mesurent les angles, l'accélération et la position des segments de jambe. Ils communiquent avec les moustaches via une connexion I2C différentiel ou Ethernet.\n\nDos :\nLe capteur dorsal capture les mouvements du torse et transmet directement ses données au SoM via Ethernet. Cela permet une meilleure synchronisation entre les mouvements de l'utilisateur et l'exosquelette.\n\n4. Moustaches (Modules de jambe gauche et droite)\nLes moustaches agissent comme des interfaces entre les moteurs, les capteurs et le module de contrôle. Chaque moustache assure les fonctions suivantes :\n\nTransmettre les commandes du SoM aux moteurs via le bus CAN.\nCollecter les données des capteurs et les relayer au SoM via I2C différentiel ou Ethernet.\nCe découpage en sous-modules améliore la modularité et la maintenance de l'exosquelette.\n\n5. Moteurs (Hanche et Genou)\nChaque jambe est équipée de deux moteurs :\n\nMoteur de hanche : Assure les mouvements de rotation au niveau de la hanche.\nMoteur de genou : Contrôle la flexion et l'extension du genou.\nLes moteurs reçoivent des commandes via le bus CAN, assurant des mouvements fluides et synchronisés avec les données capturées par les capteurs.\n\n6. Communication\nLe système repose sur plusieurs protocoles de communication robustes :\n\nCAN (Controller Area Network) : Utilisé pour envoyer des commandes aux moteurs.\nI2C différentiel et Ethernet : Employés pour transmettre les données des capteurs et assurer une communication fiable entre les moustaches et le SoM.\nSans fil : Permet à l'utilisateur de commander l'exosquelette via une montre intelligente.\n\n7. Synchronisation globale\nL'ensemble du système fonctionne en boucle fermée. Les capteurs capturent en temps réel les mouvements de l'utilisateur et les paramètres de l'exosquelette. Ces données sont analysées par le SoM ESP32-S3, qui envoie des commandes adaptées aux moteurs pour reproduire les mouvements souhaités ou offrir une assistance optimale."
 		(exclude_from_sim no)
 		(at 270.51 15.24 0)
 		(size 135.89 236.22)
@@ -1194,8 +1194,10 @@
 		)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(color 61 112 78 1)
+				(size 1.9 1.9)
+				(thickness 0.3)
+				(bold yes)
+				(color 41 75 52 1)
 			)
 			(justify left top)
 		)
