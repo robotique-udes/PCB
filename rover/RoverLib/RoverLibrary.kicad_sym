@@ -14593,7 +14593,7 @@
 			)
 		)
 		(symbol "USB_C_USB4105-GF-A_1_1"
-			(pin passive line
+			(pin power_out line
 				(at 0 -22.86 90)
 				(length 5.08)
 				(name "GND"
@@ -14629,7 +14629,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(name "VBUS"
@@ -15459,7 +15459,7 @@
 			)
 		)
 		(symbol "XT30PW-M_1_0"
-			(pin power_in line
+			(pin power_out line
 				(at 2.54 -2.54 180)
 				(length 2.54)
 				(name "-"
@@ -15477,7 +15477,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 2.54 0 180)
 				(length 2.54)
 				(name "+"
@@ -15550,6 +15550,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "XT60-F_0_0"
@@ -15778,6 +15779,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "XT60-M_0_0"
@@ -15915,7 +15917,7 @@
 			)
 		)
 		(symbol "XT60-M_1_0"
-			(pin power_in line
+			(pin power_out line
 				(at 6.35 -7.62 180)
 				(length 2.54)
 				(name "-"
@@ -15933,7 +15935,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "+"
@@ -15974,7 +15976,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 0 0 0)
+			(at 0 -11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15993,6 +15995,15 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 0.254 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16194,7 +16205,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 0 0 0)
+			(at -0.254 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16226,6 +16237,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "XT60PW-M_0_0"
@@ -16363,7 +16375,7 @@
 			)
 		)
 		(symbol "XT60PW-M_1_0"
-			(pin power_in line
+			(pin power_out line
 				(at 6.35 -7.62 180)
 				(length 2.54)
 				(name "-"
@@ -16381,7 +16393,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "+"
