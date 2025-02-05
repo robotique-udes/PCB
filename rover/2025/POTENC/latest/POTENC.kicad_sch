@@ -1,0 +1,197 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0a8240f1-1c25-4c2f-8c36-25ec707ee8f2")
+	(paper "A5")
+	(title_block
+		(title "POTENC")
+		(date "2025-02-03")
+		(rev "REV0")
+		(company "RobotiqueUdeS")
+		(comment 1 "Made by Philippe Michaud")
+	)
+	(lib_symbols)
+	(junction
+		(at 101.6 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dacec76-e180-4a26-8fda-b485ed0bccc5")
+	)
+	(bus
+		(pts
+			(xy 101.6 74.93) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d762187-71d9-437c-a178-6a4150e3983a")
+	)
+	(bus
+		(pts
+			(xy 101.6 66.04) (xy 101.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e9a543-d3de-471b-90ab-6907d5db41b8")
+	)
+	(bus
+		(pts
+			(xy 92.71 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e391eb2-7f44-4829-ab36-c27d3a5c2028")
+	)
+	(bus
+		(pts
+			(xy 101.6 57.15) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7483a90e-485b-4a03-bca5-be5256d86470")
+	)
+	(bus
+		(pts
+			(xy 101.6 66.04) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70c09f3-d075-40a3-9b8a-8dec5c9d9703")
+	)
+	(text_box "The POTENC PCB is a breakout board for the POTENC assembly. \n\nThe RJ50 (10p10c) connectors allow the user to only plug the CUI Encoder and to use a RJ12 (6p6c) or a RJ45 (8p8c).\n\nThe POT is routed to the first and last pair which requires a RJ48/RJ50"
+		(exclude_from_sim no)
+		(at 69.85 26.67 0)
+		(size 66.04 21.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3e19ff5c-7572-4add-8b11-1c35d726a46b")
+	)
+	(text_box "RJ50\n10P10C"
+		(exclude_from_sim yes)
+		(at 80.01 60.96 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6b63a8c8-a308-4780-9d71-32675241e159")
+	)
+	(text_box "JST\n3 Pins\n(POT)"
+		(exclude_from_sim yes)
+		(at 111.76 69.85 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ba65228a-48a8-4db0-b0bb-d321dceee5ec")
+	)
+	(text_box "JST\n6 Pins\n(AMT22)"
+		(exclude_from_sim yes)
+		(at 111.76 52.07 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d3d27180-9224-4a2f-b5fe-6c978dc7c219")
+	)
+	(sheet
+		(at 85.09 87.63)
+		(size 33.02 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfad5ca9-1ac3-410f-8373-8f5e91c1917a")
+		(property "Sheetname" "board"
+			(at 85.09 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board.kicad_sch"
+			(at 85.09 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POTENC"
+				(path "/0a8240f1-1c25-4c2f-8c36-25ec707ee8f2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

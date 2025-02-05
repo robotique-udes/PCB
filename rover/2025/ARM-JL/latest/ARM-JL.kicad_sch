@@ -1,0 +1,825 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ea96555f-a650-48ef-b94f-b65180d69193")
+	(paper "A4")
+	(title_block
+		(title "ARM-JL Driver")
+		(date "2025-02-03")
+		(rev "REV0")
+		(company "RobotiqueUdeS")
+		(comment 1 "Made by Philippe Michaud")
+	)
+	(lib_symbols)
+	(junction
+		(at 166.37 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "008f2815-581e-4df4-b16b-06e87372c3c8")
+	)
+	(junction
+		(at 105.41 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "088c7375-f43e-48bf-9259-606db918fb33")
+	)
+	(junction
+		(at 143.51 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c4cbf27-194a-4468-b41f-4250e92f2ae4")
+	)
+	(junction
+		(at 105.41 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c78e66e-6c76-4def-a1b6-04da585f8a10")
+	)
+	(junction
+		(at 111.76 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480612be-187f-4a7a-8331-159c58ff340d")
+	)
+	(junction
+		(at 125.73 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc7a919d-c12e-419c-a6bc-41b00d71394e")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 189.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03756032-6fcc-4140-87f1-73b2b763af41")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 179.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f894acb-8d83-4ce8-a27c-f3bc9d6c0bd6")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 189.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb2f890-c9ef-4f0e-ba83-1483c8c016c2")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 179.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32392046-17ec-4be9-a508-3b2d915702e9")
+	)
+	(bus
+		(pts
+			(xy 132.08 90.17) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a3cd22-1da9-4738-8d21-e641d52e7fb8")
+	)
+	(bus
+		(pts
+			(xy 99.06 59.69) (xy 105.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395f8e9b-33fa-44fc-85fa-4d017d7a2965")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff5d838-b4ea-4966-a8a2-52ae37cf37d5")
+	)
+	(bus
+		(pts
+			(xy 149.86 95.25) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435f450f-d253-48f4-90b9-9f09158a8779")
+	)
+	(bus
+		(pts
+			(xy 105.41 69.85) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f48d44c-33a4-4f78-8748-a78cdd38d605")
+	)
+	(bus
+		(pts
+			(xy 132.08 93.98) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53dd006f-4309-4231-ad0e-32765262b844")
+	)
+	(bus
+		(pts
+			(xy 125.73 88.9) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54794879-68fc-4853-a1f1-f44cb1ce4cb8")
+	)
+	(bus
+		(pts
+			(xy 132.08 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a834fe6-7f3b-4011-8d57-30d83d614935")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 189.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611810bd-d2e5-444b-93d8-95b7a5c1c7fc")
+	)
+	(bus
+		(pts
+			(xy 105.41 59.69) (xy 189.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe4120a-468e-49aa-86ad-42507b73c95f")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e3e09f-56f2-492f-a830-aec7d7dc0f43")
+	)
+	(bus
+		(pts
+			(xy 125.73 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e890b6c-ec0e-4432-8781-3a9e4f8d441b")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f13cf6c-25af-4b32-93ef-0c3854838ead")
+	)
+	(bus
+		(pts
+			(xy 105.41 59.69) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c7ffdd-39b9-4239-a86a-3dac90fd40f3")
+	)
+	(wire
+		(pts
+			(xy 166.37 116.84) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c44dfff-1394-4511-8a57-a05db78fe015")
+	)
+	(bus
+		(pts
+			(xy 100.33 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974d3852-42df-4c7d-b60c-61f8c8024f67")
+	)
+	(bus
+		(pts
+			(xy 125.73 69.85) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af55c88-de94-4433-8259-b28a7036a1ea")
+	)
+	(bus
+		(pts
+			(xy 143.51 90.17) (xy 143.51 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a273b0fd-ce96-40dc-8eed-68a5082d1316")
+	)
+	(bus
+		(pts
+			(xy 143.51 88.9) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f493a5-902b-46b2-bd2a-cb64e3762f19")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c475d92c-f41c-4df1-9fd3-d8e4398b3e31")
+	)
+	(bus
+		(pts
+			(xy 132.08 119.38) (xy 189.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7bafe2-041f-45b0-8b8f-55455b35e70b")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06e9f55-c3c6-4f81-b575-407630cb03bb")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a6b656-1d8f-44b6-9700-e3aa631b340d")
+	)
+	(bus
+		(pts
+			(xy 149.86 83.82) (xy 189.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e874e9f3-f075-4ccf-aa29-9a99bc736c0b")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9ac324-24c4-4dfe-8780-75fafb33216c")
+	)
+	(bus
+		(pts
+			(xy 99.06 69.85) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a40bbe-7d6e-4062-b2f8-b963e7846cc2")
+	)
+	(rectangle
+		(start 153.67 125.73)
+		(end 177.8 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12e5b479-4585-46f1-b250-22ee36b73df1)
+	)
+	(text_box "LDO 30V-5V"
+		(exclude_from_sim yes)
+		(at 137.16 78.74 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "10246a36-648e-4808-833d-0ab78020915d")
+	)
+	(text_box "REV"
+		(exclude_from_sim yes)
+		(at 154.94 133.35 0)
+		(size 7.62 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "204c56f5-3bf0-4df1-98a9-1ed77e686f95")
+	)
+	(text_box "CONN\nXT60-M\n(30A)"
+		(exclude_from_sim yes)
+		(at 189.23 64.77 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2bd30575-fa06-4ef7-932b-a3ed2b007c4a")
+	)
+	(text_box "FWD"
+		(exclude_from_sim yes)
+		(at 154.94 127 0)
+		(size 7.62 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "34b3e626-406f-4d0a-a4d9-3bbf5d95a44d")
+	)
+	(text_box "RJ45\n24V_L\nCAN"
+		(exclude_from_sim yes)
+		(at 86.36 52.07 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "34df8e60-1d72-4f0a-b1e3-66445df0318d")
+	)
+	(text_box "FUSE\n(15A)"
+		(exclude_from_sim yes)
+		(at 119.38 78.74 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3991c029-854e-4361-a1e5-a43ee05a08a7")
+	)
+	(text_box "CAN LED"
+		(exclude_from_sim yes)
+		(at 165.1 137.16 0)
+		(size 11.43 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4b1c46eb-e0f4-4c0d-a454-d3f6d93ce1b4")
+	)
+	(text_box "CONN\nJST-2.0MM\n(AMT22-A)"
+		(exclude_from_sim yes)
+		(at 189.23 78.74 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "50ebf2e6-e6a5-4b88-8271-39e044543d78")
+	)
+	(text_box "H-BRIDGE\n(55A)"
+		(exclude_from_sim yes)
+		(at 119.38 114.3 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6745abf5-6e73-4eca-ac00-b2ddc0f14e7d")
+	)
+	(text_box "Heartbeat LED"
+		(exclude_from_sim yes)
+		(at 165.1 128.27 0)
+		(size 11.43 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6ae94ec2-1e9f-4f97-9e39-ad194e02f0bf")
+	)
+	(text_box "CONN\nXT60-F\n(30A)"
+		(exclude_from_sim yes)
+		(at 86.36 64.77 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6b22c36d-5185-4778-95ef-b69b92d84b87")
+	)
+	(text_box "CAN Transciever"
+		(exclude_from_sim yes)
+		(at 137.16 104.14 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "73365bc9-9059-4b20-96dd-a6b87eccb425")
+	)
+	(text_box "USB-C"
+		(exclude_from_sim yes)
+		(at 87.63 91.44 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "894898e1-645c-419e-8507-d1ad1a3b9674")
+	)
+	(text_box "CONN\nJST-2.0MM\n(AMT22-A)"
+		(exclude_from_sim yes)
+		(at 189.23 91.44 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9a4a7a9d-c14b-43ff-9079-9e8897dcaaf2")
+	)
+	(text_box "The ARM-JL PCB is a simple DC Motor Driver made from two Half-Bridge ICs. It support 15A daisy chaining and 15A Dc Motor output. It interface two JST connector, one for a SPI encoder and one for a Potentiometer"
+		(exclude_from_sim no)
+		(at 113.03 39.37 0)
+		(size 66.04 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b0effda7-8eca-4804-9db4-aef67640b71b")
+	)
+	(text_box "LDO 5V-3.3V"
+		(exclude_from_sim yes)
+		(at 137.16 91.44 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c57f2733-a936-4d0c-97d8-3951bfd36185")
+	)
+	(text_box "CALIB"
+		(exclude_from_sim yes)
+		(at 154.94 139.7 0)
+		(size 7.62 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c714e495-77c6-4b45-9af2-fce12dc1d77a")
+	)
+	(text_box "RJ45\n24V_L\nCAN"
+		(exclude_from_sim yes)
+		(at 189.23 52.07 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d4a356e8-7da8-48e6-93d2-7d3015559bea")
+	)
+	(text_box "ESP32"
+		(exclude_from_sim yes)
+		(at 157.48 91.44 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e0848102-5fe6-4c08-a59c-a5d0fb2d74f3")
+	)
+	(text_box "CONN\nXT30-M\n(15A)"
+		(exclude_from_sim yes)
+		(at 189.23 114.3 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e8c91fbf-6773-4b75-9fcc-48de861f3674")
+	)
+	(sheet
+		(at 128.27 33.02)
+		(size 34.29 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8cb5055-73a1-4708-9add-8b73c04101c0")
+		(property "Sheetname" "board"
+			(at 128.27 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board.kicad_sch"
+			(at 128.27 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARM-JL"
+				(path "/ea96555f-a650-48ef-b94f-b65180d69193"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
