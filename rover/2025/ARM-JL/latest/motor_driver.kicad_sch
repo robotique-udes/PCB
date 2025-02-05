@@ -341,7 +341,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprints:PG-TO263-7-1_INF-M"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -500,7 +500,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 15.24 -19.05 180)
 					(length 2.54)
 					(name "OUT"
@@ -724,7 +724,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -845,7 +845,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 5.08 -2.54 180)
 					(length 2.54) hide
 					(name "NC"
@@ -883,32 +883,38 @@
 				)
 			)
 		)
-		(symbol "RoverLibrary:XT60PW-F"
+		(symbol "RoverLibrary:XT30PW-F"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "J"
+				(at -7.62 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "XT60PM-F"
-				(at 0 -1.524 0)
+			(property "Value" "XT30PW-F"
+				(at -7.62 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RoverFootprint:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-				(at 0 -11.938 0)
+			(property "Footprint" "RoverFootprint:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -930,32 +936,149 @@
 					(hide yes)
 				)
 			)
-			(property "STATUS" "APPROVED"
-				(at 0.254 1.778 0)
+			(property "MF" "amass"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "XT60PW-F_0_0"
-				(polyline
-					(pts
-						(xy 1.9077 -7.62) (xy 0.6377 -7.62)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.2"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XT30PW-F"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nSocket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A\n"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Amass"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "XT30PW-F"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STATUS" "APPROVED"
+				(at -3.81 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.9077 -5.08) (xy 0.6377 -5.08)
-					)
+			)
+			(symbol "XT30PW-F_0_0"
+				(arc
+					(start -5.0773 -3.175)
+					(mid -4.445 -2.54)
+					(end -5.0773 -1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -965,9 +1088,9 @@
 					)
 				)
 				(arc
-					(start 0.0027 -8.255)
-					(mid 0.635 -7.62)
-					(end 0.0027 -6.985)
+					(start -5.0773 -0.635)
+					(mid -4.445 0)
+					(end -5.0773 0.635)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -976,10 +1099,22 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0.0027 -5.715)
-					(mid 0.635 -5.08)
-					(end 0.0027 -4.445)
+				(polyline
+					(pts
+						(xy -3.1723 -2.54) (xy -4.4423 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.1723 0) (xy -4.4423 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -989,11 +1124,11 @@
 					)
 				)
 			)
-			(symbol "XT60PW-F_1_0"
+			(symbol "XT30PW-F_1_0"
 				(polyline
 					(pts
-						(xy -3.81 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -8.89) (xy 2.54 -10.16)
-						(xy -3.81 -10.16) (xy -3.81 -2.54)
+						(xy -7.62 2.54) (xy -1.27 2.54) (xy -1.27 2.54) (xy 0 1.27) (xy 0 -3.81) (xy -1.27 -5.08) (xy -7.62 -5.08)
+						(xy -7.62 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1004,7 +1139,7 @@
 					)
 				)
 				(pin power_in line
-					(at 6.35 -7.62 180)
+					(at 2.54 -2.54 180)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1022,7 +1157,7 @@
 					)
 				)
 				(pin power_in line
-					(at 6.35 -5.08 180)
+					(at 2.54 0 180)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -1614,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 82.55) (xy 168.91 82.55)
+			(xy 158.75 82.55) (xy 171.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 168.91 80.01)
+			(xy 158.75 80.01) (xy 171.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
 			(at 40.64 110.49 0)
 			(effects
 				(font
@@ -2794,7 +2929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PG-TO263-7-1_INF-M"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
 			(at 71.12 11.43 0)
 			(effects
 				(font
@@ -3206,7 +3341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PG-TO263-7-1_INF-M"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
 			(at 157.48 11.43 0)
 			(effects
 				(font
@@ -3507,86 +3642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RoverLibrary:XT60PW-F")
-		(at 175.26 74.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc8eb1dc-bc80-4eda-b4e1-1e0f48710acb")
-		(property "Reference" "U9"
-			(at 180.34 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "XT60PM-F"
-			(at 180.34 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RoverFootprint:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 175.26 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "APPROVED"
-			(at 175.006 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bd46a43-62ba-433b-b2ac-2eb2166c03e4")
-		)
-		(pin "1"
-			(uuid "fe2406b2-ca1d-42a2-930a-4a66c11009a8")
-		)
-		(instances
-			(project ""
-				(path "/ea96555f-a650-48ef-b94f-b65180d69193/f8cb5055-73a1-4708-9add-8b73c04101c0/96acb7c0-97f3-4638-83e2-54e7d2feb040"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 114.3 30.48 0)
 		(unit 1)
@@ -3647,6 +3702,217 @@
 			(project "ARM-JL"
 				(path "/ea96555f-a650-48ef-b94f-b65180d69193/f8cb5055-73a1-4708-9add-8b73c04101c0/96acb7c0-97f3-4638-83e2-54e7d2feb040"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:XT30PW-F")
+		(at 173.99 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbc871fe-739c-46e1-9e4e-e13fb1a29aa7")
+		(property "Reference" "J5"
+			(at 182.88 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XT30PW-F"
+			(at 182.88 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RoverFootprint:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "amass"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT30PW-F"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nSocket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A\n"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amass"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "XT30PW-F"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 182.88 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "e20df7eb-6896-401c-82da-6086a218d961")
+		)
+		(pin "2"
+			(uuid "3066fe7a-37bc-4104-a8bd-946628879ac9")
+		)
+		(instances
+			(project ""
+				(path "/ea96555f-a650-48ef-b94f-b65180d69193/f8cb5055-73a1-4708-9add-8b73c04101c0/96acb7c0-97f3-4638-83e2-54e7d2feb040"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3753,7 +4019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/HXJRA-e.PDF"
+		(property "Datasheet" "~"
 			(at 30.48 40.64 0)
 			(effects
 				(font
@@ -3889,7 +4155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
 			(at 40.64 81.28 0)
 			(effects
 				(font

@@ -936,7 +936,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1057,7 +1057,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 5.08 -2.54 180)
 					(length 2.54) hide
 					(name "NC"
@@ -1433,24 +1433,24 @@
 		)
 	)
 	(junction
-		(at 44.45 74.93)
+		(at 35.56 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7209b9db-e340-4551-b1de-9103d686763f")
 	)
 	(junction
-		(at 163.83 64.77)
+		(at 154.94 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0149e68-f48a-474d-bb6c-ec4bac0898ec")
 	)
 	(no_connect
-		(at 59.69 69.85)
+		(at 50.8 69.85)
 		(uuid "cb74958c-9b63-4a4e-95ea-13fdb3e9de7b")
 	)
 	(wire
 		(pts
-			(xy 161.29 64.77) (xy 163.83 64.77)
+			(xy 152.4 64.77) (xy 154.94 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 74.93) (xy 59.69 74.93)
+			(xy 35.56 74.93) (xy 50.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 62.23) (xy 163.83 64.77)
+			(xy 154.94 62.23) (xy 154.94 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 54.61) (xy 59.69 54.61)
+			(xy 41.91 54.61) (xy 50.8 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 52.07) (xy 50.8 54.61)
+			(xy 41.91 52.07) (xy 41.91 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 59.69 52.07)
+			(xy 49.53 52.07) (xy 50.8 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 64.77) (xy 170.18 64.77)
+			(xy 154.94 64.77) (xy 161.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 62.23) (xy 44.45 62.23)
+			(xy 50.8 62.23) (xy 35.56 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 62.23) (xy 44.45 74.93)
+			(xy 35.56 62.23) (xy 35.56 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 64.77) (xy 151.13 64.77)
+			(xy 139.7 64.77) (xy 142.24 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1549,8 +1549,8 @@
 		(uuid "c2122ea4-0af6-4647-b37d-6ad0d2bf936a")
 	)
 	(rectangle
-		(start 130.81 38.1)
-		(end 196.85 86.36)
+		(start 121.92 38.1)
+		(end 187.96 86.36)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -1561,8 +1561,8 @@
 		(uuid 75641bb7-b719-4347-b51d-5806e5433317)
 	)
 	(rectangle
-		(start 31.75 38.1)
-		(end 129.54 86.36)
+		(start 22.86 38.1)
+		(end 120.65 86.36)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -1594,7 +1594,7 @@
 	)
 	(text "Connections to POTENC connector"
 		(exclude_from_sim no)
-		(at 32.258 39.878 0)
+		(at 23.368 39.878 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1605,7 +1605,7 @@
 	)
 	(text "POTENC Calibration button"
 		(exclude_from_sim no)
-		(at 131.318 39.878 0)
+		(at 122.428 39.878 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1616,7 +1616,7 @@
 	)
 	(global_label "ENC_MOSI"
 		(shape input)
-		(at 59.69 59.69 180)
+		(at 50.8 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1626,7 +1626,7 @@
 		)
 		(uuid "468cb386-c978-4e49-b0a3-53962ee596cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.3915 59.69 0)
+			(at 38.5015 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +1638,7 @@
 	)
 	(global_label "ENC_CS"
 		(shape input)
-		(at 59.69 67.31 180)
+		(at 50.8 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1648,7 +1648,7 @@
 		)
 		(uuid "6d289f89-1082-4270-9ecd-d8100580d25e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.5082 67.31 0)
+			(at 40.6182 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1660,7 @@
 	)
 	(global_label "PB_CALIB"
 		(shape output)
-		(at 170.18 64.77 0)
+		(at 161.29 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1670,7 +1670,7 @@
 		)
 		(uuid "82644f52-6f34-43ee-84a4-1dcf840af08e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.9343 64.77 0)
+			(at 173.0443 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1682,7 @@
 	)
 	(global_label "ENC_SCLK"
 		(shape input)
-		(at 59.69 57.15 180)
+		(at 50.8 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1692,7 +1692,7 @@
 		)
 		(uuid "90481580-3d63-40e8-87a8-584f9c0156ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.2101 57.15 0)
+			(at 38.3201 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1704,7 @@
 	)
 	(global_label "POT_ANAL"
 		(shape output)
-		(at 59.69 72.39 180)
+		(at 50.8 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1714,7 +1714,7 @@
 		)
 		(uuid "b5145efe-2d0c-4ed5-8389-c19617d555bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6333 72.39 0)
+			(at 38.7433 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1726,7 @@
 	)
 	(global_label "ENC_MISO"
 		(shape output)
-		(at 59.69 64.77 180)
+		(at 50.8 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1736,7 +1736,7 @@
 		)
 		(uuid "f58acacc-3130-4e21-af0a-51ee9d37263f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.3915 64.77 0)
+			(at 38.5015 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1748,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:R_0805")
-		(at 163.83 58.42 180)
+		(at 154.94 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1756,7 +1756,7 @@
 		(dnp no)
 		(uuid "2eec31b6-4472-4867-b181-9d8dec399518")
 		(property "Reference" "R10"
-			(at 165.608 56.388 0)
+			(at 156.718 56.388 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1766,7 +1766,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 165.608 58.42 0)
+			(at 156.718 58.42 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1776,7 +1776,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.45 58.42 90)
+			(at 162.56 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 58.42 90)
+			(at 154.94 58.42 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1795,7 +1795,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 46.99 0)
+			(at 154.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1804,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 163.83 58.42 0)
+			(at 154.94 58.42 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1814,7 +1814,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 165.608 60.452 0)
+			(at 156.718 60.452 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1840,7 +1840,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:RJ50-SS-641010-A-NF-A111")
-		(at 83.82 52.07 0)
+		(at 74.93 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1848,7 +1848,7 @@
 		(dnp no)
 		(uuid "6a7f93b8-34d7-4ee1-857f-04f108d37f12")
 		(property "Reference" "J3"
-			(at 83.82 41.91 0)
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1856,7 @@
 			)
 		)
 		(property "Value" "RJ50-SS-641010-A-NF-A111"
-			(at 83.82 44.45 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1864,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:RJ50-SS-641010-A-NF-A111"
-			(at 84.074 34.544 0)
+			(at 75.184 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +1882,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 10P10C (10 positions 10 connected), RJ48/RJ50"
-			(at 84.074 34.544 0)
+			(at 75.184 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1891,7 @@
 			)
 		)
 		(property "STATUS" "TO BE VERIFIED"
-			(at 83.82 46.99 0)
+			(at 74.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +1939,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:SW-PTS815SJM250SMTRLFS")
-		(at 156.21 64.77 0)
+		(at 147.32 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1947,7 +1947,7 @@
 		(dnp no)
 		(uuid "6f854441-070a-4f98-b42b-1d7121b247b0")
 		(property "Reference" "SW5"
-			(at 154.178 60.452 0)
+			(at 145.288 60.452 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1957,7 +1957,7 @@
 			)
 		)
 		(property "Value" "SW-PTS815SJM250SMTRLFS"
-			(at 156.21 71.12 0)
+			(at 147.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,8 +1965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 59.69 0)
+		(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
+			(at 147.32 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1975,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
-			(at 156.21 56.642 0)
+			(at 147.32 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +1984,7 @@
 			)
 		)
 		(property "Description" "Push button switch"
-			(at 156.21 56.388 0)
+			(at 147.32 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2015,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.8 52.07 0)
+		(at 41.91 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2024,7 +2024,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0ca02ca-02b3-48f3-ae71-34cde86d972f")
 		(property "Reference" "#PWR031"
-			(at 50.8 55.88 0)
+			(at 41.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2033,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 46.99 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 52.07 0)
+			(at 41.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 52.07 0)
+			(at 41.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 52.07 0)
+			(at 41.91 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 163.83 54.61 0)
+		(at 154.94 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2089,7 +2089,7 @@
 		(dnp no)
 		(uuid "c5279020-3e58-4ea4-b122-e37cc001ad04")
 		(property "Reference" "#PWR045"
-			(at 163.83 58.42 0)
+			(at 154.94 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 163.83 50.546 0)
+			(at 154.94 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 54.61 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 54.61 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 54.61 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2146,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 74.93 0)
+		(at 35.56 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2155,7 +2155,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4262e9d-cdda-4925-baa1-4d035f3f725c")
 		(property "Reference" "#PWR033"
-			(at 44.45 81.28 0)
+			(at 35.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 80.01 0)
+			(at 35.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 74.93 0)
+			(at 35.56 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 74.93 0)
+			(at 35.56 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 74.93 0)
+			(at 35.56 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 64.77 0)
+		(at 139.7 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2221,7 +2221,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdaa7a47-e42d-4252-90c9-42a10e70da61")
 		(property "Reference" "#PWR044"
-			(at 148.59 71.12 0)
+			(at 139.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 69.85 0)
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 64.77 0)
+			(at 139.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 64.77 0)
+			(at 139.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 64.77 0)
+			(at 139.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2278,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 58.42 52.07 0)
+		(at 49.53 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2287,7 +2287,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff381043-c5ce-4808-9c6b-8170cd1deefc")
 		(property "Reference" "#PWR030"
-			(at 58.42 55.88 0)
+			(at 49.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2296,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 58.42 46.99 0)
+			(at 49.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 52.07 0)
+			(at 49.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 52.07 0)
+			(at 49.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 58.42 52.07 0)
+			(at 49.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

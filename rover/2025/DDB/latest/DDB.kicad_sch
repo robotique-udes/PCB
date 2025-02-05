@@ -2297,11 +2297,11 @@
 					(start -11.43 7.62)
 					(end 11.43 -96.52)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(text "TOP ROW"
@@ -3382,20 +3382,18 @@
 					)
 				)
 			)
-			(symbol "HSS-VN7004SLHTR_0_1"
+			(symbol "HSS-VN7004SLHTR_1_1"
 				(rectangle
 					(start -8.89 -3.81)
 					(end 8.89 -19.05)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "HSS-VN7004SLHTR_1_1"
 				(pin power_out line
 					(at 11.43 -6.35 180)
 					(length 2.54)
@@ -3606,20 +3604,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "HSS-VN7140ASTR_0_1"
+			(symbol "HSS-VN7140ASTR_1_1"
 				(rectangle
 					(start -8.89 -3.81)
 					(end 8.89 -21.59)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "HSS-VN7140ASTR_1_1"
 				(pin input line
 					(at -11.43 -12.7 0)
 					(length 2.54)
@@ -3854,57 +3850,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "LDO-TLE4284DV33ATMA1_0_1"
-				(polyline
-					(pts
-						(xy -8.89 -13.97) (xy 8.89 -13.97)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 0) (xy -8.89 -13.97)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -13.97) (xy 8.89 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 0) (xy -8.89 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "LDO-TLE4284DV33ATMA1_1_1"
+				(rectangle
+					(start -8.89 0)
+					(end 8.89 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(text "LDO\n40V -> 3.3V\n(1.0A)"
 					(at 0 -3.302 0)
 					(effects
@@ -4543,17 +4500,6 @@
 				)
 			)
 			(symbol "TVS-SMDB03CE3/TR7TR-ND_0_1"
-				(rectangle
-					(start -7.62 0)
-					(end 7.62 -13.97)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -6.985 -11.43) (xy -0.635 -11.43)
@@ -4796,6 +4742,17 @@
 				)
 			)
 			(symbol "TVS-SMDB03CE3/TR7TR-ND_1_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at -10.16 -3.81 0)
 					(length 2.54)
@@ -6267,30 +6224,6 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -5.08) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -3.1723 -2.54) (xy -4.4423 -2.54)
 					)
 					(stroke
@@ -6313,68 +6246,21 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "XT30PW-F_1_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -1.27 2.54) (xy -1.27 2.54) (xy 0 1.27) (xy 0 -3.81) (xy -1.27 -5.08) (xy -7.62 -5.08)
+						(xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin power_in line
 					(at 2.54 -2.54 180)
 					(length 2.54)
@@ -6472,30 +6358,6 @@
 			(symbol "XT60PW-M_0_0"
 				(polyline
 					(pts
-						(xy -3.81 -10.16) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.9077 -7.62) (xy 0.6377 -7.62)
 					)
 					(stroke
@@ -6509,66 +6371,6 @@
 				(polyline
 					(pts
 						(xy 1.9077 -5.08) (xy 0.6377 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -10.16) (xy -3.81 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 2.54 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 3.81 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 3.81 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -6604,6 +6406,19 @@
 				)
 			)
 			(symbol "XT60PW-M_1_0"
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -8.89) (xy 2.54 -10.16)
+						(xy -3.81 -10.16) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin power_out line
 					(at 6.35 -7.62 180)
 					(length 2.54)
@@ -11647,26 +11462,6 @@
 			(type none)
 		)
 		(uuid fb04663a-fed1-4242-a559-dd0661f749b2)
-	)
-	(text_box "TODO: Sensing is off when SEn is pulled LOW. Either remove sign sense or pull high and figure out current sense calcs\nTODO: Add decoupling/bigger resistor to LOW_POW_EN signal (Max 7.5v)"
-		(exclude_from_sim no)
-		(at -41.91 12.7 0)
-		(size 46.99 36.83)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 255 194 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e104d0be-30e6-4873-843a-43076f911a35")
 	)
 	(text "Boot ESP32 Button"
 		(exclude_from_sim no)
