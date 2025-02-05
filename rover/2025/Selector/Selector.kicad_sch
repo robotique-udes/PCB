@@ -2042,26 +2042,6 @@
 		)
 		(uuid "fd6dc83d-a5a2-44c4-863c-c5a4638e174b")
 	)
-	(text "pas supposé avoir des resisatnce ici pour allumer les del ? "
-		(exclude_from_sim no)
-		(at 39.878 203.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "23043af0-9518-4add-800a-f788957f2ecc")
-	)
-	(text "diode 3.3V à 500mW\n"
-		(exclude_from_sim no)
-		(at 128.27 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c1f300ae-7fef-4144-b8e8-7c001799a90e")
-	)
 	(label "E_STOP, SELECTOR AND DEL"
 		(at 20.32 106.68 0)
 		(fields_autoplaced yes)
@@ -2264,7 +2244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 128.778 90)
 			(effects
 				(font
@@ -2334,7 +2314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.142 137.16 90)
 			(effects
 				(font
@@ -2905,7 +2885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 117.602 80.01 90)
 			(effects
 				(font
@@ -3046,7 +3026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.03 71.628 90)
 			(effects
 				(font
@@ -3398,7 +3378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RoverFootprint:FUSE_3568-20"
+		(property "Footprint" "Rover:FuseHolder-3588-20"
 			(at 41.148 59.69 90)
 			(effects
 				(font
