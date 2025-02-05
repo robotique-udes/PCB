@@ -341,7 +341,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin4"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -500,7 +500,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 15.24 -19.05 180)
 					(length 2.54)
 					(name "OUT"
@@ -529,24 +529,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 -16.51 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,12 +1562,6 @@
 		(uuid "892de864-a4d7-4ad7-adb4-f93cec1cd703")
 	)
 	(junction
-		(at 142.24 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2a40e22-5511-48ff-9253-cd41086c03e0")
-	)
-	(junction
 		(at 100.33 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1596,12 +1572,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca8e67b1-1f38-4fdf-8508-e6cfa6a9191b")
-	)
-	(junction
-		(at 86.36 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5c636e3-ec33-4320-ba66-99f2ba7db38f")
 	)
 	(junction
 		(at 128.27 40.64)
@@ -1729,16 +1699,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 38.1) (xy 142.24 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5407bfc9-96a3-4f9a-9baf-55c66faac594")
-	)
-	(wire
-		(pts
 			(xy 48.26 113.03) (xy 48.26 115.57)
 		)
 		(stroke
@@ -1766,16 +1726,6 @@
 			(type default)
 		)
 		(uuid "612c4806-e043-4212-abf8-84f6ff46abca")
-	)
-	(wire
-		(pts
-			(xy 86.36 38.1) (xy 86.36 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87d745b9-2886-4952-a030-c8a39f326863")
 	)
 	(wire
 		(pts
@@ -2929,7 +2879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin4"
 			(at 71.12 11.43 0)
 			(effects
 				(font
@@ -2965,9 +2915,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "8"
-			(uuid "1a65a771-0c06-4518-98da-1afc21245387")
 		)
 		(pin "3"
 			(uuid "c0b9f5c6-90d6-4373-8971-f783b9406562")
@@ -3341,7 +3288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin4"
 			(at 157.48 11.43 0)
 			(effects
 				(font
@@ -3377,9 +3324,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "8"
-			(uuid "1c840089-0396-44c4-98b6-4f9de926551b")
 		)
 		(pin "3"
 			(uuid "957b1485-4446-4516-88d0-82ab02861c4e")

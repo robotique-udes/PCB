@@ -714,7 +714,7 @@
 				)
 			)
 		)
-		(symbol "RoverLibrary:USB_C_USB4105-GF-A"
+		(symbol "RoverLibrary:USB_C_USB4115-03-C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -737,7 +737,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(property "Footprint" "RoverFootprint:USB4145_GCT"
 				(at 3.81 -37.846 0)
 				(effects
 					(font
@@ -790,7 +790,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_USB4105-GF-A_0_0"
+			(symbol "USB_C_USB4115-03-C_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -902,7 +902,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_USB4105-GF-A_0_1"
+			(symbol "USB_C_USB4115-03-C_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -1103,7 +1103,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_USB4105-GF-A_1_1"
+			(symbol "USB_C_USB4115-03-C_1_1"
 				(pin power_out line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -2069,7 +2069,7 @@
 		(at 144.78 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0a4a0a1f-edde-4cfd-9e3f-765fd8cd26b0")
+		(uuid "248b48c7-be37-426c-8914-8fa0e8418433")
 	)
 	(junction
 		(at 175.26 43.18)
@@ -2102,16 +2102,16 @@
 		(uuid "7e59df1f-e3ec-489e-8449-15eaa706cdd7")
 	)
 	(junction
+		(at 144.78 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b12508cc-d2de-41c6-aeb8-1dfcf117d4b9")
+	)
+	(junction
 		(at 66.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b165129f-dc62-4187-89fb-ed90f424b67a")
-	)
-	(junction
-		(at 144.78 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbeedd14-9d20-4116-b4c8-43db9bea53ce")
 	)
 	(no_connect
 		(at 121.92 69.85)
@@ -2614,7 +2614,7 @@
 		)
 		(uuid "f035b606-f8db-4ff3-9da8-5927ca657c0c")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 74.93 110.49 180)
 		(effects
 			(font
@@ -2624,7 +2624,7 @@
 		)
 		(uuid "4bb59e60-8f18-4f54-964e-8f6d72b59b9b")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 74.93 107.95 180)
 		(effects
 			(font
@@ -2634,7 +2634,7 @@
 		)
 		(uuid "7246d628-d4b7-47b8-8aca-5a3902c7045b")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 68.58 74.93 0)
 		(effects
 			(font
@@ -2644,7 +2644,7 @@
 		)
 		(uuid "a4338802-4fa8-4050-94d7-c782eaed85c0")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 68.5711 72.39 0)
 		(effects
 			(font
@@ -2676,7 +2676,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_P"
 		(shape bidirectional)
 		(at 86.36 72.39 0)
 		(fields_autoplaced yes)
@@ -2698,7 +2698,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "CAN_N"
 		(shape bidirectional)
 		(at 86.36 74.93 0)
 		(fields_autoplaced yes)
@@ -3089,6 +3089,127 @@
 			(project "ARM-JL"
 				(path "/ea96555f-a650-48ef-b94f-b65180d69193/f8cb5055-73a1-4708-9add-8b73c04101c0/70f4c414-7be6-4c63-acb8-b04c8cf04f90"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:USB_C_USB4115-03-C")
+		(at 129.54 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bd8b6bf-2d9f-419f-986c-a7ac52bd3d9c")
+		(property "Reference" "J1"
+			(at 129.54 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_USB4105-GF-A"
+			(at 129.54 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RoverFootprint:USB4145_GCT"
+			(at 133.35 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 133.35 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 129.54 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE APPROVED"
+			(at 129.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A5"
+			(uuid "f3bdd10d-a992-4bc7-8ee1-dccd3ec4df87")
+		)
+		(pin "B4"
+			(uuid "b14ebdf1-96b5-459e-a2d4-31febbace17c")
+		)
+		(pin "B5"
+			(uuid "49d6b678-2edc-4cf6-97ce-eb32221eb210")
+		)
+		(pin "A1"
+			(uuid "eabdf7fb-5941-4e0b-a3b0-78a88f9f1900")
+		)
+		(pin "B8"
+			(uuid "fa2941d5-06de-475b-9813-985ecba2e86a")
+		)
+		(pin "A8"
+			(uuid "64c1f2e1-3d35-42ea-b187-4033fb192031")
+		)
+		(pin "S1"
+			(uuid "02e99f04-fb1d-4562-9ba0-4ebb1125833f")
+		)
+		(pin "A7"
+			(uuid "1e2c83f6-acd3-4427-8cc7-5775897beef8")
+		)
+		(pin "A6"
+			(uuid "0d86b671-e885-4b05-8c33-1360e52c38c7")
+		)
+		(pin "B7"
+			(uuid "c55514dc-1bcd-470c-8652-0d37dab8ff1c")
+		)
+		(pin "B1"
+			(uuid "1863f13e-8b79-4a4a-9d41-c4d82f19dfff")
+		)
+		(pin "B12"
+			(uuid "98e04feb-d096-4056-ab57-61e46215d7eb")
+		)
+		(pin "A12"
+			(uuid "ebc8458e-90f2-45dd-ad99-0f6bbd11a208")
+		)
+		(pin "B6"
+			(uuid "14343cf1-8a06-4668-b6b8-54c0a5a5ed97")
+		)
+		(pin "A9"
+			(uuid "e82786f0-12e3-4edc-9517-65f3743e36a8")
+		)
+		(pin "A4"
+			(uuid "29de31e1-f91e-4c04-b7e1-78393c72765c")
+		)
+		(pin "B9"
+			(uuid "dbb71485-daec-4f2e-a0f0-5848cf51262f")
+		)
+		(instances
+			(project ""
+				(path "/ea96555f-a650-48ef-b94f-b65180d69193/f8cb5055-73a1-4708-9add-8b73c04101c0/70f4c414-7be6-4c63-acb8-b04c8cf04f90"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4317,127 +4438,6 @@
 			(project ""
 				(path "/ea96555f-a650-48ef-b94f-b65180d69193/f8cb5055-73a1-4708-9add-8b73c04101c0/70f4c414-7be6-4c63-acb8-b04c8cf04f90"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:USB_C_USB4105-GF-A")
-		(at 129.54 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e940d98e-b121-4f77-b54f-c1b450ffcd57")
-		(property "Reference" "J1"
-			(at 129.54 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_USB4105-GF-A"
-			(at 129.54 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 133.35 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 133.35 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 129.54 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "TO BE APPROVED"
-			(at 129.54 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B9"
-			(uuid "0378307b-ceca-4fcf-beb1-8b4648fc548b")
-		)
-		(pin "B1"
-			(uuid "762056db-be6c-4cba-88b8-8cfde98e2169")
-		)
-		(pin "B4"
-			(uuid "a0cb847a-e9b8-444e-81cf-4ac984d4eb27")
-		)
-		(pin "S1"
-			(uuid "54325afb-d119-4866-abfa-131df72b8b12")
-		)
-		(pin "A5"
-			(uuid "edd2f2c3-d842-4e47-8274-a89c44cc699c")
-		)
-		(pin "A12"
-			(uuid "f6d0f41e-616e-48fc-9870-4672cc926721")
-		)
-		(pin "A4"
-			(uuid "ee14c5cc-807a-4f73-9c9b-46189da2c0a5")
-		)
-		(pin "B8"
-			(uuid "f81ca570-986f-48ac-851e-8d61b4b0c216")
-		)
-		(pin "A7"
-			(uuid "e4a6c0e5-2145-4491-a086-0b73c9c660f1")
-		)
-		(pin "A6"
-			(uuid "5725414c-dbf3-4f51-819d-b3716597985b")
-		)
-		(pin "A8"
-			(uuid "c6a31f3f-f174-4e14-bf37-f8d4d98f5610")
-		)
-		(pin "B6"
-			(uuid "04c49a7a-f5cb-4cf1-9608-7f40bff5f93c")
-		)
-		(pin "B12"
-			(uuid "003cc895-034b-4c36-8ebb-9eea98944744")
-		)
-		(pin "B5"
-			(uuid "e7a40ea3-d4c0-469a-9dc8-af56c58907c0")
-		)
-		(pin "B7"
-			(uuid "125dde08-5e92-4cf5-9723-05efa30c7c60")
-		)
-		(pin "A9"
-			(uuid "8f966416-6bc7-4052-a2a7-51d20813f77f")
-		)
-		(pin "A1"
-			(uuid "3740192a-dd6a-4994-8fba-26264c9f4bd5")
-		)
-		(instances
-			(project ""
-				(path "/ea96555f-a650-48ef-b94f-b65180d69193/f8cb5055-73a1-4708-9add-8b73c04101c0/70f4c414-7be6-4c63-acb8-b04c8cf04f90"
-					(reference "J1")
 					(unit 1)
 				)
 			)
