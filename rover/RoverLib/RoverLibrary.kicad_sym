@@ -648,6 +648,277 @@
 			)
 		)
 	)
+	(symbol "CONN-JST-XH-B6B-SMD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CONN-JST-XH-B6B-SMD_1_1"
+			(rectangle
+				(start 0 0)
+				(end 19.05 -2.54)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 1.016 -1.143)
+				(end 1.524 -1.651)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 3.556 -1.143)
+				(end 4.064 -1.651)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 6.096 -1.143)
+				(end 6.604 -1.651)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 8.636 -1.143)
+				(end 9.144 -1.651)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.176 -1.143)
+				(end 11.684 -1.651)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.716 -1.143)
+				(end 14.224 -1.651)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 1.27 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 2.54 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "CURR_SENSE-INA219AxD"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1383,20 +1654,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC_DC-AP64501_0_1"
+		(symbol "DC_DC-AP64501_1_1"
 			(rectangle
 				(start -8.89 -3.81)
 				(end 8.89 -31.75)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DC_DC-AP64501_1_1"
 			(pin passive line
 				(at 11.43 -6.35 180)
 				(length 2.54)
@@ -1642,11 +1911,11 @@
 				(start -8.89 7.62)
 				(end 8.89 -7.62)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "1.8V-2.5V-3.3V\n5V-8V-12V\n3A"
@@ -1786,20 +2055,18 @@
 				)
 			)
 		)
-		(symbol "Drive-DRV8251A_0_1"
+		(symbol "Drive-DRV8251A_1_1"
 			(rectangle
 				(start -7.62 -3.81)
 				(end 7.62 -25.4)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Drive-DRV8251A_1_1"
 			(pin unspecified line
 				(at -10.16 -21.59 0)
 				(length 2.54)
@@ -2121,7 +2388,7 @@
 				(start -12.7 -6.35)
 				(end 12.7 -31.75)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -2284,18 +2551,6 @@
 			(polyline
 				(pts
 					(xy 7.62 -22.86) (xy 43.18 -22.86)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -22.86)
 				)
 				(stroke
 					(width 0.127)
@@ -2615,6 +2870,20 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "Drive-VNH5200ASTR-E_1_1"
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -22.86)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -4530,11 +4799,11 @@
 				(start -20.32 7.62)
 				(end 20.32 -114.3)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(polyline
@@ -6028,11 +6297,11 @@
 				(start -11.43 5.08)
 				(end 11.43 -20.32)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin passive line
@@ -6556,11 +6825,11 @@
 				(start -11.43 7.62)
 				(end 11.43 -45.72)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "TOP ROW"
@@ -7528,11 +7797,11 @@
 				(start -11.43 7.62)
 				(end 11.43 -96.52)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "TOP ROW"
@@ -9117,20 +9386,18 @@
 				)
 			)
 		)
-		(symbol "HSS-VN7004SLHTR_0_1"
+		(symbol "HSS-VN7004SLHTR_1_1"
 			(rectangle
 				(start -8.89 -3.81)
 				(end 8.89 -19.05)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "HSS-VN7004SLHTR_1_1"
 			(pin power_out line
 				(at 11.43 -6.35 180)
 				(length 2.54)
@@ -9341,20 +9608,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "HSS-VN7140ASTR_0_1"
+		(symbol "HSS-VN7140ASTR_1_1"
 			(rectangle
 				(start -8.89 -3.81)
 				(end 8.89 -21.59)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "HSS-VN7140ASTR_1_1"
 			(pin input line
 				(at -11.43 -12.7 0)
 				(length 2.54)
@@ -9501,277 +9766,6 @@
 			)
 		)
 	)
-	(symbol "JST6_Pins"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "JST6_Pins_1_1"
-			(rectangle
-				(start 0 0)
-				(end 19.05 -2.54)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 1.016 -1.143)
-				(end 1.524 -1.651)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 3.556 -1.143)
-				(end 4.064 -1.651)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 6.096 -1.143)
-				(end 6.604 -1.651)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 8.636 -1.143)
-				(end 9.144 -1.651)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 11.176 -1.143)
-				(end 11.684 -1.651)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 13.716 -1.143)
-				(end 14.224 -1.651)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(pin passive line
-				(at 1.27 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 2.54 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "LDO-AZ1117CH2-3.3TRG1"
 		(pin_names
 			(offset 0.254)
@@ -9851,57 +9845,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDO-AZ1117CH2-3.3TRG1_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -13.97) (xy 8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 0) (xy -8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -13.97) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy -8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDO-AZ1117CH2-3.3TRG1_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "LDO\n18V -> 3.3V\n"
 				(at 0 -2.54 0)
 				(effects
@@ -10045,57 +10000,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDO-AZ1117ID-3.3TRG1_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -13.97) (xy 8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 0) (xy -8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -13.97) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy -8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDO-AZ1117ID-3.3TRG1_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "LDO\n<15V -> 3.3V\n"
 				(at 0 -2.54 0)
 				(effects
@@ -10248,57 +10164,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDO-LD1086DT33TR_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -13.97) (xy 8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 0) (xy -8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -13.97) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy -8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDO-LD1086DT33TR_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "LDO (1.5A)\n27V -> 3.3V\n"
 				(at 0 -2.54 0)
 				(effects
@@ -10426,7 +10303,7 @@
 			)
 		)
 		(property "STATUS" "TO BE APPROVED"
-			(at 0 0 0)
+			(at 0 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,57 +10328,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDO-LM1084ISX-3.3/NOPB_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -13.97) (xy 8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 0) (xy -8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -13.97) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy -8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDO-LM1084ISX-3.3/NOPB_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "LDO (5A)\n27V -> 3.3V\n"
 				(at 0 -2.54 0)
 				(effects
@@ -10582,7 +10420,7 @@
 			)
 		)
 		(property "Value" "LDO-LM7805MPX/NOPB"
-			(at 2.54 7.62 0)
+			(at 0 15.494 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10591,7 +10429,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at -1.27 11.43 0)
+			(at 0 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10600,8 +10438,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm7800.pdf?ts=1734383971730&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM7800%252Fpart-details%252FLM7805MPX%252FNOPB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-promo-app_opn_en-cpc-storeic-google-wwe%2526utm_content%253DDevice%2526ds_k%253DLM7805MPX%252FNOPB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gbraid%253D0AAAAAC068F0VkWJ4ZlStSooPDbVa1AICE%2526gclid%253DCj0KCQiAvP-6BhDyARIsAJ3uv7ba1a7lxok9fDfB0MCZnKxNdjm4GJjQvsUHSjvcR9qp1zx-rOXAoJEaAjk5EALw_wcB"
-			(at 0 5.08 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm7800.pdf"
+			(at 0.508 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,8 +10448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -8.89 2.54 0)
+		(property "Description" "7.5V-35V To 5V LDO. 1.5A"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,62 +10483,23 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDO-LM7805MPX/NOPB_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -13.97) (xy 8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 0) (xy -8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -13.97) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy -8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDO-LM7805MPX/NOPB_1_1"
-			(text "LDO\n35V -> 5V\n"
-				(at 0 -2.54 0)
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "LDO\n35V -> 5V\n1.5A\n"
+				(at 0 -2.794 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.143 1.143)
 					)
 				)
 			)
@@ -10848,57 +10647,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDO-TLE4284DV33ATMA1_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -13.97) (xy 8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 0) (xy -8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -13.97) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy -8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDO-TLE4284DV33ATMA1_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "LDO\n40V -> 3.3V\n(1.0A)"
 				(at 0 -3.302 0)
 				(effects
@@ -11051,57 +10811,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDO-TLV74033PDBVR_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -13.97) (xy 8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 0) (xy -8.89 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -13.97) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy -8.89 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDO-TLV74033PDBVR_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "LDO\n5.5V -> 3.3V\n(300mA)"
 				(at 0 -3.048 0)
 				(effects
@@ -11788,7 +11509,7 @@
 		(symbol "RJ50-SS-641010-A-NF-A111_0_1"
 			(polyline
 				(pts
-					(xy 13.97 -5.08) (xy 15.24 -5.08)
+					(xy -11.43 3.81) (xy -11.43 -24.13)
 				)
 				(stroke
 					(width 0)
@@ -11800,7 +11521,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -3.81) (xy 15.24 -3.81)
+					(xy -5.08 3.81) (xy -5.08 -24.13)
 				)
 				(stroke
 					(width 0)
@@ -11812,7 +11533,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -6.35) (xy 15.24 -6.35) (xy 15.24 -6.35)
+					(xy 6.35 3.81) (xy 6.35 -24.13)
 				)
 				(stroke
 					(width 0)
@@ -11824,7 +11545,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -15.24) (xy 13.97 -15.24) (xy 13.97 -15.24)
+					(xy 19.05 -6.35) (xy 20.32 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -11836,7 +11557,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -13.97) (xy 13.97 -13.97) (xy 13.97 -13.97)
+					(xy 19.05 -5.08) (xy 20.32 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -11848,7 +11569,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -12.7) (xy 13.97 -12.7) (xy 13.97 -12.7)
+					(xy 19.05 -7.62) (xy 20.32 -7.62) (xy 20.32 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -11860,7 +11581,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -11.43) (xy 13.97 -11.43) (xy 13.97 -11.43)
+					(xy 20.32 -16.51) (xy 19.05 -16.51) (xy 19.05 -16.51)
 				)
 				(stroke
 					(width 0)
@@ -11872,7 +11593,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -10.16) (xy 13.97 -10.16) (xy 13.97 -10.16)
+					(xy 20.32 -15.24) (xy 19.05 -15.24) (xy 19.05 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -11884,7 +11605,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -8.89) (xy 13.97 -8.89) (xy 13.97 -8.89)
+					(xy 20.32 -13.97) (xy 19.05 -13.97) (xy 19.05 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -11896,7 +11617,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -7.62) (xy 13.97 -7.62) (xy 13.97 -7.62)
+					(xy 20.32 -12.7) (xy 19.05 -12.7) (xy 19.05 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -11908,9 +11629,45 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -16.51) (xy 15.24 -2.54) (xy 5.08 -2.54) (xy 5.08 -6.35) (xy 3.81 -6.35) (xy 3.81 -7.62)
-					(xy 2.54 -7.62) (xy 2.54 -11.43) (xy 3.81 -11.43) (xy 3.81 -12.7) (xy 5.08 -12.7) (xy 5.08 -16.51)
-					(xy 15.24 -16.51) (xy 15.24 -15.24)
+					(xy 20.32 -11.43) (xy 19.05 -11.43) (xy 19.05 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -10.16) (xy 19.05 -10.16) (xy 19.05 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -8.89) (xy 19.05 -8.89) (xy 19.05 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -17.78) (xy 20.32 -3.81) (xy 10.16 -3.81) (xy 10.16 -7.62) (xy 8.89 -7.62) (xy 8.89 -8.89)
+					(xy 7.62 -8.89) (xy 7.62 -12.7) (xy 8.89 -12.7) (xy 8.89 -13.97) (xy 10.16 -13.97) (xy 10.16 -17.78)
+					(xy 20.32 -17.78) (xy 20.32 -16.51)
 				)
 				(stroke
 					(width 0)
@@ -11923,18 +11680,67 @@
 		)
 		(symbol "RJ50-SS-641010-A-NF-A111_1_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 17.78 -22.86)
+				(start -19.05 3.81)
+				(end 21.59 -24.13)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
+				)
+			)
+			(text "3V3"
+				(at -10.922 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "5V"
+				(at -18.288 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "AMT22"
+				(at -15.24 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 132 0 132 1)
+					)
+				)
+			)
+			(text "ANAL"
+				(at -10.922 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "CAN/RJ45"
+				(at 0.508 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 132 0 132 1)
+					)
 				)
 			)
 			(text "CAN_{H}"
-				(at -6.096 0 0)
+				(at -4.572 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11943,7 +11749,16 @@
 				)
 			)
 			(text "CAN_{L}"
-				(at -6.096 -2.54 0)
+				(at -4.572 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "CS"
+				(at -18.288 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11952,7 +11767,7 @@
 				)
 			)
 			(text "GND"
-				(at -5.842 -17.78 0)
+				(at -18.288 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11961,7 +11776,74 @@
 				)
 			)
 			(text "GND"
-				(at -5.842 -12.7 0)
+				(at -10.922 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "GND"
+				(at -4.318 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "GND"
+				(at -4.318 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "MISO"
+				(at -18.288 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "MOSI"
+				(at -18.288 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "POT"
+				(at -8.382 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 132 0 132 1)
+					)
+				)
+			)
+			(text "RJ48/RJ50"
+				(at 13.716 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 132 0 132 1)
+					)
+				)
+			)
+			(text "SCLK"
+				(at -18.288 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11970,7 +11852,7 @@
 				)
 			)
 			(text "Vcc"
-				(at -5.842 -15.24 0)
+				(at -4.318 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11979,7 +11861,142 @@
 				)
 			)
 			(text "Vcc"
-				(at -5.842 -10.16 0)
+				(at -4.318 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -18.288 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -18.288 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -18.288 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -18.288 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -10.922 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -10.922 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -10.922 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -10.922 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -10.922 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -10.922 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -10.922 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -4.318 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -4.318 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -4.318 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "X"
+				(at -4.318 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11988,7 +12005,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 2.54 0)
+				(at -24.13 0 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12006,7 +12023,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -20.32 0)
+				(at -24.13 -22.86 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12024,7 +12041,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 0 0)
+				(at -24.13 -2.54 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12042,7 +12059,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -2.54 0)
+				(at -24.13 -5.08 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12060,7 +12077,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -5.08 0)
+				(at -24.13 -7.62 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12078,7 +12095,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -7.62 0)
+				(at -24.13 -10.16 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12096,7 +12113,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -10.16 0)
+				(at -24.13 -12.7 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12114,7 +12131,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -12.7 0)
+				(at -24.13 -15.24 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12132,7 +12149,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -15.24 0)
+				(at -24.13 -17.78 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12150,7 +12167,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -17.78 0)
+				(at -24.13 -20.32 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -12377,7 +12394,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at -2.032 0 90)
+			(at -2.286 0 90)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -12589,6 +12606,190 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW-PTS815SJM250SMTRLFS"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 4.318 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW-PTS815SJM250SMTRLFS"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch"
+			(at 0 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW-PTS815SJM250SMTRLFS_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW-PTS815SJM250SMTRLFS_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54) hide
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12854,17 +13055,6 @@
 			)
 		)
 		(symbol "TVS-SMDB03CE3/TR7TR-ND_0_1"
-			(rectangle
-				(start -7.62 0)
-				(end 7.62 -13.97)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -6.985 -11.43) (xy -0.635 -11.43)
@@ -13107,6 +13297,17 @@
 			)
 		)
 		(symbol "TVS-SMDB03CE3/TR7TR-ND_1_1"
+			(rectangle
+				(start -7.62 0)
+				(end 7.62 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -10.16 -3.81 0)
 				(length 2.54)
@@ -14680,30 +14881,6 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -5.08) (xy -7.62 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -3.1723 -2.54) (xy -4.4423 -2.54)
 				)
 				(stroke
@@ -14726,68 +14903,21 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.27 -5.08) (xy -7.62 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.81) (xy -1.27 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.27) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.27) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "XT30PW-F_1_0"
+			(polyline
+				(pts
+					(xy -7.62 2.54) (xy -1.27 2.54) (xy -1.27 2.54) (xy 0 1.27) (xy 0 -3.81) (xy -1.27 -5.08) (xy -7.62 -5.08)
+					(xy -7.62 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at 2.54 -2.54 180)
 				(length 2.54)
@@ -14912,30 +15042,6 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -5.08) (xy -7.62 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 -2.54) (xy -4.445 -2.54)
 				)
 				(stroke
@@ -14958,68 +15064,21 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.27 -5.08) (xy -7.62 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.81) (xy -1.27 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.27) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.27) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "XT30PW-M_1_0"
+			(polyline
+				(pts
+					(xy -7.62 2.54) (xy -1.27 2.54) (xy -1.27 2.54) (xy 0 1.27) (xy 0 -3.81) (xy -1.27 -5.08) (xy -7.62 -5.08)
+					(xy -7.62 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_out line
 				(at 2.54 -2.54 180)
 				(length 2.54)
@@ -15117,30 +15176,6 @@
 		(symbol "XT60-F_0_0"
 			(polyline
 				(pts
-					(xy -3.81 -10.16) (xy -3.81 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -2.54) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.9077 -7.62) (xy 0.6377 -7.62)
 				)
 				(stroke
@@ -15154,66 +15189,6 @@
 			(polyline
 				(pts
 					(xy 1.9077 -5.08) (xy 0.6377 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy -3.81 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -8.89) (xy 2.54 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -5.08) (xy 3.81 -8.89)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -15249,6 +15224,19 @@
 			)
 		)
 		(symbol "XT60-F_1_0"
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -8.89) (xy 2.54 -10.16)
+					(xy -3.81 -10.16) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at 6.35 -7.62 180)
 				(length 2.54)
@@ -15346,30 +15334,6 @@
 		(symbol "XT60-M_0_0"
 			(polyline
 				(pts
-					(xy -3.81 -10.16) (xy -3.81 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -2.54) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.9077 -7.62) (xy 0.6377 -7.62)
 				)
 				(stroke
@@ -15383,66 +15347,6 @@
 			(polyline
 				(pts
 					(xy 1.9077 -5.08) (xy 0.6377 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy -3.81 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -8.89) (xy 2.54 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -5.08) (xy 3.81 -8.89)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -15478,6 +15382,19 @@
 			)
 		)
 		(symbol "XT60-M_1_0"
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -8.89) (xy 2.54 -10.16)
+					(xy -3.81 -10.16) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_out line
 				(at 6.35 -7.62 180)
 				(length 2.54)
@@ -15575,30 +15492,6 @@
 		(symbol "XT60PW-F_0_0"
 			(polyline
 				(pts
-					(xy -3.81 -10.16) (xy -3.81 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -2.54) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.9077 -7.62) (xy 0.6377 -7.62)
 				)
 				(stroke
@@ -15612,66 +15505,6 @@
 			(polyline
 				(pts
 					(xy 1.9077 -5.08) (xy 0.6377 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy -3.81 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -8.89) (xy 2.54 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -5.08) (xy 3.81 -8.89)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -15707,6 +15540,19 @@
 			)
 		)
 		(symbol "XT60PW-F_1_0"
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -8.89) (xy 2.54 -10.16)
+					(xy -3.81 -10.16) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at 6.35 -7.62 180)
 				(length 2.54)
@@ -15804,30 +15650,6 @@
 		(symbol "XT60PW-M_0_0"
 			(polyline
 				(pts
-					(xy -3.81 -10.16) (xy -3.81 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -2.54) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.9077 -7.62) (xy 0.6377 -7.62)
 				)
 				(stroke
@@ -15841,66 +15663,6 @@
 			(polyline
 				(pts
 					(xy 1.9077 -5.08) (xy 0.6377 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy -3.81 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -8.89) (xy 2.54 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -5.08) (xy 3.81 -8.89)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -15936,6 +15698,19 @@
 			)
 		)
 		(symbol "XT60PW-M_1_0"
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -8.89) (xy 2.54 -10.16)
+					(xy -3.81 -10.16) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_out line
 				(at 6.35 -7.62 180)
 				(length 2.54)

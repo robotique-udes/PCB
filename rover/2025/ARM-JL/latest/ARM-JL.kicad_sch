@@ -43,6 +43,12 @@
 		(uuid "480612be-187f-4a7a-8331-159c58ff340d")
 	)
 	(junction
+		(at 153.67 96.52)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "89038452-11dd-4570-8d24-62ca3369e8da")
+	)
+	(junction
 		(at 125.73 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -58,35 +64,15 @@
 		)
 		(uuid "03756032-6fcc-4140-87f1-73b2b763af41")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 179.07 86.36) (xy 179.07 93.98)
+			(xy 153.67 86.36) (xy 189.23 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f894acb-8d83-4ce8-a27c-f3bc9d6c0bd6")
-	)
-	(wire
-		(pts
-			(xy 179.07 86.36) (xy 189.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb2f890-c9ef-4f0e-ba83-1483c8c016c2")
-	)
-	(wire
-		(pts
-			(xy 170.18 93.98) (xy 179.07 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32392046-17ec-4be9-a508-3b2d915702e9")
+		(uuid "2b3faeac-bbbd-46c9-a0a7-3f43827e6c5c")
 	)
 	(bus
 		(pts
@@ -120,7 +106,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 95.25) (xy 157.48 95.25)
+			(xy 149.86 96.52) (xy 153.67 96.52)
 		)
 		(stroke
 			(width 0)
@@ -240,6 +226,16 @@
 	)
 	(bus
 		(pts
+			(xy 153.67 86.36) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95743054-a6b2-4723-971b-cba9a371785e")
+	)
+	(bus
+		(pts
 			(xy 100.33 93.98) (xy 132.08 93.98)
 		)
 		(stroke
@@ -327,6 +323,16 @@
 			(type default)
 		)
 		(uuid "e874e9f3-f075-4ccf-aa29-9a99bc736c0b")
+	)
+	(bus
+		(pts
+			(xy 153.67 96.52) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed52b0de-a415-4954-8cdb-fdeaaff71ead")
 	)
 	(wire
 		(pts
@@ -507,27 +513,6 @@
 		)
 		(uuid "4b1c46eb-e0f4-4c0d-a454-d3f6d93ce1b4")
 	)
-	(text_box "CONN\nJST-2.0MM\n(AMT22-A)"
-		(exclude_from_sim yes)
-		(at 189.23 78.74 0)
-		(size 12.7 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 194 194 194 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "50ebf2e6-e6a5-4b88-8271-39e044543d78")
-	)
 	(text_box "H-BRIDGE\n(55A)"
 		(exclude_from_sim yes)
 		(at 119.38 114.3 0)
@@ -633,10 +618,10 @@
 		)
 		(uuid "894898e1-645c-419e-8507-d1ad1a3b9674")
 	)
-	(text_box "CONN\nJST-2.0MM\n(AMT22-A)"
+	(text_box "CONN\nRJ50\nTo POTENC"
 		(exclude_from_sim yes)
-		(at 189.23 91.44 0)
-		(size 12.7 10.16)
+		(at 189.23 78.74 0)
+		(size 12.7 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -705,7 +690,7 @@
 		)
 		(fill
 			(type color)
-			(color 194 194 194 1)
+			(color 255 229 191 1)
 		)
 		(effects
 			(font
