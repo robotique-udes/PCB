@@ -270,247 +270,6 @@
 				)
 			)
 		)
-		(symbol "Jst_2_pin:PHR-2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at -4.068 4.4494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PHR-2"
-				(at -4.0694 -5.0867 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PHR-2:JST_PHR-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "JST Sales"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            2 Rectangular Connectors - Housings Receptacle Natural 0.079 (2.00mm)\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Custom Package JST Sales"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PHR-2/JST/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PHR-2/JST/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PHR-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PHR-2_0_0"
-				(rectangle
-					(start -4.064 -3.81)
-					(end 2.286 3.81)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -1.905 -0.635)
-					(mid -2.5372 -1.27)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.905 1.905)
-					(mid -2.5372 1.27)
-					(end -1.905 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -9.144 1.27 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -9.144 -1.27 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -718,6 +477,125 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "rover_lib:CONN-JST-XH-B2B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST2_Pin"
+				(at 1.016 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RoverFootprint:2-pins-JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN-JST-XH-B2B_1_1"
+				(rectangle
+					(start -1.905 -1.905)
+					(end 0.635 -6.985)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.508 -5.461)
+					(end -1.016 -5.969)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 -2.921)
+					(end -1.016 -3.429)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 3.175 -3.175 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.175 -5.715 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1606,16 +1484,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 37.084 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03cb405e-3a7e-4ee1-847a-9307aaeb98b1")
-	)
-	(wire
-		(pts
 			(xy 121.92 140.97) (xy 121.92 144.78)
 		)
 		(stroke
@@ -1806,6 +1674,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 132.08) (xy 50.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79def28e-4ef7-4a07-a6dc-88bded09faa1")
+	)
+	(wire
+		(pts
 			(xy 134.62 142.24) (xy 134.62 144.78)
 		)
 		(stroke
@@ -1836,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 130.81) (xy 50.8 152.4)
+			(xy 50.8 132.08) (xy 50.8 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1876,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 129.54) (xy 45.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4821528-65d2-4911-a2be-2d76cd35ace2")
+	)
+	(wire
+		(pts
 			(xy 31.75 152.4) (xy 50.8 152.4)
 		)
 		(stroke
@@ -1903,16 +1791,6 @@
 			(type default)
 		)
 		(uuid "a94929a7-45d1-4925-82cd-d2944d6203ef")
-	)
-	(wire
-		(pts
-			(xy 39.37 125.73) (xy 45.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad92f8fd-5a68-4edc-971c-4612371f3fb9")
 	)
 	(wire
 		(pts
@@ -2016,16 +1894,6 @@
 	)
 	(wire
 		(pts
-			(xy 37.084 130.81) (xy 50.8 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0c1f33-ebe3-4ae2-8a86-6d0d649b4243")
-	)
-	(wire
-		(pts
 			(xy 53.34 49.53) (xy 53.34 50.8)
 		)
 		(stroke
@@ -2096,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 39.37 128.27)
+			(xy 45.72 125.73) (xy 45.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2116,6 +1984,7 @@
 	)
 	(label "E_STOP, SELECTOR AND DEL"
 		(at 20.32 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2126,6 +1995,7 @@
 	)
 	(label "LED_GREEN"
 		(at 41.91 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2136,6 +2006,7 @@
 	)
 	(label "INPUT FROM BMS"
 		(at 27.94 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2382,7 +2253,7 @@
 			(uuid "64116a2f-e102-4055-9183-f941526c3f4a")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "R5")
 					(unit 1)
@@ -2529,165 +2400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jst_2_pin:PHR-2")
-		(at 27.94 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32a8c512-7904-4ba6-b562-b6cebbc53073")
-		(property "Reference" "P1"
-			(at 28.829 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PHR-2"
-			(at 28.829 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "JST Sales"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2 Rectangular Connectors - Housings Receptacle Natural 0.079 (2.00mm)\n                        \n"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Custom Package JST Sales"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PHR-2/JST/view-part/?ref=eda"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PHR-2/JST/view-part/?ref=snap"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PHR-2"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 27.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd4d267a-025f-4de5-a2ad-a94431b42ebd")
-		)
-		(pin "2"
-			(uuid "9aef8f47-96c9-4539-9477-c63e6010f940")
-		)
-		(instances
-			(project ""
-				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 187.96 0)
 		(unit 1)
@@ -2745,7 +2457,7 @@
 			(uuid "a13b5394-0609-4a4e-84e6-218cc0bb0c8c")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "#PWR04")
 					(unit 1)
@@ -2816,7 +2528,7 @@
 			(uuid "6d34e009-74c6-49c7-a840-65a7b7a621b8")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "J2")
 					(unit 1)
@@ -3021,7 +2733,7 @@
 			(uuid "e6789124-b239-4c69-8def-70f30f630e16")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "#PWR06")
 					(unit 1)
@@ -3091,7 +2803,7 @@
 			(uuid "029957d3-3b46-4d9a-a11e-4f89f0ec0e95")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "R1")
 					(unit 1)
@@ -3298,7 +3010,7 @@
 			(uuid "29b58184-e84b-4925-9daa-f156401b99b5")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "#PWR02")
 					(unit 1)
@@ -3368,9 +3080,77 @@
 			(uuid "0ae03ae6-ab3c-4da0-bcc8-55a27063681e")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rover_lib:CONN-JST-XH-B2B")
+		(at 28.575 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50a8878-faa4-4540-86f0-bef4cc1187c1")
+		(property "Reference" "J6"
+			(at 27.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST2_Pin"
+			(at 27.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RoverFootprint:2-pins-JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 28.575 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.575 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 28.575 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf7ae83f-f601-429d-b814-f5ab5e527550")
+		)
+		(pin "1"
+			(uuid "534ce905-099a-4599-b51d-325b0f1a12bb")
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3228,7 @@
 			(uuid "7f40aab9-af13-4594-9ce0-904b1bec935b")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "J3")
 					(unit 1)
@@ -3514,7 +3294,7 @@
 			(uuid "bf31ac03-89bd-4fc4-bbc4-61c0693dd787")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "#PWR03")
 					(unit 1)
@@ -3593,7 +3373,7 @@
 			(uuid "1a5ac3c6-e60f-49a4-8767-58f3a0c26c98")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "F1")
 					(unit 1)
@@ -3729,7 +3509,7 @@
 			(uuid "97ea7dc8-8583-408a-9f43-c718d22e7da1")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "#PWR01")
 					(unit 1)
@@ -3806,7 +3586,7 @@
 			(uuid "aa22f49a-5fe8-48e3-8263-762eb749cffc")
 		)
 		(instances
-			(project ""
+			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "J1")
 					(unit 1)
