@@ -5,10 +5,11 @@
 	(uuid "a4fa9b30-7b48-474a-bdaa-0d7a6d26a697")
 	(paper "A5")
 	(title_block
-		(title "<SET_PROJECT_NAME>")
-		(date "2025-02-07")
-		(rev "0")
-		(comment 1 "<SET_AUTHOR_NAME>")
+		(title "${PROJECTNAME}")
+		(date "2025-02-08")
+		(rev "${REVISION}")
+		(company "${GROUP_NAME}")
+		(comment 1 "${AUTHOR}")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
