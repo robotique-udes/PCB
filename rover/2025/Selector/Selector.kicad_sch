@@ -1306,38 +1306,134 @@
 				)
 			)
 		)
-		(symbol "rover_lib:XT30PW-M"
+		(symbol "rover_lib:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "rover_lib:XT60PW-M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -7.62 3.302 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "XT30PW-M"
-				(at -7.62 -7.62 0)
+			(property "Value" "XT60PW-M"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RoverFootprint:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-				(at 0 7.62 0)
+			(property "Footprint" "RoverFootprint:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+				(at -0.254 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1360,39 +1456,18 @@
 				)
 			)
 			(property "STATUS" "APPROVED"
-				(at -4.064 5.842 0)
+				(at 0 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "XT30PW-M_0_0"
-				(rectangle
-					(start -4.7625 -2.8575)
-					(end -3.175 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -4.7625 0.3175)
-					(end -3.175 -0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "XT60PW-M_0_0"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -4.445 -2.54)
+						(xy 1.9077 -7.62) (xy 0.6377 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -1404,7 +1479,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -4.445 0)
+						(xy 1.9077 -5.08) (xy 0.6377 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -1414,12 +1489,36 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0.0027 -8.255)
+					(mid 0.635 -7.62)
+					(end 0.0027 -6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.0027 -5.715)
+					(mid 0.635 -5.08)
+					(end 0.0027 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "XT30PW-M_1_0"
+			(symbol "XT60PW-M_1_0"
 				(polyline
 					(pts
-						(xy -7.62 2.54) (xy -1.27 2.54) (xy -1.27 2.54) (xy 0 1.27) (xy 0 -3.81) (xy -1.27 -5.08) (xy -7.62 -5.08)
-						(xy -7.62 2.54)
+						(xy -3.81 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -8.89) (xy 2.54 -10.16)
+						(xy -3.81 -10.16) (xy -3.81 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1430,7 +1529,7 @@
 					)
 				)
 				(pin power_out line
-					(at 2.54 -2.54 180)
+					(at 6.35 -7.62 180)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1448,7 +1547,7 @@
 					)
 				)
 				(pin power_out line
-					(at 2.54 0 180)
+					(at 6.35 -5.08 180)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -1485,6 +1584,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2776fcfe-42a3-4fdf-9cce-a315861be767")
+	)
+	(junction
+		(at 254 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b844f53-86f6-489e-9433-2997deca8610")
 	)
 	(junction
 		(at 38.1 157.48)
@@ -1718,6 +1823,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 127) (xy 256.54 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4e827d-7f48-4223-a834-7e56ba0b3e17")
+	)
+	(wire
+		(pts
 			(xy 134.62 142.24) (xy 134.62 144.78)
 		)
 		(stroke
@@ -1818,6 +1933,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 127) (xy 254 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7966e5b-2e4d-41d4-b97d-309dfa3817d1")
+	)
+	(wire
+		(pts
 			(xy 30.48 152.4) (xy 29.21 152.4)
 		)
 		(stroke
@@ -1908,6 +2033,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 124.46) (xy 254 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d062f76b-8d94-4358-be11-aa8035b4b787")
+	)
+	(wire
+		(pts
 			(xy 35.56 49.53) (xy 35.56 50.8)
 		)
 		(stroke
@@ -1976,37 +2111,40 @@
 		)
 		(uuid "fa96bd34-2561-40d8-b2d9-9700ba6e727b")
 	)
-	(text "Voltage range of lipo 6s : 21 - 25 V \nSafety range of chip input voltage : 2.1 - 5.3 V\nZener diode breakdown voltage : 5.6 V"
+	(rectangle
+		(start 165.1 91.44)
+		(end 270.51 113.03)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d02406d5-7638-4660-9578-c5b687d1e930)
+	)
+	(text "Voltage range of lipo 6s : 21 - 25 V \nSafety range of chip input voltage : 2.1 - 5.3 V\nRange obtained from voltage divider : 3.5 - 4.16 V\nZener diode breakdown voltage : 5.6 V\n"
 		(exclude_from_sim no)
-		(at 147.828 46.482 0)
+		(at 166.37 102.87 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
+			(justify left)
 		)
 		(uuid "1d675fef-732e-498b-baba-42df51a46cd0")
 	)
-	(label "ESTOP TO SELECTOR"
-		(at 30.48 139.7 0)
+	(label "VOLTAGE DIVIDER FROM 24V TO 3.3V"
+		(at 92.71 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 			(justify left bottom)
 		)
-		(uuid "2e4b31bf-4afb-4024-83c1-3b738b8e6a07")
-	)
-	(label "LED_YELLOW"
-		(at 38.1 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fdf5dfc-a6a8-4b8a-ab11-6c483c15e98c")
+		(uuid "279b4d4c-55d5-480d-be63-e190b3d1140f")
 	)
 	(label "E_STOP, SELECTOR AND DEL"
 		(at 20.32 106.68 0)
@@ -2019,19 +2157,8 @@
 		)
 		(uuid "b7d32266-2fe8-48fe-b0c6-e8039f11f4c7")
 	)
-	(label "LED_GREEN"
-		(at 41.91 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e39b31e0-5aba-4fd5-b1a2-f1ce498bc4de")
-	)
-	(label "INPUT FROM BMS"
-		(at 27.94 22.86 0)
+	(label "INPUT FROM HIGH AMP PCB"
+		(at 19.05 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2126,6 +2253,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rover_lib:MountingHole_Pad")
+		(at 259.08 127 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03163233-b81e-4ff6-9aac-29b3bfe61947")
+		(property "Reference" "H3"
+			(at 262.89 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98340568-a900-4c46-b8e3-e3ac73809cce")
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "H3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2539,6 +2733,73 @@
 		)
 	)
 	(symbol
+		(lib_id "rover_lib:MountingHole_Pad")
+		(at 254 121.92 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ebcbaf3-b34f-4bd0-ba04-8de7a27e24d3")
+		(property "Reference" "H2"
+			(at 256.54 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 256.54 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc3df3a4-123d-4931-9232-fc5921bdef6a")
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 90.17 0)
 		(unit 1)
@@ -2669,6 +2930,72 @@
 			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d676a4-128e-4362-a420-02c073485818")
+		(property "Reference" "#PWR08"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1366ffd-156c-4f87-83ca-00f0d4743689")
+		)
+		(instances
+			(project ""
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3245,6 +3572,83 @@
 		)
 	)
 	(symbol
+		(lib_id "rover_lib:XT60PW-M")
+		(at 25.4 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebafa4f6-d4ae-46b6-856b-ea3b878cc8c9")
+		(property "Reference" "U1"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RoverFootprint:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 25.146 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 25.4 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71245a79-1e98-4033-928e-a9392010622c")
+		)
+		(pin "2"
+			(uuid "72a55a46-4340-4f5e-a6a9-1f1ad3bb551c")
+		)
+		(instances
+			(project ""
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 46.99 46.99 0)
 		(unit 1)
@@ -3375,83 +3779,6 @@
 			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rover_lib:XT30PW-M")
-		(at 29.21 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9cffc50-301d-4d9d-b87b-421b3406e741")
-		(property "Reference" "J1"
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW-M"
-			(at 25.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RoverFootprint:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 29.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "APPROVED"
-			(at 25.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fad808f-a702-4954-9c9c-37759c0ca4e1")
-		)
-		(pin "2"
-			(uuid "aa22f49a-5fe8-48e3-8263-762eb749cffc")
-		)
-		(instances
-			(project "Selector"
-				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
-					(reference "J1")
 					(unit 1)
 				)
 			)
