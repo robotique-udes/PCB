@@ -59,11 +59,11 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|146435000|39950000|81d1412d-7667-4fc1-bda5-61baec22647d|0a729c7b-a6c2-44b0-bba1-21ff76d500aa",
-        "hole_clearance|146435000|39950000|81d1412d-7667-4fc1-bda5-61baec22647d|8b8e7447-89a9-4f30-bd2a-44528d11ec2a",
-        "hole_clearance|146435000|46050000|1fe90563-c2f7-4ddd-91c5-8ad1f83dd386|22612bcd-4bca-4e1e-8f62-6fb46822f587",
-        "hole_clearance|146435000|46050000|1fe90563-c2f7-4ddd-91c5-8ad1f83dd386|82f315cd-c4ac-402b-8cee-38879beaadcf",
+        "clearance|5888000|26000000|4984c55e-64a5-412b-ad92-48167a409c16|efd0b6ba-4666-4d7d-9f32-d07227b66ea0",
+        "courtyards_overlap|152576281|48705000|33a599ed-c0d5-41a6-aecc-0c84638d7a3c|7840bedb-9773-4f45-bb37-cf84343c0646",
         "lib_footprint_mismatch|109915000|59350000|cffeefd9-011c-4fde-a8fd-ca4ce8b13058|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|149345000|43069000|33a599ed-c0d5-41a6-aecc-0c84638d7a3c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|32120500|25000000|bb4bf59c-9136-4241-a6b2-0af6d8b3b451|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|0|24262000|484df9ff-009a-4ca3-a554-06bd38ebe936|7171b071-a078-46f4-be61-0b55990878b5",
         "silk_edge_clearance|0|24538000|484df9ff-009a-4ca3-a554-06bd38ebe936|7996f6bd-5668-4fbc-a16f-2e516f87be07",
         "silk_edge_clearance|152750000|16900000|91dacaee-bff0-4d12-ada6-b24330979d09|dcd14fac-54d5-4729-86cb-222383e86aea",
@@ -72,34 +72,13 @@
         "silk_edge_clearance|152750000|69110000|91dacaee-bff0-4d12-ada6-b24330979d09|e6bd488f-5d78-42ab-a5d8-c845413793e3",
         "silk_edge_clearance|67906000|16500000|7641b98d-7433-4e9e-aea2-a4b5b3567334|a7e2c50e-2af1-4bf7-9d13-deb41a0e3ba6",
         "silk_edge_clearance|76966000|16500000|7641b98d-7433-4e9e-aea2-a4b5b3567334|58553625-392d-4d58-92e4-4284615c11a0",
-        "silk_overlap|104385000|50208257|d70f7623-75c7-416a-89ed-255e4066ba8b|6e35a2fb-00de-4534-9d8f-81a4dd05b932",
-        "silk_overlap|107750000|50250000|d70f7623-75c7-416a-89ed-255e4066ba8b|d0b84423-9a7f-4762-833f-6f499a6e053b",
-        "silk_overlap|111115000|50208257|d70f7623-75c7-416a-89ed-255e4066ba8b|60535d8d-68cf-4130-ab11-b257d3944780",
-        "silk_overlap|120135000|50208257|8bff76e6-0139-423a-890a-0406b6cfac6e|bf9dcb90-4020-4a25-8274-93e830f81832",
-        "silk_overlap|12138000|50250000|1c6dfefe-c0b6-4a0a-9175-d80b7825eded|659e4c4f-2c66-489c-bca2-c4c5ba1e470a",
-        "silk_overlap|123500000|50250000|b0730e92-f9a3-41a1-b9a7-31dc0f5b81cb|bf9dcb90-4020-4a25-8274-93e830f81832",
-        "silk_overlap|126865000|50208257|05f6e834-c973-4932-b0f2-db531bdd7a25|bf9dcb90-4020-4a25-8274-93e830f81832",
         "silk_overlap|135635000|50208257|27947d06-295e-4d52-97f9-cffefba3ce7f|02adabc7-3913-43a9-b3fb-050b0388668b",
         "silk_overlap|139000000|50250000|f3038457-5683-4dd4-b654-afc7030424bd|02adabc7-3913-43a9-b3fb-050b0388668b",
         "silk_overlap|142365000|50208257|05741f39-c607-4f92-822f-9508887f95d6|02adabc7-3913-43a9-b3fb-050b0388668b",
-        "silk_overlap|145221773|51830000|373cd64b-7a17-479f-8f15-bd30930c7368|6ce1df1d-8d9b-4692-9882-ac3da2eda21e",
-        "silk_overlap|145221773|53390000|f1602fd4-8b18-4177-9d0f-3781ab8b2e89|373cd64b-7a17-479f-8f15-bd30930c7368",
         "silk_overlap|147020000|51752971|373cd64b-7a17-479f-8f15-bd30930c7368|7b085753-7e07-40d7-946a-ee70966f4620",
         "silk_overlap|151576200|51830000|373cd64b-7a17-479f-8f15-bd30930c7368|76f921a3-e7bd-483a-9623-4e6d83463a47",
-        "silk_overlap|15503000|50208257|878f824e-1100-4bdc-b4dd-73fbce7086a7|659e4c4f-2c66-489c-bca2-c4c5ba1e470a",
-        "silk_overlap|24635000|50208257|3e55b580-5b9c-47aa-b581-6da12ce1a444|09cd89ef-b194-4e11-8ff2-5e7fd7743be5",
-        "silk_overlap|28000000|50250000|7eacb89b-061b-4ad5-af31-9658da289418|3e55b580-5b9c-47aa-b581-6da12ce1a444",
-        "silk_overlap|31365000|50208257|3e55b580-5b9c-47aa-b581-6da12ce1a444|0c585508-42c8-41cd-b7ba-21ba8c70e1f0",
-        "silk_overlap|40135000|50208257|c15c8f77-826f-4e8e-b2b4-b35ed096fac3|3d2c7772-f05c-42dd-965d-5002921db68f",
-        "silk_overlap|43500000|50250000|c15c8f77-826f-4e8e-b2b4-b35ed096fac3|6394dcdd-794b-4e0c-9223-38dfe6b12f3f",
-        "silk_overlap|46865000|50208257|c15c8f77-826f-4e8e-b2b4-b35ed096fac3|b7bc9ed7-060f-4a4c-a5f4-196a01e70de0",
-        "silk_overlap|56135000|50208257|c66af225-5bc0-4e9a-8c10-88a3e97a4eac|c7281bce-6c42-4955-8371-cfdc0d0673ec",
-        "silk_overlap|59500000|50250000|d1677b5e-a9ba-4880-be5f-084fe81bceac|c7281bce-6c42-4955-8371-cfdc0d0673ec",
-        "silk_overlap|62865000|50208257|a2cfaf67-fe4d-4494-8a3e-dbf06c0df2b5|c7281bce-6c42-4955-8371-cfdc0d0673ec",
-        "silk_overlap|69135000|50208257|74a05ee9-8076-495b-85b3-a6f2cb0c201f|8e38ac5a-7f7a-40b9-8d89-8a7b4cc9e74a",
         "silk_overlap|72500000|50250000|8e38ac5a-7f7a-40b9-8d89-8a7b4cc9e74a|12ecf86f-8ab5-4bcf-bdc2-016c6d42fe37",
         "silk_overlap|75865000|50208257|8e38ac5a-7f7a-40b9-8d89-8a7b4cc9e74a|ac36fd1a-3e52-49c6-8fd5-c16b4e350eee",
-        "silk_overlap|8773000|50208257|63c2f7ef-e558-4cd1-8058-065f98b58455|659e4c4f-2c66-489c-bca2-c4c5ba1e470a",
         "silk_overlap|88635000|50208257|76b4f837-dea1-4cc4-bdb2-b65f50859101|8f46f1bb-5cc4-46ec-a8ea-73f530d68012",
         "silk_overlap|92000000|50250000|76b4f837-dea1-4cc4-bdb2-b65f50859101|a8e04c3a-96e7-4d81-9a4b-334b031f6b54",
         "silk_overlap|95365000|50208257|76b4f837-dea1-4cc4-bdb2-b65f50859101|b0a19d4f-5682-4f45-83c1-8f857d40c28e"
@@ -539,6 +518,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.35,
+        "diff_pair_gap": 0.35,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1321,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1321,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -546,7 +542,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "CAN",
+        "pattern": "/CAN_N"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/CAN_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -847,5 +852,10 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Philippe Michaud",
+    "GROUP_NAME": "RobotiqueUdeS",
+    "REVISION": "0",
+    "TEAM": "ROVUS"
+  }
 }

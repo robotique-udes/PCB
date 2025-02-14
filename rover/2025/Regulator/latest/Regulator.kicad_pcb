@@ -143,6 +143,10 @@
 			(outputdirectory "")
 		)
 	)
+	(property "AUTHOR" "Philippe Michaud ")
+	(property "GROUP_NAME" "RobotiqueUdeS")
+	(property "REVISION" "0")
+	(property "TEAM" "ROVUS")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "Net-(JP1-B)")
@@ -243,7 +247,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a282c596-ef36-48b3-9bff-2b2a9020943c")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -378,7 +382,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/86eb3376-e011-4573-87b5-f242ef1a665e")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.4375 -1.8475)
@@ -822,7 +826,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/cfb62305-859a-4984-a60c-bd4f097e9350")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -954,6 +958,109 @@
 			(uuid "1bfa50a7-b0d0-45db-b233-723c56393d44")
 		)
 	)
+	(footprint "LOGO"
+		(layer "F.Cu")
+		(uuid "50cdf6c8-75eb-44fb-b52d-3433d91fd059")
+		(at 62.564498 28.260877 90)
+		(property "Reference" "G***"
+			(at 1.142609 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "15838ef1-112d-4b34-bad0-6243cb4f1ec7")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.018 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c120b3a4-9d6a-4267-9b99-dc5c1b0d53a9")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "000d4d24-4184-4885-8420-9357ccbf18da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f54f77ba-83f4-4211-86dd-00dd46bf5819")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45751309-2555-43cb-9b1e-e1379bbf6d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy 0.4338 -0.694136) (xy 0.464328 -0.68807) (xy 0.480391 -0.681802) (xy 0.506789 -0.664446) (xy 0.533976 -0.640649)
+				(xy 0.557749 -0.614509) (xy 0.57347 -0.590998) (xy 0.581363 -0.569768) (xy 0.5876 -0.542721) (xy 0.590023 -0.524248)
+				(xy 0.591243 -0.50686) (xy 0.591413 -0.491456) (xy 0.589805 -0.477032) (xy 0.585687 -0.462582) (xy 0.578331 -0.447101)
+				(xy 0.567009 -0.429584) (xy 0.550989 -0.409026) (xy 0.529543 -0.384421) (xy 0.501941 -0.354764)
+				(xy 0.467455 -0.31905) (xy 0.425354 -0.276274) (xy 0.37491 -0.22543) (xy 0.368622 -0.219102) (xy 0.167103 -0.016301)
+				(xy 0.366105 0.182975) (xy 0.416818 0.233863) (xy 0.459108 0.276651) (xy 0.493784 0.312354) (xy 0.52166 0.341975)
+				(xy 0.543545 0.366527) (xy 0.560254 0.387016) (xy 0.572597 0.404452) (xy 0.581385 0.419843) (xy 0.587432 0.434199)
+				(xy 0.591548 0.448527) (xy 0.594545 0.463838) (xy 0.595166 0.467634) (xy 0.595209 0.499732) (xy 0.588439 0.53221)
+				(xy 0.58602 0.540184) (xy 0.583126 0.547821) (xy 0.579058 0.555888) (xy 0.573117 0.56515) (xy 0.564605 0.576374)
+				(xy 0.552821 0.590326) (xy 0.537066 0.607771) (xy 0.516643 0.629477) (xy 0.490851 0.656207) (xy 0.458993 0.68873)
+				(xy 0.420367 0.72781) (xy 0.374277 0.774213) (xy 0.320021 0.828707) (xy 0.29429 0.854532) (xy 0.243595 0.905231)
+				(xy 0.195057 0.953424) (xy 0.149541 0.998279) (xy 0.107903 1.038964) (xy 0.071007 1.074645) (xy 0.039715 1.10449)
+				(xy 0.014887 1.127668) (xy -0.002615 1.143343) (xy -0.011931 1.150686) (xy -0.012276 1.150878) (xy -0.046856 1.162835)
+				(xy -0.086191 1.166999) (xy -0.124271 1.16281) (xy -0.128648 1.16167) (xy -0.175222 1.142092) (xy -0.215097 1.11195)
+				(xy -0.246743 1.072574) (xy -0.260158 1.047302) (xy -0.269606 1.016114) (xy -0.273455 0.980452)
+				(xy -0.271646 0.94533) (xy -0.264115 0.91576) (xy -0.261832 0.910785) (xy -0.254901 0.901498) (xy -0.239759 0.88414)
+				(xy -0.217413 0.859771) (xy -0.188865 0.829451) (xy -0.155119 0.79424) (xy -0.117179 0.755195) (xy -0.076048 0.713378)
+				(xy -0.048343 0.685478) (xy 0.153598 0.482867) (xy -0.048667 0.280158) (xy -0.103935 0.224507) (xy -0.150203 0.177327)
+				(xy -0.187886 0.138173) (xy -0.217403 0.106598) (xy -0.239168 0.082154) (xy -0.253599 0.064397)
+				(xy -0.261111 0.052879) (xy -0.261686 0.051618) (xy -0.269925 0.019597) (xy -0.271963 -0.017959)
+				(xy -0.267893 -0.055248) (xy -0.259475 -0.082921) (xy -0.254215 -0.091666) (xy -0.244048 -0.104785)
+				(xy -0.228451 -0.12283) (xy -0.206895 -0.146352) (xy -0.178858 -0.1759) (xy -0.143815 -0.212024)
+				(xy -0.101239 -0.255276) (xy -0.050606 -0.306204) (xy 0.008609 -0.36536) (xy 0.036375 -0.393001)
+				(xy 0.092843 -0.448963) (xy 0.145346 -0.500598) (xy 0.193205 -0.54726) (xy 0.235747 -0.588302) (xy 0.272294 -0.623078)
+				(xy 0.302169 -0.650942) (xy 0.324694 -0.671251) (xy 0.339195 -0.683355) (xy 0.343752 -0.686407)
+				(xy 0.368443 -0.693475) (xy 0.400149 -0.695995)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "188df70d-b8cb-45d9-84d6-aa2894d2f210")
+		)
+	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "6316d2ab-08ea-4322-a80d-3e1dc5c3490e")
@@ -1024,7 +1131,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/91469dba-cc88-44a0-83ee-55030ab57576")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -1240,7 +1347,7 @@
 		(property ki_fp_filters "8P8C* RJ31* RJ32* RJ33* RJ34* RJ35* RJ41* RJ45* RJ49* RJ61*")
 		(path "/f72b095d-1685-4fe9-ab43-c2599361e937")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.805 7.86)
@@ -1547,6 +1654,7 @@
 			(uuid "5d8c1f33-703d-4b31-880f-f53e1dca48c6")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1629,7 +1737,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a7e8f0eb-eccd-41f7-a298-4c61d0aa42bb")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1776,7 +1884,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/71ce2eb6-da23-4369-93af-1361005a068b")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 8.128 3.4925)
@@ -2065,7 +2173,7 @@
 		(property ki_fp_filters "8P8C* RJ31* RJ32* RJ33* RJ34* RJ35* RJ41* RJ45* RJ49* RJ61*")
 		(path "/a9008dfe-4c0d-4333-b99b-d7ee03b51cab")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 16.245 -0.11)
@@ -2594,7 +2702,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/c88a308c-7157-4554-9cba-181a8e1a7217")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.41 3.41)
@@ -3050,7 +3158,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/272ce355-9ad9-487b-8e69-d7ac0395a7bb")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 8.128 3.4925)
@@ -3274,7 +3382,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "1k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "929a150b-8ff5-4a83-9117-d14f664c450b")
@@ -3331,7 +3439,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/15ede7ad-5bd8-42b9-900e-5c4f56977844")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -3550,7 +3658,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3069e361-a35c-42f9-97fc-09f1d6001b2e")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -3769,7 +3877,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/04d66bdb-02cd-49ce-a4ff-6c3e1b00a72b")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -3988,7 +4096,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4e04de16-c9da-4b74-9142-7c7d1ebbe6b5")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -4208,7 +4316,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7b154bbd-bc8d-4914-acfd-dff369c24a10")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 0.63 -2.3)
@@ -4313,6 +4421,115 @@
 			(uuid "7a5244fd-be95-4e62-a703-e16798412687")
 		)
 	)
+	(footprint "LOGO"
+		(layer "B.Cu")
+		(uuid "1a400409-4d26-41e9-8ee2-a7d34fc56e1f")
+		(at 35.3 44.4)
+		(property "Reference" "G***"
+			(at 4.760877 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c6f7bc1d-54cb-4384-8c2c-4baa68b3f92e")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.075 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9e51c60a-ae54-49dc-b8b6-47a4bd545fd2")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ca5eb73-ee3d-42c1-adfa-f42fda13f84f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d9b82673-c40b-48b8-b73d-a9d85c992b79")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cca65924-bbb0-43b1-9bd7-7d363876c05d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy 1.298057 3.637995) (xy 1.425261 3.612722) (xy 1.492187 3.586602) (xy 1.602181 3.514285) (xy 1.71546 3.415129)
+				(xy 1.814516 3.306214) (xy 1.880018 3.208249) (xy 1.912906 3.119794) (xy 1.938892 3.007096) (xy 1.948988 2.930127)
+				(xy 1.954073 2.857676) (xy 1.954784 2.793493) (xy 1.94808 2.733393) (xy 1.930923 2.673185) (xy 1.900274 2.608682)
+				(xy 1.853095 2.535694) (xy 1.786345 2.450034) (xy 1.696987 2.347513) (xy 1.581981 2.223943) (xy 1.438288 2.075135)
+				(xy 1.262869 1.8969) (xy 1.052686 1.685051) (xy 1.026485 1.658683) (xy 0.186824 0.813679) (xy 1.015998 -0.016637)
+				(xy 1.227304 -0.228669) (xy 1.403509 -0.406961) (xy 1.547994 -0.55572) (xy 1.664142 -0.679146) (xy 1.755334 -0.781444)
+				(xy 1.824953 -0.866816) (xy 1.876381 -0.939465) (xy 1.913001 -1.003595) (xy 1.938194 -1.06341) (xy 1.955342 -1.123111)
+				(xy 1.967829 -1.186903) (xy 1.970417 -1.202722) (xy 1.970599 -1.336463) (xy 1.942391 -1.471787)
+				(xy 1.932311 -1.505012) (xy 1.920252 -1.536834) (xy 1.903302 -1.570447) (xy 1.878548 -1.609041)
+				(xy 1.843078 -1.655808) (xy 1.793978 -1.71394) (xy 1.728335 -1.786629) (xy 1.643238 -1.877067) (xy 1.535773 -1.988444)
+				(xy 1.403028 -2.123954) (xy 1.242089 -2.286787) (xy 1.050045 -2.480136) (xy 0.823981 -2.707192)
+				(xy 0.71677 -2.814799) (xy 0.505538 -3.026044) (xy 0.303298 -3.226849) (xy 0.113639 -3.413745) (xy -0.059851 -3.583264)
+				(xy -0.213584 -3.731935) (xy -0.34397 -3.856291) (xy -0.44742 -3.952862) (xy -0.520345 -4.018178)
+				(xy -0.559158 -4.048771) (xy -0.560599 -4.049572) (xy -0.704681 -4.099396) (xy -0.868574 -4.116742)
+				(xy -1.027243 -4.099289) (xy -1.045482 -4.094539) (xy -1.239538 -4.012966) (xy -1.405684 -3.887373)
+				(xy -1.537541 -3.723306) (xy -1.593439 -3.618005) (xy -1.632804 -3.488052) (xy -1.648845 -3.339463)
+				(xy -1.641305 -3.193121) (xy -1.609928 -3.069913) (xy -1.600415 -3.049185) (xy -1.571533 -3.010487)
+				(xy -1.508445 -2.938163) (xy -1.415335 -2.836628) (xy -1.296385 -2.710296) (xy -1.155777 -2.563581)
+				(xy -0.997693 -2.400896) (xy -0.826317 -2.226657) (xy -0.710879 -2.110403) (xy 0.130544 -1.266195)
+				(xy -0.712228 -0.421573) (xy -0.94251 -0.189687) (xy -1.135291 0.006897) (xy -1.292307 0.17004)
+				(xy -1.415291 0.301604) (xy -1.505981 0.403449) (xy -1.566109 0.477438) (xy -1.597412 0.525431)
+				(xy -1.599806 0.530686) (xy -1.634135 0.664107) (xy -1.642624 0.820591) (xy -1.625669 0.975958)
+				(xy -1.590592 1.091264) (xy -1.568676 1.127699) (xy -1.526315 1.182365) (xy -1.461323 1.257555)
+				(xy -1.37151 1.355561) (xy -1.25469 1.478677) (xy -1.108674 1.629195) (xy -0.931276 1.809408) (xy -0.720306 2.02161)
+				(xy -0.473579 2.268093) (xy -0.357885 2.383265) (xy -0.122601 2.616442) (xy 0.096161 2.831587) (xy 0.29558 3.026009)
+				(xy 0.472839 3.197017) (xy 0.625117 3.341918) (xy 0.749595 3.458022) (xy 0.843454 3.542638) (xy 0.903872 3.593073)
+				(xy 0.922858 3.605788) (xy 1.02574 3.635239) (xy 1.157845 3.645738)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "569f3faa-f099-4e66-bfe2-bee45d17d671")
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "1f7d5436-d8fd-413d-82e8-58bfe0603b53")
@@ -4388,7 +4605,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4ad331ec-e422-4d13-aaeb-78cfd10915e5")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -4607,7 +4824,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7a39eead-d45c-45bc-bc09-79484a790b04")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -4827,7 +5044,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a347776e-3903-4f5f-8392-0c3856f3e96b")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 0.63 -2.3)
@@ -5007,7 +5224,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7c4fafe3-c263-4fbc-98e9-543b6f505670")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -5226,7 +5443,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/628cef75-6a2b-47ac-a55d-2a67005057a3")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -5442,7 +5659,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/fed8b587-c485-4605-b8d2-d774b96fd06c")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 6.41 -6.41)
@@ -5704,7 +5921,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fd9805db-05e7-4a78-a7e4-15673af64e04")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 0.63 -2.3)
@@ -5884,7 +6101,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/961f1413-bd70-481d-b7bd-5521513c1783")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -6103,7 +6320,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e01cdf03-8c14-4f9a-ba97-6221f03d66e3")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -6346,7 +6563,7 @@
 		)
 		(path "/61047b8f-74f0-446d-add5-0dcb3bf25d7a")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.95 -2.56)
@@ -6708,7 +6925,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/25c76730-d14f-4dca-a4e0-6ab8a870d935")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -6927,7 +7144,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/280e1814-994b-4876-82c1-40025aa83d25")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -7146,7 +7363,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1b987688-dfae-4c9c-8bb1-044a78bda1d1")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -7308,7 +7525,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "1k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "fa97ce0a-9b9d-40e1-8916-fef1614e575e")
@@ -7365,7 +7582,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/464f01e7-6a0c-4177-9db4-715f664fc212")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -7584,7 +7801,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8dd2f24c-038b-4c14-822e-f61df0fc5ca6")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -7804,7 +8021,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2c779aed-36bb-4109-90bf-ac640751b9bd")
 		(sheetname "Root")
-		(sheetfile "regulator.kicad_sch")
+		(sheetfile "Regulator.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 0.63 -2.3)
@@ -8172,6 +8389,19 @@
 		(layer "Edge.Cuts")
 		(uuid "eeef6da6-b0e8-4744-af6f-434b0f574eb4")
 	)
+	(gr_text "${CURRENT_DATE}\n${GROUP_NAME}\n${TEAM}"
+		(at 37.7 26.2 90)
+		(layer "B.SilkS")
+		(uuid "26cf0592-55d8-461e-957c-090dc3d3f582")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "GND"
 		(at 66.1 43.6 0)
 		(layer "B.SilkS" knockout)
@@ -8295,6 +8525,19 @@
 					(xy 64.082798 44.297445) (xy 64.48067 44.297445) (xy 64.48067 44.369253) (xy 64.322889 44.369253)
 				)
 			)
+		)
+	)
+	(gr_text "${PROJECTNAME} REV${REVISION}\nby: ${AUTHOR}"
+		(at 29.1 26.1 90)
+		(layer "B.SilkS")
+		(uuid "733360a5-5f63-4c2c-a036-a3fc1b842284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "CAN_{L}"
