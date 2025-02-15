@@ -5,6 +5,270 @@
 	(uuid "4f847499-4e6b-46c9-aa20-7bb40b166e8e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CAN-Transceiver-SN65HVD232_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.382 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "SN65HVD232"
+				(at 0 6.604 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 6.35 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1730319703644&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230"
+				(at 6.35 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAN Transceiver"
+				(at 6.35 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "4"
+				(at 7.62 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
+				(at 5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "NXP USA"
+				(at 5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STATUS" "APPROVED"
+				(at 0 11.176 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAN-Transceiver-SN65HVD232_1_0_0"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 3.81 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -8.89 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -6.35 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -6.35 0)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CAN-Transceiver-SN65HVD232_1_1_0"
+				(pin output line
+					(at 11.43 -1.27 180)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -3.81 180)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 3.81 180)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -822,6 +1086,373 @@
 				)
 			)
 		)
+		(symbol "Eth-Horiz-54601-908WPLF_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 15.748 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Eth-Horiz"
+				(at -4.572 13.716 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "RoverFootprint:Ethernet_Horizontal"
+				(at 0 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
+				(at 0 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STATUS" "APPROVED"
+				(at 0 17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "8P8C RJ socket connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "8P8C* RJ31* RJ32* RJ33* RJ34* RJ35* RJ41* RJ45* RJ49* RJ61*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Eth-Horiz-54601-908WPLF_1_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -8.89 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -7.62 -3.81) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -2.54) (xy -7.62 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -7.62 -1.27) (xy -7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 0) (xy -7.62 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 1.27) (xy -7.62 1.27) (xy -7.62 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -8.89 2.54) (xy -8.89 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -5.08) (xy -8.89 6.35) (xy 1.27 6.35) (xy 1.27 3.81) (xy 2.54 3.81) (xy 2.54 2.54) (xy 3.81 2.54)
+						(xy 3.81 -1.27) (xy 2.54 -1.27) (xy 2.54 -2.54) (xy 1.27 -2.54) (xy 1.27 -5.08) (xy -8.89 -5.08)
+						(xy -8.89 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Eth-Horiz-54601-908WPLF_1_1_1"
+				(text "GND"
+					(at 8.89 -8.636 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "POW"
+					(at 8.89 8.89 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Rover_LIB:CAN-Transceiver-SN65HVD232"
 			(pin_names
 				(offset 1.016)
@@ -830,7 +1461,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 7.62 0)
+				(at 0 8.382 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -840,7 +1471,7 @@
 				)
 			)
 			(property "Value" "SN65HVD232"
-				(at 0 8.89 0)
+				(at 0 6.604 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -918,7 +1549,8 @@
 				)
 			)
 			(property "STATUS" "APPROVED"
-				(at -0.254 11.43 0)
+				(at 0 11.176 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1293,7 +1925,7 @@
 					(hide yes)
 				)
 			)
-			(property "STATUS" "TO BE VERIFIED"
+			(property "STATUS" "APPROVED"
 				(at 1.27 30.226 0)
 				(do_not_autoplace)
 				(effects
@@ -2189,7 +2821,8 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 13.97 0)
+				(at 0 15.748 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2198,7 +2831,8 @@
 				)
 			)
 			(property "Value" "Eth-Horiz"
-				(at 2.54 13.97 0)
+				(at -4.572 13.716 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2216,7 +2850,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at -5.08 0 90)
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2234,7 +2868,8 @@
 				)
 			)
 			(property "STATUS" "APPROVED"
-				(at -4.826 16.002 0)
+				(at 0 17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2261,8 +2896,8 @@
 			)
 			(symbol "Eth-Horiz-54601-908WPLF_0_1"
 				(rectangle
-					(start -12.7 12.7)
-					(end 7.62 -11.43)
+					(start -10.16 12.7)
+					(end 10.16 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2273,7 +2908,7 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 3.81) (xy -11.43 3.81)
+						(xy -7.62 3.81) (xy -8.89 3.81)
 					)
 					(stroke
 						(width 0)
@@ -2285,7 +2920,7 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 5.08) (xy -11.43 5.08)
+						(xy -7.62 5.08) (xy -8.89 5.08)
 					)
 					(stroke
 						(width 0)
@@ -2297,7 +2932,7 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 -3.81) (xy -10.16 -3.81) (xy -10.16 -3.81)
+						(xy -8.89 -3.81) (xy -7.62 -3.81) (xy -7.62 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -2309,7 +2944,7 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 -2.54) (xy -10.16 -2.54) (xy -10.16 -2.54)
+						(xy -8.89 -2.54) (xy -7.62 -2.54) (xy -7.62 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2321,7 +2956,7 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 -1.27) (xy -10.16 -1.27) (xy -10.16 -1.27)
+						(xy -8.89 -1.27) (xy -7.62 -1.27) (xy -7.62 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2333,7 +2968,7 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 0) (xy -10.16 0) (xy -10.16 0)
+						(xy -8.89 0) (xy -7.62 0) (xy -7.62 0)
 					)
 					(stroke
 						(width 0)
@@ -2345,7 +2980,7 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 1.27) (xy -10.16 1.27) (xy -10.16 1.27)
+						(xy -8.89 1.27) (xy -7.62 1.27) (xy -7.62 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2357,7 +2992,7 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 2.54) (xy -11.43 2.54) (xy -11.43 2.54)
+						(xy -7.62 2.54) (xy -8.89 2.54) (xy -8.89 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2369,9 +3004,9 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 -5.08) (xy -11.43 6.35) (xy -1.27 6.35) (xy -1.27 3.81) (xy 0 3.81) (xy 0 2.54) (xy 1.27 2.54)
-						(xy 1.27 -1.27) (xy 0 -1.27) (xy 0 -2.54) (xy -1.27 -2.54) (xy -1.27 -5.08) (xy -11.43 -5.08)
-						(xy -11.43 -5.08)
+						(xy -8.89 -5.08) (xy -8.89 6.35) (xy 1.27 6.35) (xy 1.27 3.81) (xy 2.54 3.81) (xy 2.54 2.54) (xy 3.81 2.54)
+						(xy 3.81 -1.27) (xy 2.54 -1.27) (xy 2.54 -2.54) (xy 1.27 -2.54) (xy 1.27 -5.08) (xy -8.89 -5.08)
+						(xy -8.89 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -2384,7 +3019,7 @@
 			)
 			(symbol "Eth-Horiz-54601-908WPLF_1_1"
 				(text "GND"
-					(at 6.35 -8.636 900)
+					(at 8.89 -8.636 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2392,7 +3027,7 @@
 					)
 				)
 				(text "POW"
-					(at 6.35 8.89 900)
+					(at 8.89 8.89 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2400,7 +3035,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 3.81 180)
+					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "CANH"
 						(effects
@@ -2418,7 +3053,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 1.27 180)
+					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "CANL"
 						(effects
@@ -2436,7 +3071,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -1.27 180)
+					(at 12.7 -1.27 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2454,7 +3089,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -3.81 180)
+					(at 12.7 -3.81 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2472,7 +3107,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 10.16 180)
+					(at 12.7 10.16 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2490,7 +3125,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -10.16 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2508,7 +3143,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 7.62 180)
+					(at 12.7 7.62 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2526,7 +3161,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -7.62 180)
+					(at 12.7 -7.62 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2554,7 +3189,8 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "F"
-				(at 2.032 0 90)
+				(at 0 4.064 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2562,7 +3198,8 @@
 				)
 			)
 			(property "Value" "FuseHolder"
-				(at -1.905 0 90)
+				(at 0 2.032 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2570,7 +3207,7 @@
 				)
 			)
 			(property "Footprint" "RoverFootprint:FUSE_3568-20"
-				(at -1.778 0 90)
+				(at -0.254 15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2579,7 +3216,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2597,7 +3234,17 @@
 				)
 			)
 			(property "STATUS" "APPROVED"
-				(at -4.064 -0.254 90)
+				(at 0 6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PACKAGE" "THT"
+				(at 0 -2.032 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2624,8 +3271,8 @@
 			)
 			(symbol "FuseHolder_0_1"
 				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
+					(start -2.54 -0.762)
+					(end 2.54 0.762)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2636,7 +3283,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
+						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -2649,7 +3296,7 @@
 			)
 			(symbol "FuseHolder_1_1"
 				(pin power_out line
-					(at 0 3.81 270)
+					(at -3.81 0 0)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -2667,7 +3314,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -6200,6 +6847,12 @@
 		)
 	)
 	(junction
+		(at 39.37 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fedd78d-88d2-428d-a74c-60594a68559e")
+	)
+	(junction
 		(at 232.41 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6216,12 +6869,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f2e10c-9048-4dfb-80f6-77d64a938c3b")
-	)
-	(junction
-		(at 39.37 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "241c4260-41f3-4f88-9cdd-449bd4e2abfd")
 	)
 	(junction
 		(at 255.27 110.49)
@@ -6260,16 +6907,16 @@
 		(uuid "343649de-f8d1-44f6-9239-44c8dc60d4fa")
 	)
 	(junction
-		(at 39.37 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36ebe8a0-7d42-4bcc-a39b-9158d5acbdb6")
-	)
-	(junction
 		(at 214.63 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3752cb43-64e1-4ffb-8824-3ac3d0d3ca41")
+	)
+	(junction
+		(at 39.37 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38ff2324-606e-4125-99f5-9c02c514710e")
 	)
 	(junction
 		(at 124.46 187.96)
@@ -6392,12 +7039,6 @@
 		(uuid "b21bd2bf-1c32-4709-b58e-c7dbcb4dfd62")
 	)
 	(junction
-		(at 39.37 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb1add02-2693-4835-bdad-8eb31065fa40")
-	)
-	(junction
 		(at 80.01 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6434,12 +7075,6 @@
 		(uuid "dd545c8a-536d-452a-b21c-591004f9afdf")
 	)
 	(junction
-		(at 39.37 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2e1a9a7-a1b5-407c-8069-1bc74fbc46f6")
-	)
-	(junction
 		(at 213.36 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6450,6 +7085,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8c01cdf-f3fe-42e3-aaa8-a4cb8b99fde7")
+	)
+	(junction
+		(at 39.37 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef9b9618-1a94-4305-91e4-0c5965479374")
 	)
 	(junction
 		(at 139.7 80.01)
@@ -6474,6 +7115,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f66f11b4-7341-467b-a6af-df1f64bfd601")
+	)
+	(junction
+		(at 39.37 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb4b9f02-26e2-4be9-aa8d-295332d7b434")
 	)
 	(no_connect
 		(at 251.46 71.12)
@@ -6929,7 +7576,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 76.2 83.82)
+			(xy 73.66 83.82) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7289,7 +7936,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 83.82) (xy 67.31 83.82)
+			(xy 64.77 83.82) (xy 66.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9803,6 +10450,214 @@
 		)
 	)
 	(symbol
+		(lib_id "Rover_LIB:ESP32-S3-WROVER")
+		(at 236.22 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03f8885a-f41e-4e2f-8a2c-fb8446eef0ce")
+		(property "Reference" "U2"
+			(at 237.49 32.512 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-S3-WROVER"
+			(at 237.49 34.544 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1U"
+			(at 236.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-S3-WROOM-1U-N8/16162635"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "APPROVED"
+			(at 237.49 30.734 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "38"
+			(uuid "35b229ac-d5f5-423c-9ff7-0f60918b4e0d")
+		)
+		(pin "39"
+			(uuid "197eeeac-7ba4-4455-9c7c-7f99ddace5c0")
+		)
+		(pin "7"
+			(uuid "89fcb7c0-1886-4be6-b4aa-dd7158c78229")
+		)
+		(pin "4"
+			(uuid "bf2f7295-11d8-4472-b9b8-90bcf07d0fba")
+		)
+		(pin "5"
+			(uuid "bc345f91-457e-4ebd-bb64-026daefaf866")
+		)
+		(pin "17"
+			(uuid "48354d32-5240-4213-a49f-0d5e591a2cdb")
+		)
+		(pin "22"
+			(uuid "fc641c06-32be-4df8-b273-dc696dfcfd83")
+		)
+		(pin "9"
+			(uuid "ad3af75f-ffdd-494c-a6d4-8cb26b9e1593")
+		)
+		(pin "26"
+			(uuid "e712ded0-2f45-412b-931c-aaf054919e50")
+		)
+		(pin "10"
+			(uuid "f45c9c46-b6a9-4d2f-a019-9303e299af74")
+		)
+		(pin "1"
+			(uuid "6678e37c-978a-4ce9-9d45-d3090279e74c")
+		)
+		(pin "16"
+			(uuid "d8951568-2b67-4611-bfe4-689035b5c20a")
+		)
+		(pin "27"
+			(uuid "c104e08d-a7d9-44d9-b009-52d8f2eb7e62")
+		)
+		(pin "20"
+			(uuid "f62f1305-ce9e-4b15-baf4-d25d3cf8dabb")
+		)
+		(pin "3"
+			(uuid "5a36c5e6-925c-44df-8b16-ff856a2e3ced")
+		)
+		(pin "18"
+			(uuid "c599a6d9-9cbb-42fa-8056-1ca32491d836")
+		)
+		(pin "23"
+			(uuid "5e7e8266-d91f-48b2-9d5f-e9b20e71293c")
+		)
+		(pin "21"
+			(uuid "4f9f7d04-0d82-4b12-89e7-94bf3fe0f1c7")
+		)
+		(pin "2"
+			(uuid "656f1686-292f-4842-bafc-ccae90969f1c")
+		)
+		(pin "40"
+			(uuid "0057f863-d8f0-4eb6-a44d-b069c0b06d98")
+		)
+		(pin "29"
+			(uuid "602d0e1c-8d96-47d3-a08a-ef0b7e8bee5e")
+		)
+		(pin "14"
+			(uuid "e8f9be4b-daf1-4e59-8876-5309905ffd01")
+		)
+		(pin "12"
+			(uuid "18e40408-05c1-433b-aeff-0ab63eb9e972")
+		)
+		(pin "13"
+			(uuid "2feee0a7-8444-42f1-bda3-b2917654516a")
+		)
+		(pin "11"
+			(uuid "bd9f23f4-f552-4a3c-aeea-d8a8d7ba8ad4")
+		)
+		(pin "15"
+			(uuid "1bb72b12-0ed3-4047-9f07-0116523d8246")
+		)
+		(pin "28"
+			(uuid "756eac22-ce14-441d-9368-5ab66f432534")
+		)
+		(pin "30"
+			(uuid "05dd8cec-d77c-455e-b9c0-e31f78e5d53e")
+		)
+		(pin "25"
+			(uuid "f418c98a-b070-48cf-866d-8dc6c5497240")
+		)
+		(pin "19"
+			(uuid "bd8455b7-3773-4da4-9cdb-87f0e078651b")
+		)
+		(pin "8"
+			(uuid "07b49dd8-e171-4f88-82c1-97f4fc78e113")
+		)
+		(pin "36"
+			(uuid "7c570b0c-a7bf-4cf1-a858-b2f670bdad40")
+		)
+		(pin "34"
+			(uuid "62d02f5d-6f4b-4ee3-8648-7ecbf15ac9d3")
+		)
+		(pin "32"
+			(uuid "7d3399b4-7eb2-46da-bb61-3b3cfa79e4f3")
+		)
+		(pin "33"
+			(uuid "a2d5b1cd-a8cd-4175-82e9-c34fcbeeeb88")
+		)
+		(pin "35"
+			(uuid "07788ab8-91e9-4e0c-8b64-ae3dc368522f")
+		)
+		(pin "31"
+			(uuid "c6afdfc1-be7a-465b-98cd-36cb4a7d291c")
+		)
+		(pin "6"
+			(uuid "e7ba7425-b89f-413b-9b04-3c0f72a2f497")
+		)
+		(pin "37"
+			(uuid "2af7bf17-4882-4e03-b8ef-7dee9ce3efee")
+		)
+		(pin "41"
+			(uuid "55607811-36ce-44df-821d-b7dc9d30a818")
+		)
+		(pin "24"
+			(uuid "929be7df-9018-49f9-9a33-244738b8a67a")
+		)
+		(instances
+			(project ""
+				(path "/4f847499-4e6b-46c9-aa20-7bb40b166e8e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Rover_LIB:LDO-LM7805MPX/NOPB")
 		(at 245.11 140.97 0)
 		(unit 1)
@@ -10926,7 +11781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 162.56 160.02 0)
 			(effects
 				(font
@@ -11048,7 +11903,7 @@
 	)
 	(symbol
 		(lib_id "Rover_LIB:Eth-Horiz-54601-908WPLF")
-		(at 29.21 165.1 0)
+		(at 26.67 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11056,7 +11911,7 @@
 		(dnp no)
 		(uuid "39bf60c7-5171-4539-9245-df0bae979832")
 		(property "Reference" "J4"
-			(at 26.67 148.082 0)
+			(at 24.13 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,7 +11919,7 @@
 			)
 		)
 		(property "Value" "Eth-Horiz"
-			(at 26.67 150.622 0)
+			(at 24.13 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,7 +11927,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:Ethernet_Horizontal"
-			(at 29.21 183.896 0)
+			(at 26.67 183.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +11936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 165.1 90)
+			(at 21.59 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +11945,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
-			(at 29.21 186.436 0)
+			(at 26.67 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,7 +11954,7 @@
 			)
 		)
 		(property "STATUS" "APPROVED"
-			(at 26.67 149.86 0)
+			(at 24.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,8 +14011,8 @@
 	)
 	(symbol
 		(lib_id "Rover_LIB:FuseHolder")
-		(at 71.12 83.82 270)
-		(mirror x)
+		(at 69.85 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13165,7 +14020,7 @@
 		(dnp no)
 		(uuid "84d2e4bd-78ad-4e1c-9cf5-833d847a34cc")
 		(property "Reference" "F1"
-			(at 71.12 85.852 90)
+			(at 71.882 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13173,7 +14028,7 @@
 			)
 		)
 		(property "Value" "FuseHolder"
-			(at 71.12 88.392 90)
+			(at 69.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +14036,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:FUSE_3568-20"
-			(at 71.12 85.598 90)
+			(at 71.628 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +14045,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13199,7 +14054,7 @@
 			)
 		)
 		(property "Description" "Fuseholder through hole, 30A max"
-			(at 71.12 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +14063,16 @@
 			)
 		)
 		(property "STATUS" "APPROVED"
-			(at 71.12 80.01 90)
+			(at 66.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "THT"
+			(at 69.85 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,8 +14669,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Eth-Horiz-54601-908WPLF_1")
 		(lib_id "Rover_LIB:Eth-Horiz-54601-908WPLF")
-		(at 29.21 125.73 0)
+		(at 26.67 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13814,7 +14679,7 @@
 		(dnp no)
 		(uuid "8c39d3da-8923-4ee4-94aa-bf86e4b856d3")
 		(property "Reference" "J3"
-			(at 26.67 108.966 0)
+			(at 24.13 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13822,7 +14687,7 @@
 			)
 		)
 		(property "Value" "Eth-Horiz"
-			(at 26.67 111.506 0)
+			(at 24.13 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13830,7 +14695,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:Ethernet_Horizontal"
-			(at 29.21 144.526 0)
+			(at 26.67 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13839,7 +14704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 125.73 90)
+			(at 21.59 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,7 +14713,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
-			(at 29.21 147.066 0)
+			(at 26.67 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13857,7 +14722,7 @@
 			)
 		)
 		(property "STATUS" "APPROVED"
-			(at 26.67 110.49 0)
+			(at 24.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,6 +14849,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CAN-Transceiver-SN65HVD232_1")
 		(lib_id "Rover_LIB:CAN-Transceiver-SN65HVD232")
 		(at 146.05 127 0)
 		(unit 1)
@@ -15102,215 +15968,6 @@
 			(project ""
 				(path "/4f847499-4e6b-46c9-aa20-7bb40b166e8e"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Rover_LIB:ESP32-S3-WROVER")
-		(at 236.22 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcdc5fee-24e4-4006-ae47-c576270a9a88")
-		(property "Reference" "U2"
-			(at 237.49 32.512 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-S3-WROVER"
-			(at 237.49 34.544 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1U"
-			(at 236.22 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 236.22 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 236.22 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-S3-WROOM-1U-N8/16162635"
-			(at 236.22 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "TO BE VERIFIED"
-			(at 237.49 30.734 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "37"
-			(uuid "c9337692-7a86-4962-99f2-805ef078265b")
-		)
-		(pin "34"
-			(uuid "1a2b86a7-69d0-404e-a150-95ae7878c1de")
-		)
-		(pin "5"
-			(uuid "75eec227-0a9f-4a04-8dba-36d68c6fe2c1")
-		)
-		(pin "41"
-			(uuid "589ba6d6-35bb-4569-b6ad-8b7dd3caf8e1")
-		)
-		(pin "16"
-			(uuid "87efabc6-f630-4176-b12f-c9d351812c83")
-		)
-		(pin "29"
-			(uuid "412aa45e-c9e1-4ba3-9000-f0e2b638c60d")
-		)
-		(pin "9"
-			(uuid "cd557512-c82c-4775-8b6f-bbaf2a5c01d1")
-		)
-		(pin "6"
-			(uuid "bb699f28-e36b-439d-8924-4e29ac444adb")
-		)
-		(pin "22"
-			(uuid "fe0770bb-02a1-4d7d-bc50-1415dcaf169a")
-		)
-		(pin "20"
-			(uuid "6671e922-8ba2-4e17-ab80-f344502e9c6e")
-		)
-		(pin "2"
-			(uuid "0fa9a4ba-ab80-4be5-9113-413ecd340d57")
-		)
-		(pin "4"
-			(uuid "2f9a6546-fea7-4aea-9fe2-7a27cfab2a7a")
-		)
-		(pin "36"
-			(uuid "8fd2298f-dce2-426b-a455-25f799788065")
-		)
-		(pin "25"
-			(uuid "3fbf4781-7bc1-42da-a24b-6a701cc7c505")
-		)
-		(pin "21"
-			(uuid "1e206c46-c1de-4c13-8c7f-7ee248149032")
-		)
-		(pin "8"
-			(uuid "5af25653-0be3-400f-a1c2-ed5da9c837c3")
-		)
-		(pin "18"
-			(uuid "17133f54-e378-4391-8765-c01bb24e4145")
-		)
-		(pin "11"
-			(uuid "93f59ef3-7c06-4060-bcb8-feb4ec6d2407")
-		)
-		(pin "1"
-			(uuid "2f21cb2c-7658-4f1c-ab2f-edccd5bc0970")
-		)
-		(pin "10"
-			(uuid "bac7d80f-88c6-4da3-97bb-fe8d55248b6e")
-		)
-		(pin "23"
-			(uuid "8763a53f-02ed-4d86-894b-e7933b0429c8")
-		)
-		(pin "12"
-			(uuid "1f63ce12-7819-42e8-a3c4-c483e85d5a69")
-		)
-		(pin "38"
-			(uuid "1e4cd13b-ca8c-4e9e-a4f9-fedbf2f1ff89")
-		)
-		(pin "26"
-			(uuid "4e65642d-be59-4e96-af3a-6e452d0ee4be")
-		)
-		(pin "17"
-			(uuid "4e75bd6c-9871-4646-9b17-2e6f584f6c51")
-		)
-		(pin "30"
-			(uuid "8191dea0-c38f-4416-890b-c9ec1fca6c4f")
-		)
-		(pin "35"
-			(uuid "4c4377db-553f-4578-8de7-0659667daf4a")
-		)
-		(pin "33"
-			(uuid "984a0ea9-24b5-4bfd-81b7-de8f2de9e022")
-		)
-		(pin "28"
-			(uuid "9873f7c9-6327-44d4-9347-3d267bdd3ad5")
-		)
-		(pin "19"
-			(uuid "538db062-5c1f-4a5f-a136-1e5ebacb8678")
-		)
-		(pin "32"
-			(uuid "b1d3928c-bb24-4b18-817f-3f5ac19d9ba2")
-		)
-		(pin "14"
-			(uuid "1197fdd7-af4b-4bbe-9e4f-dbf72d36a794")
-		)
-		(pin "15"
-			(uuid "c4a5b9c2-4c40-43b1-9ce4-c200b74659c6")
-		)
-		(pin "13"
-			(uuid "4b830917-e91d-48a7-aca2-273f8b39a7e9")
-		)
-		(pin "3"
-			(uuid "e4d7f5c1-040d-419a-84e8-b186dc4d3790")
-		)
-		(pin "39"
-			(uuid "91f19002-c1be-42e7-902e-ab62da049aad")
-		)
-		(pin "40"
-			(uuid "ff3fde5e-5215-4a08-ada4-cdb4e55d92a1")
-		)
-		(pin "27"
-			(uuid "e974c6d1-c1ae-4c0d-9ed4-37abbbab4318")
-		)
-		(pin "24"
-			(uuid "f26720a5-c23d-4cbb-b6e2-9a14994b34bc")
-		)
-		(pin "31"
-			(uuid "e4738023-ba64-4024-82ad-8f94eeba5bbd")
-		)
-		(pin "7"
-			(uuid "38f7dfcc-386f-4b86-b8c5-3dd9afe8aa38")
-		)
-		(instances
-			(project ""
-				(path "/4f847499-4e6b-46c9-aa20-7bb40b166e8e"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -17554,7 +18211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 127 158.75 0)
 			(effects
 				(font
