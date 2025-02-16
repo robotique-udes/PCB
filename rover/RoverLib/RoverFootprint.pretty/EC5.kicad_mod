@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 11.5 0.75 0)
+		(at 3.1496 0.8636 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2275b4ed-3302-4476-9621-e9162d91b007")
@@ -67,6 +67,36 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start 6.324 14.1476)
+		(end 7.5178 14.1476)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f43dbc3-6192-43e3-b17a-5e9ae02eb56c")
+	)
+	(fp_line
+		(start 6.7939 0.7618)
+		(end 7.9877 0.7618)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "660e1b33-fac9-45a1-9d9b-e951c5ac1296")
+	)
+	(fp_line
+		(start 7.3908 0.12045)
+		(end 7.3908 1.40315)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f4b0c1b-a265-41c5-8d38-23a91897c787")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 5.3848 -3.4036 0)
 		(unlocked yes)
@@ -80,7 +110,7 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 14.25 4.75)
+		(at 4.2418 4.0386)
 		(size 8.5 4.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -88,7 +118,7 @@
 		(uuid "31f7b208-00c6-47dd-a3ef-6978fe35c1cf")
 	)
 	(pad "1" thru_hole circle
-		(at 19.5 4.75)
+		(at 9.4918 4.0386)
 		(size 6 6)
 		(drill 4.25)
 		(layers "*.Cu" "*.Mask")
@@ -96,7 +126,7 @@
 		(uuid "251a8ad8-94ab-4008-9655-81278f7b4291")
 	)
 	(pad "2" smd roundrect
-		(at 14.25 11.75)
+		(at 4.2418 11.0386)
 		(size 8.5 4.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -104,7 +134,7 @@
 		(uuid "a66f3b00-be8f-48ce-8ad1-9bceba96d790")
 	)
 	(pad "2" thru_hole circle
-		(at 19.5 11.75)
+		(at 9.4918 11.0386)
 		(size 6 6)
 		(drill 4.25)
 		(layers "*.Cu" "*.Mask")
