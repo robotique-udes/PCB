@@ -1842,7 +1842,7 @@
 		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf")
 		(tags "RC Connector XT60")
 		(property "Reference" "U12"
-			(at -3.55 3.45 0)
+			(at -3.026437 5.649081 0)
 			(layer "F.SilkS")
 			(uuid "70654132-8953-497b-8126-1830d1aa96e6")
 			(effects
@@ -2154,7 +2154,7 @@
 			(uuid "7f9862c4-ddcb-4621-9d15-bb34adae8852")
 		)
 		(fp_text user "+"
-			(at -11.826437 3.149081 0)
+			(at -10.826437 3.149081 0)
 			(layer "F.SilkS")
 			(uuid "69236497-c8b6-4b2c-add7-bb64a1dce920")
 			(effects
@@ -2165,7 +2165,7 @@
 			)
 		)
 		(fp_text user "-"
-			(at 4.323563 2.749081 0)
+			(at 3.973563 2.799081 0)
 			(layer "F.SilkS")
 			(uuid "bd49e570-b063-4e2e-9c39-1647b6bd3b34")
 			(effects
@@ -3129,7 +3129,7 @@
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
 		(property "Reference" "H3"
-			(at 0 4 0)
+			(at 0 4.089081 0)
 			(layer "F.SilkS")
 			(uuid "d01e5b01-13e7-4b74-97c6-082979a254f0")
 			(effects
@@ -3880,7 +3880,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "8712a198-3358-4a22-8dae-bad6d9f2f589")
-		(at 127.55 83.1)
+		(at 126.789123 83.114498)
 		(property "Reference" "G***"
 			(at 4.760877 0 0)
 			(layer "F.SilkS")
@@ -3988,7 +3988,7 @@
 		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf")
 		(tags "RC Connector XT60")
 		(property "Reference" "U11"
-			(at -3.75 3.4 0)
+			(at -3.623563 5.510919 0)
 			(layer "F.SilkS")
 			(uuid "269f533e-b823-4083-bfa4-164db5fbc88c")
 			(effects
@@ -4392,7 +4392,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J1"
-			(at 1 4.75 0)
+			(at 1.023563 6.089081 0)
 			(layer "F.SilkS")
 			(uuid "d3f9cebe-be87-47c6-b47d-03be2476f9c1")
 			(effects
@@ -5082,7 +5082,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at -2.775 0.025 180)
+			(at 2.825 -0.025 180)
 			(layer "F.SilkS")
 			(uuid "a768dc86-1b3a-40a1-9460-bace450a9183")
 			(effects
@@ -6683,6 +6683,28 @@
 			(uuid "942774fc-b9c9-41f2-8bc9-125e277b46c2")
 		)
 	)
+	(gr_rect
+		(start 132.3 69.4)
+		(end 138.85 75.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0bfac423-f30f-49bc-9bd9-68b0e0ecaeba")
+	)
+	(gr_rect
+		(start 94.5 90.75)
+		(end 100.6 96.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f70f83f8-abfd-4181-ae86-401648906a9a")
+	)
 	(gr_line
 		(start 145.576437 59.760919)
 		(end 145.576437 106.710919)
@@ -6929,17 +6951,6 @@
 		(layer "User.1")
 		(uuid "ec3e14e7-2bc4-4f73-9016-3b65b8d0f01f")
 	)
-	(gr_rect
-		(start 52.226436 57.810919)
-		(end 101.326436 108.710919)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "User.1")
-		(uuid "f36b9fd1-6e5d-4ebf-a61a-7ded311e9ca0")
-	)
 	(gr_line
 		(start 181.4 139.4)
 		(end 182.2 139.4)
@@ -7113,6 +7124,53 @@
 		(layer "User.4")
 		(uuid "ea3c9c90-40d0-48a4-b897-618790bca4e1")
 	)
+	(gr_rect
+		(start 52.226436 57.810919)
+		(end 101.326436 108.710919)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.4")
+		(uuid "f36b9fd1-6e5d-4ebf-a61a-7ded311e9ca0")
+	)
+	(gr_text "+24V_I "
+		(at 133.05 69.25 0)
+		(layer "F.SilkS" knockout)
+		(uuid "1c18aaaf-4b5a-4ee4-a9b3-95f632263e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DDB"
+		(at 120.8 93.9 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7aeb544d-47af-4006-9f5a-5b2134c3f91b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Sélecteur"
+		(at 118.4 74.65 0)
+		(layer "F.SilkS" knockout)
+		(uuid "a283e0f4-769e-4eb9-812d-478df73ce1e9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "${PROJECTNAME} REV${REVISION}\nby: ${AUTHOR}\n${CURRENT_DATE}\n${GROUP_NAME}\n${TEAM}"
 		(at 104.35 87.3 0)
 		(layer "F.SilkS")
@@ -7122,6 +7180,18 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HIGH_POWER_EN"
+		(at 103.05 70.45 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cbb92a1c-78f6-4241-af74-0c05990d0eeb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -7139,6 +7209,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+24V"
+		(at 95.3 90.7 0)
+		(layer "F.SilkS" knockout)
+		(uuid "fa80b541-f7ae-44f4-a960-218a199ac4f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "User.1")
@@ -7147,7 +7229,7 @@
 			(xy 88.276436 85.360919) (xy 88.276436 81.060919)
 		)
 		(height -4.426436)
-		(gr_text "4,3000 mm"
+		(gr_text "4.3000 mm"
 			(at 82.55 83.65 90)
 			(layer "User.1")
 			(uuid "0c4e1cc3-4f10-4513-b823-902e4c343ffb")
@@ -7180,7 +7262,7 @@
 			(xy 52.176437 106.710919) (xy 145.576437 106.710919)
 		)
 		(height 12.83908)
-		(gr_text "93,4000 mm"
+		(gr_text "93.4000 mm"
 			(at 98.876437 118.399999 0)
 			(layer "User.1")
 			(uuid "357c447a-ee00-471a-999d-05926b4191cd")
@@ -7213,7 +7295,7 @@
 			(xy 126.826437 108.460919) (xy 126.826437 72.360919)
 		)
 		(height -2.4)
-		(gr_text "36,1000 mm"
+		(gr_text "36.1000 mm"
 			(at 123.426437 85.160919 90)
 			(layer "User.1")
 			(uuid "6ebe1b48-64a5-4aac-bff9-44345cbbb7fb")
@@ -7246,7 +7328,7 @@
 			(xy 123.276437 54.340919) (xy 123.276437 112.120919)
 		)
 		(height -32.85)
-		(gr_text "57,7800 mm"
+		(gr_text "57.7800 mm"
 			(at 154.976437 83.230919 90)
 			(layer "User.1")
 			(uuid "71a18e8b-8ead-4b8d-b18c-4c741863bd85")
@@ -7279,7 +7361,7 @@
 			(xy 96.3 91) (xy 96.3 57.95)
 		)
 		(height 3.8)
-		(gr_text "33,0500 mm"
+		(gr_text "33.0500 mm"
 			(at 98.95 74.475 90)
 			(layer "User.1")
 			(uuid "809b3b42-3b9c-4d49-8880-321be0c8a313")
@@ -7312,7 +7394,7 @@
 			(xy 106.126437 108.510919) (xy 106.126437 66.860919)
 		)
 		(height 6.099999)
-		(gr_text "41,6500 mm"
+		(gr_text "41.6500 mm"
 			(at 110.95 91.7 90)
 			(layer "User.1")
 			(uuid "89ca8f4f-5f0b-4b8a-a47a-6e87178b7038")
@@ -7345,7 +7427,7 @@
 			(xy 141.076437 65.560919) (xy 141.076437 100.910919)
 		)
 		(height -10.85)
-		(gr_text "35,3500 mm"
+		(gr_text "35.3500 mm"
 			(at 150.776437 83.235919 90)
 			(layer "User.1")
 			(uuid "9cac192d-0f7f-4e3e-806d-12a099171485")
@@ -7378,7 +7460,7 @@
 			(xy 134.501437 70.660919) (xy 134.526437 57.960919)
 		)
 		(height 2.681847)
-		(gr_text "12,7000 mm"
+		(gr_text "12.7000 mm"
 			(at 136.045781 64.313934 89.88721318)
 			(layer "User.1")
 			(uuid "adbcbb7e-d44e-4a23-aa75-c88d1c52ff65")
@@ -7411,7 +7493,7 @@
 			(xy 134.726437 82.860919) (xy 134.726437 108.460919)
 		)
 		(height -1.4)
-		(gr_text "25,6000 mm"
+		(gr_text "25.6000 mm"
 			(at 134.976437 95.660919 90)
 			(layer "User.1")
 			(uuid "bf680d03-146d-449a-9b1d-fc8b536fb0d5")
@@ -7444,7 +7526,7 @@
 			(xy 88.376436 74.060919) (xy 88.376436 57.960919)
 		)
 		(height -4.876436)
-		(gr_text "16,1000 mm"
+		(gr_text "16.1000 mm"
 			(at 82.35 66.010919 90)
 			(layer "User.1")
 			(uuid "c445cc75-899a-4321-be54-a0bb2f30220f")
@@ -7477,7 +7559,7 @@
 			(xy 88.126436 92.360919) (xy 88.126436 108.510919)
 		)
 		(height 5.126436)
-		(gr_text "16,1500 mm"
+		(gr_text "16.1500 mm"
 			(at 81.85 100.435919 90)
 			(layer "User.1")
 			(uuid "d8d68a28-70d4-49b4-98fd-a5931476c2ef")
@@ -7510,7 +7592,7 @@
 			(xy 96.35 95.2) (xy 96.35 101.8)
 		)
 		(height 1.599999)
-		(gr_text "6,6000 mm"
+		(gr_text "6.6000 mm"
 			(at 93.7 96.15 90)
 			(layer "User.1")
 			(uuid "ec234e62-a260-4edc-ad99-a271b697f912")
