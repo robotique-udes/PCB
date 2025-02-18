@@ -178,7 +178,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.75,
+        1.5,
+        2.0,
+        6.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -546,7 +550,7 @@
         "pattern": "USB_*"
       },
       {
-        "netclass": "CAN_Coplanar_InternalLayers",
+        "netclass": "CAN_Coplanar_ExternalLayers",
         "pattern": "CAN_*"
       }
     ]
@@ -559,7 +563,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../Downloads/ArmJ345.step",
       "svg": "",
       "vrml": ""
     },
@@ -617,11 +621,83 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Link",
+          "name": "Digikey Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STATUS",
+          "name": "STATUS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STATYS",
+          "name": "STATYS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -674,8 +750,32 @@
       "Board"
     ],
     [
+      "34e7cc6a-ef11-4032-967f-8440a4d389d7",
+      "esp32"
+    ],
+    [
+      "a44ba200-5c51-4d34-b26c-921f50e4e433",
+      "external_connections"
+    ],
+    [
+      "eeced412-3c84-4442-8d8f-724512277956",
+      "canbus"
+    ],
+    [
+      "975c10a9-b14b-4de8-b36c-27df2b6637eb",
+      "alims"
+    ],
+    [
       "b15f402e-7c3f-4a24-884e-f6717439a243",
       "drive_j5"
+    ],
+    [
+      "7a12ebb4-e013-44d7-9d25-902ef9d72dff",
+      "drive_j34"
+    ],
+    [
+      "afa8b274-f8be-4e23-8294-7fe05f76441c",
+      "aux"
     ]
   ],
   "text_variables": {
