@@ -11,7 +11,73 @@
 		(company "RobotiqueUdeS")
 		(comment 1 "Made by Philippe Michaud")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Off Board Part_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G2"
+				(at 0 41.8399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "JUMPER 2PINS (QPC02SXGN-RC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sunfounder.com/products/vl53l0x-time-of-flight-distance-sensor-laser-ranging-module"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Off Board Part_1_1_1"
+				(rectangle
+					(start -16.51 3.81)
+					(end 16.51 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
 	(junction
 		(at 166.37 123.19)
 		(diameter 0)
@@ -778,6 +844,225 @@
 		)
 		(uuid "e8c91fbf-6773-4b75-9fcc-48de861f3674")
 	)
+	(symbol
+		(lib_name "Off Board Part_1")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f9aaaa8-ca20-46b8-b87b-096407f33f07")
+		(property "Reference" "G1"
+			(at 30.48 149.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "JUMPER 2PINS (QPC02SXGN-RC)"
+			(at 30.48 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+			(at 30.48 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ArmJL"
+				(path "/ea96555f-a650-48ef-b94f-b65180d69193"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Off Board Part_1")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9520ea1e-11e2-40ee-8ab0-e4b0f3a34052")
+		(property "Reference" "G3"
+			(at 30.48 132.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RJ50 (6510-0104-05)"
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/encitech-connectors-ab/6510-0104-05/25596593"
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ArmJL"
+				(path "/ea96555f-a650-48ef-b94f-b65180d69193"
+					(reference "G3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Off Board Part_1")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be456154-8298-4c42-81e9-1577d123b752")
+		(property "Reference" "G2"
+			(at 30.48 141.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RJ50 (6510-0104-05)"
+			(at 30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/encitech-connectors-ab/6510-0104-05/25596593"
+			(at 30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ArmJL"
+				(path "/ea96555f-a650-48ef-b94f-b65180d69193"
+					(reference "G2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 128.27 33.02)
 		(size 34.29 3.81)
@@ -809,7 +1094,7 @@
 			)
 		)
 		(instances
-			(project "ARM-JL"
+			(project "ArmJL"
 				(path "/ea96555f-a650-48ef-b94f-b65180d69193"
 					(page "2")
 				)

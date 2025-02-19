@@ -11,7 +11,73 @@
 		(company "RobotiqueUdeS")
 		(comment 1 "Made by Philippe Michaud")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Off Board Part_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G2"
+				(at 0 41.8399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "JUMPER 2PINS (QPC02SXGN-RC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sunfounder.com/products/vl53l0x-time-of-flight-distance-sensor-laser-ranging-module"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Off Board Part_1_1_1"
+				(rectangle
+					(start -16.51 3.81)
+					(end 16.51 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
 	(junction
 		(at 101.6 66.04)
 		(diameter 0)
@@ -150,6 +216,79 @@
 			)
 		)
 		(uuid "d3d27180-9224-4a2f-b5fe-6c978dc7c219")
+	)
+	(symbol
+		(lib_name "Off Board Part_1")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 130.81 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c1fde5-15fc-4387-920e-0865489afcd6")
+		(property "Reference" "G1"
+			(at 30.48 88.9701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RJ50 (6510-0104-05)"
+			(at 30.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/encitech-connectors-ab/6510-0104-05/25596593"
+			(at 30.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "POTENC"
+				(path "/0a8240f1-1c25-4c2f-8c36-25ec707ee8f2"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 85.09 87.63)
