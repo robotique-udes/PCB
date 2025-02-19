@@ -1953,6 +1953,34 @@
 		(color 0 0 0 0)
 		(uuid "f37c09d8-8bac-4e28-8dba-364fe5322c4e")
 	)
+	(no_connect
+		(at 143.51 129.54)
+		(uuid "0af8c7af-720f-47a4-aec8-74857aae7193")
+	)
+	(no_connect
+		(at 140.97 72.39)
+		(uuid "1ad2538b-29aa-486e-8930-5e26128c2681")
+	)
+	(no_connect
+		(at 26.67 187.96)
+		(uuid "950c7750-e346-4bb4-9d31-83365483aa66")
+	)
+	(no_connect
+		(at 26.67 190.5)
+		(uuid "95b3caee-2d8b-4c57-9205-551c54e61c2c")
+	)
+	(no_connect
+		(at 140.97 74.93)
+		(uuid "b9784256-baf9-497f-9b9a-07b2af845989")
+	)
+	(no_connect
+		(at 29.21 160.02)
+		(uuid "bb01a84c-4ea1-4eed-aabb-450a96cf1060")
+	)
+	(no_connect
+		(at 143.51 132.08)
+		(uuid "c0178043-192a-43c6-a789-737c64142093")
+	)
 	(wire
 		(pts
 			(xy 121.92 140.97) (xy 121.92 144.78)
@@ -2527,38 +2555,35 @@
 		)
 		(uuid "1d675fef-732e-498b-baba-42df51a46cd0")
 	)
-	(label "VOLTAGE DIVIDER FROM 24V TO 3.3V"
-		(at 92.71 39.37 0)
-		(fields_autoplaced yes)
+	(text "E_STOP, SELECTOR AND DEL"
+		(exclude_from_sim no)
+		(at 45.72 109.22 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
-			(justify left bottom)
 		)
-		(uuid "279b4d4c-55d5-480d-be63-e190b3d1140f")
+		(uuid "27a50661-a172-4c92-a56e-836eac39ae9a")
 	)
-	(label "E_STOP, SELECTOR AND DEL"
-		(at 20.32 106.68 0)
-		(fields_autoplaced yes)
+	(text "INPUT FROM HIGH AMP PCB"
+		(exclude_from_sim no)
+		(at 41.275 33.02 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
-			(justify left bottom)
 		)
-		(uuid "b7d32266-2fe8-48fe-b0c6-e8039f11f4c7")
+		(uuid "41728609-1533-49ff-938a-bf0f4a78f706")
 	)
-	(label "INPUT FROM HIGH AMP PCB"
-		(at 19.05 31.75 0)
-		(fields_autoplaced yes)
+	(text "VOLTAGE DIVIDER FROM 24V TO 3.3V"
+		(exclude_from_sim no)
+		(at 124.46 54.61 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
-			(justify left bottom)
 		)
-		(uuid "f7f74b5f-af58-4201-8e6d-dde4abbba0a6")
+		(uuid "e0c5c7ed-eca4-4c22-9004-4bdadde6cc96")
 	)
 	(global_label "POS1 & 2"
 		(shape input)

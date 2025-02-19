@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|139140000|129000000|4ea4812f-bdb4-426e-98b0-28b593897a8a|c8aa4e01-90de-4460-8482-fa462d246099",
+        "starved_thermal|114787922|91500000|6f6ee7c2-a034-4d16-9753-a7da537d40f0|d5ed1be0-dbc1-47d7-ac12-1e99599d19ae|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -230,7 +233,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|368300|469900|c0b664b6-a9bc-48b6-9891-bcfe19f8e288|72a55a46-4340-4f5e-a6a9-1f1ad3bb551c|/59a8ef21-cb28-4a01-85e5-f4611a966f3e|/59a8ef21-cb28-4a01-85e5-f4611a966f3e|/59a8ef21-cb28-4a01-85e5-f4611a966f3e",
+      "power_pin_not_driven|406400|1270000|22569f6b-ebdb-44b2-93e8-a32b9d79babd|00000000-0000-0000-0000-000000000000|/59a8ef21-cb28-4a01-85e5-f4611a966f3e|/59a8ef21-cb28-4a01-85e5-f4611a966f3e|"
+    ],
     "meta": {
       "version": 0
     },
@@ -596,5 +602,10 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Nikolay Papanchev",
+    "GROUP_NAME": "Robotique UdeS",
+    "REVISION": "0",
+    "TEAM": "ROVUS"
+  }
 }
