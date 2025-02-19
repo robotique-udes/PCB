@@ -270,6 +270,81 @@
 				)
 			)
 		)
+		(symbol "Off Board Part_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G?"
+				(at 0 41.8399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "TODO"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Off Board Part_2_1_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -1924,16 +1999,28 @@
 		(uuid "3b844f53-86f6-489e-9433-2997deca8610")
 	)
 	(junction
-		(at 38.1 157.48)
+		(at 52.705 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a92151b0-7915-4526-ad8f-be59d9bc9b8b")
+		(uuid "490be155-1a83-4430-855f-dcb13403e82d")
+	)
+	(junction
+		(at 50.8 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a57d385-77e4-45ea-9ce1-0d92262cb249")
 	)
 	(junction
 		(at 119.38 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af68ba1b-8920-409f-8060-ac333cc37252")
+	)
+	(junction
+		(at 48.895 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b997e833-8de4-42e2-9768-2a960f59731c")
 	)
 	(junction
 		(at 121.92 144.78)
@@ -1947,12 +2034,6 @@
 		(color 0 0 0 0)
 		(uuid "edbc6cf2-c7b7-4e72-8653-8eb517dbda0e")
 	)
-	(junction
-		(at 41.91 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f37c09d8-8bac-4e28-8dba-364fe5322c4e")
-	)
 	(no_connect
 		(at 143.51 129.54)
 		(uuid "0af8c7af-720f-47a4-aec8-74857aae7193")
@@ -1962,11 +2043,11 @@
 		(uuid "1ad2538b-29aa-486e-8930-5e26128c2681")
 	)
 	(no_connect
-		(at 26.67 187.96)
+		(at 39.37 162.56)
 		(uuid "950c7750-e346-4bb4-9d31-83365483aa66")
 	)
 	(no_connect
-		(at 26.67 190.5)
+		(at 39.37 165.1)
 		(uuid "95b3caee-2d8b-4c57-9205-551c54e61c2c")
 	)
 	(no_connect
@@ -1974,7 +2055,7 @@
 		(uuid "b9784256-baf9-497f-9b9a-07b2af845989")
 	)
 	(no_connect
-		(at 29.21 160.02)
+		(at 39.37 143.51)
 		(uuid "bb01a84c-4ea1-4eed-aabb-450a96cf1060")
 	)
 	(no_connect
@@ -2000,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "067a93f7-bd32-4b5f-8729-bcf0898537e0")
-	)
-	(wire
-		(pts
-			(xy 30.48 130.81) (xy 30.48 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078be10e-46c9-49d9-a89f-953030ec2f72")
 	)
 	(wire
 		(pts
@@ -2053,13 +2124,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 185.42) (xy 26.67 185.42)
+			(xy 50.8 160.02) (xy 39.37 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23d0e45c-7c2b-40a1-9251-a5e06be1298c")
+	)
+	(wire
+		(pts
+			(xy 48.895 140.97) (xy 48.895 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26eb50b5-52da-47bb-868e-ebd247db5392")
 	)
 	(wire
 		(pts
@@ -2073,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 157.48) (xy 38.1 157.48)
+			(xy 39.37 140.97) (xy 48.895 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2090,6 +2171,16 @@
 			(type default)
 		)
 		(uuid "405fb247-da6c-4c1e-a633-4d9554f8220f")
+	)
+	(wire
+		(pts
+			(xy 41.91 127) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ebd8d3-09d8-425f-8d32-67e5c9985d9e")
 	)
 	(wire
 		(pts
@@ -2143,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 157.48) (xy 44.45 157.48)
+			(xy 48.895 140.97) (xy 59.69 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2153,7 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 154.94) (xy 41.91 154.94)
+			(xy 39.37 138.43) (xy 52.705 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2163,13 +2254,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 156.21) (xy 48.26 156.21)
+			(xy 52.705 138.43) (xy 52.705 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57ccd4d8-73d3-41e3-9703-782a3c558c18")
+		(uuid "649cee93-1db1-4f70-8a8e-c1f9343f0369")
 	)
 	(wire
 		(pts
@@ -2193,13 +2284,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 154.94) (xy 45.72 156.21)
+			(xy 50.8 160.02) (xy 50.8 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "784d3622-3e30-4a20-8f93-10a585b5df53")
+		(uuid "6f171282-e17a-4ccb-9e38-fd6bd1b90c17")
 	)
 	(polyline
 		(pts
@@ -2243,16 +2334,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 157.48) (xy 44.45 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889b5a89-7611-421a-b307-1b883382b078")
-	)
-	(wire
-		(pts
 			(xy 132.08 85.09) (xy 132.08 87.63)
 		)
 		(stroke
@@ -2293,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 128.27) (xy 40.64 128.27)
+			(xy 39.37 124.46) (xy 49.53 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 177.8) (xy 26.67 177.8)
+			(xy 48.895 152.4) (xy 39.37 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 182.88) (xy 26.67 182.88)
+			(xy 52.705 157.48) (xy 39.37 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 152.4) (xy 29.21 152.4)
+			(xy 41.91 135.89) (xy 39.37 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2393,16 +2474,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 161.29) (xy 48.26 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c194a81c-de69-432c-834c-14ef3e973a90")
-	)
-	(wire
-		(pts
 			(xy 121.92 127) (xy 121.92 133.35)
 		)
 		(stroke
@@ -2423,17 +2494,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 180.34) (xy 26.67 180.34)
+			(xy 50.8 154.94) (xy 39.37 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca9a3fa9-8c21-4e1b-9bc3-8836cf0bd148")
+		(uuid "cbb85f17-c85b-4924-b1b0-6b42379acb42")
 	)
 	(wire
 		(pts
-			(xy 39.37 186.69) (xy 39.37 185.42)
+			(xy 50.8 162.56) (xy 50.8 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2463,16 +2534,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 157.48) (xy 38.1 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddfc0385-3afd-4490-8aec-5ce1f16880b1")
-	)
-	(wire
-		(pts
 			(xy 119.38 87.63) (xy 119.38 90.17)
 		)
 		(stroke
@@ -2480,6 +2541,16 @@
 			(type default)
 		)
 		(uuid "e0acb7f0-8af7-4814-8078-8e699f19c139")
+	)
+	(wire
+		(pts
+			(xy 41.91 127) (xy 41.91 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e619fbaa-2f44-4406-a72d-5954544752f7")
 	)
 	(wire
 		(pts
@@ -2493,17 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 154.94) (xy 41.91 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed598fe6-76d0-4cc9-8118-cfb2ba694dfb")
-	)
-	(wire
-		(pts
-			(xy 41.91 154.94) (xy 45.72 154.94)
+			(xy 52.705 138.43) (xy 59.69 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 127) (xy 40.64 128.27)
+			(xy 49.53 124.46) (xy 49.53 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2605,7 @@
 		)
 		(uuid d02406d5-7638-4660-9578-c5b687d1e930)
 	)
-	(text "Voltage range of lipo 6s : 21 - 25 V \nSafety range of chip input voltage : 2.1 - 5.3 V\nRange obtained from voltage divider : 3.5 - 4.16 V\nZener diode breakdown voltage : 5.6 V\n"
+	(text "Voltage range of lipo 6s : 28 - 25.2 V \nSafe range of chip input voltage : 2.1 - 5.3 V\nRange obtained from voltage divider : 3.0 - 4.2 V\nZener diode breakdown voltage : 5.6 V\n"
 		(exclude_from_sim no)
 		(at 166.37 102.87 0)
 		(effects
@@ -2631,7 +2692,7 @@
 	)
 	(global_label "POS1 & 2"
 		(shape input)
-		(at 48.26 161.29 0)
+		(at 59.69 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2641,7 +2702,7 @@
 		)
 		(uuid "c57be417-96c1-4d2f-9ea5-0fffac567188")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.9818 161.29 0)
+			(at 72.4118 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2714,7 @@
 	)
 	(global_label "POS2"
 		(shape input)
-		(at 48.26 156.21 0)
+		(at 59.69 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2663,7 +2724,7 @@
 		)
 		(uuid "fc53d897-bafa-4cc1-ba24-a1a53074e5a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.2647 156.21 0)
+			(at 67.6947 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,16 +2803,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 40.64 127 0)
+		(at 49.53 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03fb039e-80e8-491b-8351-b239d97aedaf")
 		(property "Reference" "#PWR07"
-			(at 40.64 130.81 0)
+			(at 49.53 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2820,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 40.64 121.92 0)
+			(at 49.53 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 127 0)
+			(at 49.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 127 0)
+			(at 49.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 40.64 127 0)
+			(at 49.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,6 +2861,79 @@
 			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Off Board Part_2")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 275.59 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "1897ad9c-cc8c-4090-a3fa-15534723f932")
+		(property "Reference" "G3"
+			(at 275.59 -24.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PHR-3"
+			(at 275.59 17.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/PHR-3/527357"
+			(at 275.59 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "G3")
 					(unit 1)
 				)
 			)
@@ -2945,17 +3078,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 186.69 0)
+		(lib_name "Off Board Part_2")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 257.81 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3582e0d1-ecb1-4b35-bf5f-3a02669c533d")
-		(property "Reference" "#PWR04"
-			(at 39.37 193.04 0)
+		(uuid "2fc27f82-e3bd-4011-8cce-958492f8cde4")
+		(property "Reference" "G5"
+			(at 257.81 -6.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,8 +3097,9 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 39.37 191.77 0)
+		(property "Value" "PHR-6"
+			(at 257.81 35.56 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 186.69 0)
+			(at 255.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +3116,79 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 186.69 0)
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/PHR-6/608604"
+			(at 257.81 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "G5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3582e0d1-ecb1-4b35-bf5f-3a02669c533d")
+		(property "Reference" "#PWR04"
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3197,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 186.69 0)
+			(at 50.8 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,6 +3418,80 @@
 			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Off Board Part_2")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 257.81 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "646caf8a-d982-4ea3-97c5-163e2b426fec")
+		(property "Reference" "G2"
+			(at 257.81 -24.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PHR-2"
+			(at 257.81 17.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/PHR-2/608607"
+			(at 257.81 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "G2")
 					(unit 1)
 				)
 			)
@@ -3479,6 +3760,79 @@
 			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Off Board Part_2")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 257.81 26.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8573a5aa-30dd-4855-98f3-d4cef5a4e77a")
+		(property "Reference" "G1"
+			(at 257.81 -15.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PHR-3"
+			(at 257.81 26.67 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/PHR-3/527357"
+			(at 257.81 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "G1")
 					(unit 1)
 				)
 			)
@@ -3845,7 +4199,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "R"
 			(at 117.1575 167.64 0)
 			(effects
 				(font
@@ -3897,7 +4251,7 @@
 	)
 	(symbol
 		(lib_id "rover_lib:CONN-JST-XH-B2B")
-		(at 27.305 125.095 0)
+		(at 36.195 121.285 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3906,7 +4260,7 @@
 		(fields_autoplaced yes)
 		(uuid "c50a8878-faa4-4540-86f0-bef4cc1187c1")
 		(property "Reference" "J6"
-			(at 26.67 121.92 0)
+			(at 35.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4268,7 @@
 			)
 		)
 		(property "Value" "JST2_Pin"
-			(at 26.67 124.46 0)
+			(at 35.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4276,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:2-pins-JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 27.305 125.095 0)
+			(at 36.195 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.305 125.095 0)
+			(at 36.195 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +4294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.305 125.095 0)
+			(at 36.195 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4319,7 @@
 	)
 	(symbol
 		(lib_id "rover_lib:CONN-JST-XH-B6B")
-		(at 23.495 174.625 0)
+		(at 36.195 149.225 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3974,7 +4328,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc912e51-1be4-4d1f-a623-198ff05c1b4e")
 		(property "Reference" "J3"
-			(at 22.86 172.085 0)
+			(at 35.56 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4336,7 @@
 			)
 		)
 		(property "Value" "JST6_Pin"
-			(at 22.86 174.625 0)
+			(at 35.56 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4344,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 23.495 174.625 0)
+			(at 36.195 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.495 174.625 0)
+			(at 36.195 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4362,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 23.495 174.625 0)
+			(at 36.195 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,72 +4392,6 @@
 			(project "Selector"
 				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce20192d-7267-48aa-b4b2-09f61bcbca89")
-		(property "Reference" "#PWR03"
-			(at 45.72 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf31ac03-89bd-4fc4-bbc4-61c0693dd787")
-		)
-		(instances
-			(project "Selector"
-				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4500,33 +4788,36 @@
 		)
 	)
 	(symbol
-		(lib_id "rover_lib:CONN-JST-XH-B4B")
-		(at 26.035 149.225 0)
+		(lib_name "Off Board Part_2")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 275.59 26.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd0fded0-8caf-41c7-91a1-7422f817d763")
-		(property "Reference" "J2"
-			(at 25.3365 146.685 0)
+		(uuid "fc526724-a213-4e6d-9ce5-688a208ee35a")
+		(property "Reference" "G4"
+			(at 275.59 -15.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PHR-4"
+			(at 275.59 26.67 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "JST4_Pin"
-			(at 25.3365 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 26.035 149.225 0)
+		(property "Footprint" ""
+			(at 273.05 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.035 149.225 0)
+			(at 273.05 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4835,78 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.035 149.225 0)
+			(at 273.05 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/PHR-4/608606"
+			(at 275.59 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Selector"
+				(path "/59a8ef21-cb28-4a01-85e5-f4611a966f3e"
+					(reference "G4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rover_lib:CONN-JST-XH-B4B")
+		(at 36.195 132.715 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd0fded0-8caf-41c7-91a1-7422f817d763")
+		(property "Reference" "J2"
+			(at 35.4965 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST4_Pin"
+			(at 35.4965 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 36.195 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.195 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.195 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)

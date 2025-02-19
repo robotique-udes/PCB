@@ -11537,7 +11537,7 @@
 		(uuid "b0854d4c-d589-442d-a112-3e609c1a74fb")
 		(at 79.160877 47.835502 180)
 		(property "Reference" "G***"
-			(at 4.760877 0 360)
+			(at 4.760877 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1c882a37-d7fa-4b97-9569-8f341756867f")
@@ -11549,7 +11549,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.075 0 360)
+			(at 0.075 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fd488657-c893-430d-a470-6f7a7bea3dd0")
@@ -11561,7 +11561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4aef4763-43ef-4118-8ebf-951f000fd01c")
@@ -11573,7 +11573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb2ce9e8-7c6c-4f11-9ab8-d5e6a1cc107e")
@@ -11585,7 +11585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "351b90d5-c13a-422d-b7e3-3b001e97b8a2")
@@ -26244,7 +26244,7 @@
 			(pintype "passive")
 			(uuid "cd939a8a-3b91-445b-bc3e-c06843d8d9f1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1U.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32U.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28478,6 +28478,18 @@
 		(layer "User.4")
 		(uuid "87966a1a-9369-43c5-a528-680b7f56c812")
 	)
+	(gr_text "|  24V_{ + }CAN  |"
+		(at 40.2 19.1 180)
+		(layer "F.SilkS" knockout)
+		(uuid "023ccc57-8561-4d22-8339-90ccc24d60af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "CH7 MAX 3A"
 		(at 139 50.75 180)
 		(layer "F.SilkS" knockout)
@@ -28604,6 +28616,18 @@
 			)
 		)
 	)
+	(gr_text "|   NO CAN   |"
+		(at 120 19.2 180)
+		(layer "F.SilkS" knockout)
+		(uuid "2e73dfb5-89ca-4623-bdc1-22193b10077e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "BAT | USB"
 		(at 148.425 52.675 180)
 		(layer "F.SilkS" knockout)
@@ -28721,6 +28745,30 @@
 			)
 		)
 	)
+	(gr_text "|  24V_{ + }CAN  |"
+		(at 24.5 19.1 180)
+		(layer "F.SilkS" knockout)
+		(uuid "37bfb026-5609-4831-8284-e597f55528a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "|  24V_{ + }CAN  |"
+		(at 8.8 19.1 180)
+		(layer "F.SilkS" knockout)
+		(uuid "3a36583a-3eac-4556-974e-6b8cba427415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "CH1 MAX 2A"
 		(at 28 50.75 180)
 		(layer "F.SilkS" knockout)
@@ -28832,6 +28880,18 @@
 					(xy 24.90421 51.018994) (xy 24.915892 50.965291) (xy 24.927668 50.911413) (xy 24.961374 50.752411)
 					(xy 24.745707 50.752411) (xy 24.626076 50.752411) (xy 24.531506 50.335) (xy 24.657536 50.335)
 				)
+			)
+		)
+	)
+	(gr_text "|   NO CAN   |"
+		(at 88.6 19.2 180)
+		(layer "F.SilkS" knockout)
+		(uuid "618298e0-5a71-4006-aca2-224451c913ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -29411,6 +29471,18 @@
 			)
 		)
 	)
+	(gr_text "|   NO CAN   |"
+		(at 135.7 19.2 180)
+		(layer "F.SilkS" knockout)
+		(uuid "8e8e4ef7-b788-4c08-9cfd-7ac7620af171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "BOOT"
 		(at 109.25 66.75 0)
 		(layer "F.SilkS" knockout)
@@ -29619,6 +29691,18 @@
 				(bold yes)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "|   NO CAN   |"
+		(at 104.3 19.2 180)
+		(layer "F.SilkS" knockout)
+		(uuid "ac8b68a7-fcbc-4dca-9ab9-52edaafc1dc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
 		)
 	)
 	(gr_text "CH6 MAX 3A"
@@ -30198,6 +30282,18 @@
 				(bold yes)
 			)
 			(justify right top)
+		)
+	)
+	(gr_text "|  24V_{ + }CAN  |"
+		(at 55.9 19.1 180)
+		(layer "F.SilkS" knockout)
+		(uuid "fa4c11b7-770d-46a1-882c-9cc0a94feed6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
 		)
 	)
 	(dimension

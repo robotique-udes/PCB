@@ -4028,6 +4028,81 @@
 				)
 			)
 		)
+		(symbol "0_RoverLibrary:Off Board Part"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G?"
+				(at 0 41.8399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "TODO"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Off Board Part_1_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "0_RoverLibrary:PushButton-TS09-63-25-WT-160-SMT-TR"
 			(pin_names
 				(offset 0.254)
@@ -11395,6 +11470,18 @@
 		(uuid 18dcb6fa-177d-4e13-9a7a-f9cfa2ecdb3a)
 	)
 	(rectangle
+		(start 255.27 224.79)
+		(end 298.45 283.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33da8c3f-b83f-4fdd-834f-0fb5d3f1b78c)
+	)
+	(rectangle
 		(start 111.76 88.9)
 		(end 193.04 147.32)
 		(stroke
@@ -11528,7 +11615,7 @@
 	)
 	(rectangle
 		(start 255.27 148.59)
-		(end 298.45 283.21)
+		(end 298.45 223.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -11583,6 +11670,17 @@
 			(justify left)
 		)
 		(uuid "121313ca-7239-481f-85d2-6a319bd1f3ca")
+	)
+	(text "Off Board Parts"
+		(exclude_from_sim no)
+		(at 256.032 226.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1617ecec-b2e2-419f-a2ea-43f579ef2351")
 	)
 	(text "Data Input"
 		(exclude_from_sim no)
@@ -12315,6 +12413,79 @@
 		)
 	)
 	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 267.97 259.08 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "017be088-af73-49cc-93d3-ac200fcffb64")
+		(property "Reference" "G8"
+			(at 267.97 217.2401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 267.97 259.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 267.97 261.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 107.95 0)
 		(unit 1)
@@ -12464,7 +12635,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 326.39 88.8999 0)
 			(effects
 				(font
@@ -12807,7 +12978,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 326.39 38.0999 0)
 			(effects
 				(font
@@ -14224,6 +14395,152 @@
 			(project "DDB"
 				(path "/9f068864-7bea-4df8-8831-a775208b0184"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 267.97 250.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a3202b-8cc8-4c28-bcfa-3dabf9152b94")
+		(property "Reference" "G7"
+			(at 267.97 208.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 267.97 250.19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 267.97 252.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 285.75 241.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7b5282-8083-4e22-a645-d505dff004d3")
+		(property "Reference" "G3"
+			(at 285.75 199.4601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 285.75 241.3 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 285.75 244.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G3")
 					(unit 1)
 				)
 			)
@@ -15684,6 +16001,79 @@
 			(project "DDB"
 				(path "/9f068864-7bea-4df8-8831-a775208b0184"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 285.75 232.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32b0529c-b0c8-44b2-b7b4-f665559d5b10")
+		(property "Reference" "G2"
+			(at 285.75 190.5701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 285.75 232.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 285.75 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G2")
 					(unit 1)
 				)
 			)
@@ -17387,6 +17777,79 @@
 		)
 	)
 	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 285.75 250.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b5f9c8-b3b7-4097-814b-0fa6aa981770")
+		(property "Reference" "G4"
+			(at 285.75 208.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 285.75 250.19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 285.75 252.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 187.96 0)
 		(unit 1)
@@ -17471,7 +17934,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 394.97 88.8999 0)
 			(effects
 				(font
@@ -18496,6 +18959,79 @@
 		)
 	)
 	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 285.75 259.08 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a0f0b86-e9e9-4394-8964-caf15a001a6c")
+		(property "Reference" "G5"
+			(at 285.75 217.2401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 285.75 259.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 285.75 261.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 114.3 261.62 0)
 		(unit 1)
@@ -18997,7 +19533,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 326.39 63.4999 0)
 			(effects
 				(font
@@ -19043,6 +19579,79 @@
 			(project "DDB"
 				(path "/9f068864-7bea-4df8-8831-a775208b0184"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 267.97 241.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63423373-c830-414a-b35e-b19ebbdd535f")
+		(property "Reference" "G6"
+			(at 267.97 199.4601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 267.97 241.3 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 267.97 244.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G6")
 					(unit 1)
 				)
 			)
@@ -19816,7 +20425,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "TVS-SMDB03CE3"
 			(at 80.01 95.25 0)
 			(effects
 				(font
@@ -20353,7 +20962,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 71.12 125.984 90)
 			(effects
 				(font
@@ -20634,6 +21243,79 @@
 			(project "DDB"
 				(path "/9f068864-7bea-4df8-8831-a775208b0184"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 267.97 267.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "756a2a8a-89e3-49aa-8064-b0c89400ea3e")
+		(property "Reference" "G9"
+			(at 267.97 226.1301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 267.97 267.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 267.97 270.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G9")
 					(unit 1)
 				)
 			)
@@ -21060,7 +21742,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 71.12 118.364 90)
 			(effects
 				(font
@@ -21772,6 +22454,79 @@
 		)
 	)
 	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 267.97 232.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "952019f6-5750-465a-b3fc-4a734083818b")
+		(property "Reference" "G1"
+			(at 267.97 190.5701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A Fuse"
+			(at 267.97 232.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297003-WXT/5233690"
+			(at 267.97 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 397.51 106.68 0)
 		(unit 1)
@@ -21922,7 +22677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 250.19 101.5999 0)
 			(effects
 				(font
@@ -22546,7 +23301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 394.97 38.0999 0)
 			(effects
 				(font
@@ -23369,7 +24124,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 394.97 114.2999 0)
 			(effects
 				(font
@@ -24500,7 +25255,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 326.39 114.2999 0)
 			(effects
 				(font
@@ -25437,7 +26192,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4.7k"
 			(at 394.97 63.4999 0)
 			(effects
 				(font
@@ -28246,6 +29001,79 @@
 			(project "DDB"
 				(path "/9f068864-7bea-4df8-8831-a775208b0184"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_RoverLibrary:Off Board Part")
+		(at 285.75 267.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdee1340-f437-4399-ac03-6fd00bfdb96e")
+		(property "Reference" "G10"
+			(at 285.75 226.1301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "20A Fuse"
+			(at 285.75 267.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/littelfuse-inc/0297020-WXT/5233695"
+			(at 285.75 270.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "G10")
 					(unit 1)
 				)
 			)
