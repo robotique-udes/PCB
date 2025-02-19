@@ -12,38 +12,29 @@
 		(comment 1 "${AUTHOR}")
 	)
 	(lib_symbols
-		(symbol "RoverLibrary:CONN-JST-XH-B2B"
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -0.762 -1.016 0)
-				(do_not_autoplace)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "JST2_Pin"
-				(at -0.508 -8.128 0)
-				(do_not_autoplace)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RoverFootprint:2-pins-JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-				(at -0.254 0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,44 +52,71 @@
 					(hide yes)
 				)
 			)
-			(symbol "CONN-JST-XH-B2B_1_1"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.905 -1.905)
-					(end 0.635 -6.985)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(rectangle
-					(start -0.508 -5.461)
-					(end -1.016 -5.969)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 -2.921)
-					(end -1.016 -3.429)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
-					(at 3.175 -3.175 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -114,9 +132,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.175 -5.715 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1446,7 +1464,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 35.56) (xy 80.01 35.56)
+			(xy 72.39 35.56) (xy 80.01 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1634,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 38.1) (xy 69.85 38.1)
+			(xy 73.66 38.1) (xy 72.39 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 40.64) (xy 71.12 38.1)
+			(xy 73.66 40.64) (xy 73.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +2459,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 40.64 0)
+		(at 73.66 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2449,7 +2467,7 @@
 		(dnp no)
 		(uuid "23228f06-8959-4052-a410-deff45a195a3")
 		(property "Reference" "#PWR06"
-			(at 71.12 46.99 0)
+			(at 73.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 44.704 0)
+			(at 73.66 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 40.64 0)
+			(at 73.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 40.64 0)
+			(at 73.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 40.64 0)
+			(at 73.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,74 +2715,6 @@
 			(project "HighAmpOutput"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:CONN-JST-XH-B2B")
-		(at 66.675 32.385 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3dd312cf-4993-4db3-9c39-5858c5a48aaa")
-		(property "Reference" "J1"
-			(at 66.04 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST2_Pin"
-			(at 66.04 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RoverFootprint:2-pins-JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 66.675 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.675 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.675 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e19ee190-2e19-465f-b362-90669a4061c4")
-		)
-		(pin "2"
-			(uuid "b7e48f6a-0817-4cf6-8985-d126364213b4")
-		)
-		(instances
-			(project "Template"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4720,6 +4670,75 @@
 			(project "Template"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c953c3d9-be3d-4a70-ab31-af46597ecce6")
+		(property "Reference" "J2"
+			(at 67.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST-PH-S2B"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f0a0767-2983-47bb-9e34-faa4bbb77af9")
+		)
+		(pin "1"
+			(uuid "54fabefc-8d8e-41d0-8b2f-9b87e79a183c")
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
+					(reference "J2")
 					(unit 1)
 				)
 			)
