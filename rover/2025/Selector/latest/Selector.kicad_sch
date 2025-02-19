@@ -1987,6 +1987,12 @@
 		(uuid "0f2d7ecc-4f61-48fd-9b29-f11903d4a15e")
 	)
 	(junction
+		(at 52.07 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f6fc2ad-a724-4826-baff-17f09a15a7c4")
+	)
+	(junction
 		(at 119.38 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1999,10 +2005,10 @@
 		(uuid "3b844f53-86f6-489e-9433-2997deca8610")
 	)
 	(junction
-		(at 52.705 138.43)
+		(at 49.53 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "490be155-1a83-4430-855f-dcb13403e82d")
+		(uuid "4457befa-050b-417d-a700-cb711bde88d5")
 	)
 	(junction
 		(at 50.8 160.02)
@@ -2015,12 +2021,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af68ba1b-8920-409f-8060-ac333cc37252")
-	)
-	(junction
-		(at 48.895 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b997e833-8de4-42e2-9768-2a960f59731c")
 	)
 	(junction
 		(at 121.92 144.78)
@@ -2134,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 140.97) (xy 48.895 152.4)
+			(xy 49.53 140.97) (xy 49.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2151,16 +2151,6 @@
 			(type default)
 		)
 		(uuid "28673a82-303d-4352-9fa0-6022dc10f575")
-	)
-	(wire
-		(pts
-			(xy 39.37 140.97) (xy 48.895 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "383e477e-c4a1-43d3-ba41-fe99d68d8cba")
 	)
 	(wire
 		(pts
@@ -2234,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 140.97) (xy 59.69 140.97)
+			(xy 39.37 140.97) (xy 49.53 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2244,17 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 138.43) (xy 52.705 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d7a89e-e9fb-47fb-863b-eda4b65fa2c7")
-	)
-	(wire
-		(pts
-			(xy 52.705 138.43) (xy 52.705 157.48)
+			(xy 52.07 138.43) (xy 52.07 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2311,6 +2291,16 @@
 			(type default)
 		)
 		(uuid "7e4e827d-7f48-4223-a834-7e56ba0b3e17")
+	)
+	(wire
+		(pts
+			(xy 49.53 140.97) (xy 59.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9d2492-62d1-4f67-8792-fa427fe6af36")
 	)
 	(wire
 		(pts
@@ -2394,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 152.4) (xy 39.37 152.4)
+			(xy 49.53 152.4) (xy 39.37 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2404,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 157.48) (xy 39.37 157.48)
+			(xy 52.07 157.48) (xy 39.37 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2451,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "bb7d6301-ad06-4c09-8ce0-81c868226ad3")
+	)
+	(wire
+		(pts
+			(xy 52.07 138.43) (xy 59.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be778d7f-906e-4d52-873c-9a9b597d66ca")
 	)
 	(polyline
 		(pts
@@ -2564,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 138.43) (xy 59.69 138.43)
+			(xy 39.37 138.43) (xy 52.07 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3311,7 +3311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 146.685 135.255 0)
 			(effects
 				(font
@@ -3866,7 +3866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 144.145 78.105 0)
 			(effects
 				(font
@@ -4275,7 +4275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RoverFootprint:2-pins-JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 36.195 121.285 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 36.195 149.225 0)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 	)
 	(symbol
 		(lib_id "rover_lib:FuseHolder")
-		(at 40.64 46.99 0)
+		(at 40.64 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4407,7 +4407,7 @@
 		(dnp no)
 		(uuid "e442138c-e56f-4c09-b854-2474d3687e00")
 		(property "Reference" "F1"
-			(at 41.91 50.8 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4416,7 @@
 			)
 		)
 		(property "Value" "2A"
-			(at 41.91 45.085 0)
+			(at 39.37 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4425,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:FUSE_3568-20"
-			(at 38.862 46.99 90)
+			(at 42.418 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4452,7 @@
 			)
 		)
 		(property "STATUS" "APPROVED"
-			(at 38.1 44.4501 0)
+			(at 43.18 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4462,7 @@
 			)
 		)
 		(property "PACKAGE" "THT"
-			(at 40.64 49.022 0)
+			(at 40.64 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 36.195 132.715 0)
 			(effects
 				(font
