@@ -58,7 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|162179000|73880963|7af7bdba-6cb3-46fb-89f7-36c89d5526e1|683f4937-50f2-401e-99a6-54d62b4d8ebe",
+        "silk_edge_clearance|128000000|109855000|9ac6f718-64e6-4c1e-9a8b-2a8cadb09f2d|37bc3f67-4ced-4e71-bc16-997d61a8a153",
+        "silk_edge_clearance|128000001|94615000|9ac6f718-64e6-4c1e-9a8b-2a8cadb09f2d|b75daa6d-e359-4c00-9feb-bbbfd6d7c06c",
+        "silk_edge_clearance|137287000|69993178|f496ae99-012d-4434-b4d6-438cf3908e30|ba1794b5-7c82-480d-875d-b8ff7a937f07",
+        "silk_edge_clearance|152527000|69996010|f496ae99-012d-4434-b4d6-438cf3908e30|0eb2308d-cc66-45e0-85ca-a5da5c44617d"
+      ],
       "meta": {
         "version": 2
       },
@@ -71,7 +77,7 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -101,7 +107,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -230,7 +236,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|254000|622300|f65b286e-8f97-490b-939a-30203a769274|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|317500|990600|aa95fc39-9fe1-4fa6-9ca9-abbf284a62dd|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|495300|876300|84d59f30-62b7-4882-8016-8d2418d3709e|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|965200|292100|7e3f77ed-e773-4f82-a871-aab01446ac93|00000000-0000-0000-0000-000000000000|||",
+      "pin_to_pin|1066800|330200|37854fe7-8a84-4f46-9a14-40c16e245e66|bf04e255-dba2-428c-9430-e58f9a71f44d|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba",
+      "power_pin_not_driven|1993900|279400|522bab58-8d71-4586-bfd2-0de95911cd37|00000000-0000-0000-0000-000000000000|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|",
+      "power_pin_not_driven|317500|889000|0c1afc33-9b2d-45f8-ac85-1127966080dd|00000000-0000-0000-0000-000000000000|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|",
+      "power_pin_not_driven|368300|1320800|a590aa86-db87-49e0-858e-ae139ecf7708|00000000-0000-0000-0000-000000000000|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|/42e9f84b-4695-47f8-9ec4-c5ab52c963ba|"
+    ],
     "meta": {
       "version": 0
     },
@@ -454,7 +469,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
