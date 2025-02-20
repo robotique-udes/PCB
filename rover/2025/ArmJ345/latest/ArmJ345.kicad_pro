@@ -588,10 +588,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../REV0-2025-02-19/ArmJ345-REV0-2025-02-19/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../Downloads/ArmJ345.step",
+      "step": "../../../../../../../REV0-2025-02-19/ArmJ345-REV0-2025-02-19.step",
       "svg": "",
       "vrml": ""
     },
@@ -599,7 +599,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "../REV0-2025-02-19/ArmJ345-REV0-2025-02-19.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -630,7 +630,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -645,10 +645,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -660,13 +660,13 @@
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Digikey Link",
           "name": "Digikey Link",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -721,6 +721,54 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -758,7 +806,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "/home/phil/rover/PCB/rover/Templates/SchematicTemplate.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "../REV0-2025-02-19/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
