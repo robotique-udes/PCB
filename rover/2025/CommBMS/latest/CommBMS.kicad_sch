@@ -193,6 +193,81 @@
 				)
 			)
 		)
+		(symbol "RoverLibrary:Off Board Part"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G?"
+				(at 0 41.8399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "TODO"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Off Board Part_1_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -290,9 +365,121 @@
 			)
 		)
 	)
+	(junction
+		(at 82.55 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6eb8cd-ca4c-407d-bca3-1df9cc201f6c")
+	)
+	(junction
+		(at 119.38 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39fbc4a7-ca99-481d-8721-ba1e109b97af")
+	)
+	(wire
+		(pts
+			(xy 119.38 40.64) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a27c3b3-f3f7-4dd9-8fd5-e362e0841eda")
+	)
+	(wire
+		(pts
+			(xy 125.73 54.61) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a73ca36-14f5-4e1c-8c35-1900685fe6a6")
+	)
 	(bus
 		(pts
-			(xy 110.49 46.99) (xy 142.24 46.99)
+			(xy 74.93 58.42) (xy 82.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a1a13c-83f4-4364-a3c8-7c87c9e7b2b5")
+	)
+	(bus
+		(pts
+			(xy 82.55 53.34) (xy 87.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466c23f5-1e6a-48c5-b190-a4bbf3d25001")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 119.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c6990b-1cc0-4032-924e-3efddc2add9f")
+	)
+	(wire
+		(pts
+			(xy 119.38 40.64) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eaa4c9-b0d3-4d8f-8f8d-43bf7ea3e8bb")
+	)
+	(bus
+		(pts
+			(xy 82.55 44.45) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752770a5-41d2-49df-a4ed-f4c6a527b2e6")
+	)
+	(bus
+		(pts
+			(xy 82.55 50.8) (xy 87.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0d4883-ca58-46f8-967c-fe45c12d0e14")
+	)
+	(bus
+		(pts
+			(xy 74.93 44.45) (xy 82.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c91ca23-cb2a-4869-aa42-431cef455e95")
+	)
+	(wire
+		(pts
+			(xy 125.73 50.8) (xy 143.51 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98242f6b-77b0-401c-8754-d57f78626874")
+	)
+	(bus
+		(pts
+			(xy 156.21 17.78) (xy 187.96 17.78)
 		)
 		(stroke
 			(width 0)
@@ -300,15 +487,45 @@
 		)
 		(uuid "b57d5a7f-59de-4d75-a437-fc3f36f06dad")
 	)
+	(bus
+		(pts
+			(xy 100.33 52.07) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c313dc05-c605-4e57-b577-8737d9fb1971")
+	)
+	(bus
+		(pts
+			(xy 82.55 58.42) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db735e78-9538-4b62-91c6-a47b138d3440")
+	)
 	(wire
 		(pts
-			(xy 110.49 52.07) (xy 142.24 52.07)
+			(xy 156.21 22.86) (xy 187.96 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1d38168-4f4c-4013-938a-c88e40b64177")
+	)
+	(bus
+		(pts
+			(xy 82.55 44.45) (xy 143.51 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79d9b80-ad1a-4fd6-aee7-893b327a81f3")
 	)
 	(rectangle
 		(start 52.07 12.7)
@@ -346,7 +563,70 @@
 		)
 		(uuid bf5f2320-f154-4fa4-b9dc-5fe96c538a38)
 	)
-	(text_box "\n<Enter Description Here>\n"
+	(text_box "CONN_ETH"
+		(exclude_from_sim yes)
+		(at 143.51 38.1 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0cfbed8c-d87c-4383-8aac-3b0ebce75fef")
+	)
+	(text_box "USB_C"
+		(exclude_from_sim yes)
+		(at 62.23 55.88 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3aa9154c-fe24-45af-ba09-d6f9d123e8c4")
+	)
+	(text_box "ESP32"
+		(exclude_from_sim yes)
+		(at 113.03 48.26 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "40af52d3-a21b-46d2-b7ae-360373938883")
+	)
+	(text_box "\nFor communication with BMS\nIn CAN, RS485, PWM\nGet info of battery status\n"
 		(exclude_from_sim no)
 		(at 12.7 31.75 0)
 		(size 38.1 26.67)
@@ -364,6 +644,27 @@
 			(justify left top)
 		)
 		(uuid "6327f84d-2da6-4155-ba4d-8aaf0628c53b")
+	)
+	(text_box "CONN_ETH"
+		(exclude_from_sim yes)
+		(at 62.23 38.1 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "647e0b8c-7a31-45c4-a185-59ed69849dc8")
 	)
 	(text_box "\nAdd parts like connectors, crimps or other which needs to be ordered with the PCB. Don't forget to check the \"remove from board\" option\n"
 		(exclude_from_sim no)
@@ -384,9 +685,30 @@
 		)
 		(uuid "b53f6bf4-d327-4e95-8aca-bc82ed4cc163")
 	)
+	(text_box "CONN_BMS"
+		(exclude_from_sim yes)
+		(at 143.51 48.26 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c469be6e-7645-4150-b62f-409c1c26a880")
+	)
 	(text_box "This is a component"
 		(exclude_from_sim yes)
-		(at 97.79 45.72 0)
+		(at 143.51 16.51 0)
 		(size 12.7 7.62)
 		(stroke
 			(width 0)
@@ -404,6 +726,60 @@
 			)
 		)
 		(uuid "c71eb121-8f8e-4c97-acf7-73af579c056e")
+	)
+	(text_box "LDO"
+		(exclude_from_sim yes)
+		(at 87.63 48.26 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "db036582-2a62-4f6c-bf98-cc0b6e7eb8cd")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 76.2 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15b2c80d-bf5b-4ea7-af2e-460af2e9a64e")
+	)
+	(text "CAN/RS485"
+		(exclude_from_sim no)
+		(at 127 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "248ab69a-97ed-4fac-824e-9bff73601463")
+	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 127 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2eac8f0a-82ca-4698-90b5-661893155e24")
 	)
 	(text "Off board parts to order"
 		(exclude_from_sim no)
@@ -431,6 +807,28 @@
 		)
 		(uuid "44fbaf2a-cf2c-43cd-9fae-d7fe0ca2f905")
 	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 76.962 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53a256e2-b771-4edb-9915-879737d0e20a")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 76.454 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63f0b838-0f55-4cd3-ad97-abec953b6a31")
+	)
 	(text "- Layer count: 4\n- Stackup nb: JLC04162-H-7628\n"
 		(exclude_from_sim no)
 		(at 14.224 15.748 0)
@@ -445,7 +843,7 @@
 	)
 	(text "This is a data wire"
 		(exclude_from_sim no)
-		(at 142.24 51.054 0)
+		(at 187.96 21.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -453,6 +851,17 @@
 			(justify right)
 		)
 		(uuid "917d76e4-1e3c-4021-855f-5e2d03824c3a")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 105.41 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6790e3f-48d0-4ff5-ae7e-071282490c8b")
 	)
 	(text "PCB Decription"
 		(exclude_from_sim no)
@@ -482,7 +891,7 @@
 	)
 	(text "This is a High Current Wire"
 		(exclude_from_sim no)
-		(at 142.24 45.974 0)
+		(at 187.96 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -503,6 +912,79 @@
 			(justify left)
 		)
 		(uuid "e8f6bc66-72af-4902-bea7-bb04cc8a6549")
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f676f40-45cc-49d1-bddb-0b370abca89c")
+		(property "Reference" "G14"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "RoverLibrary:MountingHole_Pad")
@@ -566,6 +1048,79 @@
 			(project "ProjectTemplate"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e275a6-b466-4b9b-b542-10ff9ae49c8a")
+		(property "Reference" "G9"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G9")
 					(unit 1)
 				)
 			)
@@ -704,6 +1259,225 @@
 		)
 	)
 	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a719c4-36cd-46e3-990e-023832532c6e")
+		(property "Reference" "G8"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a175704-b811-481f-937e-b80cc376c700")
+		(property "Reference" "G6"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aed259d-44ec-4c4f-8f37-dd7e61366b6c")
+		(property "Reference" "G12"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RoverLibrary:MountingHole_Pad")
 		(at 82.55 105.41 0)
 		(unit 1)
@@ -765,6 +1539,298 @@
 			(project "ProjectTemplate"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27d5a9a3-e4c5-460c-8ccf-ae78e9f47f4a")
+		(property "Reference" "G3"
+			(at 30.48 36.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CONN_MOLEX"
+			(at 30.48 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039012080/61382"
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "366e5ddb-a774-44d5-9100-b9ebb63ae279")
+		(property "Reference" "G5"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af456d8-b42d-48a8-823e-7549eea9d0d0")
+		(property "Reference" "G18"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5476cd31-ab77-447f-8131-aa5a9bea9335")
+		(property "Reference" "G13"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G13")
 					(unit 1)
 				)
 			)
@@ -841,7 +1907,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66da50da-0726-4d05-8e02-e2d0f6a16e55")
@@ -968,6 +2034,79 @@
 		)
 	)
 	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83d6653e-05c0-4de2-b481-2ba413925ecd")
+		(property "Reference" "G2"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 114.3 120.65 0)
 		(unit 1)
@@ -1032,6 +2171,79 @@
 		)
 	)
 	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f641199-516b-4a57-8ba0-2f900325b2f5")
+		(property "Reference" "G10"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 114.3 107.95 0)
 		(unit 1)
@@ -1090,6 +2302,152 @@
 			(project ""
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9317c299-2c0f-44f6-af4b-a2dc8307c46e")
+		(property "Reference" "G1"
+			(at 30.48 36.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CONN_MOLEX"
+			(at 30.48 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039012080/61382"
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af097540-de54-4456-b042-d3e6e2712ed0")
+		(property "Reference" "G7"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G7")
 					(unit 1)
 				)
 			)
@@ -1161,6 +2519,79 @@
 		)
 	)
 	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6edd1ce-0e22-4396-bd28-a3767359729d")
+		(property "Reference" "G17"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 114.3 114.3 0)
 		(unit 1)
@@ -1224,6 +2655,298 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf1475e-4c44-4ad5-8eae-61aaeb5be2ea")
+		(property "Reference" "G16"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deb70128-e47f-40c5-bf30-01c13f9a396f")
+		(property "Reference" "G4"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e208881a-cfda-4a6b-8b39-1981f849c455")
+		(property "Reference" "G11"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 30.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3422031-46df-4b27-b157-58e49c995f5b")
+		(property "Reference" "G15"
+			(at 30.48 48.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CRIMP"
+			(at 30.48 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0039000038/413211"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TODO"
+			(at 30.48 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CommBMS"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G15")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 100.33 17.78)
 		(size 38.1 6.35)
@@ -1255,7 +2978,7 @@
 			)
 		)
 		(instances
-			(project "ProjectTemplate"
+			(project "CommBMS"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(page "2")
 				)
