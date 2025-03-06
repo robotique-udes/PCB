@@ -185,7 +185,8 @@
       "track_widths": [
         0.0,
         0.127,
-        0.2032
+        0.2032,
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -557,8 +558,12 @@
         "pattern": "USB_*"
       },
       {
-        "netclass": "CAN_Coplanar_InternalLayers",
+        "netclass": "CAN_Coplanar_ExternalLayers",
         "pattern": "CAN_*"
+      },
+      {
+        "netclass": "CAN_Coplanar_ExternalLayers",
+        "pattern": "+3.3V"
       }
     ]
   },
