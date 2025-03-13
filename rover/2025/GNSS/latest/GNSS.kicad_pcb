@@ -8404,11 +8404,11 @@
 	(footprint "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
 		(layer "B.Cu")
 		(uuid "d99bd5e4-fee8-419c-9dd8-4aefb711a1c1")
-		(at 142.748 116.586 180)
+		(at 144.018 116.967 180)
 		(descr "SMD 1x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile")
 		(tags "SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile")
 		(property "Reference" "SW1"
-			(at -3.048 3.81 360)
+			(at -3.048 3.81 0)
 			(layer "B.SilkS")
 			(uuid "b99bf404-de8f-4b9e-96b9-bbe4626ee5e7")
 			(effects
@@ -8420,7 +8420,7 @@
 			)
 		)
 		(property "Value" "TS09-63-25-WT-160-SMT-TR"
-			(at 0 -3.11 360)
+			(at 0 -3.11 0)
 			(layer "B.Fab")
 			(uuid "206dc5df-ca66-4042-aca3-eb0c5dfd55c8")
 			(effects
@@ -9009,7 +9009,7 @@
 			)
 		)
 		(fp_text user "on"
-			(at 0.4275 1.3425 360)
+			(at 0.4275 1.3425 0)
 			(layer "B.Fab")
 			(uuid "c8a2feb7-53a0-47c0-8399-3d428dee8bf8")
 			(effects
@@ -10321,7 +10321,7 @@
 		)
 	)
 	(gr_text "EN_ESP"
-		(at 142.748 113.538 0)
+		(at 143.891 113.792 0)
 		(layer "B.SilkS")
 		(uuid "46b2783f-f16d-4324-826d-ee589d2ab4f8")
 		(effects
@@ -10411,7 +10411,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "GNSS REV1\nby: JUNE YOUNG\n	PARK\n2025-02-18\nRobotique UdeS\nROVUS\n"
+	(gr_text "GNSS REV1\nby: JUNE YOUNG\n	PARK\n2025-03-12\nRobotique UdeS\nROVUS\n"
 		(at 137.922 81.28 90)
 		(layer "B.SilkS")
 		(uuid "d06bd2a0-02f0-4c0c-9d3e-891c38e4f2ee")
@@ -11003,6 +11003,14 @@
 		(uuid "a62b73f3-b3c1-4dbf-a6da-06a93ad0d055")
 	)
 	(segment
+		(start 149.733 108.6905)
+		(end 148.323 110.1005)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "21f12b9c-8d98-4fc3-baec-77975868f3e7")
+	)
+	(segment
 		(start 152.837282 93.574)
 		(end 156.282282 93.574)
 		(width 0.2032)
@@ -11027,20 +11035,20 @@
 		(uuid "2b685e03-a4b8-4227-b157-de18d9ddfbdf")
 	)
 	(segment
-		(start 147.053 116.586)
-		(end 147.053 111.3705)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "3301d56d-ec8e-4b01-9cc0-c75c0918398d")
-	)
-	(segment
 		(start 152.472282 93.209)
 		(end 152.472282 107.369718)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 5)
 		(uuid "4110a382-4939-45b4-844e-b85582403f27")
+	)
+	(segment
+		(start 148.323 110.1005)
+		(end 148.323 116.967)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "5431cdb4-1299-4bd8-b358-65ead71a3db3")
 	)
 	(segment
 		(start 151.1515 108.6905)
@@ -11057,14 +11065,6 @@
 		(layer "B.Cu")
 		(net 5)
 		(uuid "c9ef07b3-3f7e-4d99-8600-42a340ca5227")
-	)
-	(segment
-		(start 147.053 111.3705)
-		(end 149.733 108.6905)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "ef0779a2-4d03-48d4-9aae-4d68c75a0b6a")
 	)
 	(segment
 		(start 151.638 94.488)
