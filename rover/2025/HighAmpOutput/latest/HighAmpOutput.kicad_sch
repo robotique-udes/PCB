@@ -208,23 +208,113 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 46.99) (xy 142.24 46.99)
+			(xy 134.62 55.88) (xy 134.62 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b57d5a7f-59de-4d75-a437-fc3f36f06dad")
+		(uuid "1c4e5304-e48f-4152-914f-2e138fd2c430")
 	)
 	(wire
 		(pts
-			(xy 110.49 52.07) (xy 142.24 52.07)
+			(xy 125.73 58.42) (xy 125.73 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1d38168-4f4c-4013-938a-c88e40b64177")
+		(uuid "1de79fbd-ee52-48ea-bdcc-b2ca85226a92")
+	)
+	(bus
+		(pts
+			(xy 161.29 19.05) (xy 193.04 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25082a56-6ae3-4682-a210-df0401169501")
+	)
+	(bus
+		(pts
+			(xy 113.03 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a7d81d-f1cc-4ec2-9d4a-61459701cf83")
+	)
+	(bus
+		(pts
+			(xy 134.62 64.77) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3800fd94-cafd-44f7-939a-50ea7731df35")
+	)
+	(bus
+		(pts
+			(xy 134.62 53.34) (xy 134.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aded75d-570d-4597-bda1-204d4198d7f3")
+	)
+	(bus
+		(pts
+			(xy 132.08 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd265bc-4d14-4370-8f0f-e5669d316d1a")
+	)
+	(bus
+		(pts
+			(xy 134.62 44.45) (xy 142.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ee37e0-d0f1-4928-99f0-d4f1073f583e")
+	)
+	(bus
+		(pts
+			(xy 132.08 55.88) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9faa23ee-7d31-4981-9ea2-4f7727503580")
+	)
+	(wire
+		(pts
+			(xy 161.29 24.13) (xy 193.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c470d81f-69f0-4f94-8d4d-33f3005f2d39")
+	)
+	(bus
+		(pts
+			(xy 132.08 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c31757-6a2a-41cd-b352-b7709ec6b2c0")
 	)
 	(rectangle
 		(start 52.07 12.7)
@@ -262,6 +352,69 @@
 		)
 		(uuid bf5f2320-f154-4fa4-b9dc-5fe96c538a38)
 	)
+	(text_box "This is a component"
+		(exclude_from_sim yes)
+		(at 148.59 17.78 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "046c1683-cad9-4ee2-aeba-b67436b4db16")
+	)
+	(text_box "xt60_DDB"
+		(exclude_from_sim yes)
+		(at 142.24 41.91 0)
+		(size 15.24 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "14551e8d-2493-4797-8a0f-b600ae7d45fa")
+	)
+	(text_box "xt60_Sélecteur"
+		(exclude_from_sim yes)
+		(at 142.24 50.8 0)
+		(size 15.24 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "631af77a-04c8-4ea0-8de5-dd72fa823361")
+	)
 	(text_box "\n<Enter Description Here>\n"
 		(exclude_from_sim no)
 		(at 12.7 31.75 0)
@@ -280,6 +433,27 @@
 			(justify left top)
 		)
 		(uuid "6327f84d-2da6-4155-ba4d-8aaf0628c53b")
+	)
+	(text_box "EC5"
+		(exclude_from_sim yes)
+		(at 100.33 50.8 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6d6a2660-1b5c-426c-ad9c-1837ffeced5a")
 	)
 	(text_box "TODO:\n- Add external componenents\n- Do block schematic"
 		(exclude_from_sim no)
@@ -301,6 +475,27 @@
 		)
 		(uuid "9dac0a08-eb40-475f-8118-7b8c00fc9704")
 	)
+	(text_box "JST"
+		(exclude_from_sim yes)
+		(at 119.38 62.23 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a2360b62-eacf-413e-9f65-1c9fadf392fa")
+	)
 	(text_box "\nAdd parts like connectors, crimps or other which needs to be ordered with the PCB. Don't forget to check the \"remove from board\" option\n"
 		(exclude_from_sim no)
 		(at 12.7 59.69 0)
@@ -320,9 +515,9 @@
 		)
 		(uuid "b53f6bf4-d327-4e95-8aca-bc82ed4cc163")
 	)
-	(text_box "This is a component"
+	(text_box "VN7004"
 		(exclude_from_sim yes)
-		(at 97.79 45.72 0)
+		(at 119.38 50.8 0)
 		(size 12.7 7.62)
 		(stroke
 			(width 0)
@@ -340,6 +535,27 @@
 			)
 		)
 		(uuid "c71eb121-8f8e-4c97-acf7-73af579c056e")
+	)
+	(text_box "xt60 x 6"
+		(exclude_from_sim yes)
+		(at 142.24 60.96 0)
+		(size 15.24 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "da9f928e-9118-4bfe-ba3d-67bc18c7aaff")
 	)
 	(text "Off board parts to order"
 		(exclude_from_sim no)
@@ -367,6 +583,17 @@
 		)
 		(uuid "44fbaf2a-cf2c-43cd-9fae-d7fe0ca2f905")
 	)
+	(text "This is a data wire"
+		(exclude_from_sim no)
+		(at 193.04 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ae1550e-f267-4171-96b5-a431cd015580")
+	)
 	(text "- Layer count: 2\n- Stackup nb: JLC04162-H-7628\n"
 		(exclude_from_sim no)
 		(at 14.224 15.748 0)
@@ -378,17 +605,6 @@
 			(justify left top)
 		)
 		(uuid "8a08713b-56d6-4ce6-b1f2-1c4720b55b92")
-	)
-	(text "This is a data wire"
-		(exclude_from_sim no)
-		(at 142.24 51.054 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "917d76e4-1e3c-4021-855f-5e2d03824c3a")
 	)
 	(text "PCB Decription"
 		(exclude_from_sim no)
@@ -418,14 +634,14 @@
 	)
 	(text "This is a High Current Wire"
 		(exclude_from_sim no)
-		(at 142.24 45.974 0)
+		(at 193.04 18.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e2a18a02-d5b9-4ac5-bace-e5625495ff49")
+		(uuid "e1caaff5-e966-4389-9ce9-4cdedd395652")
 	)
 	(text "PCB Order settings"
 		(exclude_from_sim no)
