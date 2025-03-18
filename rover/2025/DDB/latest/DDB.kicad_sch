@@ -8162,12 +8162,6 @@
 		(uuid "c3eae2ec-760c-45e9-a7cb-c9e8f4aa53ea")
 	)
 	(junction
-		(at 151.13 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c97fa1c6-98e0-48aa-98c9-e80d2f2ced88")
-	)
-	(junction
 		(at 356.87 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8220,12 +8214,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e615432b-c474-4fad-991e-157b8b891117")
-	)
-	(junction
-		(at 143.51 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6dc8da2-63ed-4767-bf9d-95ec7786277a")
 	)
 	(junction
 		(at 158.75 167.64)
@@ -9899,6 +9887,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 113.03) (xy 160.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7833c3be-4a64-4900-935f-ab5b90d88971")
+	)
+	(wire
+		(pts
 			(xy 90.17 100.33) (xy 90.17 102.87)
 		)
 		(stroke
@@ -10669,16 +10667,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 128.27) (xy 151.13 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf41a4ff-3f9f-4e0a-8bfd-98c9839a22d3")
-	)
-	(wire
-		(pts
 			(xy 355.6 67.31) (xy 356.87 67.31)
 		)
 		(stroke
@@ -10689,7 +10677,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 143.51 113.03)
+			(xy 129.54 113.03) (xy 140.97 113.03)
 		)
 		(stroke
 			(width 0)
@@ -11039,16 +11027,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 160.02 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff01598-221e-4e0e-9bd2-2a75db3b0619")
-	)
-	(wire
-		(pts
 			(xy 90.17 105.41) (xy 90.17 107.95)
 		)
 		(stroke
@@ -11256,16 +11234,6 @@
 			(type default)
 		)
 		(uuid "f0b78f53-5f75-44e5-a772-b32b94397787")
-	)
-	(wire
-		(pts
-			(xy 143.51 113.03) (xy 143.51 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1336e28-d822-4c46-8142-f7daf881339b")
 	)
 	(wire
 		(pts
@@ -21393,75 +21361,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a8955bd-18c9-43b6-9f5e-df9ec07e744a")
-		(property "Reference" "R43"
-			(at 145.034 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15k"
-			(at 145.034 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 141.732 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eebdb6cf-5e3f-40e9-ab26-d374ffb0fe18")
-		)
-		(pin "1"
-			(uuid "12ed7ec5-cc6d-4c8f-9a22-69ebb0be3f00")
-		)
-		(instances
-			(project "DDB"
-				(path "/9f068864-7bea-4df8-8831-a775208b0184"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 132.08 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22077,6 +21976,74 @@
 			(project "DDB"
 				(path "/9f068864-7bea-4df8-8831-a775208b0184"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e08af5c-6ed3-4ffe-8208-92b7bc70693f")
+		(property "Reference" "R43"
+			(at 146.558 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 144.78 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 144.78 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee1c3640-e62d-4664-bf4d-cec72b6eb4d9")
+		)
+		(pin "1"
+			(uuid "a36fae64-5be6-4358-b31f-c486c5dd2029")
+		)
+		(instances
+			(project "DDB"
+				(path "/9f068864-7bea-4df8-8831-a775208b0184"
+					(reference "R43")
 					(unit 1)
 				)
 			)
