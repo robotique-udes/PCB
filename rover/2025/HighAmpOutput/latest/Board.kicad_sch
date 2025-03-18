@@ -1389,16 +1389,16 @@
 		)
 	)
 	(junction
-		(at 80.01 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d3577db-30c5-41d3-87f3-af669b4baeb5")
-	)
-	(junction
 		(at 123.19 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c7c9f6-615f-4397-a0f8-514a9ce71faf")
+	)
+	(junction
+		(at 80.01 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e4709c-6969-47b8-ab86-cf269215fd25")
 	)
 	(junction
 		(at 123.19 33.02)
@@ -1574,6 +1574,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 35.56) (xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39573c5a-6869-4476-8a66-5b08b9100bfd")
+	)
+	(wire
+		(pts
 			(xy 217.17 52.07) (xy 217.17 55.88)
 		)
 		(stroke
@@ -1734,6 +1744,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 35.56) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720b7686-850d-435f-92b9-43b858c6b21c")
+	)
+	(wire
+		(pts
 			(xy 265.43 33.02) (xy 265.43 30.48)
 		)
 		(stroke
@@ -1781,16 +1801,6 @@
 			(type default)
 		)
 		(uuid "7af4d0fa-c210-4ef1-816a-fed868b198f6")
-	)
-	(wire
-		(pts
-			(xy 80.01 35.56) (xy 96.52 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c2754ab-a532-4e26-9d7a-6e7feb7268fa")
 	)
 	(wire
 		(pts
@@ -3640,6 +3650,96 @@
 			(project "Template"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:R_0805")
+		(at 87.63 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7825cd6a-3725-4cff-843b-f3e5b2c2c176")
+		(property "Reference" "R6"
+			(at 88.138 32.512 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15k"
+			(at 87.63 30.48 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 87.63 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 35.56 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 87.63 35.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 87.63 37.846 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d33a10e-8fe7-4460-89f6-43cdb483dfe9")
+		)
+		(pin "1"
+			(uuid "8ca47510-54b8-4457-9ee4-0af3554461eb")
+		)
+		(instances
+			(project "HighAmpOutput"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
+					(reference "R6")
 					(unit 1)
 				)
 			)
