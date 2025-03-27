@@ -1,0 +1,1 @@
+La V1 contient les corrections pour la chip 7004 pour qu'elle fonctionne,  car après l'avoir commander, on a remarker que la chip nécissitait une résistance en série, car a l'interne c'est un transitor NPN. 

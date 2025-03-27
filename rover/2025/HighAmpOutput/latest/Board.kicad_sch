@@ -1395,12 +1395,6 @@
 		(uuid "b9c7c9f6-615f-4397-a0f8-514a9ce71faf")
 	)
 	(junction
-		(at 80.01 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4e4709c-6969-47b8-ab86-cf269215fd25")
-	)
-	(junction
 		(at 123.19 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1461,16 +1455,6 @@
 			(type default)
 		)
 		(uuid "14fa1c8e-0f41-4ce0-b688-2799ef76544a")
-	)
-	(wire
-		(pts
-			(xy 72.39 35.56) (xy 80.01 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1861d920-1752-4454-9bfa-d6b8eba5a2ea")
 	)
 	(wire
 		(pts
@@ -1551,16 +1535,6 @@
 			(type default)
 		)
 		(uuid "31a507c7-3ac3-4ef8-9dc9-63087a5ffb31")
-	)
-	(wire
-		(pts
-			(xy 80.01 35.56) (xy 80.01 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324b6e40-4420-461c-89f6-0d190527400d")
 	)
 	(wire
 		(pts
@@ -1744,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 35.56) (xy 83.82 35.56)
+			(xy 72.39 35.56) (xy 83.82 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1884,16 +1858,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 80.01 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990aeae7-e2f1-4c31-ba8b-c8fa890acf5c")
-	)
-	(wire
-		(pts
 			(xy 217.17 49.53) (xy 217.17 46.99)
 		)
 		(stroke
@@ -2001,16 +1965,6 @@
 			(type default)
 		)
 		(uuid "d22f797c-2b6e-4063-bd10-a06d6e93fae9")
-	)
-	(wire
-		(pts
-			(xy 80.01 53.34) (xy 87.63 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de119891-b330-4efd-93fe-892f9cde061b")
 	)
 	(wire
 		(pts
@@ -2157,11 +2111,33 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
-				(color 132 0 0 1)
+				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
 		(uuid "59eb6693-9229-458e-8047-2f12a406ad86")
+	)
+	(text_box "-Ajouter un ventilateur?\n-Dissipation de chaleur répartis sur les différentes layeur"
+		(exclude_from_sim no)
+		(at 139.7 109.22 0)
+		(size 34.29 13.97)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f032d0a7-e880-41bf-a6a6-38d80c2cfc51")
 	)
 	(text "Connecteur XT60 non-contrôler"
 		(exclude_from_sim no)
@@ -3484,96 +3460,6 @@
 			(project ""
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:R_0805")
-		(at 80.01 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75c51ed8-48da-4cb8-bcf8-d59b33249630")
-		(property "Reference" "R2"
-			(at 83.312 46.228 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15k"
-			(at 83.82 48.26 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 72.39 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 46.99 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 80.01 46.99 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 77.724 46.99 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4499e48-3852-4302-ad21-e991523efe1b")
-		)
-		(pin "1"
-			(uuid "e7f979ad-d381-456a-9481-3793084b4720")
-		)
-		(instances
-			(project "HighAmpOutput"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3"
-					(reference "R2")
 					(unit 1)
 				)
 			)
