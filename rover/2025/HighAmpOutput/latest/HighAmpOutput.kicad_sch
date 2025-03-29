@@ -12,6 +12,80 @@
 		(comment 1 "${AUTHOR}")
 	)
 	(lib_symbols
+		(symbol "Off Board Part_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G2"
+				(at 0 41.8399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CFM-4020V-280-275"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/CFM-4020V-280-275/7620538"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Off Board Part_1_1_1"
+				(rectangle
+					(start -11.43 5.08)
+					(end 11.43 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "RoverLibrary:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -258,6 +332,16 @@
 	)
 	(bus
 		(pts
+			(xy 125.73 45.72) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2e7324-1324-4aec-99ad-6aef89ba6660")
+	)
+	(bus
+		(pts
 			(xy 134.62 53.34) (xy 134.62 44.45)
 		)
 		(stroke
@@ -315,6 +399,16 @@
 			(type default)
 		)
 		(uuid "e9c31757-6a2a-41cd-b352-b7709ec6b2c0")
+	)
+	(wire
+		(pts
+			(xy 121.92 45.72) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09c8f21-a213-42fa-adb4-514c67c7e4b3")
 	)
 	(rectangle
 		(start 52.07 12.7)
@@ -556,6 +650,27 @@
 			)
 		)
 		(uuid "da9f928e-9118-4bfe-ba3d-67bc18c7aaff")
+	)
+	(text_box "FAN"
+		(exclude_from_sim yes)
+		(at 119.38 38.1 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e4dda34a-58ba-4844-a454-43fe4d8aeedb")
 	)
 	(text "Off board parts to order"
 		(exclude_from_sim no)
@@ -992,6 +1107,79 @@
 			(project "ProjectTemplate"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Off Board Part_1")
+		(lib_id "RoverLibrary:Off Board Part")
+		(at 31.75 87.63 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd2333b0-b8fe-462a-8a57-6aa54269d73e")
+		(property "Reference" "G2"
+			(at 31.75 45.7901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CFM-4020V-280-275"
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/CFM-4020V-280-275/7620538"
+			(at 31.75 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HighAmpOutput"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "G2")
 					(unit 1)
 				)
 			)

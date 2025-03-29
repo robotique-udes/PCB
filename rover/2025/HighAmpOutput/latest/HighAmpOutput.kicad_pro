@@ -92,9 +92,9 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -129,8 +129,8 @@
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.16,
-        "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.25,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         5.0
       ],
       "tuning_pattern_settings": {
@@ -211,6 +212,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -472,6 +477,23 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
+        "diff_pair_gap": 0.0,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.0,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "4_layer_2oz_External_layer",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1148,
@@ -551,6 +573,10 @@
       {
         "netclass": "CAN_Coplanar_InternalLayers",
         "pattern": "CAN_*"
+      },
+      {
+        "netclass": "4_layer_2oz_External_layer",
+        "pattern": "*"
       }
     ]
   },
@@ -710,7 +736,7 @@
   "text_variables": {
     "AUTHOR": "Marc-Antoine Lépine",
     "GROUP_NAME": "Robotique UdeS",
-    "REVISION": "0",
+    "REVISION": "1",
     "TEAM": "ROVUS"
   }
 }
