@@ -12,85 +12,6 @@
 		(comment 1 "${AUTHOR}")
 	)
 	(lib_symbols
-		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "RoverLibrary:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -759,7 +680,7 @@
 		)
 		(uuid "15b2c80d-bf5b-4ea7-af2e-460af2e9a64e")
 	)
-	(text "CAN/RS485"
+	(text "RS485"
 		(exclude_from_sim no)
 		(at 127 50.038 0)
 		(effects
@@ -807,7 +728,7 @@
 		)
 		(uuid "44fbaf2a-cf2c-43cd-9fae-d7fe0ca2f905")
 	)
-	(text "5V"
+	(text "24V"
 		(exclude_from_sim no)
 		(at 76.962 57.404 0)
 		(effects
@@ -818,7 +739,7 @@
 		)
 		(uuid "53a256e2-b771-4edb-9915-879737d0e20a")
 	)
-	(text "5V"
+	(text "24V"
 		(exclude_from_sim no)
 		(at 76.454 43.688 0)
 		(effects
@@ -2107,70 +2028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 114.3 120.65 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b9e0229-e546-403a-8150-09a6ce7ed9cb")
-		(property "Reference" "FID3"
-			(at 116.84 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 116.84 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 114.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ProjectTemplate"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RoverLibrary:Off Board Part")
 		(at 30.48 90.17 0)
 		(unit 1)
@@ -2238,70 +2095,6 @@
 			(project "CommBMS"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(reference "G10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 114.3 107.95 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9316e162-b824-4a81-a8d3-b0f95e4922b3")
-		(property "Reference" "FID1"
-			(at 116.84 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 116.84 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -2586,70 +2379,6 @@
 			(project "CommBMS"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(reference "G17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 114.3 114.3 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d83006cd-dc07-4032-b117-e33b31f1dd58")
-		(property "Reference" "FID2"
-			(at 116.84 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 116.84 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ProjectTemplate"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "FID2")
 					(unit 1)
 				)
 			)
