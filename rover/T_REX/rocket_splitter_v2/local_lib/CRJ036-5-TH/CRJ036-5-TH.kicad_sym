@@ -1,0 +1,626 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CRJ036-5-TH" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.62 13.97 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CRJ036-5-TH" (id 1) (at -7.62 -29.21 0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Footprint" "CRJ036-5-TH:CUI_CRJ036-5-TH" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.0" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "25.55mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI Devices" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CRJ036-5-TH_1_0"
+      (rectangle (start -7.62 -27.94) (end 7.62 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 10.16 0) (length 5.08)
+        (name "1_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "1_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "1_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "1_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "1_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "1_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "1_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "1_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -12.7 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -15.24 0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -17.78 0) (length 5.08)
+        (name "SHIELD__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -20.32 0) (length 5.08)
+        (name "SHIELD__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -22.86 0) (length 5.08)
+        (name "SHIELD__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -25.4 0) (length 5.08)
+        (name "SHIELD__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "CRJ036-5-TH_2_0"
+      (rectangle (start -7.62 -12.7) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "2_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "2_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "2_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "2_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "2_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "2_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "2_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "2_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "CRJ036-5-TH_3_0"
+      (rectangle (start -7.62 -12.7) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "3_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "3_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "3_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "3_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "3_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "3_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "3_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "3_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "CRJ036-5-TH_4_0"
+      (rectangle (start -7.62 -12.7) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "4_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_1T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "4_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_2T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "4_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_3T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "4_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_4T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "4_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_5T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "4_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_6T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "4_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_7T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "4_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_8T"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "CRJ036-5-TH_5_0"
+      (rectangle (start -7.62 -12.7) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "1_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "1_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "1_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "1_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "1_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "1_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "1_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "1_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "CRJ036-5-TH_6_0"
+      (rectangle (start -7.62 -12.7) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "2_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "2_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "2_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "2_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "2_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "2_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "2_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "2_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "CRJ036-5-TH_7_0"
+      (rectangle (start -7.62 -12.7) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "3_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "3_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "3_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "3_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "3_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "3_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "3_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "3_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "CRJ036-5-TH_8_0"
+      (rectangle (start -7.62 -12.7) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "4_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "4_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "4_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "4_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "4_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "4_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_6B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "4_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "4_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_8B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
