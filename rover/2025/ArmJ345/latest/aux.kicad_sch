@@ -1328,12 +1328,6 @@
 		(uuid "41b231c1-afb8-41d8-aec8-d30e84e111b0")
 	)
 	(junction
-		(at 40.64 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a38e2a0-f63f-40c9-84b3-865fb519a3ae")
-	)
-	(junction
 		(at 31.75 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1364,10 +1358,6 @@
 	(no_connect
 		(at 38.1 54.61)
 		(uuid "64e60d9d-d57d-4c63-b385-9b46c0168857")
-	)
-	(no_connect
-		(at 48.26 82.55)
-		(uuid "e913b2b5-2ace-4b92-b5f6-f69310ad8628")
 	)
 	(no_connect
 		(at 48.26 106.68)
@@ -1412,16 +1402,6 @@
 			(type default)
 		)
 		(uuid "3b6f2c50-6287-4ece-9320-0ec9b657ba4a")
-	)
-	(wire
-		(pts
-			(xy 40.64 74.93) (xy 43.18 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf5dc45-1a9c-4092-a13f-3a787c11e7ca")
 	)
 	(wire
 		(pts
@@ -1472,16 +1452,6 @@
 			(type default)
 		)
 		(uuid "46fa33d4-6271-4bcc-8f9b-706092727e70")
-	)
-	(wire
-		(pts
-			(xy 40.64 77.47) (xy 43.18 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49cdcd6c-c9d0-4595-a4f8-39e4259093ab")
 	)
 	(polyline
 		(pts
@@ -1572,16 +1542,6 @@
 			(type default)
 		)
 		(uuid "9592d116-2885-470c-881a-ee2ae9452f3d")
-	)
-	(wire
-		(pts
-			(xy 31.75 74.93) (xy 40.64 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f1ac24-78b0-44e3-a68b-3ebf7f029fa9")
 	)
 	(polyline
 		(pts
@@ -1880,29 +1840,6 @@
 			)
 		)
 	)
-	(global_label "M5_LS_OPENED"
-		(shape input)
-		(at 31.75 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "b08bbf85-cdcd-4d80-a016-4de5407b2bed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.9561 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB_J3_FWD"
 		(shape input)
 		(at 104.14 52.07 180)
@@ -2041,71 +1978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00129386-ba13-4600-96fb-a5060c717195")
-		(property "Reference" "#PWR067"
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15173e57-a965-4e95-9b4a-fa951b8d6e47")
-		)
-		(instances
-			(project "ArmJ345"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3/afa8b274-f8be-4e23-8294-7fe05f76441c"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 113.03 85.09 0)
 		(unit 1)
@@ -2230,79 +2102,6 @@
 			(project "ArmJ345"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3/afa8b274-f8be-4e23-8294-7fe05f76441c"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 48.26 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f7d1a3d-88e4-4f6d-8e2a-30bdefc36fc7")
-		(property "Reference" "J12"
-			(at 50.8 75.2855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_MountingPin"
-			(at 50.8 77.8255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac25c046-bb38-4100-b44c-5cca08660eec")
-		)
-		(pin "MP"
-			(uuid "31338105-8b39-4290-8fcd-7cf12f06eb27")
-		)
-		(pin "1"
-			(uuid "e83f3e95-ff8a-420e-bea0-39763577dd0f")
-		)
-		(instances
-			(project ""
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3/afa8b274-f8be-4e23-8294-7fe05f76441c"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2991,71 +2790,6 @@
 			(project "ArmJ345"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3/afa8b274-f8be-4e23-8294-7fe05f76441c"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5181db64-c2d6-4b23-9b8c-27f7ac707617")
-		(property "Reference" "#PWR066"
-			(at 40.64 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 40.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7fbb101-9bc3-4cbe-983c-1ab7e5ba4d92")
-		)
-		(instances
-			(project "ArmJ345"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3/afa8b274-f8be-4e23-8294-7fe05f76441c"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4663,98 +4397,6 @@
 			(project "ArmJ345"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3/afa8b274-f8be-4e23-8294-7fe05f76441c"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:R_0805")
-		(at 40.64 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbe31cbb-fdaa-4705-a46b-b7d706d85b64")
-		(property "Reference" "R20"
-			(at 39.116 69.342 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 39.116 71.12 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 48.26 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 71.12 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 40.64 71.12 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 36.576 72.898 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f35031f9-59b0-4093-bce8-0db54a706482")
-		)
-		(pin "2"
-			(uuid "7c6e035e-b9d4-4b70-ac33-aa3f9f8b63f8")
-		)
-		(instances
-			(project "ArmJ345"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/8da6c8a9-d96a-428b-ac41-906630b726a3/afa8b274-f8be-4e23-8294-7fe05f76441c"
-					(reference "R20")
 					(unit 1)
 				)
 			)
