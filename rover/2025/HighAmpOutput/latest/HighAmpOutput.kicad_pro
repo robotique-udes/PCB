@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|112594300|91144300|f0bc3472-fc10-42ba-8013-5e224d93fdd6|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|91116650|75400000|eb4c2870-06d0-4b3e-9274-6b08f35a26be|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|111010000|110000000|b3acbe69-3dc4-41f8-a705-da8dc6fddcd2|4e990350-7eb7-4884-8d40-9495c005cccf",
+        "silk_edge_clearance|111010000|71000000|ee233ed4-839a-4669-a700-c24d0503d3f1|460ea1aa-7659-4ebc-ac94-c4c36836fee8",
+        "silk_edge_clearance|121000000|80500000|984a3205-ccb8-476d-811f-dd37bb684a92|8faa2d7d-14f8-4660-b725-9743f9b9d988",
+        "silk_edge_clearance|96990000|110000000|b3acbe69-3dc4-41f8-a705-da8dc6fddcd2|64a7c5c2-c2c8-49aa-86c6-089907e700d7",
+        "silk_edge_clearance|96990000|71000000|ee233ed4-839a-4669-a700-c24d0503d3f1|4accdd25-ea1a-48df-962b-20c6e4dbb0b0",
+        "silk_overlap|0|0|8df7b682-878f-4f24-b55e-6f053d1251fe|51a3a29c-ac45-421c-9085-53386a950ac1",
+        "silk_overlap|115473752|86785714|e1c6dc8e-e0f2-4d37-a872-33a665a5794b|8faa2d7d-14f8-4660-b725-9743f9b9d988",
+        "silk_overlap|117745180|85085000|8dd910d1-a5bc-4385-949e-4149cb18ce5f|4934dae7-41a5-4593-9b51-69b9b3c7a2a1",
+        "silk_overlap|117745180|87000000|8faa2d7d-14f8-4660-b725-9743f9b9d988|4934dae7-41a5-4593-9b51-69b9b3c7a2a1",
+        "silk_overlap|119371231|80646579|8faa2d7d-14f8-4660-b725-9743f9b9d988|83d5a8ca-7c5f-42db-9ce9-8f79ff6decac"
+      ],
       "meta": {
         "version": 2
       },
@@ -585,10 +598,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../REV0-2025-02-19/HighAmpOutput-REV0-2025-02-19/",
+      "plot": "../REV1-2025-02-19/HighAmpOutput-REV1-2025-04-27/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../REV0-2025-02-19/HighAmpOutput-REV0-2025-02-19.step",
+      "step": "../REV1-2025-02-19/HighAmpOutput-REV1-2025-04-27.step",
       "svg": "",
       "vrml": ""
     },
@@ -596,7 +609,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../REV0-2025-02-19/HighAmpOutput-REV0-2025-02-19.csv",
+    "bom_export_filename": "../REV1-2025-02-19/HighAmpOutput-REV1-2025-04-27.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -675,7 +688,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -713,7 +726,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "${KIPRJMOD}/../../../Templates/SchematicTemplate.kicad_wks",
-    "plot_directory": "../REV0-2025-02-19/",
+    "plot_directory": "../REV1-2025-02-19/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
