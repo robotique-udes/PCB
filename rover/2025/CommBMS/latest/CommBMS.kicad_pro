@@ -63,7 +63,17 @@
           "width": 0.2159
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|55165000|76901600|d4938b7b-3223-478e-a411-fb8897ac42b3|1257cc10-bb7e-494c-a4d6-dd0edcd30c66",
+        "hole_clearance|55165000|76901600|d4938b7b-3223-478e-a411-fb8897ac42b3|2061ff0d-2e99-40e6-ad16-2cf7dd7302ab",
+        "hole_clearance|55165000|83001600|bb659f6e-b610-405f-be84-62d314d5f3be|c033a813-ad72-4588-8c35-2323ff5f0d2c",
+        "hole_clearance|55165000|83001600|bb659f6e-b610-405f-be84-62d314d5f3be|ddf8bb6c-40fa-49a1-94e9-a1bad4868e60",
+        "lib_footprint_issues|62732800|85565000|0bd8d851-d45f-42d5-a26d-df6220760b1e|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|52200000|79951600|afae6fab-ef6a-4a20-8f11-6991fbada6a1|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|55720000|62832000|e33d6fd0-5367-41ce-b4e9-34c98f966a61|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|75465000|79977000|7354d690-1424-4dc4-98ef-61a83020839c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|87165200|74361400|089d0b47-f589-4a89-8d4e-e16fe1d72078|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -572,18 +582,18 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../REV0-2025-04-27/REV0-BMSComm-2025-04-27.pdf",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "CommBMS.step",
-      "svg": "",
+      "svg": "../REV0-2025-02-19/ArmJ2-REV0-2025-02-19",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "../CommBMS-REV0-2025-04-27.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -614,7 +624,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -644,13 +654,13 @@
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Digikey Link",
           "name": "Digikey Link",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -698,6 +708,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
           "show": false
         }
       ],
@@ -736,7 +752,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "${KIPRJMOD}/../../../Templates/SchematicTemplate.kicad_wks",
-    "plot_directory": "C:/PCB/rover/2025/CommBMS/latest/",
+    "plot_directory": "../REV0-2025-04-27/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
