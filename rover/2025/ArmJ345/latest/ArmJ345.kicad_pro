@@ -75,7 +75,8 @@
         "hole_clearance|60130000|23930000|c0fe73e5-a24f-4ca3-ad38-fcace173e89a|06c5b07b-8843-42a9-999a-597dd1c97ef1",
         "hole_clearance|60130000|23930000|c0fe73e5-a24f-4ca3-ad38-fcace173e89a|0a09aea0-040b-4e6d-b53b-59397a35dc2b",
         "lib_footprint_mismatch|42100000|77097500|c1a2cb09-a041-487e-bc98-c6494dbfa7e8|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|69035000|80200000|b5965de5-9271-437b-825d-b1364bf6ad84|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|69035000|80200000|b5965de5-9271-437b-825d-b1364bf6ad84|00000000-0000-0000-0000-000000000000",
+        "net_conflict|42200000|80430000|c1a2cb09-a041-487e-bc98-c6494dbfa7e8|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -595,10 +596,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../REV0-2025-02-19/ArmJ345-REV0-2025-02-19/",
+      "plot": "../REV1-2025-04-28/ArmJ345-REV1-2025-04-28/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../../REV0-2025-02-19/ArmJ345-REV0-2025-02-19.step",
+      "step": "../../../../../../../REV1-2025-04-28/ArmJ345-REV1-2025-04-28.step",
       "svg": "",
       "vrml": ""
     },
@@ -606,7 +607,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../REV0-2025-02-19/ArmJ345-REV0-2025-02-19.csv",
+    "bom_export_filename": "../REV1-2025-04-28/ArmJ345-REV1-2025-04-28.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -727,7 +728,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -813,7 +814,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "/home/phil/rover/PCB/rover/Templates/SchematicTemplate.kicad_wks",
-    "plot_directory": "../REV0-2025-02-19/",
+    "plot_directory": "../REV1-2025-04-28/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
