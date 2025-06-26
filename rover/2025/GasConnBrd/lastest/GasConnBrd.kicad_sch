@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "a4fa9b30-7b48-474a-bdaa-0d7a6d26a697")
-	(paper "A5")
+	(paper "User" 431.8 279.4)
 	(title_block
 		(title "${PROJECTNAME}")
 		(date "2025-02-08")
@@ -40,7 +40,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RoverFootprints:MountingHole"
+			(property "Footprint" "RoverFootprint:MountingHole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -223,8 +223,8 @@
 		)
 	)
 	(rectangle
-		(start 52.07 12.7)
-		(end 196.85 93.98)
+		(start 52.07 96.52)
+		(end 133.35 135.89)
 		(stroke
 			(width 0)
 			(type default)
@@ -232,11 +232,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 081c7087-bcaa-4926-a43c-5bf21e293651)
+		(uuid 4b1f508e-e0a1-4109-a88f-6a9573e9ada8)
 	)
 	(rectangle
-		(start 12.7 12.7)
-		(end 50.8 30.48)
+		(start 52.07 13.97)
+		(end 196.85 95.25)
 		(stroke
 			(width 0)
 			(type default)
@@ -244,11 +244,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 4cd4b96b-884b-471e-8d89-027780ec13bf)
+		(uuid 666337e0-1701-41d3-b271-4b31522ba8e8)
 	)
 	(rectangle
-		(start 52.07 95.25)
-		(end 133.35 134.62)
+		(start 12.7 13.97)
+		(end 50.8 31.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -256,11 +256,11 @@
 		(fill
 			(type none)
 		)
-		(uuid bf5f2320-f154-4fa4-b9dc-5fe96c538a38)
+		(uuid ba9f8414-85d7-43b2-920f-e24cf480c59b)
 	)
 	(text "Off board parts to order"
 		(exclude_from_sim no)
-		(at 12.954 61.468 0)
+		(at 12.954 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -269,11 +269,11 @@
 			)
 			(justify left)
 		)
-		(uuid "3c8ed4b9-1cd3-4e8d-852b-3de92d0edb81")
+		(uuid "159e319d-b46f-4ea2-ab8d-61ed35f0caf1")
 	)
-	(text "Mechanical parts"
+	(text "PCB Order settings"
 		(exclude_from_sim no)
-		(at 52.324 97.028 0)
+		(at 12.954 15.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -282,11 +282,11 @@
 			)
 			(justify left)
 		)
-		(uuid "44fbaf2a-cf2c-43cd-9fae-d7fe0ca2f905")
+		(uuid "2dc3c660-476b-4b0a-a50c-7c6675c6b245")
 	)
 	(text "- Layer count: 4\n- Stackup nb: JLC04162-H-7628\n"
 		(exclude_from_sim no)
-		(at 14.224 15.748 0)
+		(at 14.224 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -294,59 +294,33 @@
 			)
 			(justify left top)
 		)
-		(uuid "8a08713b-56d6-4ce6-b1f2-1c4720b55b92")
-	)
-	(text "This is a data wire"
-		(exclude_from_sim no)
-		(at 142.24 51.054 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "917d76e4-1e3c-4021-855f-5e2d03824c3a")
-	)
-	(text "PCB Decription"
-		(exclude_from_sim no)
-		(at 12.954 33.528 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "ad8f6794-e4a6-42b7-a757-f58a3336bb92")
-	)
-	(text "Board block schematic"
-		(exclude_from_sim no)
-		(at 52.832 14.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "cd788609-2140-476e-82d6-b1d552379377")
+		(uuid "38a55096-ec95-4abb-87a0-be630502c31b")
 	)
 	(text "This is a High Current Wire"
 		(exclude_from_sim no)
-		(at 142.24 45.974 0)
+		(at 142.24 47.244 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e2a18a02-d5b9-4ac5-bace-e5625495ff49")
+		(uuid "529e3ad1-3007-483f-a0fd-28b0c9b76961")
 	)
-	(text "PCB Order settings"
+	(text "This is a data wire"
 		(exclude_from_sim no)
-		(at 12.954 14.224 0)
+		(at 142.24 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "664e9be8-2305-493f-8d73-5757f627af48")
+	)
+	(text "Board block schematic"
+		(exclude_from_sim no)
+		(at 52.832 15.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -355,31 +329,37 @@
 			)
 			(justify left)
 		)
-		(uuid "e8f6bc66-72af-4902-bea7-bb04cc8a6549")
+		(uuid "843f0368-5df7-468c-9e75-df0fadf7b20e")
 	)
-	(text_box "\n<Enter Description Here>\n"
+	(text "Mechanical parts"
 		(exclude_from_sim no)
-		(at 12.7 31.75 0)
-		(size 38.1 26.67)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
+		(at 52.324 98.298 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
-			(justify left top)
+			(justify left)
 		)
-		(uuid "6327f84d-2da6-4155-ba4d-8aaf0628c53b")
+		(uuid "a13f4806-6f32-41df-80fb-70824e3445e7")
+	)
+	(text "PCB Decription"
+		(exclude_from_sim no)
+		(at 12.954 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fb704d64-2a1a-4625-baf5-0ca2278fcdab")
 	)
 	(text_box "\nAdd parts like connectors, crimps or other which needs to be ordered with the PCB. Don't forget to check the \"remove from board\" option\n"
 		(exclude_from_sim no)
-		(at 12.7 59.69 0)
+		(at 12.7 60.96 0)
 		(size 38.1 74.93)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -395,11 +375,11 @@
 			)
 			(justify left top)
 		)
-		(uuid "b53f6bf4-d327-4e95-8aca-bc82ed4cc163")
+		(uuid "0331dd92-1d8c-494b-a135-7b73536f64b6")
 	)
 	(text_box "This is a component"
 		(exclude_from_sim yes)
-		(at 97.79 45.72 0)
+		(at 97.79 46.99 0)
 		(size 12.7 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -417,173 +397,59 @@
 				(bold yes)
 			)
 		)
-		(uuid "c71eb121-8f8e-4c97-acf7-73af579c056e")
+		(uuid "ae07c64c-a59c-407f-922c-e6dc2585fb09")
 	)
-	(bus
-		(pts
-			(xy 110.49 46.99) (xy 142.24 46.99)
-		)
+	(text_box "\n<Enter Description Here>\n"
+		(exclude_from_sim no)
+		(at 12.7 33.02 0)
+		(size 38.1 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b57d5a7f-59de-4d75-a437-fc3f36f06dad")
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d32126fa-3094-4540-96cd-12ebfed31678")
 	)
 	(wire
 		(pts
-			(xy 110.49 52.07) (xy 142.24 52.07)
+			(xy 110.49 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1d38168-4f4c-4013-938a-c88e40b64177")
+		(uuid "1df4aa26-7ad0-44a3-92ea-b9bdffd82073")
 	)
-	(symbol
-		(lib_id "RoverLibrary:MountingHole_Pad")
-		(at 57.15 121.92 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fa411f4-185a-4a87-bc14-450a88d6eb65")
-		(property "Reference" "H3"
-			(at 59.69 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+	(bus
+		(pts
+			(xy 110.49 48.26) (xy 142.24 48.26)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 59.69 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" "RoverFootprints:MountingHole"
-			(at 57.15 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 57.15 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1521897a-3162-4171-9929-0b1f5d1e6f40")
-		)
-		(instances
-			(project "ProjectTemplate"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:MountingHole_Pad")
-		(at 57.15 105.41 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13d94317-6aca-41c0-ab63-73a004c8e54e")
-		(property "Reference" "H1"
-			(at 59.69 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 59.69 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RoverFootprints:MountingHole"
-			(at 57.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 57.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c98cd79a-9271-4e2e-bdb3-e075bf1ac656")
-		)
-		(instances
-			(project ""
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "cb10591a-5609-4617-a09a-22e1abf116eb")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 124.46 0)
+		(at 82.55 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "14011c3f-a00b-4e7b-ac0b-cb5677663255")
-		(property "Reference" "#PWR04"
-			(at 82.55 130.81 0)
+		(uuid "215f2c33-c9a7-43c6-a617-4c4598f0c9f7")
+		(property "Reference" "#PWR045"
+			(at 82.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 128.27 0)
+			(at 82.55 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,7 +466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 124.46 0)
+			(at 82.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,7 +475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 124.46 0)
+			(at 82.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 124.46 0)
+			(at 82.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -627,12 +493,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3aa7f63d-30bd-4efc-aa26-065706645cb0")
+			(uuid "b2f02039-0068-4f49-aa06-22ff65b742d5")
 		)
 		(instances
-			(project "ProjectTemplate"
+			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "#PWR04")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -640,153 +506,21 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:MountingHole_Pad")
-		(at 82.55 105.41 0)
+		(at 82.55 123.19 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27b5b76a-d40f-4cc7-bfb4-afbe86ca4889")
-		(property "Reference" "H2"
-			(at 85.09 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 85.09 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RoverFootprints:MountingHole"
-			(at 82.55 105.41 0)
+		(uuid "696eefd4-9f07-4034-b699-4e52fe74f03b")
+		(property "Reference" "H12"
+			(at 82.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80a193c0-24d2-48a7-92cf-0ec5c3680f26")
-		)
-		(instances
-			(project "ProjectTemplate"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55c5f7b9-7054-4091-8cd9-ffc320346ce3")
-		(property "Reference" "#PWR01"
-			(at 57.15 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a333a3a3-f1d7-4510-bd0e-2ad8cf816b26")
-		)
-		(instances
-			(project ""
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:MountingHole_Pad")
-		(at 82.55 121.92 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66da50da-0726-4d05-8e02-e2d0f6a16e55")
-		(property "Reference" "H4"
-			(at 85.09 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_Pad"
@@ -798,8 +532,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RoverFootprints:MountingHole"
-			(at 82.55 121.92 0)
+		(property "Footprint" "RoverFootprint:MountingHole"
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 121.92 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +551,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 82.55 121.92 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,12 +560,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce4a17f3-31a0-4ca5-9c84-50af56218a91")
+			(uuid "474c9cf0-5211-4f59-ba77-c6eb60aa25df")
 		)
 		(instances
-			(project "ProjectTemplate"
+			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "H4")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -839,15 +573,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 107.95 0)
+		(at 57.15 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7f8938c7-644c-4699-aaf7-db35556ed4b8")
-		(property "Reference" "#PWR02"
-			(at 82.55 114.3 0)
+		(uuid "8cb5573f-934e-42cf-b7a9-4c9c785185a8")
+		(property "Reference" "#PWR043"
+			(at 57.15 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +590,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 111.76 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 107.95 0)
+			(at 57.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 107.95 0)
+			(at 57.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 107.95 0)
+			(at 57.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,12 +625,146 @@
 			)
 		)
 		(pin "1"
-			(uuid "74afc3d8-9ea9-4075-a688-b967a044dd90")
+			(uuid "df446b3e-a71d-4887-af33-c13fbb86d44e")
 		)
 		(instances
-			(project "ProjectTemplate"
+			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "#PWR02")
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:MountingHole_Pad")
+		(at 57.15 123.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b22dae4d-271b-4093-a80d-2daf87e7922e")
+		(property "Reference" "H10"
+			(at 57.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 59.69 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RoverFootprint:MountingHole"
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42ce4af0-ee31-4e21-a37c-0e0c4ccdca80")
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:MountingHole_Pad")
+		(at 57.15 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8f686bd-af15-4c9f-bb37-d0a648acdf8a")
+		(property "Reference" "H9"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 59.69 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RoverFootprint:MountingHole"
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "230aae60-4e18-4754-baf5-cfe42b940ce8")
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -904,15 +772,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 124.46 0)
+		(at 82.55 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4887aac-cc71-42dd-92e9-a78194ab3463")
-		(property "Reference" "#PWR03"
-			(at 57.15 130.81 0)
+		(uuid "c442fa66-3c7f-41e3-8b50-f6a929356bc3")
+		(property "Reference" "#PWR044"
+			(at 82.55 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +789,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 128.27 0)
+			(at 82.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 124.46 0)
+			(at 82.55 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,7 +806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 124.46 0)
+			(at 82.55 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 124.46 0)
+			(at 82.55 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,19 +824,193 @@
 			)
 		)
 		(pin "1"
-			(uuid "873a1a92-6305-4399-a76c-9f0e9376f8da")
+			(uuid "9f86817c-b802-471f-b6dc-dd805a15d4e9")
 		)
 		(instances
-			(project "ProjectTemplate"
+			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
-					(reference "#PWR03")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbcc8c08-bed8-4f3d-9bc8-7bab40942e58")
+		(property "Reference" "#PWR042"
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a50e173b-bf6e-4092-aafd-1a7737e2d22d")
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:MountingHole_Pad")
+		(at 82.55 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd334488-4fe8-44b6-986e-7ddf26c1c210")
+		(property "Reference" "H11"
+			(at 82.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 85.09 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RoverFootprint:MountingHole"
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa75514d-014e-4ce3-b2c4-9115302e3278")
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(reference "H11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 100.33 17.78)
+		(at 57.15 24.13)
+		(size 35.56 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f7144a4-96c1-4386-990e-455bb3b47ee6")
+		(property "Sheetname" "Power_Circuit"
+			(at 57.15 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Circuit.kicad_sch"
+			(at 57.15 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 24.13)
 		(size 38.1 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -982,9 +1024,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "8da6c8a9-d96a-428b-ac41-906630b726a3")
-		(property "Sheetname" "Board"
-			(at 100.33 17.0684 0)
+		(uuid "a70e825d-1fa4-4251-968a-14ea84e50f94")
+		(property "Sheetname" "ESP"
+			(at 104.14 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,8 +1034,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Board.kicad_sch"
-			(at 100.33 24.7146 0)
+		(property "Sheetfile" "ESP.kicad_sch"
+			(at 104.14 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

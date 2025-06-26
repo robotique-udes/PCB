@@ -5416,6 +5416,18 @@
 		(uuid 1cad8923-a820-4bcd-bee2-0206293d783d)
 	)
 	(rectangle
+		(start 21.59 158.75)
+		(end 146.05 260.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 23abc169-7fbf-4fda-99de-a648cc827f01)
+	)
+	(rectangle
 		(start 306.07 17.78)
 		(end 353.06 45.72)
 		(stroke
@@ -5453,6 +5465,18 @@
 		(uuid 5930b059-2e96-45ec-9960-e9181bda90bf)
 	)
 	(rectangle
+		(start 228.6 12.7)
+		(end 415.29 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ec2f864-2e13-495a-aa9e-4f393f91ab67)
+	)
+	(rectangle
 		(start 231.14 18.415)
 		(end 304.8 136.525)
 		(stroke
@@ -5463,6 +5487,18 @@
 			(type none)
 		)
 		(uuid 71f9906f-0746-42b1-bbfc-1e1530921a09)
+	)
+	(rectangle
+		(start 166.37 162.56)
+		(end 290.83 264.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 865423b2-5dd3-4cc3-8c9c-e1db37cf50d7)
 	)
 	(rectangle
 		(start 93.98 72.39)
@@ -5513,8 +5549,8 @@
 		(uuid c11da602-a457-4f74-bfa4-e3a185be2c9d)
 	)
 	(rectangle
-		(start 107.95 25.4)
-		(end 147.32 53.34)
+		(start 372.11 55.88)
+		(end 411.48 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -5538,8 +5574,8 @@
 		(uuid da450a85-5d92-4696-be19-4655869573ac)
 	)
 	(rectangle
-		(start 331.47 130.81)
-		(end 388.62 163.83)
+		(start 307.34 53.34)
+		(end 364.49 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -5550,8 +5586,8 @@
 		(uuid f18ca6b6-a3fa-4c14-8162-26f50af5660c)
 	)
 	(rectangle
-		(start 309.88 48.26)
-		(end 407.67 111.76)
+		(start 312.42 90.17)
+		(end 410.21 153.67)
 		(stroke
 			(width 0)
 			(type default)
@@ -5585,7 +5621,7 @@
 	)
 	(text "LED Build In"
 		(exclude_from_sim no)
-		(at 116.332 27.432 0)
+		(at 380.492 57.912 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5602,6 +5638,16 @@
 			)
 		)
 		(uuid "1f416095-34e1-4617-beb6-d78554e53d8f")
+	)
+	(text "Sensor 1"
+		(exclude_from_sim no)
+		(at 41.656 172.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1f6819be-2479-4630-b238-e8acb805d89e")
 	)
 	(text "Data Connectors"
 		(exclude_from_sim no)
@@ -5625,7 +5671,7 @@
 	)
 	(text "USB Port ESP32"
 		(exclude_from_sim no)
-		(at 318.516 50.546 0)
+		(at 321.056 92.456 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5655,7 +5701,7 @@
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
-		(at 339.598 132.842 0)
+		(at 315.468 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5693,6 +5739,26 @@
 		)
 		(uuid "cd7c2e6c-b563-48b6-90a0-8ea71b7972fb")
 	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 236.728 15.748 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d445a987-27be-404e-b8ed-c059e2d3dfa3")
+	)
+	(text "Sensor 2"
+		(exclude_from_sim no)
+		(at 179.832 177.546 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e19632df-21f5-42ff-9b57-9abbc35cd1e3")
+	)
 	(text "ESP32"
 		(exclude_from_sim no)
 		(at 234.696 20.447 0)
@@ -5728,7 +5794,7 @@
 		(uuid "26cb0732-f4ca-4a31-860b-854f735d9d33")
 	)
 	(junction
-		(at 397.51 82.55)
+		(at 400.05 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27843b79-cc5e-426a-bda5-b9b6b80717dd")
@@ -5758,7 +5824,7 @@
 		(uuid "426f6284-97b1-4b47-96ba-d99679999750")
 	)
 	(junction
-		(at 354.33 153.67)
+		(at 330.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e62095-d563-4a76-98ba-a3d386c4f868")
@@ -5776,13 +5842,13 @@
 		(uuid "4e0b0be4-a800-4f73-bc89-327004d1c209")
 	)
 	(junction
-		(at 374.65 64.77)
+		(at 377.19 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f853c9b-75ae-47f2-8cf8-a7dae3783fcf")
 	)
 	(junction
-		(at 358.14 80.01)
+		(at 360.68 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55fd292d-add2-4091-a50b-e89cc6b52b84")
@@ -5800,7 +5866,7 @@
 		(uuid "5e0981c1-caf8-4a6e-ad91-0b390e1c7b7f")
 	)
 	(junction
-		(at 397.51 85.09)
+		(at 400.05 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f5d41e7-fe45-4ca8-a1a4-298d5e792c13")
@@ -5824,7 +5890,7 @@
 		(uuid "6f3c0504-6cc7-4a56-a4c8-769f4fc158be")
 	)
 	(junction
-		(at 342.9 143.51)
+		(at 318.77 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76fc919e-9fff-4cec-a579-27a0172db197")
@@ -5860,7 +5926,7 @@
 		(uuid "96e8d454-7322-4f90-8cea-d17c3716b3a4")
 	)
 	(junction
-		(at 342.9 153.67)
+		(at 318.77 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6031a11-4c7f-4e23-a35d-7b33d92a1519")
@@ -5872,19 +5938,19 @@
 		(uuid "b2d4a9a4-f578-4e6d-999e-07e74a1ff4bb")
 	)
 	(junction
-		(at 351.79 80.01)
+		(at 354.33 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc920d89-0fe1-4eec-a2f8-a6eb5e8fc118")
 	)
 	(junction
-		(at 351.79 82.55)
+		(at 354.33 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3bc2889-d72f-450e-aeb8-a3c07811ec5a")
 	)
 	(junction
-		(at 397.51 80.01)
+		(at 400.05 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5f357f2-25ce-4f14-9f3d-4617bd8f726a")
@@ -5926,13 +5992,13 @@
 		(uuid "f2e63761-908b-401e-8405-b1f3e17e3668")
 	)
 	(junction
-		(at 354.33 143.51)
+		(at 330.2 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6ca84cf-afe9-4938-834d-446a590db1da")
 	)
 	(junction
-		(at 358.14 82.55)
+		(at 360.68 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9a34418-b4df-464d-9a6f-7f4696a6ec11")
@@ -5954,7 +6020,7 @@
 		(uuid "02c2e3c0-7c8f-4f87-a933-29f1b6b8f7de")
 	)
 	(no_connect
-		(at 374.65 85.09)
+		(at 377.19 127)
 		(uuid "03fff471-f587-49d5-9441-3fdebf1cf3ec")
 	)
 	(no_connect
@@ -5986,15 +6052,15 @@
 		(uuid "50747db5-2791-4178-9fa5-6502e60cda0a")
 	)
 	(no_connect
-		(at 347.98 72.39)
+		(at 350.52 114.3)
 		(uuid "5137dfef-d6ef-4e02-8da9-ff1772b2b310")
 	)
 	(no_connect
-		(at 347.98 92.71)
+		(at 350.52 134.62)
 		(uuid "5348f730-5bb0-4b4f-b82c-153dd44840a1")
 	)
 	(no_connect
-		(at 347.98 69.85)
+		(at 350.52 111.76)
 		(uuid "5d2ed0da-0dad-4e70-b59d-6c850367808c")
 	)
 	(no_connect
@@ -6054,7 +6120,7 @@
 		(uuid "b54c8b3c-bfbf-4a0c-b369-c8261ea2b425")
 	)
 	(no_connect
-		(at 325.12 102.87)
+		(at 327.66 144.78)
 		(uuid "b6be9205-d29b-43c5-8573-f9ec22a72bec")
 	)
 	(no_connect
@@ -6066,7 +6132,7 @@
 		(uuid "bbe0605c-c0d3-4eaf-8dda-38c6e82f0d2c")
 	)
 	(no_connect
-		(at 347.98 95.25)
+		(at 350.52 137.16)
 		(uuid "c29f80c9-edac-42ff-8489-9fd976ea089d")
 	)
 	(no_connect
@@ -6078,7 +6144,7 @@
 		(uuid "c47eb90e-4df7-42af-b15f-f5bd472e3a9a")
 	)
 	(no_connect
-		(at 377.19 143.51)
+		(at 353.06 66.04)
 		(uuid "daf6fd3d-4210-4f11-bbec-b63237e5e782")
 	)
 	(no_connect
@@ -6099,7 +6165,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 64.77) (xy 374.65 64.77)
+			(xy 350.52 106.68) (xy 377.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +6175,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 85.09) (xy 360.68 85.09)
+			(xy 360.68 127) (xy 363.22 127)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 82.55) (xy 358.14 85.09)
+			(xy 360.68 124.46) (xy 360.68 127)
 		)
 		(stroke
 			(width 0)
@@ -6139,7 +6205,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 82.55) (xy 397.51 85.09)
+			(xy 400.05 124.46) (xy 400.05 127)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6225,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 82.55) (xy 397.51 82.55)
+			(xy 397.51 124.46) (xy 400.05 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6249,7 +6315,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 82.55) (xy 351.79 82.55)
+			(xy 350.52 124.46) (xy 354.33 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6259,7 +6325,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 152.4) (xy 354.33 153.67)
+			(xy 330.2 74.93) (xy 330.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6289,7 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 80.01) (xy 397.51 80.01)
+			(xy 397.51 121.92) (xy 400.05 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6339,7 +6405,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 62.23) (xy 374.65 64.77)
+			(xy 377.19 104.14) (xy 377.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6389,7 +6455,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 82.55) (xy 358.14 82.55)
+			(xy 354.33 124.46) (xy 360.68 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6409,7 +6475,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 153.67) (xy 342.9 153.67)
+			(xy 330.2 76.2) (xy 318.77 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6469,7 +6535,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 77.47) (xy 360.68 77.47)
+			(xy 360.68 119.38) (xy 363.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6489,7 +6555,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 85.09) (xy 397.51 85.09)
+			(xy 397.51 127) (xy 400.05 127)
 		)
 		(stroke
 			(width 0)
@@ -6539,7 +6605,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 82.55) (xy 351.79 85.09)
+			(xy 354.33 124.46) (xy 354.33 127)
 		)
 		(stroke
 			(width 0)
@@ -6639,7 +6705,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 142.24) (xy 342.9 143.51)
+			(xy 318.77 64.77) (xy 318.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6649,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 82.55) (xy 374.65 82.55)
+			(xy 360.68 124.46) (xy 377.19 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6659,7 +6725,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 153.67) (xy 342.9 154.94)
+			(xy 318.77 76.2) (xy 318.77 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6749,7 +6815,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 152.4) (xy 342.9 153.67)
+			(xy 318.77 74.93) (xy 318.77 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6779,7 +6845,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 80.01) (xy 397.51 82.55)
+			(xy 400.05 121.92) (xy 400.05 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6789,7 +6855,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 143.51) (xy 342.9 144.78)
+			(xy 318.77 66.04) (xy 318.77 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6809,7 +6875,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 80.01) (xy 374.65 80.01)
+			(xy 360.68 121.92) (xy 377.19 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6839,7 +6905,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 77.47) (xy 397.51 77.47)
+			(xy 397.51 119.38) (xy 400.05 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6849,7 +6915,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 143.51) (xy 342.9 143.51)
+			(xy 330.2 66.04) (xy 318.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6959,7 +7025,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 80.01) (xy 358.14 80.01)
+			(xy 354.33 121.92) (xy 360.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6969,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 80.01) (xy 358.14 77.47)
+			(xy 360.68 121.92) (xy 360.68 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6989,7 +7055,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 80.01) (xy 351.79 80.01)
+			(xy 350.52 121.92) (xy 354.33 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7059,7 +7125,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 85.09) (xy 397.51 87.63)
+			(xy 400.05 127) (xy 400.05 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7079,7 +7145,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 85.09) (xy 351.79 85.09)
+			(xy 350.52 127) (xy 354.33 127)
 		)
 		(stroke
 			(width 0)
@@ -7089,7 +7155,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 143.51) (xy 354.33 144.78)
+			(xy 330.2 66.04) (xy 330.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7179,7 +7245,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 77.47) (xy 351.79 80.01)
+			(xy 354.33 119.38) (xy 354.33 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7189,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 77.47) (xy 351.79 77.47)
+			(xy 350.52 119.38) (xy 354.33 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7219,7 +7285,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 153.67) (xy 354.33 156.21)
+			(xy 330.2 76.2) (xy 330.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7229,7 +7295,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 64.77) (xy 374.65 77.47)
+			(xy 377.19 106.68) (xy 377.19 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7269,7 +7335,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 77.47) (xy 397.51 80.01)
+			(xy 400.05 119.38) (xy 400.05 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7323,7 +7389,7 @@
 	)
 	(global_label "USB_P"
 		(shape input)
-		(at 360.68 85.09 0)
+		(at 363.22 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7333,7 +7399,7 @@
 		)
 		(uuid "0e2fddfd-96e9-49f5-839f-c1d8a279eb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.7128 85.09 0)
+			(at 372.2528 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,31 +7431,9 @@
 			)
 		)
 	)
-	(global_label "GNSS_RX"
-		(shape input)
-		(at 250.19 103.505 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "350b1601-6445-4b2a-97ec-7c13c43b231d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.7382 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_N"
 		(shape input)
-		(at 377.19 156.21 0)
+		(at 353.06 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7399,7 +7443,7 @@
 		)
 		(uuid "4fe2b9c2-f454-40b3-a584-a0de6a8b63dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 386.1624 156.21 0)
+			(at 362.0324 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7455,7 +7499,7 @@
 	)
 	(global_label "TXC"
 		(shape input)
-		(at 377.19 151.13 0)
+		(at 353.06 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7465,7 +7509,7 @@
 		)
 		(uuid "5e453c6a-eb32-4c82-a948-0cc7c2fa3f8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.6223 151.13 0)
+			(at 359.4923 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7543,7 @@
 	)
 	(global_label "LED_BUILDIN"
 		(shape input)
-		(at 125.73 43.18 180)
+		(at 389.89 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7509,7 +7553,7 @@
 		)
 		(uuid "78d232a7-e477-4e93-90bf-70485231804f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8914 43.18 0)
+			(at 375.0514 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7587,7 @@
 	)
 	(global_label "USB_N"
 		(shape input)
-		(at 360.68 77.47 0)
+		(at 363.22 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7553,7 +7597,7 @@
 		)
 		(uuid "8235dff0-cb2c-4236-a692-82dcba4830f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.7733 77.47 0)
+			(at 372.3133 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,28 +7695,6 @@
 			)
 		)
 	)
-	(global_label "GNSS_EN"
-		(shape output)
-		(at 250.19 93.345 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c30bc3de-097f-435f-ad14-ea27b7130bc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.7382 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EN_ESP"
 		(shape input)
 		(at 241.935 49.53 180)
@@ -7741,7 +7763,7 @@
 	)
 	(global_label "RXC"
 		(shape output)
-		(at 377.19 148.59 0)
+		(at 353.06 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7751,7 +7773,7 @@
 		)
 		(uuid "d65392c6-e994-4838-9089-e659f859efe3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.9247 148.59 0)
+			(at 359.7947 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7785,7 @@
 	)
 	(global_label "CAN_P"
 		(shape input)
-		(at 377.19 153.67 0)
+		(at 353.06 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7773,7 +7795,7 @@
 		)
 		(uuid "ec3040e1-a2e0-4f7b-8aee-080ae7317e98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 386.1019 153.67 0)
+			(at 361.9719 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,7 +7882,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4f823c7-2394-482c-8a55-b9cff1fb5cef")
+			(uuid "3dea520d-6405-4ea2-b6f9-034607b97050")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -7873,7 +7895,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 342.9 154.94 0)
+		(at 318.77 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7882,7 +7904,7 @@
 		(fields_autoplaced yes)
 		(uuid "0050c54d-0850-4ee6-9e47-bd30ce50cb0e")
 		(property "Reference" "#PWR047"
-			(at 342.9 161.29 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7891,7 +7913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.9 160.02 0)
+			(at 318.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7899,7 +7921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 154.94 0)
+			(at 318.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 154.94 0)
+			(at 318.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 342.9 154.94 0)
+			(at 318.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7948,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd48dc99-2bdb-49bc-bcbb-da10bed999ce")
+			(uuid "de121603-935b-4427-b474-7e533c239490")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -7992,7 +8014,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c30b0a58-872d-4329-81b5-a7c96270abfa")
+			(uuid "87e8a3a6-df9a-49cb-bcc7-54128402b643")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8077,19 +8099,19 @@
 			)
 		)
 		(pin "5"
-			(uuid "a37e3b4a-6e47-4307-8b80-bc428f5c3f10")
+			(uuid "a9ac46b2-3951-4626-82b6-f22a245e03db")
 		)
 		(pin "1"
-			(uuid "ada3ab03-3e61-4903-b3b7-10afc5c6e9a7")
+			(uuid "e3eec27d-0da2-46e4-b79e-236297cf1e15")
 		)
 		(pin "4"
-			(uuid "12eb9e67-87af-4f17-a4c3-d58822ac7714")
+			(uuid "51e2bb6b-1d79-4811-ba05-f17de6a4c626")
 		)
 		(pin "2"
-			(uuid "9c81b583-0351-44c9-9168-72913b410c23")
+			(uuid "8d154567-a1ad-40c2-8974-999409239290")
 		)
 		(pin "3"
-			(uuid "e3304c35-2382-42fd-bbef-b8e81fd40b5a")
+			(uuid "0de8be99-c33b-4ebf-bf86-8855aecc9124")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8155,7 +8177,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "46cb82ed-dfaa-4c9b-a0af-f65db1bf7f57")
+			(uuid "4d784ad3-db34-472b-9095-b0ef153fbbf8")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8221,7 +8243,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "45f45aab-a917-4447-aae0-f0a38258ae3c")
+			(uuid "d974a12a-adc5-4a2b-9359-0644730a3850")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8300,10 +8322,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f46a036-78b1-4459-90ac-522d295440b3")
+			(uuid "0f82c740-34d3-43a8-bdcc-c36af1a0bbba")
 		)
 		(pin "2"
-			(uuid "43139665-baba-49e4-9f6c-28c552118b63")
+			(uuid "dfadb20c-9fe9-493f-9ff1-dcb1d8e0c395")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8382,10 +8404,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "78360ae2-14c2-4e0d-8381-eaf414bc2fac")
+			(uuid "d8d126dd-c2b9-4232-873a-87c63e40aeb1")
 		)
 		(pin "2"
-			(uuid "e6d26e56-ac68-4385-afad-867276f1e9d8")
+			(uuid "6593a2ba-fd8e-4f0d-b3f3-8ffde66a8701")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8451,7 +8473,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2bb6d28-ade9-4051-9bf2-d9fe26353806")
+			(uuid "3144fea4-fd9a-455d-8183-4b671982a46e")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8464,7 +8486,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:CAN-Transceiver-SN65HVD232")
-		(at 365.76 147.32 0)
+		(at 341.63 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8472,7 +8494,7 @@
 		(dnp no)
 		(uuid "22662a84-832a-4a96-b05b-c9d43234b0ae")
 		(property "Reference" "U3"
-			(at 365.76 139.7 0)
+			(at 341.63 62.23 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8482,7 +8504,7 @@
 			)
 		)
 		(property "Value" "SN65HVD232"
-			(at 366.014 137.668 0)
+			(at 341.884 60.198 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8492,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 372.11 167.64 0)
+			(at 347.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8524,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1730319703644&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230"
-			(at 372.11 167.64 0)
+			(at 347.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8533,7 @@
 			)
 		)
 		(property "Description" "CAN Transceiver"
-			(at 372.11 166.37 0)
+			(at 347.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8542,7 @@
 			)
 		)
 		(property "PARTREV" "4"
-			(at 373.38 167.64 0)
+			(at 349.25 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +8552,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 370.84 167.64 0)
+			(at 346.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8562,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
-			(at 370.84 167.64 0)
+			(at 346.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8572,7 @@
 			)
 		)
 		(property "MANUFACTURER" "NXP USA"
-			(at 370.84 167.64 0)
+			(at 346.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8582,7 @@
 			)
 		)
 		(property "STATUS" ""
-			(at 365.506 136.906 0)
+			(at 341.376 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,28 +8590,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec19f8a4-4780-4fbe-b793-839fcb1f630a")
+			(uuid "9bf56923-713b-4794-93c7-8a9a8dba6d13")
 		)
 		(pin "3"
-			(uuid "9f31257a-75f9-49d2-8ee0-d1d82c401e9d")
+			(uuid "00aae7e5-2da5-4b16-ac67-e61ba9cf0f9e")
 		)
 		(pin "7"
-			(uuid "40e8b254-6a44-43a7-9104-347d52a61747")
+			(uuid "b57d043b-6da6-40bb-af2d-b288897e19b4")
 		)
 		(pin "8"
-			(uuid "e75bcdb4-c2f2-42a4-a809-ce9716f4c27b")
+			(uuid "bfb2b03b-7ec8-4f79-b2ce-7613bd6754b9")
 		)
 		(pin "4"
-			(uuid "b886b4cc-ea52-453d-b43a-7b44a3858bd1")
+			(uuid "41d11cbf-a008-4dab-a260-8342d4b955de")
 		)
 		(pin "6"
-			(uuid "da1b3761-98db-4b57-aee2-8064d48c5880")
+			(uuid "3dbd3d0d-6973-4cd6-abaa-40aec8b7e9b8")
 		)
 		(pin "1"
-			(uuid "2b2b81b7-69e3-4cf6-869f-ce6c04ab734c")
+			(uuid "f89825d1-a354-4725-968a-e2f1b2d6c38b")
 		)
 		(pin "5"
-			(uuid "da9f7e54-3492-456b-a178-b429ba3f934c")
+			(uuid "2b39d447-126b-4338-a060-066a7d23162f")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8675,10 +8697,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d30dfff5-117e-400a-91ab-6c3d38613ffe")
+			(uuid "caeb5ec0-d1a4-4ffe-a4e0-c175fb7b1d8e")
 		)
 		(pin "1"
-			(uuid "45ca285d-349a-4b07-b784-099b4f80cb7d")
+			(uuid "66ee1d28-b7d2-4acd-9d8f-ea5a30a4bbd1")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8745,7 +8767,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df0d0fb0-b336-431d-9b61-0503bedfef18")
+			(uuid "ed9e89d4-6179-4f75-8496-7cb2a4532b01")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8812,10 +8834,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "73af016b-abba-42cf-b2b0-f3590af58f83")
+			(uuid "a8007226-7b6d-4e83-9588-bd4e2c734ec1")
 		)
 		(pin "1"
-			(uuid "431a9bd7-462a-4a97-942f-0b2b17372afd")
+			(uuid "a9b09915-cd4c-4eb2-80c4-9d8d9c694021")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8881,7 +8903,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "966b50a6-7aaa-4610-9695-8817bb177e77")
+			(uuid "5d35ee0f-290e-4387-a720-af0e5f148dc6")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -8947,7 +8969,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "64433c2d-4dd0-43be-bc57-3cf6c9787001")
+			(uuid "e05c46ff-66f7-45c8-935c-6690f187d51a")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9013,7 +9035,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "696b4975-40a8-459f-adcb-5ef99e05f11d")
+			(uuid "8864ff49-fca2-4b25-817d-00090fef9338")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9099,10 +9121,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "97a48317-fc7a-4f7f-b835-fa6f20e08268")
+			(uuid "78d67e45-22f8-4ff5-9021-48a7d0419034")
 		)
 		(pin "2"
-			(uuid "26d7af5f-c846-4474-a383-2d308e4749b1")
+			(uuid "2990e4d6-365d-4582-b489-c304aa45414b")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9184,10 +9206,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "34b0e600-3cd7-49d2-8687-1b2bcb261274")
+			(uuid "74bd4c28-724e-4256-ab5a-aadcfc5b2de3")
 		)
 		(pin "2"
-			(uuid "860c986e-877a-4fe3-9ffc-dbc196f943ad")
+			(uuid "dfc922bc-b6ab-40be-be30-45824218b5d9")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9200,7 +9222,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:C-100nF")
-		(at 354.33 148.59 0)
+		(at 330.2 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9208,7 +9230,7 @@
 		(dnp no)
 		(uuid "3aa401c6-7cac-4ca3-8f0f-83824fe56d58")
 		(property "Reference" "C20"
-			(at 351.79 147.32 0)
+			(at 327.66 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9218,7 +9240,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 351.79 149.225 0)
+			(at 327.66 71.755 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9228,7 +9250,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 355.2952 152.4 0)
+			(at 331.1652 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +9259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 354.33 152.4 0)
+			(at 330.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9246,7 +9268,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 354.33 152.4 0)
+			(at 330.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9255,10 +9277,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a77aa6f0-6866-4667-b4a5-b907d2bffff4")
+			(uuid "925508b5-c570-49cf-90a4-7db0b61b0122")
 		)
 		(pin "2"
-			(uuid "1adc15ea-b299-4356-ab85-1cc23b44f432")
+			(uuid "6bc6a97e-f0ce-473b-9670-8eef38755fc8")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9271,7 +9293,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 374.65 62.23 0)
+		(at 377.19 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9279,7 +9301,7 @@
 		(dnp no)
 		(uuid "3b41a196-0b67-4db3-adfe-e9e3408c1d05")
 		(property "Reference" "#PWR070"
-			(at 374.65 66.04 0)
+			(at 377.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9288,7 +9310,7 @@
 			)
 		)
 		(property "Value" "+5V_USB"
-			(at 370.078 57.658 0)
+			(at 372.618 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9297,7 +9319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 374.65 62.23 0)
+			(at 377.19 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 62.23 0)
+			(at 377.19 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +9337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 374.65 62.23 0)
+			(at 377.19 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,7 +9346,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d018163-9867-4e3f-87e1-b0d2b85dbf53")
+			(uuid "05eb729e-9653-4f6d-b8eb-07c984aa9d64")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9403,10 +9425,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "798ee88a-d6bb-4aa7-8ea3-7d17be2058f8")
+			(uuid "0938f7c0-554e-43f0-adfa-3a51c3db7fd6")
 		)
 		(pin "1"
-			(uuid "aec8eac4-3385-4378-b0e6-69f21df5c91a")
+			(uuid "7fb75126-c8c2-4907-b199-a07d06d9c122")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9472,7 +9494,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "47a6b714-61e1-4614-90e1-0500c6d2727b")
+			(uuid "ec569bc7-bac1-4e1c-b304-c26b5e709b90")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9538,7 +9560,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5ebfab9-fb0d-4200-bc0c-abc063bbaee3")
+			(uuid "acfbe0cf-76c4-481a-8673-6bf35a6931f5")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9551,7 +9573,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 342.9 142.24 0)
+		(at 318.77 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9560,7 +9582,7 @@
 		(fields_autoplaced yes)
 		(uuid "45a2fd99-43ae-4e73-b0bf-e6eb8bb633c2")
 		(property "Reference" "#PWR046"
-			(at 342.9 146.05 0)
+			(at 318.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9591,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 342.9 137.16 0)
+			(at 318.77 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +9599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 142.24 0)
+			(at 318.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 142.24 0)
+			(at 318.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +9617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 342.9 142.24 0)
+			(at 318.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +9626,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e315f433-85ff-4a6b-959a-e44c2a4b4a91")
+			(uuid "a2928e45-fd3e-4adb-b678-494edf98c655")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9670,7 +9692,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5847c87e-77a3-41e5-8c20-d388714d42c4")
+			(uuid "5b0aa056-d4c4-45cf-8029-f7278a2ba863")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9737,7 +9759,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "12dfaac3-aa17-4e36-acc2-26f85b351671")
+			(uuid "89ce1b92-9b1d-4d36-bcb5-bbe98fec261f")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9750,7 +9772,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 397.51 87.63 0)
+		(at 400.05 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9759,7 +9781,7 @@
 		(fields_autoplaced yes)
 		(uuid "4da1c2ed-2335-4662-898b-2f117f478f9f")
 		(property "Reference" "#PWR073"
-			(at 397.51 93.98 0)
+			(at 400.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +9790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 397.51 92.71 0)
+			(at 400.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +9798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 87.63 0)
+			(at 400.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +9807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 397.51 87.63 0)
+			(at 400.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +9816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 397.51 87.63 0)
+			(at 400.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +9825,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "93bae9e9-4a78-455e-8058-b97837f12b98")
+			(uuid "8ee67878-832e-401b-b6e7-c985e70576dc")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9882,10 +9904,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "aa773d83-5898-4a77-9580-103e4aec2f09")
+			(uuid "2bf378eb-e0a1-49f8-9582-0c29586fa21d")
 		)
 		(pin "1"
-			(uuid "716247d7-398b-4f04-8a64-47f910285db9")
+			(uuid "d5a89123-7c8a-40a4-be8d-3bdc35111d1e")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -9898,7 +9920,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:USB_C_USB4145-03-C")
-		(at 332.74 80.01 0)
+		(at 335.28 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9906,7 +9928,7 @@
 		(dnp no)
 		(uuid "617af360-c925-4f1b-8acf-b15abe35e7ea")
 		(property "Reference" "J7"
-			(at 332.486 57.15 0)
+			(at 335.026 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9936,7 @@
 			)
 		)
 		(property "Value" "USB_C_USB4145-GCT"
-			(at 332.74 59.944 0)
+			(at 335.28 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +9944,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:USB4145_GCT"
-			(at 336.55 117.856 0)
+			(at 339.09 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +9953,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/USB4145%20-%20Product%20Drawing.pdf"
-			(at 336.55 117.856 0)
+			(at 339.09 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +9962,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector, Vertical"
-			(at 332.74 117.856 0)
+			(at 335.28 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +9971,7 @@
 			)
 		)
 		(property "STATUS" "TO BE APPROVED"
-			(at 332.74 60.96 0)
+			(at 335.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +9980,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/gct/USB4115-03-C/13557449?s=N4IgTCBcDaIKoGUBCAWAjGgrAWgAwGYQBdAXyA"
-			(at 332.74 117.856 0)
+			(at 335.28 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,55 +9989,55 @@
 			)
 		)
 		(pin "A8"
-			(uuid "0e49117b-ca20-4087-a880-a8af80488d4d")
+			(uuid "8f8c94d5-4b29-48f3-a87f-0ffa63743ec3")
 		)
 		(pin "B1"
-			(uuid "6705643a-f104-4af7-b9b5-0616580ca88a")
+			(uuid "3b551655-94d9-40bc-ac38-a0a6f32995a3")
 		)
 		(pin "A1"
-			(uuid "1a8e5582-c139-4f51-ad57-882bfc7d8ffe")
+			(uuid "854e9551-5297-4e76-9bcf-0bccb17b882f")
 		)
 		(pin "A6"
-			(uuid "610a7c88-6936-48a5-847d-ef5726753202")
+			(uuid "76d73dcc-4fb3-4be1-bfb5-1138b9d734df")
 		)
 		(pin "B6"
-			(uuid "3252f5aa-c125-4578-a2a6-1924f60ec261")
+			(uuid "9009eafc-0cf5-47a6-af9b-7d1c619c5cc7")
 		)
 		(pin "B7"
-			(uuid "a3311be8-4c21-4102-ab3f-3b7201319483")
+			(uuid "b124b705-6c4b-4c9c-bba7-577c9e06dc8e")
 		)
 		(pin "S1"
-			(uuid "cd918b86-83cc-4496-a00f-904bba3ba473")
+			(uuid "e1d6a55b-d3f3-4971-a30e-aa3f49778b3b")
 		)
 		(pin "B12"
-			(uuid "fb3ece17-9f3f-455f-bb54-9561e4662544")
+			(uuid "46ac7300-4c31-4dde-9a9f-bddaecd44489")
 		)
 		(pin "A5"
-			(uuid "e1553359-fcfa-4323-acc1-51155e8adbc6")
+			(uuid "75ecc97a-e6af-48ad-84b6-92eebcf2eaee")
 		)
 		(pin "B4"
-			(uuid "a698515b-490f-4774-ab27-8be50a41d87c")
+			(uuid "ead97084-7f40-4283-9798-b96a70deb841")
 		)
 		(pin "B5"
-			(uuid "2f9ebaba-600b-4c50-8201-b9623285ff12")
+			(uuid "04ffcb81-e513-47d0-9c1e-bd4fe1ae1bfa")
 		)
 		(pin "A9"
-			(uuid "72da945a-3f9a-44d8-99d0-205f39be3e38")
+			(uuid "9f064552-b8ee-44ae-b8ae-d7d47099d47e")
 		)
 		(pin "B9"
-			(uuid "e8aba7c6-f8df-47ca-a9da-1e60c038df35")
+			(uuid "dfdcc9cf-6b83-4228-8126-55daa09d5cf0")
 		)
 		(pin "A12"
-			(uuid "2d1230e6-4dfb-4ea2-b463-0c68d30850bb")
+			(uuid "cc7ba1f5-8af2-45f8-9233-53eda7c27c09")
 		)
 		(pin "A7"
-			(uuid "91aea9b8-b4f5-4dd2-a018-db815b285d29")
+			(uuid "14702379-74fd-452d-ae2d-594a544deac7")
 		)
 		(pin "A4"
-			(uuid "712aef0f-10fd-4f07-8d01-df6a15879b85")
+			(uuid "e3cd1237-4fac-4d24-aa48-80cd92c23bd1")
 		)
 		(pin "B8"
-			(uuid "f2656ff7-2cae-4b31-86f2-22b95ebf8542")
+			(uuid "e67d549f-d38c-4b14-852b-44c264d6b60d")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10028,7 +10050,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:TVS-SMDB03CE3/TR7TR-ND")
-		(at 384.81 73.66 0)
+		(at 387.35 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10036,7 +10058,7 @@
 		(dnp no)
 		(uuid "6262d956-688e-4637-b594-bf7c72b2b55c")
 		(property "Reference" "U9"
-			(at 384.81 69.596 0)
+			(at 387.35 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10044,7 +10066,7 @@
 			)
 		)
 		(property "Value" "TVS"
-			(at 384.556 72.136 0)
+			(at 387.096 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10074,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 384.81 91.44 0)
+			(at 387.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +10083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 421.64 71 0)
+			(at 424.18 112.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +10092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 421.64 71 0)
+			(at 424.18 112.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10101,7 @@
 			)
 		)
 		(property "STATYS" "APPROVED"
-			(at 384.81 72.39 0)
+			(at 387.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,28 +10110,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "ea91b9ae-234e-445c-a5f3-00ff38be879b")
+			(uuid "b03a238e-5981-4309-9bc4-cc6b9bbb60a3")
 		)
 		(pin "4"
-			(uuid "b641ea0d-a3ce-452e-9e14-81ead2552750")
+			(uuid "fb9ce933-6216-49af-8ff3-19c4caa1ddf8")
 		)
 		(pin "8"
-			(uuid "2ee2601c-0de1-42b5-8718-20e3143b1cb6")
+			(uuid "620061c9-bf1f-4c07-b620-6faed95a4dfe")
 		)
 		(pin "1"
-			(uuid "724d079a-e2b1-4598-8010-f69e90aaa47e")
+			(uuid "ca7d3626-12e9-4007-9b86-81e80dfea222")
 		)
 		(pin "7"
-			(uuid "528f27a6-2466-45ff-bc6c-f08b563744af")
+			(uuid "21e63c03-6ef9-45ac-9ee0-99800ec137cd")
 		)
 		(pin "2"
-			(uuid "675c5338-8ccd-4bdc-bdc2-8d8b8f43bec2")
+			(uuid "530ef6eb-ff5d-440d-a813-511d8379822e")
 		)
 		(pin "3"
-			(uuid "d4d8af35-366c-49b6-8ca3-a4a6e3026aa1")
+			(uuid "806912ad-5ebc-452a-9e12-3bf43e02e208")
 		)
 		(pin "6"
-			(uuid "e1fda8e1-8f45-46d6-9464-3ddde4fc4816")
+			(uuid "7d082fac-1554-40b0-95d5-ba64c691f9d4")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10188,10 +10210,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bf1dd9c2-5a25-4527-9d2b-d7d4dbdeb275")
+			(uuid "c3220738-cbc2-44db-a157-86bc5f4f6de0")
 		)
 		(pin "1"
-			(uuid "b30b392e-40f3-4f01-87ec-ccb144d1bddb")
+			(uuid "f4039c89-39b9-4573-9526-6536bd6732cb")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10204,7 +10226,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:C-100nF")
-		(at 342.9 148.59 0)
+		(at 318.77 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10212,7 +10234,7 @@
 		(dnp no)
 		(uuid "63b36685-3692-4637-a1a0-9f7be89f318f")
 		(property "Reference" "C17"
-			(at 340.36 147.32 0)
+			(at 316.23 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10222,7 +10244,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 340.36 149.225 0)
+			(at 316.23 71.755 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10232,7 +10254,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 343.8652 152.4 0)
+			(at 319.7352 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +10263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 342.9 152.4 0)
+			(at 318.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10272,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 342.9 152.4 0)
+			(at 318.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,10 +10281,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "58a005bb-0464-4643-a4b6-d44d7f9f013c")
+			(uuid "c6fad030-c594-4ed2-b1cf-5c27b5be6a6a")
 		)
 		(pin "2"
-			(uuid "105db1f9-c773-4374-9b01-6df7b6724d4e")
+			(uuid "e9671985-ef07-48c3-a0f3-e38c3694f59b")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10341,10 +10363,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "21a4afb5-5ae7-4901-8600-bb671f67e718")
+			(uuid "cc75419e-5c31-4fe4-a2e7-fcfe98170aeb")
 		)
 		(pin "1"
-			(uuid "5cc7e097-a88a-4e22-84b3-777f105fbe7c")
+			(uuid "ab615ca4-548e-41a9-ad6d-6b0b5d810095")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10413,10 +10435,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d576353-0be8-476d-b50f-58889a05216b")
+			(uuid "4d5848d4-02f5-4426-9170-e6e44a689f51")
 		)
 		(pin "2"
-			(uuid "dadc6a0d-002e-4d39-a0eb-81b1e8dc8584")
+			(uuid "335e5a3b-fbde-4f4a-a3a0-884750dcc106")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10482,7 +10504,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b107b95-a80f-494b-8eaf-d45cabdfedb3")
+			(uuid "8de3dc58-7853-48c1-8d77-45885e179baf")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10549,7 +10571,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f742810f-6684-4cdc-8252-e8a685323520")
+			(uuid "bc753f64-b938-4958-9e99-071064863060")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10634,19 +10656,19 @@
 			)
 		)
 		(pin "5"
-			(uuid "3e2c9d80-45ea-4b53-924e-ee8e50622e7c")
+			(uuid "0d6dfab0-c9d6-4919-8514-8e9cf252a4ba")
 		)
 		(pin "1"
-			(uuid "d76bbfa5-1d1f-48db-b53f-d400139216e0")
+			(uuid "eff172d9-2693-4e87-9f45-b36d78ecba5d")
 		)
 		(pin "4"
-			(uuid "b5140046-2e40-408e-bd2a-3b335aa26df4")
+			(uuid "bda7ed69-27b5-4970-9720-042ab6e4032e")
 		)
 		(pin "2"
-			(uuid "e30e5b9d-553f-4bfc-ae62-df18a11a8d58")
+			(uuid "f660082d-d477-4087-9998-b2bc2bf26692")
 		)
 		(pin "3"
-			(uuid "c769d787-e014-462e-877f-0cbcc34aed42")
+			(uuid "491eba9b-8099-4d05-ab43-734ef1a58641")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10712,7 +10734,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab4a04da-51e7-423d-ab5d-822d163c4880")
+			(uuid "6b2663bd-b8a0-4d14-8afe-8b91e6b0cc70")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10725,7 +10747,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:R-1k")
-		(at 129.54 43.18 90)
+		(at 393.7 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10734,7 +10756,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eb3b5c7-746c-4788-8197-5c3873543225")
 		(property "Reference" "R6"
-			(at 129.54 36.83 90)
+			(at 393.7 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +10764,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 129.54 39.37 90)
+			(at 393.7 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +10772,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 129.54 44.958 90)
+			(at 393.7 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +10781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 43.18 0)
+			(at 393.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +10790,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 43.18 0)
+			(at 393.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,10 +10799,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ce15440d-e241-4499-9656-22c3cb972180")
+			(uuid "3f7d61e0-b0b3-4b3f-89f0-afd881024bfc")
 		)
 		(pin "1"
-			(uuid "cb5352d4-4e97-42da-af33-12509a32b47d")
+			(uuid "898557f9-ab3a-47f6-b098-6746f12f0b53")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10846,7 +10868,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1baeaafa-23ac-442d-b287-185dc67ec8e3")
+			(uuid "6cd6c272-29ac-4ba8-9124-a8d9ead15d16")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10911,7 +10933,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "05e7470c-738b-42ef-a9aa-ba82ff14a350")
+			(uuid "f5e1aba4-3b3e-4e1b-a291-78ec4a3f2eba")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -10977,7 +10999,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3550ce75-29a4-4b0c-8ecf-9dba05d11931")
+			(uuid "b79630cc-57e7-457a-b829-88f95f62ebda")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11044,10 +11066,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ca7a75e-db08-40f8-8d70-6a4190d45c08")
+			(uuid "d020ad3c-aac5-4c64-81b2-bca10274e77e")
 		)
 		(pin "1"
-			(uuid "5d982633-b0bf-4272-bbfd-07b6e79ad0eb")
+			(uuid "1564d208-4ea8-4fd1-81a4-45c9819b7b4a")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11120,28 +11142,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4cd9857-9c47-4654-87e2-caee6f0a658a")
+			(uuid "22d3515d-ea92-4f37-80e9-1c9ac43e5124")
 		)
 		(pin "6"
-			(uuid "75868534-9074-4ccf-89d3-8f3116ed9f91")
+			(uuid "d17d6aba-929e-4574-b9aa-5504457eec8f")
 		)
 		(pin "4"
-			(uuid "80039fbc-d3c2-42e6-ba2a-eea223e94941")
+			(uuid "50685afe-b0ee-49f5-96ef-a9b9cea4e6b0")
 		)
 		(pin "2"
-			(uuid "2d2d4969-069a-44a1-ae08-fe5258f64be2")
+			(uuid "28fbd0c0-e831-4584-a4bb-f6e745c33168")
 		)
 		(pin "7"
-			(uuid "4dc605d2-848b-48f0-8266-2f7782388cc3")
+			(uuid "f575931b-f008-4d06-bf19-d304f4c6ba73")
 		)
 		(pin "5"
-			(uuid "93423651-124f-47a0-9038-9eee7324810d")
+			(uuid "959ca985-e6a1-4209-b5d8-06351b72e2d9")
 		)
 		(pin "8"
-			(uuid "1a4b8b12-6082-4ed8-a213-5febe27d48fd")
+			(uuid "1ba50eee-a204-4083-984b-e4406ce3f108")
 		)
 		(pin "3"
-			(uuid "b8c8f17f-3624-4a88-84b4-bb55a2972c55")
+			(uuid "b7699fb2-09e9-4189-a520-e3179c382a53")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11220,10 +11242,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f5c44178-ea77-4334-8abf-f05b88c97ea5")
+			(uuid "35a5e3d8-6338-4881-a802-3218ec2e2c30")
 		)
 		(pin "1"
-			(uuid "d1a9017b-d21b-422d-97b1-43c723ddb80c")
+			(uuid "13d66463-6357-4a55-af40-9598630bfb31")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11236,7 +11258,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 102.87 0)
+		(at 335.28 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11245,7 +11267,7 @@
 		(fields_autoplaced yes)
 		(uuid "9208feaf-c33d-4079-8373-5cbcd0514989")
 		(property "Reference" "#PWR065"
-			(at 332.74 109.22 0)
+			(at 335.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 107.95 0)
+			(at 335.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,7 +11284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 102.87 0)
+			(at 335.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,7 +11293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 102.87 0)
+			(at 335.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11280,7 +11302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 102.87 0)
+			(at 335.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,7 +11311,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "368584ce-1e1c-4b14-a567-bf6fd09f7fa4")
+			(uuid "f4498bf6-2084-4a37-881b-430aa37c39a9")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11356,7 +11378,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f80263ef-eca1-4474-b566-41f22148eca7")
+			(uuid "dfcdb3aa-d54d-467a-982e-f5da99063bd1")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11369,7 +11391,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 43.18 0)
+		(at 405.13 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11378,7 +11400,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cabf96a-2369-4aaf-ba66-fced058169d0")
 		(property "Reference" "#PWR069"
-			(at 140.97 49.53 0)
+			(at 405.13 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11387,7 +11409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 48.26 0)
+			(at 405.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,7 +11417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 43.18 0)
+			(at 405.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,7 +11426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 43.18 0)
+			(at 405.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +11435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 43.18 0)
+			(at 405.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11444,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fce937e0-7cbf-46f5-a0b9-79a025566699")
+			(uuid "72639757-e17e-4ad0-846c-7680440c03cf")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11507,127 +11529,127 @@
 			)
 		)
 		(pin "24"
-			(uuid "ccf152ef-974d-4e2f-8ca2-559b48eaef8c")
+			(uuid "2ce2faaa-26fe-446c-ac41-43fd9ccc3750")
 		)
 		(pin "12"
-			(uuid "679018bc-bcfd-485a-b2dc-b09150d16563")
+			(uuid "22d1ee3b-d4ca-43cd-9941-8ddb83463210")
 		)
 		(pin "30"
-			(uuid "1220be26-da7d-49e1-9902-a61b2be0bf29")
+			(uuid "6662bafd-e5a4-4e3d-a6a6-6cd5510fd75f")
 		)
 		(pin "14"
-			(uuid "f35d634c-79a9-4f73-8aec-a0368fd5672e")
+			(uuid "6847d252-6b5b-4586-a2f2-440e6e840719")
 		)
 		(pin "3"
-			(uuid "f1fca460-ce70-4b4e-90e8-bd89e213e6a4")
+			(uuid "b9022147-0796-425b-8f0a-0bf22528a409")
 		)
 		(pin "37"
-			(uuid "a0805c6c-3445-41af-aa0c-df6cf5abd40e")
+			(uuid "8e286c5e-57ec-4850-9e48-83fa25103546")
 		)
 		(pin "4"
-			(uuid "eb43bef3-e516-4176-a7e0-665e7ce6af2a")
+			(uuid "0db2c439-3911-4a24-89b0-3f7299b888d1")
 		)
 		(pin "7"
-			(uuid "ef4a4166-10c9-44a6-8192-593772e07b6a")
+			(uuid "21912907-ab8d-4681-8439-861032efbc5c")
 		)
 		(pin "13"
-			(uuid "d6b9dfcb-d6a1-4e63-b1e6-5a9d24c1fd2b")
+			(uuid "dde0d9ca-ea89-43c5-8909-db04a4779931")
 		)
 		(pin "38"
-			(uuid "6ab23eb7-910f-403e-a219-9a592f4bbf6f")
+			(uuid "b95a4702-1924-40a9-a547-108c5922fe7f")
 		)
 		(pin "32"
-			(uuid "627a09a0-1fed-4c3a-b566-fb78bb9d9c1d")
+			(uuid "264f02af-2810-4674-b9f6-29a3775a2202")
 		)
 		(pin "41"
-			(uuid "056e4397-eb80-4263-8153-ca566155543c")
+			(uuid "10f99d2e-978b-44ef-b2b9-790b71aa5e24")
 		)
 		(pin "23"
-			(uuid "cb4f267a-e6ab-4725-85e0-a457616acd96")
+			(uuid "2e826cc3-c432-4337-9f12-bd14a3e458bc")
 		)
 		(pin "15"
-			(uuid "fa3d55ef-d892-4fef-8ef2-3b2b99340481")
+			(uuid "a62b6ad2-6c9c-41e8-a7c5-50af5eda69b1")
 		)
 		(pin "31"
-			(uuid "af119f55-c571-433e-9ebd-964eeeea07e6")
+			(uuid "76ad29b5-cc89-439d-83cd-5713f282f62d")
 		)
 		(pin "1"
-			(uuid "0b925673-9ee6-454f-a6ff-e7b7f1fe13ed")
+			(uuid "def78f95-6cc6-4a61-af09-c8a495400800")
 		)
 		(pin "18"
-			(uuid "c0ad3128-d8ec-4081-8802-57bb1a7ba9de")
+			(uuid "5d0c4ac7-c490-4b11-897a-b4217ce58793")
 		)
 		(pin "20"
-			(uuid "7a3ec594-db6b-4895-9066-ab7e5e5e3152")
+			(uuid "29921dea-91b5-482b-b80b-cb7b07fb184e")
 		)
 		(pin "11"
-			(uuid "e80426f4-2525-4248-81cd-7374bee736d9")
+			(uuid "79c5dae9-5a51-46ae-a951-6c0bb3a13f7a")
 		)
 		(pin "17"
-			(uuid "7c52287c-04df-4e8c-855c-0ac9cd088921")
+			(uuid "64b7d7b8-9d7a-4d8e-9f60-8c8fde0d4091")
 		)
 		(pin "10"
-			(uuid "baee5a2f-9cd5-4a96-a2ac-b70ec739b64a")
+			(uuid "efeb975a-33e8-478e-bba5-e13a3766e580")
 		)
 		(pin "16"
-			(uuid "1f018175-0dbb-4328-b984-cdf6fad3a0db")
+			(uuid "a4de31d8-c7f8-49ec-bbbb-2b38e225f55e")
 		)
 		(pin "2"
-			(uuid "898b5d0b-64c1-4873-9f03-9f1623acb775")
+			(uuid "c6889997-acca-42a9-ba0f-76e6b82a4ffa")
 		)
 		(pin "21"
-			(uuid "38a5e056-d1e7-4ca7-bfc8-976a0bdaf9fb")
+			(uuid "c120dbed-e9e7-427c-b5ad-23513ff83a3e")
 		)
 		(pin "19"
-			(uuid "9506dc4e-e554-4908-88e0-3bbf2ec9d48f")
+			(uuid "4f105b04-f7ce-49c7-a644-fa8609764f31")
 		)
 		(pin "22"
-			(uuid "c39a023f-149e-41fb-90d0-0473ab65b231")
+			(uuid "54710574-752c-4b0f-b197-402606805942")
 		)
 		(pin "25"
-			(uuid "c7d1284a-ac13-4b52-842b-b2cce338de4c")
+			(uuid "3376b6bb-23d2-4e37-b892-b080bf8523c9")
 		)
 		(pin "26"
-			(uuid "57af17eb-9757-4938-97e1-5944bffcaeed")
+			(uuid "dd4c8db9-685f-40de-9b77-05c80d50e519")
 		)
 		(pin "27"
-			(uuid "0b4ddda3-42ad-40f4-b5e3-4fcb361ba4d5")
+			(uuid "e66ddd3a-fa75-48a3-b775-6b5204f080a5")
 		)
 		(pin "28"
-			(uuid "a284952a-876a-494c-8510-cefce866a02e")
+			(uuid "75df0923-c135-4f44-a736-14efad4f5e3b")
 		)
 		(pin "29"
-			(uuid "c97989a1-87d7-433e-a5b8-cc7c532f4ea9")
+			(uuid "4e06ee80-378f-42a5-8e56-b9f13588f113")
 		)
 		(pin "33"
-			(uuid "bcc60858-82ae-40d4-990d-4499ad7b35a7")
+			(uuid "9dd6226e-1dd9-4f5d-aa67-6ced880dd61a")
 		)
 		(pin "34"
-			(uuid "6b979687-db26-43e2-98d2-b7bbf72bcb10")
+			(uuid "fc2d73bf-2eba-4fa4-ae28-faa00a645d78")
 		)
 		(pin "35"
-			(uuid "c9bfc91d-8f9b-409a-97a7-162838299bd8")
+			(uuid "666d843a-5df6-45d0-bcd3-d9289a00c6db")
 		)
 		(pin "36"
-			(uuid "fa7d023e-31fe-4ad8-bb8d-58f8a63a26dc")
+			(uuid "e5071876-62ad-48bd-9175-025c8134d4fd")
 		)
 		(pin "39"
-			(uuid "6cffa9ae-7f93-40f1-af93-f3fda1d1fa77")
+			(uuid "95d0bd79-fc86-4bbd-aa1e-b475541f9245")
 		)
 		(pin "40"
-			(uuid "7f2cae6f-db4b-4ce3-b810-87f0850653f9")
+			(uuid "0717c668-c9ac-485a-b55a-9a511ffe3012")
 		)
 		(pin "5"
-			(uuid "47c0963e-96fe-4a63-bfa4-e5767455fc92")
+			(uuid "a040da7c-e8d0-4417-abe0-36391c5a0304")
 		)
 		(pin "6"
-			(uuid "d54b5400-8877-4066-bda6-8cd96d518abf")
+			(uuid "0c1267b4-0edd-4dbc-aef6-fc1ffc5f27b5")
 		)
 		(pin "8"
-			(uuid "1aeb309b-ea20-4e81-8571-bbb3f296a68a")
+			(uuid "27d75d87-42d8-42cd-aed0-c044fcf0f184")
 		)
 		(pin "9"
-			(uuid "fc663343-3ae7-452e-bee1-1e033c826973")
+			(uuid "19a046b9-5d7f-42a5-b695-c9d487ea6cea")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11646,10 +11668,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b64bf864-7a85-4262-88dc-8f6d149de5f0")
 		(property "Reference" "D4"
-			(at 120.65 80.01 0)
+			(at 120.65 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11657,7 +11678,7 @@
 			)
 		)
 		(property "Value" "CVJ10F30"
-			(at 120.65 82.55 0)
+			(at 120.65 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,22 +11718,23 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "b029aefa-69f2-46e9-a568-2e2509cf4000")
+			(uuid "110354e6-c19f-45df-9cb6-06eb439b6d8f")
 		)
 		(pin "5"
-			(uuid "133ce703-437c-4221-8921-65a06bf7225a")
+			(uuid "67ede0c9-1cf7-4b8b-b40d-ae4f9df33bb8")
 		)
 		(pin "1"
-			(uuid "77c84cab-39f6-4773-9bf0-eab0370b4587")
+			(uuid "8d40a850-2f0e-4d38-bf4d-7f8205a35e91")
 		)
 		(pin "3"
-			(uuid "9ced9b28-17d2-46d2-97f1-033483530a6a")
+			(uuid "64f4054c-7048-47ae-ac43-cb95d8c01b83")
 		)
 		(pin "4"
-			(uuid "8ef5a36e-a1d0-4b99-af95-3e6450dd7b0c")
+			(uuid "f9a03afb-dc63-4b64-8cbf-6ee934813b53")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11799,10 +11821,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ac6edab-2d85-482f-9e79-f5c36c78de86")
+			(uuid "08438e55-4a46-4eea-81d5-7ed7ca81cf88")
 		)
 		(pin "2"
-			(uuid "9383a783-fcf0-4212-85f7-0cd64f505df7")
+			(uuid "d1b91da7-4551-4f9c-86ee-24c884e585d8")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11872,10 +11894,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "81380305-fe75-4da6-895e-ecab0c4cfdf2")
+			(uuid "d42ee1f4-ae23-45ef-a35c-5e95a6ae934a")
 		)
 		(pin "1"
-			(uuid "27f0ebbd-4745-43fd-8292-d22207b37065")
+			(uuid "9503b7fd-9097-4f2f-8b1a-3f8cc1dff22b")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -11954,10 +11976,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "21c5c45b-3e5d-411b-a659-c1b0bd2fe861")
+			(uuid "76b0d1c1-d22d-49da-926b-7a745cc420f5")
 		)
 		(pin "1"
-			(uuid "a97bdef8-328b-49e6-8c06-4dea060d5d4d")
+			(uuid "86131840-ac33-432c-a764-75426a6b49ba")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12031,28 +12053,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "bebc9f49-1ad5-43d2-851b-4cfefcf36a4f")
+			(uuid "68ad05a3-2981-44b8-9830-7d26dae79b10")
 		)
 		(pin "4"
-			(uuid "51029d07-2e13-47f5-a872-d7840853c386")
+			(uuid "15a1a66a-712f-4fdb-8ebf-bd83b1c0d538")
 		)
 		(pin "6"
-			(uuid "bf302402-b2c4-4d47-a5e3-405cb52045b1")
+			(uuid "a3de71e6-eabd-406a-b0cc-8aec519a8606")
 		)
 		(pin "8"
-			(uuid "56fae3d9-598f-4f74-b4ce-e33efa415d04")
+			(uuid "562db0ba-5bf0-4908-90ea-9026035ed355")
 		)
 		(pin "7"
-			(uuid "dcb86080-5f2b-454f-aaee-b0012526dcf3")
+			(uuid "8ee700b5-358a-4a10-9ef6-6ff1c4888f87")
 		)
 		(pin "2"
-			(uuid "44a796d7-66e5-4015-8a86-820a15277a61")
+			(uuid "fed3a0fa-0d73-4253-a096-14392ca31de7")
 		)
 		(pin "3"
-			(uuid "a822351c-ac96-4d80-9666-97d448e9c645")
+			(uuid "d17cba46-b4e2-4fe6-87b6-a069a564f02e")
 		)
 		(pin "5"
-			(uuid "611d935c-1530-469f-9773-3f81c971ff16")
+			(uuid "a620cb67-ebeb-4622-b689-e54b59ffc957")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12118,7 +12140,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "321d4091-4628-4848-a404-69c170b5c023")
+			(uuid "95650401-bfbe-4732-bb62-a955f199f7a1")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12197,10 +12219,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a56d9ef-36d3-4ab6-aa42-c92f731d2194")
+			(uuid "6098cdb3-7197-4e74-a311-95664f57a97f")
 		)
 		(pin "1"
-			(uuid "5ab982ab-4e9c-41cb-b704-d5bf8c7ffc39")
+			(uuid "b5bd31c3-99b1-4db5-b833-314e0a7b430b")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12213,7 +12235,7 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:LED")
-		(at 137.16 43.18 180)
+		(at 401.32 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12222,7 +12244,7 @@
 		(fields_autoplaced yes)
 		(uuid "d578bbcb-dfaa-46a0-a132-b25697ab5c23")
 		(property "Reference" "D5"
-			(at 138.7475 35.56 0)
+			(at 402.9075 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +12252,7 @@
 			)
 		)
 		(property "Value" "B"
-			(at 138.7475 38.1 0)
+			(at 402.9075 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +12260,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 137.16 43.18 0)
+			(at 401.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12247,7 +12269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 43.18 0)
+			(at 401.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,7 +12278,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 137.16 43.18 0)
+			(at 401.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,10 +12287,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e53ad1cc-0610-4ca2-b8a7-5c9847aabc1a")
+			(uuid "cc075d95-b271-4da2-ba75-594b2e0b4ed9")
 		)
 		(pin "2"
-			(uuid "7845f451-0555-41e1-a95c-8dd6cc9fd7ab")
+			(uuid "b8de7d44-3991-48d2-b00b-cf04500fac85")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12347,10 +12369,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a0338fe0-7ff4-471b-90fb-de91ccdd0228")
+			(uuid "7fb54ad0-1397-4296-98c0-246d9134b928")
 		)
 		(pin "1"
-			(uuid "0e3082da-0ae9-4bbe-b083-052f43d1a298")
+			(uuid "09423544-9a65-460f-ba30-1f9e7cf1c660")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12416,7 +12438,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8eb5077c-0e21-4ed0-8417-6c28c9424cde")
+			(uuid "c8e4f1ae-556e-4174-8624-ccedabca79b8")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12495,10 +12517,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2d439a0b-d1f6-45d9-862d-5f4f7a9af84f")
+			(uuid "cea66c52-db88-4f6f-b1a8-2a989151d8eb")
 		)
 		(pin "1"
-			(uuid "92028fe2-89ea-4c4a-aea5-3f454a523896")
+			(uuid "098fc6ad-d58b-45c9-9852-356a12d85d5c")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12564,7 +12586,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bcb1d9b3-fa40-42b1-b9b2-be84b6c0a4ff")
+			(uuid "b56054e3-3862-4282-8a6e-5561b07acbb5")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12630,7 +12652,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "436882ad-f229-4de9-a476-766c55bade43")
+			(uuid "3da2e54f-5d68-48d7-9ceb-88193b66c4ac")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12698,10 +12720,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "85da30f0-b090-40fa-b8d2-2faa72f9e2a7")
+			(uuid "0f924dd5-53f7-4fd8-b3aa-09dcdeefdd8d")
 		)
 		(pin "2"
-			(uuid "e20f12d3-01f8-4fd5-814e-c76ccdd8d7f1")
+			(uuid "0bd7847e-2ebd-46f5-a519-442474137980")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12767,7 +12789,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "21099201-5884-47c7-b342-e1e33e6087db")
+			(uuid "c54ddbed-e463-48f2-95db-f5f23c25acfd")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12833,7 +12855,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3405f79d-46f8-4b1e-b357-ce2c9c301baa")
+			(uuid "bb7fd643-089e-4bae-b962-6490780ec696")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -12920,10 +12942,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d389e641-1bd4-42d0-80ea-3ab57e367f75")
+			(uuid "00f532e1-34ae-4245-8c95-eba0d7079742")
 		)
 		(pin "1"
-			(uuid "5f135a3a-8a4f-440d-9554-6a4deed2104e")
+			(uuid "5018bb15-df7a-4fbc-9752-48c22d436a6c")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -13008,31 +13030,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "45d7872d-ba6f-4314-8377-f54ddc0bd377")
+			(uuid "8ad1a2b6-4c30-461c-87ff-bfa74408adcc")
 		)
 		(pin "9"
-			(uuid "d3917e01-70a4-4263-aae9-deb96c30fc05")
+			(uuid "89e88061-2753-42f4-aacc-9ac82df87ccf")
 		)
 		(pin "1"
-			(uuid "70b13edf-a33f-4bb1-9a9c-a9060247d8f9")
+			(uuid "839aa137-a0da-4ff0-8dc7-f0d33653d5df")
 		)
 		(pin "5"
-			(uuid "da938c98-5808-46eb-9eff-dfab7c2d19d7")
+			(uuid "83d26c18-2153-409d-a6ee-8f9d7d9dade5")
 		)
 		(pin "3"
-			(uuid "bbc9d4c2-7e84-4edb-a980-36051ead9e32")
+			(uuid "131a1e1b-175a-4aeb-a25a-477a497d555f")
 		)
 		(pin "4"
-			(uuid "49dfdeb2-e47d-4f05-939c-f6198e119628")
+			(uuid "a516903e-5f6d-4ca4-b964-dc0f577ea366")
 		)
 		(pin "6"
-			(uuid "f32a388c-d06a-4b96-a6f1-7c4485a38cf3")
+			(uuid "42598190-885a-4a5f-8e4e-c0c6b1d4dfe5")
 		)
 		(pin "8"
-			(uuid "6623cf0f-9c09-4c28-8b3d-c55f29b745d9")
+			(uuid "c9a0fd98-314e-4278-a01d-df78ce4d3f1e")
 		)
 		(pin "7"
-			(uuid "f720dda7-3e48-4ee1-8592-41dc8e8f42df")
+			(uuid "53ceb43b-977d-4332-97f0-11ca5c5847c8")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -13098,7 +13120,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "04587100-8362-49ef-8120-e6d0a8bd1f0d")
+			(uuid "dad0e6c3-4041-4c6d-8e67-b6cffa4c13ec")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -13164,7 +13186,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e99aa9d4-ee9e-4661-b055-8205d4fbc048")
+			(uuid "198f9b22-54ff-4bc7-864a-c4bcdf9cc400")
 		)
 		(instances
 			(project "GasConnBrd"
@@ -13249,10 +13271,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d50da0d9-35f2-42f6-8960-d30e45292124")
+			(uuid "666bb2a2-cc33-4f2c-ad9e-473cfa7f3918")
 		)
 		(pin "2"
-			(uuid "5299faa6-1dad-4914-8666-e2f3a1d89d76")
+			(uuid "a1149914-997c-43f0-bb87-2ca2f8f1f46b")
 		)
 		(instances
 			(project "GasConnBrd"
