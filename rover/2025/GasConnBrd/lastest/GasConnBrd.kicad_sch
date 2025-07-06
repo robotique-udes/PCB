@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "a4fa9b30-7b48-474a-bdaa-0d7a6d26a697")
-	(paper "User" 431.8 279.4)
+	(paper "USLetter")
 	(title_block
 		(title "${PROJECTNAME}")
 		(date "2025-02-08")
@@ -296,9 +296,9 @@
 		)
 		(uuid "38a55096-ec95-4abb-87a0-be630502c31b")
 	)
-	(text "This is a High Current Wire"
+	(text "I2C"
 		(exclude_from_sim no)
-		(at 142.24 47.244 0)
+		(at 139.954 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -307,16 +307,16 @@
 		)
 		(uuid "529e3ad1-3007-483f-a0fd-28b0c9b76961")
 	)
-	(text "This is a data wire"
+	(text "Analog"
 		(exclude_from_sim no)
-		(at 142.24 52.324 0)
+		(at 120.65 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "664e9be8-2305-493f-8d73-5757f627af48")
+		(uuid "5fa4763e-8933-4c54-b92e-9705b5845ea7")
 	)
 	(text "Board block schematic"
 		(exclude_from_sim no)
@@ -377,14 +377,14 @@
 		)
 		(uuid "0331dd92-1d8c-494b-a135-7b73536f64b6")
 	)
-	(text_box "This is a component"
+	(text_box "5V"
 		(exclude_from_sim yes)
-		(at 97.79 46.99 0)
+		(at 100.33 55.88 0)
 		(size 12.7 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type color)
@@ -397,7 +397,95 @@
 				(bold yes)
 			)
 		)
-		(uuid "ae07c64c-a59c-407f-922c-e6dc2585fb09")
+		(uuid "0acbd5b1-4be3-43c3-a508-d63c6ff01a39")
+	)
+	(text_box "3.3V"
+		(exclude_from_sim yes)
+		(at 121.92 55.88 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1f39fa27-f16a-43a8-bf3e-d5e4f9d8f6ab")
+	)
+	(text_box "24V"
+		(exclude_from_sim yes)
+		(at 78.74 55.88 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2e1a3ce6-5a06-4820-9a09-988259968ccc")
+	)
+	(text_box "ESP 32"
+		(exclude_from_sim yes)
+		(at 121.92 68.58 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "47f9078c-fd34-49f4-98c2-41120c652c68")
+	)
+	(text_box "MQ-8"
+		(exclude_from_sim yes)
+		(at 100.33 68.58 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "55b69f14-7ee6-4a97-98f7-f1f30c3c1346")
 	)
 	(text_box "\n<Enter Description Here>\n"
 		(exclude_from_sim no)
@@ -419,25 +507,87 @@
 		)
 		(uuid "d32126fa-3094-4540-96cd-12ebfed31678")
 	)
-	(wire
-		(pts
-			(xy 110.49 53.34) (xy 142.24 53.34)
-		)
+	(text_box "MQ-131"
+		(exclude_from_sim yes)
+		(at 142.24 68.58 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
-		(uuid "1df4aa26-7ad0-44a3-92ea-b9bdffd82073")
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ef61b6fb-1849-4236-988b-219b7647d072")
 	)
 	(bus
 		(pts
-			(xy 110.49 48.26) (xy 142.24 48.26)
+			(xy 106.68 63.5) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb10591a-5609-4617-a09a-22e1abf116eb")
+		(uuid "52913565-12ee-4f72-90b4-f98e66cf9e41")
+	)
+	(bus
+		(pts
+			(xy 134.62 72.39) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a5d9be-95f5-4de9-8a15-19cdf903de0e")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754160d2-dcc5-4257-b11c-7e5d123f1226")
+	)
+	(bus
+		(pts
+			(xy 128.27 63.5) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf983d4-ea76-4a92-8bcc-006bad76ffa2")
+	)
+	(bus
+		(pts
+			(xy 113.03 59.69) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae809e04-ba84-4943-a1e8-4e15a4f53082")
+	)
+	(bus
+		(pts
+			(xy 91.44 59.69) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68e468a-f9fe-40ee-a9fc-f52fccc3a163")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1047,6 +1197,90 @@
 			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 38.1)
+		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bad7ccfa-c9ea-4a3b-9322-d3ec3b3869b8")
+		(property "Sheetname" "Extras"
+			(at 156.21 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Extras.kicad_sch"
+			(at 156.21 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 22.86)
+		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce5fc139-0d1c-451c-a630-fec6574e7e51")
+		(property "Sheetname" "Sensors"
+			(at 156.21 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 156.21 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
+					(page "4")
 				)
 			)
 		)
