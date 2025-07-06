@@ -12354,7 +12354,7 @@
 		)
 	)
 	(gr_text "MQ131"
-		(at 92.4 73.5 90)
+		(at 92.2 73.3 90)
 		(layer "F.SilkS")
 		(uuid "e933c552-bf20-49ee-b671-7bd0e78d0825")
 		(effects
@@ -15607,19 +15607,19 @@
 	)
 	(segment
 		(start 61.7 95.5)
-		(end 60.9 95.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 63)
-		(uuid "056d95b4-55bf-4fd5-8ad1-8669b33537e4")
-	)
-	(segment
-		(start 61.7 95.5)
 		(end 63 95.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 63)
 		(uuid "19ec8b8f-7dda-4c17-b33f-1802c998e9bd")
+	)
+	(segment
+		(start 61.7 95.5)
+		(end 60 97.2)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 63)
+		(uuid "30a0a7ca-187e-415a-afc6-fa1ac6b16f16")
 	)
 	(segment
 		(start 61.7 89.9)
@@ -15638,6 +15638,14 @@
 		(uuid "424527e6-cd33-4086-a958-4252100c6f8e")
 	)
 	(segment
+		(start 60 97.2)
+		(end 59.2 97.2)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 63)
+		(uuid "60c81255-1002-4eb8-9d0f-3518d32312b8")
+	)
+	(segment
 		(start 63.15 95.65)
 		(end 63.2 95.7)
 		(width 0.2)
@@ -15652,14 +15660,6 @@
 		(layer "B.Cu")
 		(net 63)
 		(uuid "7be8826e-7318-4ccb-8ff2-7f5556a3669b")
-	)
-	(segment
-		(start 60.9 95.5)
-		(end 59.2 97.2)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 63)
-		(uuid "c7a4e9dd-f9e7-42b8-a57c-a017ed696903")
 	)
 	(zone
 		(net 1)
@@ -19172,44 +19172,6 @@
 		)
 	)
 	(zone
-		(net 63)
-		(net_name "/Sensors/MQ8_AOUT_5V")
-		(layer "F.Cu")
-		(uuid "90659507-51ef-4124-8c7b-970e24b824ee")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30159)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 58.704075 97.062655) (xy 58.562655 97.204075) (xy 59.033329 97.449441) (xy 59.200707 97.200707)
-				(xy 59.141473 96.905764)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 58.704075 97.062655) (xy 58.562655 97.204075) (xy 59.033329 97.449441) (xy 59.200707 97.200707)
-				(xy 59.141473 96.905764)
-			)
-		)
-	)
-	(zone
 		(net 13)
 		(net_name "CAN_P")
 		(layer "F.Cu")
@@ -19458,6 +19420,44 @@
 			(layer "F.Cu")
 			(pts
 				(xy 74.7 92.094236) (xy 74.9 92.094236) (xy 75.094236 91.558527) (xy 74.8 91.499) (xy 74.505764 91.558527)
+			)
+		)
+	)
+	(zone
+		(net 63)
+		(net_name "/Sensors/MQ8_AOUT_5V")
+		(layer "F.Cu")
+		(uuid "9bf207c6-c225-40d4-8162-5d4f80633256")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 58.704075 97.062655) (xy 58.562655 97.204075) (xy 59.033329 97.449441) (xy 59.200707 97.200707)
+				(xy 59.141473 96.905764)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 58.704075 97.062655) (xy 58.562655 97.204075) (xy 59.033329 97.449441) (xy 59.200707 97.200707)
+				(xy 59.141473 96.905764)
 			)
 		)
 	)
@@ -22743,10 +22743,10 @@
 		(net 63)
 		(net_name "/Sensors/MQ8_AOUT_5V")
 		(layer "B.Cu")
-		(uuid "a1dbdcfd-0c75-469d-9a24-331001bc19f2")
+		(uuid "8abaf81e-b7f0-4ed3-ae20-8f7f5d7fa31e")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30017)
+		(priority 30000)
 		(attr
 			(teardrop
 				(type padvia)
@@ -22765,15 +22765,13 @@
 		)
 		(polygon
 			(pts
-				(xy 59.690898 96.850523) (xy 59.549477 96.709102) (xy 59.033329 96.950559) (xy 59.199293 97.200707)
-				(xy 59.449441 97.366671)
+				(xy 59.794236 97.3) (xy 59.794236 97.1) (xy 59.258527 96.905764) (xy 59.199 97.2) (xy 59.258527 97.494236)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 59.690898 96.850523) (xy 59.549477 96.709102) (xy 59.033329 96.950559) (xy 59.199293 97.200707)
-				(xy 59.449441 97.366671)
+				(xy 59.794236 97.3) (xy 59.794236 97.1) (xy 59.258527 96.905764) (xy 59.199 97.2) (xy 59.258527 97.494236)
 			)
 		)
 	)
