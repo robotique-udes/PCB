@@ -5,72 +5,6 @@
 	(uuid "42e9f84b-4695-47f8-9ec4-c5ab52c963ba")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Off Board Part_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "G2"
-				(at 0 41.8399 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "JUMPER 2PINS (QPC02SXGN-RC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.sunfounder.com/products/vl53l0x-time-of-flight-distance-sensor-laser-ranging-module"
-				(at -2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Off Board Part_1_1_1"
-				(rectangle
-					(start -16.51 3.81)
-					(end 16.51 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Off Board Part_2"
 			(pin_names
 				(offset 1.016)
@@ -3666,168 +3600,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RoverLibrary:PushButton-TS09-63-25-WT-160-SMT-TR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TS09-63-25-WT-160-SMT-TR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "TS09-63-25-WT-160-SMT-TR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Push button"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066?s=N4IgTCBcDaICoGUAMBOAtANgMxrAVjQHU40BGDJNBAWRLgCUQBdAXyA"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "STATUS" "APPROVED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TS09-63-25-WT-160-SMT-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW_TS09-63-25_CUD SW_TS09-63-25_CUD-M SW_TS09-63-25_CUD-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PushButton-TS09-63-25-WT-160-SMT-TR_0_1"
-				(circle
-					(center -1.27 0)
-					(radius 0.3175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.3175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PushButton-TS09-63-25-WT-160-SMT-TR_1_1"
-				(pin bidirectional line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RoverLibrary:R-10k"
 			(pin_numbers
 				(hide yes)
@@ -4212,6 +3984,197 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RoverLibrary:SW-PTS815SJM250SMTRLFS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW-PTS815SJM250SMTRLFS"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW-PTS815SJM250SMTRLFS_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW-PTS815SJM250SMTRLFS_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6143,8 +6106,8 @@
 		(uuid 9ef9a7ce-bdf3-4709-b159-19dda8c63ca2)
 	)
 	(rectangle
-		(start 40.64 31.75)
-		(end 40.64 31.75)
+		(start 40.64 33.02)
+		(end 40.64 33.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -6354,7 +6317,7 @@
 		(uuid "2fec3176-07a0-43e7-b32a-2fd93905b1d5")
 	)
 	(junction
-		(at 40.64 24.13)
+		(at 40.64 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "333761e8-90fc-4119-a985-6a7425a4cdc7")
@@ -6426,7 +6389,7 @@
 		(uuid "664a7b29-f331-417f-ab55-95d6f03a6b12")
 	)
 	(junction
-		(at 72.39 187.96)
+		(at 72.39 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "698689c5-86ae-4848-9e42-f8e116c795dd")
@@ -6510,7 +6473,7 @@
 		(uuid "bf081821-67ca-4215-bc98-48413717eafd")
 	)
 	(junction
-		(at 40.64 31.75)
+		(at 40.64 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c16670b9-4d51-4593-b3dc-4bdea89ff8d6")
@@ -6564,7 +6527,7 @@
 		(uuid "eb4f9fca-82ea-45e4-982d-7996c76d0161")
 	)
 	(junction
-		(at 72.39 167.64)
+		(at 72.39 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff5e5ced-3e1d-4bb3-b27e-8997ff3d997f")
@@ -6578,7 +6541,7 @@
 		(uuid "1208f962-6671-4d4c-a63d-a7960d5c0aba")
 	)
 	(no_connect
-		(at 72.39 173.99)
+		(at 72.39 179.07)
 		(uuid "1780c23d-dc94-41cc-975d-42a89b3c7e54")
 	)
 	(no_connect
@@ -6781,7 +6744,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 31.75) (xy 40.64 31.75)
+			(xy 36.83 33.02) (xy 40.64 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6798,6 +6761,16 @@
 			(type default)
 		)
 		(uuid "0a724792-ea05-4192-9531-c46d7b7f291d")
+	)
+	(wire
+		(pts
+			(xy 36.83 22.86) (xy 36.83 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4353de-c15b-460b-a5c6-f5699690964f")
 	)
 	(wire
 		(pts
@@ -6961,7 +6934,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 40.64 34.29)
+			(xy 40.64 33.02) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6971,7 +6944,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 185.42) (xy 72.39 187.96)
+			(xy 72.39 167.64) (xy 72.39 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7041,7 +7014,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 44.45 31.75)
+			(xy 40.64 33.02) (xy 45.72 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7281,6 +7254,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 19.05) (xy 101.6 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e9f36d-0d36-47cb-93b4-13896e72c66d")
+	)
+	(wire
+		(pts
 			(xy 49.53 142.24) (xy 68.58 142.24)
 		)
 		(stroke
@@ -7461,7 +7444,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 167.64) (xy 72.39 170.18)
+			(xy 72.39 185.42) (xy 72.39 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7511,7 +7494,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 24.13) (xy 44.45 24.13)
+			(xy 40.64 22.86) (xy 45.72 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7691,6 +7674,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 33.02) (xy 36.83 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd948da-682f-44e8-beed-6e37c7a631d9")
+	)
+	(wire
+		(pts
 			(xy 31.75 132.08) (xy 36.83 132.08)
 		)
 		(stroke
@@ -7821,7 +7814,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 20.32) (xy 40.64 24.13)
+			(xy 40.64 19.05) (xy 40.64 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7888,16 +7881,6 @@
 			(type default)
 		)
 		(uuid "ede67243-e289-4864-9598-7d9993044eec")
-	)
-	(wire
-		(pts
-			(xy 101.6 20.32) (xy 101.6 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee23001a-56d6-4a00-9440-9b7e14de3cd3")
 	)
 	(wire
 		(pts
@@ -7971,7 +7954,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 24.13) (xy 40.64 24.13)
+			(xy 36.83 22.86) (xy 40.64 22.86)
 		)
 		(stroke
 			(width 0)
@@ -8030,8 +8013,8 @@
 		(uuid "ff685bb1-cede-46ba-92c3-9c48f54c5c43")
 	)
 	(global_label "GPIO_0"
-		(shape output)
-		(at 101.6 20.32 0)
+		(shape input)
+		(at 101.6 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8041,7 +8024,7 @@
 		)
 		(uuid "0f3d6b6b-851f-4ca1-8330-cb3cf7e5c9b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.2376 20.32 0)
+			(at 111.2376 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8096,7 +8079,7 @@
 		)
 	)
 	(global_label "GNSS_EN"
-		(shape output)
+		(shape input)
 		(at 120.65 153.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8140,8 +8123,8 @@
 		)
 	)
 	(global_label "EN_SW"
-		(shape output)
-		(at 40.64 20.32 0)
+		(shape input)
+		(at 40.64 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8151,7 +8134,7 @@
 		)
 		(uuid "24b85d11-f11a-477e-a3d4-e28fb7e6cc8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.7332 20.32 0)
+			(at 49.7332 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +8211,7 @@
 		)
 	)
 	(global_label "GNSS_RX"
-		(shape output)
+		(shape input)
 		(at 195.58 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8294,7 +8277,7 @@
 		)
 	)
 	(global_label "TXC"
-		(shape output)
+		(shape input)
 		(at 120.65 140.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8338,7 +8321,7 @@
 		)
 	)
 	(global_label "RXC"
-		(shape output)
+		(shape input)
 		(at 59.69 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8404,7 +8387,7 @@
 		)
 	)
 	(global_label "LED_BUILDIN"
-		(shape output)
+		(shape input)
 		(at 120.65 135.89 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8426,7 +8409,7 @@
 		)
 	)
 	(global_label "GNSS_TX"
-		(shape output)
+		(shape input)
 		(at 151.13 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8493,7 +8476,7 @@
 	)
 	(global_label "CAN_N"
 		(shape input)
-		(at 72.39 179.07 180)
+		(at 72.39 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8503,7 +8486,7 @@
 		)
 		(uuid "9ced2572-d993-4db8-8f9d-f42e00087045")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.4176 179.07 0)
+			(at 63.4176 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +8498,7 @@
 	)
 	(global_label "CAN_P"
 		(shape input)
-		(at 72.39 181.61 180)
+		(at 72.39 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8525,7 +8508,7 @@
 		)
 		(uuid "9df3dd6f-46a3-40ef-b360-e646bd6b5382")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.4781 181.61 0)
+			(at 63.4781 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +8607,7 @@
 		)
 	)
 	(global_label "GNSS_PPS"
-		(shape output)
+		(shape input)
 		(at 195.58 147.32 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9071,7 +9054,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 167.64 180)
+		(at 72.39 185.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9080,7 +9064,7 @@
 		(fields_autoplaced yes)
 		(uuid "09848605-879a-4aea-88ab-fda29451fd77")
 		(property "Reference" "#PWR023"
-			(at 72.39 161.29 0)
+			(at 72.39 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 162.56 0)
+			(at 72.39 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +9081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 167.64 0)
+			(at 72.39 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +9090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 167.64 0)
+			(at 72.39 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 167.64 0)
+			(at 72.39 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9187,8 @@
 	)
 	(symbol
 		(lib_id "RoverLibrary:Eth-Horiz-54601-908WPLF")
-		(at 82.55 177.8 180)
+		(at 82.55 175.26 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9211,7 +9196,7 @@
 		(dnp no)
 		(uuid "0bb9bb6d-2e40-4a15-887f-a6d3dcbad258")
 		(property "Reference" "J1"
-			(at 84.328 164.338 0)
+			(at 84.328 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9204,7 @@
 			)
 		)
 		(property "Value" "Eth-Horiz"
-			(at 84.582 162.306 0)
+			(at 84.582 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9212,7 @@
 			)
 		)
 		(property "Footprint" "RoverFootprint:Ethernet_Horizontal"
-			(at 82.55 159.004 0)
+			(at 82.55 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9221,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 177.8 90)
+			(at 87.63 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9230,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
-			(at 82.55 156.464 0)
+			(at 82.55 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +9239,7 @@
 			)
 		)
 		(property "STATUS" "APPROVED"
-			(at 84.582 159.766 0)
+			(at 84.582 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 34.29 0)
+		(at 40.64 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10292,7 +10277,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ada58c3-42ed-4322-b095-3146a77518ae")
 		(property "Reference" "#PWR03"
-			(at 40.64 40.64 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 39.37 0)
+			(at 40.64 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +10294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 34.29 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 34.29 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 34.29 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,8 +11206,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RoverLibrary:PushButton-TS09-63-25-WT-160-SMT-TR")
-		(at 101.6 29.21 90)
+		(lib_id "RoverLibrary:SW-PTS815SJM250SMTRLFS")
+		(at 101.6 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11230,7 +11215,7 @@
 		(dnp no)
 		(uuid "64360972-5873-4fd8-b873-982f8c55ecfe")
 		(property "Reference" "SW2"
-			(at 102.87 27.9399 90)
+			(at 102.87 26.6699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11239,7 +11224,7 @@
 			)
 		)
 		(property "Value" "TS09-63-25-WT-160-SMT-TR"
-			(at 106.68 29.21 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11247,8 +11232,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-			(at 106.68 29.21 0)
+		(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
+			(at 96.52 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,8 +11241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TS09-63-25-WT-160-SMT-TR"
-			(at 106.68 29.21 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+			(at 93.472 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11265,8 +11250,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Push button"
-			(at 106.68 29.21 0)
+		(property "Description" "Push button switch"
+			(at 93.218 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11275,7 +11260,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066?s=N4IgTCBcDaICoGUAMBOAtANgMxrAVjQHU40BGDJNBAWRLgCUQBdAXyA"
-			(at 106.68 29.21 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11269,7 @@
 			)
 		)
 		(property "STATUS" "APPROVED"
-			(at 102.87 30.4799 90)
+			(at 102.87 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11297,6 +11282,12 @@
 		)
 		(pin "2"
 			(uuid "d487507c-0081-42f7-8bf8-d5feabbd3219")
+		)
+		(pin "3"
+			(uuid "b75af29b-768c-407c-948a-880ae2983e2f")
+		)
+		(pin "4"
+			(uuid "2448d58b-145b-475b-ad9a-603b33d1016d")
 		)
 		(instances
 			(project "GNSS"
@@ -13661,79 +13652,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Off Board Part_1")
-		(lib_id "RoverLibrary:Off Board Part")
-		(at 250.19 160.02 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2304309-9617-4aaf-8901-eb3f75322a8d")
-		(property "Reference" "G2"
-			(at 250.19 118.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "JUMPER 2PINS (QPC02SXGN-RC)"
-			(at 250.19 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
-			(at 250.19 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "GNSS"
-				(path "/42e9f84b-4695-47f8-9ec4-c5ab52c963ba"
-					(reference "G2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RoverLibrary:MountingHole_Pad")
 		(at 250.19 36.83 0)
 		(unit 1)
@@ -14318,7 +14236,8 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 72.39 187.96 180)
+		(at 72.39 165.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14327,7 +14246,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2f857ce-9d0e-4caf-930d-dc584085dca1")
 		(property "Reference" "#PWR025"
-			(at 72.39 184.15 0)
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14336,7 +14255,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 72.39 193.04 0)
+			(at 72.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14344,7 +14263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 187.96 0)
+			(at 72.39 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,7 +14272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 187.96 0)
+			(at 72.39 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,7 +14281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 72.39 187.96 0)
+			(at 72.39 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,8 +14953,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RoverLibrary:PushButton-TS09-63-25-WT-160-SMT-TR")
-		(at 44.45 27.94 270)
+		(lib_id "RoverLibrary:SW-PTS815SJM250SMTRLFS")
+		(at 45.72 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15049,11 +14968,11 @@
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TS09-63-25-WT-160-SMT-TR"
-			(at 39.37 27.94 0)
+			(at 50.8 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15061,8 +14980,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-			(at 39.37 27.94 0)
+		(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
+			(at 40.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,8 +14989,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TS09-63-25-WT-160-SMT-TR"
-			(at 39.37 27.94 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+			(at 37.592 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15079,8 +14998,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Push button"
-			(at 39.37 27.94 0)
+		(property "Description" "Push button switch"
+			(at 37.338 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15089,7 +15008,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066?s=N4IgTCBcDaICoGUAMBOAtANgMxrAVjQHU40BGDJNBAWRLgCUQBdAXyA"
-			(at 39.37 27.94 0)
+			(at 50.8 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15103,7 +15022,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -15111,6 +15030,12 @@
 		)
 		(pin "2"
 			(uuid "926dd435-4921-485b-b715-5ba1705564d2")
+		)
+		(pin "4"
+			(uuid "0ff34c99-a390-4f80-b5c6-c3f209d6ce05")
+		)
+		(pin "3"
+			(uuid "43f13e1e-4fc1-450b-a823-28cb8182afeb")
 		)
 		(instances
 			(project "GNSS"
