@@ -1814,168 +1814,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RoverLibrary:PushButton-TS09-63-25-WT-160-SMT-TR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TS09-63-25-WT-160-SMT-TR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "TS09-63-25-WT-160-SMT-TR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Push button"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066?s=N4IgTCBcDaICoGUAMBOAtANgMxrAVjQHU40BGDJNBAWRLgCUQBdAXyA"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "STATUS" "APPROVED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TS09-63-25-WT-160-SMT-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW_TS09-63-25_CUD SW_TS09-63-25_CUD-M SW_TS09-63-25_CUD-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PushButton-TS09-63-25-WT-160-SMT-TR_0_1"
-				(circle
-					(center -1.27 0)
-					(radius 0.3175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.3175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PushButton-TS09-63-25-WT-160-SMT-TR_1_1"
-				(pin bidirectional line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RoverLibrary:R-10k"
 			(pin_numbers
 				(hide yes)
@@ -2214,6 +2052,197 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RoverLibrary:SW-PTS815SJM250SMTRLFS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW-PTS815SJM250SMTRLFS"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW-PTS815SJM250SMTRLFS_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW-PTS815SJM250SMTRLFS_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3394,6 +3423,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RoverLibrary:Volt_check-NCV308"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 10.668 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Volt_check-NCV308"
+				(at 0 8.636 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
+				(at 0 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncv308-d.pdf"
+				(at -0.254 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage supervisory circuit"
+				(at 0 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STATUS" "TO BE APPROVED"
+				(at 0 12.446 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "488-NCV308SN500T1GCT-ND"
+				(at -0.508 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Volt_check-NCV308_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Volt_check-NCV308_1_1"
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "MR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3784,7 +4014,7 @@
 	)
 	(rectangle
 		(start 22.86 20.955)
-		(end 96.52 139.065)
+		(end 96.52 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -3793,6 +4023,18 @@
 			(type none)
 		)
 		(uuid 71f9906f-0746-42b1-bbfc-1e1530921a09)
+	)
+	(rectangle
+		(start 22.86 129.54)
+		(end 96.52 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 90c46b1d-5755-4430-b0ae-43906ddc5879)
 	)
 	(rectangle
 		(start 152.4 20.32)
@@ -3913,6 +4155,12 @@
 		(uuid "e7dcf68f-f0bc-43d9-a9d4-5c707ae503bc")
 	)
 	(junction
+		(at 123.19 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "250bea86-153b-4260-9252-0415666a21b5")
+	)
+	(junction
 		(at 38.1 59.055)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3923,12 +4171,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27843b79-cc5e-426a-bda5-b9b6b80717dd")
-	)
-	(junction
-		(at 127 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3360ba24-db93-4ccd-bcc1-6eb2600db87b")
 	)
 	(junction
 		(at 127 30.48)
@@ -3947,6 +4189,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f853c9b-75ae-47f2-8cf8-a7dae3783fcf")
+	)
+	(junction
+		(at 127 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5068d14a-b44b-410b-868e-a391129b7db8")
 	)
 	(junction
 		(at 148.59 121.92)
@@ -4015,6 +4263,12 @@
 		(uuid "c5f357f2-25ce-4f14-9f3d-4617bd8f726a")
 	)
 	(junction
+		(at 146.05 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3441c1b-3dc2-4a1f-968f-2435df546183")
+	)
+	(junction
 		(at 123.19 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4071,16 +4325,8 @@
 		(uuid "50747db5-2791-4178-9fa5-6502e60cda0a")
 	)
 	(no_connect
-		(at 138.43 114.3)
-		(uuid "5137dfef-d6ef-4e02-8da9-ff1772b2b310")
-	)
-	(no_connect
 		(at 138.43 134.62)
 		(uuid "5348f730-5bb0-4b4f-b82c-153dd44840a1")
-	)
-	(no_connect
-		(at 138.43 111.76)
-		(uuid "5d2ed0da-0dad-4e70-b59d-6c850367808c")
 	)
 	(no_connect
 		(at 72.39 72.39)
@@ -4093,6 +4339,10 @@
 	(no_connect
 		(at 72.39 67.31)
 		(uuid "7e219067-d5ce-472b-ae3a-cdb7603ec4e7")
+	)
+	(no_connect
+		(at 67.31 143.51)
+		(uuid "82c4c1d0-db59-4ff4-bfb2-5e58903740a9")
 	)
 	(no_connect
 		(at 72.39 105.41)
@@ -4113,10 +4363,6 @@
 	(no_connect
 		(at 72.39 82.55)
 		(uuid "ae0a1095-dfe3-47c4-a333-6c3671af6128")
-	)
-	(no_connect
-		(at 115.57 144.78)
-		(uuid "b6be9205-d29b-43c5-8573-f9ec22a72bec")
 	)
 	(no_connect
 		(at 72.39 85.09)
@@ -4240,7 +4486,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 26.67) (xy 181.61 31.75)
+			(xy 181.61 26.67) (xy 181.61 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4290,7 +4536,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 30.48) (xy 130.81 30.48)
+			(xy 127 30.48) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4317,6 +4563,16 @@
 			(type default)
 		)
 		(uuid "42aad34a-b865-4140-9138-2ec9e411296e")
+	)
+	(wire
+		(pts
+			(xy 43.18 137.16) (xy 46.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aa34af-7742-43be-85fb-0648ac2e45ef")
 	)
 	(wire
 		(pts
@@ -4410,7 +4666,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 38.1) (xy 130.81 38.1)
+			(xy 127 40.64) (xy 134.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4480,6 +4736,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 111.76) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807597e9-3dc7-4a3f-b671-e482f4f644d9")
+	)
+	(wire
+		(pts
 			(xy 127 26.67) (xy 127 30.48)
 		)
 		(stroke
@@ -4530,6 +4796,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 142.24) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9480068f-d726-4ab6-bfe6-940c7153b76d")
+	)
+	(wire
+		(pts
 			(xy 148.59 121.92) (xy 165.1 121.92)
 		)
 		(stroke
@@ -4570,13 +4846,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 38.1) (xy 127 38.1)
+			(xy 123.19 40.64) (xy 127 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af7b2d0d-92c9-4fc2-8a47-9039fb022428")
+	)
+	(wire
+		(pts
+			(xy 123.19 40.64) (xy 123.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e01611-2c8b-496f-8525-32cd8cbba455")
 	)
 	(wire
 		(pts
@@ -4670,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 39.37) (xy 181.61 41.91)
+			(xy 181.61 40.64) (xy 181.61 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4740,6 +5026,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 144.78) (xy 123.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b8022b-0208-4abb-a73c-b9212eb86cbb")
+	)
+	(wire
+		(pts
 			(xy 142.24 119.38) (xy 142.24 121.92)
 		)
 		(stroke
@@ -4777,16 +5073,6 @@
 			(type default)
 		)
 		(uuid "f4b79d19-7d6d-4804-b8bf-be440c45ba03")
-	)
-	(wire
-		(pts
-			(xy 127 38.1) (xy 127 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6558255-4821-4c66-b00a-cf2f0b2acc15")
 	)
 	(wire
 		(pts
@@ -5072,7 +5358,7 @@
 			)
 		)
 	)
-	(global_label "EN_ESP"
+	(global_label "EN_SW"
 		(shape output)
 		(at 127 26.67 0)
 		(fields_autoplaced yes)
@@ -5084,7 +5370,7 @@
 		)
 		(uuid "a70692f9-c74d-4b73-9060-0f45ab79e1ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0608 26.67 0)
+			(at 136.0932 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,6 +5398,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_SW"
+		(shape input)
+		(at 46.99 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaa3db97-37a7-495b-8138-e8213336bd31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.8968 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5217,6 +5525,28 @@
 		(uuid "ec3040e1-a2e0-4f7b-8aee-080ae7317e98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.9619 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_ESP"
+		(shape input)
+		(at 67.31 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcff9dbb-cff1-4506-a2a4-1aa9ba095f9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.3708 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,95 +5964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RoverLibrary:PushButton-TS09-63-25-WT-160-SMT-TR")
-		(at 130.81 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38408934-00ae-46c5-b85c-d295ebdeff26")
-		(property "Reference" "SW3"
-			(at 133.35 33.0199 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS09-63-25-WT-160-SMT-TR"
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TS09-63-25-WT-160-SMT-TR"
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Push button"
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066?s=N4IgTCBcDaICoGUAMBOAtANgMxrAVjQHU40BGDJNBAWRLgCUQBdAXyA"
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "APPROVED"
-			(at 133.35 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78d67e45-22f8-4ff5-9021-48a7d0419034")
-		)
-		(pin "2"
-			(uuid "2990e4d6-365d-4582-b489-c304aa45414b")
-		)
-		(instances
-			(project "GasConnBrd"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RoverLibrary:C-100nF")
 		(at 123.19 71.12 0)
 		(unit 1)
@@ -5920,6 +6161,137 @@
 			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "485dc520-1a69-43e9-ae20-55986dd55b39")
+		(property "Reference" "#PWR02"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac4d91d0-d5ad-45de-ba81-302d7d2cb930")
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b0390c1-8f53-4965-8f19-10ad6193f2b0")
+		(property "Reference" "#PWR03"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97473834-2d7c-4d16-aaac-54cf24446403")
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6561,6 +6933,174 @@
 		)
 	)
 	(symbol
+		(lib_id "RoverLibrary:Volt_check-NCV308")
+		(at 57.15 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb2cc22-7882-41ab-b89b-57229793b2b9")
+		(property "Reference" "U4"
+			(at 57.15 131.572 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Volt_check-NCV308"
+			(at 57.15 133.604 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
+			(at 57.15 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncv308-d.pdf"
+			(at 56.896 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage supervisory circuit"
+			(at 57.15 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" "TO BE APPROVED"
+			(at 57.15 129.794 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "488-NCV308SN500T1GCT-ND"
+			(at 56.642 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e74b3181-287a-4fab-968c-1878d804a56c")
+		)
+		(pin "4"
+			(uuid "ef74d374-0345-48fb-85f6-83f44d02935e")
+		)
+		(pin "6"
+			(uuid "73f0ee77-c23d-4bff-8fbc-77fe93c6ff11")
+		)
+		(pin "1"
+			(uuid "e5df1662-4dcb-4109-bbe0-e523f2785ee7")
+		)
+		(pin "2"
+			(uuid "c2ec5c6d-7b8a-42f2-a817-5ccb0d1710e7")
+		)
+		(pin "5"
+			(uuid "8c9f12ec-af64-441d-973b-239cef111298")
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:R-1k")
+		(at 142.24 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71437fb8-5732-48cc-8e8f-d660e328b3f0")
+		(property "Reference" "R8"
+			(at 140.97 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 144.78 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c32851d-76cd-4371-9942-7e104b297368")
+		)
+		(pin "1"
+			(uuid "a0692191-fba5-4ae5-a302-935abf3619ed")
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 41.91 0)
 		(unit 1)
@@ -7101,6 +7641,215 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 146.05 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a488f6ac-b048-479c-a062-a93bc6248afe")
+		(property "Reference" "#PWR01"
+			(at 146.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cec93bca-a590-4026-961c-dad5c02a5aed")
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:R-1k")
+		(at 142.24 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af230af5-97ef-419f-b105-2dcc3f5d5d0a")
+		(property "Reference" "R9"
+			(at 143.51 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 140.97 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ebce1e2-f4e3-45c7-8a94-71b9f96f8c72")
+		)
+		(pin "1"
+			(uuid "6a4c121e-fe0c-42a7-bbb7-664a10b2824c")
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoverLibrary:SW-PTS815SJM250SMTRLFS")
+		(at 181.61 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5325be2-c73d-4979-8026-9836cadbad47")
+		(property "Reference" "SW2"
+			(at 185.928 35.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW-PTS815SJM250SMTRLFS"
+			(at 175.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+			(at 189.738 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch"
+			(at 189.992 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "688d6c9f-1bae-4727-980c-6e365ec0ee0e")
+		)
+		(pin "4"
+			(uuid "9ab385f1-eea5-49f2-8f73-8a62b31e616e")
+		)
+		(pin "1"
+			(uuid "660795ce-20d6-4266-9352-e53696baf335")
+		)
+		(pin "2"
+			(uuid "b0f588de-6538-46f4-b48b-5183359ae48b")
+		)
+		(instances
+			(project "GasConnBrd"
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RoverLibrary:C-1uF")
 		(at 31.115 62.865 0)
 		(mirror y)
@@ -7242,6 +7991,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8b2f069-a960-40b3-9d58-a81031717b05")
+		(property "Reference" "#PWR04"
+			(at 38.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ffd499b-a96a-4ac6-9bec-ca66a0d6d838")
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RoverLibrary:C-100nF")
 		(at 123.19 34.29 0)
 		(unit 1)
@@ -7313,6 +8128,82 @@
 		)
 	)
 	(symbol
+		(lib_id "RoverLibrary:SW-PTS815SJM250SMTRLFS")
+		(at 134.62 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f617c482-62c2-48bd-b0ab-b7435b279708")
+		(property "Reference" "SW1"
+			(at 138.938 35.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW-PTS815SJM250SMTRLFS"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RoverFootprint:SW-PTS815 SJM250SMTRLFS"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+			(at 142.748 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch"
+			(at 143.002 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "78a52b80-8d04-4abf-8f04-acdc05fb0c98")
+		)
+		(pin "4"
+			(uuid "405bae09-fc6a-4125-ab12-dacd127e9f27")
+		)
+		(pin "1"
+			(uuid "b3781045-3f08-487d-a0d6-d255ae84dffb")
+		)
+		(pin "2"
+			(uuid "255a1f5b-3801-487d-bba2-a2a54bd6577c")
+		)
+		(instances
+			(project ""
+				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 118.745 0)
 		(unit 1)
@@ -7373,94 +8264,6 @@
 			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:PushButton-TS09-63-25-WT-160-SMT-TR")
-		(at 181.61 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcbc9726-e5f1-48f0-8f43-85138271b1fd")
-		(property "Reference" "SW4"
-			(at 182.88 34.798 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS09-63-25-WT-160-SMT-TR"
-			(at 186.69 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-			(at 186.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TS09-63-25-WT-160-SMT-TR"
-			(at 186.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Push button"
-			(at 186.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066?s=N4IgTCBcDaICoGUAMBOAtANgMxrAVjQHU40BGDJNBAWRLgCUQBdAXyA"
-			(at 186.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STATUS" "APPROVED"
-			(at 182.88 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "666bb2a2-cc33-4f2c-ad9e-473cfa7f3918")
-		)
-		(pin "2"
-			(uuid "a1149914-997c-43f0-bb87-2ca2f8f1f46b")
-		)
-		(instances
-			(project "GasConnBrd"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/a70e825d-1fa4-4251-968a-14ea84e50f94"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
