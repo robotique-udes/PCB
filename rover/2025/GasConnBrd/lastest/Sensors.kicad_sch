@@ -297,113 +297,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RoverLibrary:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Rover_Lib:MQ-131_EasyC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1034,22 +927,10 @@
 		(uuid "bd62525b-2257-4470-bfc2-6dea0dc81b38")
 	)
 	(junction
-		(at 72.39 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ea81d41-85d5-458e-85c3-be7c73759b70")
-	)
-	(junction
 		(at 102.87 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16dcfb85-4244-40a7-9ff9-f4756056503f")
-	)
-	(junction
-		(at 115.57 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23d0f88a-558e-433d-996f-c811078757c3")
 	)
 	(wire
 		(pts
@@ -1060,26 +941,6 @@
 			(type default)
 		)
 		(uuid "10343293-ecab-4dd8-87ff-2349a80c849b")
-	)
-	(wire
-		(pts
-			(xy 115.57 68.58) (xy 115.57 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc7a11b-3437-40d6-9046-94513f4413a3")
-	)
-	(wire
-		(pts
-			(xy 72.39 58.42) (xy 72.39 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2549e6d5-33ca-4635-875b-9f1f6010c0a5")
 	)
 	(wire
 		(pts
@@ -1103,27 +964,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 58.42) (xy 102.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90387a12-b655-42de-8d13-b70d9665f420")
-	)
-	(wire
-		(pts
-			(xy 213.36 52.07) (xy 213.36 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9579bac1-9650-42cb-b039-91432cf74394")
-	)
-	(wire
-		(pts
-			(xy 64.77 58.42) (xy 72.39 58.42)
+			(xy 64.77 58.42) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1143,27 +984,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 46.99) (xy 195.58 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6ffff1-c10e-4c15-9f1e-bb7b29b81392")
-	)
-	(wire
-		(pts
-			(xy 102.87 72.39) (xy 115.57 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc36f16-efec-49dc-9004-f24f964fadd7")
-	)
-	(wire
-		(pts
-			(xy 115.57 72.39) (xy 116.84 72.39)
+			(xy 102.87 72.39) (xy 116.84 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1254,140 +1075,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:TestPoint")
-		(at 195.58 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15d2d3b5-84c7-448f-976f-5bdd4fa08d15")
-		(property "Reference" "TP2"
-			(at 198.12 42.4179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 198.12 44.9579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 195.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8957f03-1806-4c5f-b374-375d51659d56")
-		)
-		(instances
-			(project "GasConnBrd"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/ce5fc139-0d1c-451c-a630-fec6574e7e51"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:TestPoint")
-		(at 115.57 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b3e0058-6653-4eb1-99bc-d02a7b6caba3")
-		(property "Reference" "TP4"
-			(at 118.11 64.0079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 118.11 66.5479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 120.65 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 115.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "819965e1-8122-499e-86c1-d4baba7fb2f2")
-		)
-		(instances
-			(project "GasConnBrd"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/ce5fc139-0d1c-451c-a630-fec6574e7e51"
-					(reference "TP4")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1526,73 +1213,6 @@
 			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/ce5fc139-0d1c-451c-a630-fec6574e7e51"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:TestPoint")
-		(at 72.39 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bebf1a8-6753-4ab7-a0b2-f4ed2845b4c4")
-		(property "Reference" "TP1"
-			(at 74.93 66.8019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.93 69.3419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 67.31 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 72.39 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fc875d5-15b0-42a2-9bb8-18c0a8233c5e")
-		)
-		(instances
-			(project "GasConnBrd"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/ce5fc139-0d1c-451c-a630-fec6574e7e51"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2112,73 +1732,6 @@
 			(project "GasConnBrd"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/ce5fc139-0d1c-451c-a630-fec6574e7e51"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RoverLibrary:TestPoint")
-		(at 213.36 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8523de4-665a-49cc-b69d-11c78471a565")
-		(property "Reference" "TP3"
-			(at 215.9 47.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 215.9 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 213.36 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e90068a3-d591-4d0e-aaec-60fc4ea7bea9")
-		)
-		(instances
-			(project "GasConnBrd"
-				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697/ce5fc139-0d1c-451c-a630-fec6574e7e51"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
