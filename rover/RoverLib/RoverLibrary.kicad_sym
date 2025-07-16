@@ -16358,6 +16358,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/c-k/PTS815SJM250SMTRLFS/9947846"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
 			(at 0 0 0)
 			(effects
@@ -19146,7 +19155,7 @@
 				)
 			)
 		)
-		(property "Digikey" "488-NCV308SN500T1GCT-ND"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/onsemi/NCV308SN500T1G/12525413?s=N4IgTCBcDaICwA4EFoByBhAagZgAwIGVUBWXXAFQEYBxdctAERAF0BfIA"
 			(at -0.508 8.89 0)
 			(effects
 				(font
@@ -19178,71 +19187,17 @@
 			)
 		)
 		(symbol "Volt_check-NCV308_1_1"
-			(pin output line
-				(at 10.16 5.08 180)
-				(length 2.54)
-				(name "RESET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 10.16 -5.08 180)
+				(at -10.16 5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -5.08 0)
-				(length 2.54)
-				(name "MR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -1.27 180)
-				(length 2.54)
-				(name "CT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19268,17 +19223,71 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 5.08 0)
+			(pin input line
+				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "VDD"
+				(name "MR"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "CT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19287,6 +19296,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "XT30PW-F"
 		(pin_names
