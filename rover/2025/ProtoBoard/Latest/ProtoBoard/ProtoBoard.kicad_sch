@@ -307,17 +307,6 @@
 		)
 		(uuid "529e3ad1-3007-483f-a0fd-28b0c9b76961")
 	)
-	(text "Analog"
-		(exclude_from_sim no)
-		(at 120.65 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5fa4763e-8933-4c54-b92e-9705b5845ea7")
-	)
 	(text "Board block schematic"
 		(exclude_from_sim no)
 		(at 52.832 15.748 0)
@@ -465,28 +454,6 @@
 		)
 		(uuid "47f9078c-fd34-49f4-98c2-41120c652c68")
 	)
-	(text_box "MQ-8"
-		(exclude_from_sim yes)
-		(at 100.33 68.58 0)
-		(size 12.7 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 194 194 194 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "55b69f14-7ee6-4a97-98f7-f1f30c3c1346")
-	)
 	(text_box "\n<Enter Description Here>\n"
 		(exclude_from_sim no)
 		(at 12.7 33.02 0)
@@ -507,28 +474,6 @@
 		)
 		(uuid "d32126fa-3094-4540-96cd-12ebfed31678")
 	)
-	(text_box "MQ-131"
-		(exclude_from_sim yes)
-		(at 142.24 68.58 0)
-		(size 12.7 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 194 194 194 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "ef61b6fb-1849-4236-988b-219b7647d072")
-	)
 	(bus
 		(pts
 			(xy 106.68 63.5) (xy 106.68 68.58)
@@ -548,16 +493,6 @@
 			(type default)
 		)
 		(uuid "73a5d9be-95f5-4de9-8a15-19cdf903de0e")
-	)
-	(wire
-		(pts
-			(xy 113.03 72.39) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "754160d2-dcc5-4257-b11c-7e5d123f1226")
 	)
 	(bus
 		(pts
@@ -1152,7 +1087,7 @@
 			)
 		)
 		(instances
-			(project "GasConnBrd"
+			(project "ProtoBoard"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(page "3")
 				)
@@ -1194,7 +1129,7 @@
 			)
 		)
 		(instances
-			(project "GasConnBrd"
+			(project "ProtoBoard"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(page "2")
 				)
@@ -1217,7 +1152,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bad7ccfa-c9ea-4a3b-9322-d3ec3b3869b8")
-		(property "Sheetname" "Extras"
+		(property "Sheetname" "Logic Control"
 			(at 156.21 37.3884 0)
 			(effects
 				(font
@@ -1236,7 +1171,7 @@
 			)
 		)
 		(instances
-			(project "GasConnBrd"
+			(project "ProtoBoard"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(page "6")
 				)
@@ -1259,7 +1194,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ce5fc139-0d1c-451c-a630-fec6574e7e51")
-		(property "Sheetname" "Sensors"
+		(property "Sheetname" "Outputs"
 			(at 156.21 22.1484 0)
 			(effects
 				(font
@@ -1268,7 +1203,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sensors.kicad_sch"
+		(property "Sheetfile" "Outputs.kicad_sch"
 			(at 156.21 29.7946 0)
 			(effects
 				(font
@@ -1278,7 +1213,7 @@
 			)
 		)
 		(instances
-			(project "GasConnBrd"
+			(project "ProtoBoard"
 				(path "/a4fa9b30-7b48-474a-bdaa-0d7a6d26a697"
 					(page "4")
 				)
