@@ -337,6 +337,28 @@
 		)
 		(uuid bf5f2320-f154-4fa4-b9dc-5fe96c538a38)
 	)
+	(text "Tx"
+		(exclude_from_sim no)
+		(at 154.178 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "193d6083-713e-4ea9-8ba6-c5e9320691d2")
+	)
+	(text "Rx"
+		(exclude_from_sim no)
+		(at 146.558 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c14eb4f-1565-47ac-8d20-00d06f7145ed")
+	)
 	(text "Off board parts to order"
 		(exclude_from_sim no)
 		(at 12.954 61.468 0)
@@ -377,7 +399,7 @@
 	)
 	(text "This is a data wire"
 		(exclude_from_sim no)
-		(at 142.24 51.054 0)
+		(at 194.31 24.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -399,6 +421,28 @@
 		)
 		(uuid "ad8f6794-e4a6-42b7-a757-f58a3336bb92")
 	)
+	(text "Probably 1A Fuse here"
+		(exclude_from_sim no)
+		(at 89.916 41.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9a320e7-de85-4c62-81a2-090f07f3a38c")
+	)
+	(text "12V to power the LiDAR"
+		(exclude_from_sim no)
+		(at 94.488 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c464e43c-a00d-435a-be21-e8635c11e878")
+	)
 	(text "Board block schematic"
 		(exclude_from_sim no)
 		(at 52.832 14.478 0)
@@ -414,7 +458,7 @@
 	)
 	(text "This is a High Current Wire"
 		(exclude_from_sim no)
-		(at 142.24 45.974 0)
+		(at 194.31 19.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -435,6 +479,94 @@
 			(justify left)
 		)
 		(uuid "e8f6bc66-72af-4902-bea7-bb04cc8a6549")
+	)
+	(text_box "XT60"
+		(exclude_from_sim yes)
+		(at 62.23 45.72 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "14215942-d8fe-4a41-9fa0-6efae61c0581")
+	)
+	(text_box "USB-C"
+		(exclude_from_sim yes)
+		(at 170.18 45.72 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "17cb12e3-db9d-4ba0-8ccb-338ec1e82dbc")
+	)
+	(text_box "GH1.25mm 4PIN"
+		(exclude_from_sim yes)
+		(at 114.3 68.58 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3b97b35f-23e7-4c2f-b260-076cf9a665e1")
+	)
+	(text_box "UART - USB bridge"
+		(exclude_from_sim yes)
+		(at 140.97 45.72 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4aef128a-9266-4a58-9c17-ad713c85d5bf")
 	)
 	(text_box "\n<Enter Description Here>\n"
 		(exclude_from_sim no)
@@ -476,9 +608,31 @@
 		)
 		(uuid "b53f6bf4-d327-4e95-8aca-bc82ed4cc163")
 	)
+	(text_box "12V -> 3.3V LDO"
+		(exclude_from_sim yes)
+		(at 114.3 45.72 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b740040c-ac75-4bb9-8c12-7ef8c5e3e956")
+	)
 	(text_box "This is a component"
 		(exclude_from_sim yes)
-		(at 97.79 45.72 0)
+		(at 149.86 19.05 0)
 		(size 12.7 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -498,9 +652,91 @@
 		)
 		(uuid "c71eb121-8f8e-4c97-acf7-73af579c056e")
 	)
+	(text_box "24V -> 12V step down"
+		(exclude_from_sim yes)
+		(at 86.36 45.72 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f277cb84-cd9a-4051-9285-e5b6d85da489")
+	)
+	(wire
+		(pts
+			(xy 151.13 53.34) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3d162d-e647-47c1-8191-569a2e1d3734")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be4f3ce-75d5-4426-b5bf-37d6854ffb88")
+	)
 	(bus
 		(pts
-			(xy 110.49 46.99) (xy 142.24 46.99)
+			(xy 95.25 53.34) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6070c71b-4eb8-4a0b-82ed-8e8afd118878")
+	)
+	(bus
+		(pts
+			(xy 95.25 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755494ea-632b-42e2-a7f2-8c8c2f4fbfc9")
+	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc936a6-6d2e-4805-94b9-ff95d67162da")
+	)
+	(bus
+		(pts
+			(xy 129.54 49.53) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b402022a-b58b-4b8b-b66e-5cf89d843554")
+	)
+	(bus
+		(pts
+			(xy 162.56 20.32) (xy 194.31 20.32)
 		)
 		(stroke
 			(width 0)
@@ -508,15 +744,55 @@
 		)
 		(uuid "b57d5a7f-59de-4d75-a437-fc3f36f06dad")
 	)
+	(bus
+		(pts
+			(xy 102.87 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb96f878-6022-4f30-b287-f8a5a336110f")
+	)
 	(wire
 		(pts
-			(xy 110.49 52.07) (xy 142.24 52.07)
+			(xy 162.56 25.4) (xy 194.31 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1d38168-4f4c-4013-938a-c88e40b64177")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef221045-d68c-4a6f-b54e-30a1fdc17ed5")
+	)
+	(bus
+		(pts
+			(xy 74.93 49.53) (xy 86.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efba79df-4f48-4f3e-b7dc-b421be5f9268")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 170.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03a22af-4a4c-4e7b-8220-e497e84600de")
 	)
 	(symbol
 		(lib_id "RoverLibrary:MountingHole_Pad")
@@ -1239,7 +1515,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 17.78)
+		(at 97.79 19.05)
 		(size 38.1 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1255,7 +1531,7 @@
 		)
 		(uuid "8da6c8a9-d96a-428b-ac41-906630b726a3")
 		(property "Sheetname" "Board"
-			(at 100.33 17.0684 0)
+			(at 97.79 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1540,7 @@
 			)
 		)
 		(property "Sheetfile" "Board.kicad_sch"
-			(at 100.33 24.7146 0)
+			(at 97.79 25.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
