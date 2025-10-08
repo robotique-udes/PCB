@@ -305,6 +305,17 @@
 		)
 		(uuid "44fbaf2a-cf2c-43cd-9fae-d7fe0ca2f905")
 	)
+	(text "D-"
+		(exclude_from_sim no)
+		(at 164.338 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "466132d7-84b3-441a-9fda-1140e46c86f7")
+	)
 	(text "- Layer count: 4\n- Stackup nb: JLC04162-H-7628\n"
 		(exclude_from_sim no)
 		(at 14.224 15.748 0)
@@ -386,6 +397,17 @@
 			(justify right)
 		)
 		(uuid "e2a18a02-d5b9-4ac5-bace-e5625495ff49")
+	)
+	(text "D+"
+		(exclude_from_sim no)
+		(at 164.338 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6eb2429-c479-4bcd-b76b-675a968b5789")
 	)
 	(text "PCB Order settings"
 		(exclude_from_sim no)
@@ -528,28 +550,6 @@
 		)
 		(uuid "b53f6bf4-d327-4e95-8aca-bc82ed4cc163")
 	)
-	(text_box "12V -> 3.3V LDO"
-		(exclude_from_sim yes)
-		(at 114.3 45.72 0)
-		(size 15.24 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 194 194 194 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "b740040c-ac75-4bb9-8c12-7ef8c5e3e956")
-	)
 	(text_box "This is a component"
 		(exclude_from_sim yes)
 		(at 149.86 19.05 0)
@@ -596,6 +596,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 49.53) (xy 170.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05837c86-de4f-4767-a1cc-4e478007af93")
+	)
+	(wire
+		(pts
 			(xy 151.13 53.34) (xy 151.13 73.66)
 		)
 		(stroke
@@ -613,6 +623,16 @@
 			(type default)
 		)
 		(uuid "3be4f3ce-75d5-4426-b5bf-37d6854ffb88")
+	)
+	(bus
+		(pts
+			(xy 156.21 46.99) (xy 170.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f61e6f4-5c5b-4e47-bb6b-05544d18fbec")
 	)
 	(bus
 		(pts
@@ -646,16 +666,6 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 49.53) (xy 140.97 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b402022a-b58b-4b8b-b66e-5cf89d843554")
-	)
-	(bus
-		(pts
 			(xy 162.56 20.32) (xy 194.31 20.32)
 		)
 		(stroke
@@ -663,16 +673,6 @@
 			(type default)
 		)
 		(uuid "b57d5a7f-59de-4d75-a437-fc3f36f06dad")
-	)
-	(bus
-		(pts
-			(xy 102.87 49.53) (xy 114.3 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb96f878-6022-4f30-b287-f8a5a336110f")
 	)
 	(wire
 		(pts
@@ -706,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 170.18 49.53)
+			(xy 156.21 52.07) (xy 170.18 52.07)
 		)
 		(stroke
 			(width 0)
